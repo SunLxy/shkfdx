@@ -1,6 +1,6 @@
 {
-  "name": "example",
-  "version": "1.0.0",
+  "name": "website",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,7 +14,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@cstu-react/pro": "1.0.0",
+    "shkfdx-ui": "0.0.0",
     "@rsbuild/core": "^1.2.16",
     "@rsbuild/plugin-react": "^1.1.1",
     "@types/react": "^18.3.18",

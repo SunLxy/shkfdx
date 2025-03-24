@@ -2,14 +2,13 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "build": "lerna exec --scope @cstu-react/* -- npm run build",
-    "watch": "npm run-script watch --workspace @cstu-react/pro",
-    "dev": "npm run-script dev --workspace example",
-    "version": "lerna version --exact --force-publish --no-push --no-git-tag-version"
+    "build": "npm run-script build --workspace shkfdx-ui",
+    "watch": "npm run-script watch --workspace shkfdx-ui",
+    "dev": "npm run-script dev --workspace website"
   },
   "workspaces": [
     "packages/*",
-    "example"
+    "website"
   ],
   "dependencies": {},
   "devDependencies": {
