@@ -1,0 +1,41 @@
+import { createStyles } from 'antd-style';
+
+export const useStyles = createStyles(({ token, css, ...rest }) => {
+  return ({
+    container: css`
+      &.q_list_radio_horizontal{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      &.q_list_radio_vertical{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+    `,
+    item: css`
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 2px;
+      color: ${token.colorText};
+      cursor: pointer;
+      & > b {
+        padding-right: 4px;
+      }
+      &.error{
+        background-color: ${token.colorError};
+      }
+      &.success{
+        background-color: ${token.colorSuccess};
+      }
+    `
+  })
+});
+

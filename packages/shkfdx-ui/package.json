@@ -5,27 +5,25 @@
   "private": true,
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "types": "./esm/index.d.ts",
+      "import": "./esm/index.js"
     }
   },
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "module": "./esm/index.js",
+  "types": "./esm/index.d.ts",
   "files": [
-    "dist"
+    "esm"
   ],
   "scripts": {
-    "build": "rslib build",
-    "watch": "rslib build --watch"
+    "build": "carefrees-rslib build --esm",
+    "watch": "carefrees-rslib build --watch --esm"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.1.1",
-    "@rslib/core": "^0.5.5",
-    "@rsbuild/plugin-svgr": "~1.0.7",
     "@types/react": "^18.3.18",
     "react": "^18.3.1",
     "typescript": "^5.8.2",
-    "antd": "^5.24.4"
+    "antd": "^5.24.4",
+    "antd-style": "^3.7.1"
   },
   "peerDependencies": {
     "react": ">=16.9.0",

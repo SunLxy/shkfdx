@@ -12,6 +12,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "@carefrees/rslib": "~0.0.10",
     "lerna": "^8.1.2",
     "tsbb": "4.2.5",
     "typescript": "5.8.2"
