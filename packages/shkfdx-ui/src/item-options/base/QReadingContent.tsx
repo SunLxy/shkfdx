@@ -6,7 +6,6 @@ import { useStyles } from "./styles/QReadingContent"
  * 2. 居中
 */
 
-
 interface IContent {
   isBold?: boolean
   isCenter?: boolean

@@ -3,6 +3,8 @@ import { createStyles } from 'antd-style';
 export const useStyles = createStyles(({ token, css, ...rest }) => {
   return ({
     container: css`
+      box-sizing: border-box;
+      padding: 0px 8px;
       &.q_list_radio_horizontal{
         display: flex;
         flex-direction: row;
@@ -23,7 +25,7 @@ export const useStyles = createStyles(({ token, css, ...rest }) => {
     item: css`
       font-size: 12px;
       padding: 2px 8px;
-      border-radius: 2px;
+      border-radius: 4px;
       color: ${token.colorText};
       cursor: pointer;
       & > b {

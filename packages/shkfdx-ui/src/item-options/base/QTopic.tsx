@@ -12,7 +12,7 @@ export interface QTopicProps {
 }
 
 export const QTopic = (props: QTopicProps) => {
-  const { content, sort } = props
+  const { content = [], sort } = props
   const { styles, cx } = useStyles()
   return <div className={cx('q_topic', styles.container)} >
     {content.map((item, index) => {

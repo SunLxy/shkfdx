@@ -1,5 +1,5 @@
 import { useStyles } from "./styles/QListRadio"
-import { letterEnum } from "../utils"
+import { letterEnum } from "../../utils"
 /**
  *  只用于选项渲染
  * 1. 可以整行渲染
@@ -20,7 +20,7 @@ export interface QListRadioProps {
 }
 
 export const QListRadio = (props: QListRadioProps) => {
-  const { layout = 'horizontal', options = [], value } = props
+  const { layout = 'horizontal', options = [], value, onChange } = props
   const { styles, cx } = useStyles()
 
   return <div
@@ -41,6 +41,7 @@ export const QListRadio = (props: QListRadioProps) => {
       return <div
         className={cx(styles.item, styl)}
         key={item.label}
+        onClick={() => onChange(item.label)}
       >
         <b>{letterEnum[index]}.</b>
         <span>{item.label}</span>
