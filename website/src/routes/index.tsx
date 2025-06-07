@@ -31,7 +31,7 @@ const newRoutesConfig: RouteObject[] = [
   }
 ]
 
-const router = createHashRouter(newRoutesConfig, { basename: "/" })
+const router = createHashRouter(newRoutesConfig, {})
 export const Routes = () => {
   return <RouterProvider router={router} />
 }
