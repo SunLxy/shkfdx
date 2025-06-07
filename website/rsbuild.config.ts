@@ -3,7 +3,7 @@ import { pluginReact } from '@rsbuild/plugin-react';
 
 export default defineConfig({
   output: {
-    // assetPrefix: process.env.NODE_ENV === 'production' ? '/shkfdx/' : '/',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/shkfdx/' : '/',
     distPath: {
       root: "build"
     }
@@ -15,6 +15,6 @@ export default defineConfig({
     },
   },
   server: {
-    // base: "/shkfdx",
+    base: "/shkfdx",
   }
 });
