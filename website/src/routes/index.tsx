@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter, RouteObject } from 'react-router-dom';
+import { RouterProvider, createHashRouter, RouteObject } from 'react-router-dom';
 import { Suspense } from "react";
 import Home from "@/pages/index"
 import English from '@/pages/english';
@@ -26,7 +26,7 @@ const newRoutesConfig: RouteObject[] = [
   }
 ]
 
-const router = createBrowserRouter(newRoutesConfig, { basename: "/shkfdx" })
+const router = createHashRouter(newRoutesConfig, { basename: "/" })
 export const Routes = () => {
   return <RouterProvider router={router} />
 }
