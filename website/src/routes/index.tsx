@@ -26,7 +26,7 @@ const newRoutesConfig: RouteObject[] = [
   }
 ]
 
-const router = createBrowserRouter(newRoutesConfig)
+const router = createBrowserRouter(newRoutesConfig, { basename: "/shkfdx" })
 export const Routes = () => {
   return <RouterProvider router={router} />
 }

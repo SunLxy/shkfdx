@@ -4,7 +4,9 @@
   "scripts": {
     "build": "npm run-script build --workspace shkfdx-ui",
     "watch": "npm run-script watch --workspace shkfdx-ui",
-    "dev": "npm run-script dev --workspace website"
+    "build:website": "npm run-script build --workspace website",
+    "start": "npm run-script dev --workspace website",
+    "build:all": "npm run build && npm run build:website"
   },
   "workspaces": [
     "packages/*",

@@ -1,0 +1,27 @@
+
+name: Build & Deploy
+on:
+  push:
+    branches:
+      - main
+
+env:
+  SKIP_PREFLIGHT_CHECK: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 20
+
+    - run: yarn install
+    - run: yarn run build:all
+
+    - name: Create Doc
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./website/dist
