@@ -10,7 +10,7 @@ export const useStyles = createStyles(({ token, css, ...rest }) => {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        gap: 20px;
+        gap: 6px 20px;
         flex-wrap: wrap;
       }
       &.q_list_radio_vertical{

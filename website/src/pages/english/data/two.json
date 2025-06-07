@@ -1,0 +1,546 @@
+[
+  {
+    "id": "1",
+    "form": "From: U2L2 P23",
+    "contents": [
+      {
+        "content": "Close Encounters",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "These days, you can find love in all kinds of places. We talked to four couples from around the world who met their partner in a memorable way."
+      },
+      {
+        "content": "Tammy",
+        "isBold": true
+      },
+      {
+        "content": "I was very sceptical about meeting people ____1____ the Internet. But one day I was ____2____ the net and decided to go into a chat room. It was quite boring until a guy ____3____ Brad came in. We chatted for a long time and then ____4____ photos. It was difficult because we were both going out with someone at the time and we were living in ____5____ states, but eventually we arranged to meet. And now we’re together!"
+      },
+      {
+        "content": "Albert ",
+        "isBold": true
+      },
+      {
+        "content": "I live in an old people’s home and I really thought I was ____6____ old to meet anybody special. I wasn’t looking ____7____ love, but I suppose I needed a friend. One day, I was ____8____ the newspaper in the garden when Joyce came over to have a chat. We talked and talked, day after day, and we became very ____9____. Now, we do everything together. I have one regret – that I didn’t ____10____ Joyce years ago!"
+      }
+    ],
+    "options": [
+      [
+        { "label": "on", "isTrue": true },
+        { "label": "in" },
+        { "label": "through" }
+      ],
+      [
+        { "label": "surf" },
+        { "label": "surfed" },
+        { "label": "surfing", "isTrue": true }
+      ],
+      [
+        { "label": "call" },
+        { "label": "called", "isTrue": true },
+        { "label": "calling" }
+      ],
+      [
+        { "label": "exchanged", "isTrue": true },
+        { "label": "charged" },
+        { "label": "changed" }
+      ],
+      [
+        { "label": "the same" },
+        { "label": "other" },
+        { "label": "different", "isTrue": true }
+      ],
+      [
+        { "label": "so" },
+        { "label": "too", "isTrue": true },
+        { "label": "very" }
+      ],
+      [
+        { "label": "at" },
+        { "label": "for", "isTrue": true },
+        { "label": "after" }
+      ],
+      [
+        { "label": "reading", "isTrue": true },
+        { "label": "making" },
+        { "label": "writing" }
+      ],
+      [
+        { "label": "sleepy" },
+        { "label": "tired" },
+        { "label": "close", "isTrue": true }
+      ],
+      [
+        { "label": "meet", "isTrue": true },
+        { "label": "love" },
+        { "label": "marry" }
+      ]
+    ]
+  },
+  {
+    "id": "2",
+    "form": "From: U2L2 P23",
+    "contents": [
+      {
+        "content": "Close Encounters",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "These days, you can find love in all kinds of places. We talked to four couples from around the world who met their partner in a memorable way."
+      },
+      {
+        "content": "Petra",
+        "isBold": true
+      },
+      {
+        "content": "It ____1____ one night at our local nightclub. I was dancing, and suddenly I ____2____ the feeling that someone was watching me. I looked around and saw a boy on the other side of the room staring at me. I ____3____ to be brave and walked over to him. Hans was very shy but we had a drink and started talking. We just clicked and we quickly became friends."
+      },
+      {
+        "content": "Ricardo",
+        "isBold": true
+      },
+      {
+        "content": "It was New Year’s Eve and I ___4____ some people around to my house to celebrate. I planned a quiet party but my friends brought other friends and by twelve o’clock there were lots of people. I was ____5____ some drinks in the kitchen when I noticed this woman on her ____6____. She didn’t seem to know anybody, so I ____7____ over to her and ____8____ myself. She said, “So you’re not Antonio, then?!” She was at the wrong party– she had made a____9____ with the address! I asked her to stay and we got on really ____10____…and now we’re together."
+      }
+    ],
+    "options": [
+      [
+        { "label": "came" },
+        { "label": "happened", "isTrue": true },
+        { "label": "went" }
+      ],
+      [
+        { "label": "had", "isTrue": true },
+        { "label": "felt" },
+        { "label": "sensed" }
+      ],
+      [
+        { "label": "told" },
+        { "label": "liked" },
+        { "label": "decided", "isTrue": true }
+      ],
+      [
+        { "label": "invited", "isTrue": true },
+        { "label": "loved" },
+        { "label": "asking" }
+      ],
+      [
+        { "label": "washing" },
+        { "label": "making", "isTrue": true },
+        { "label": "playing" }
+      ],
+      [
+        { "label": "side" },
+        { "label": "self" },
+        { "label": "own", "isTrue": true }
+      ],
+      [
+        { "label": "ran" },
+        { "label": "went", "isTrue": true },
+        { "label": "leaned" }
+      ],
+      [
+        { "label": "introduced", "isTrue": true },
+        { "label": "asked" },
+        { "label": "talked" }
+      ],
+      [
+        { "label": "fuss" },
+        { "label": "wrong" },
+        { "label": "mistake", "isTrue": true }
+      ],
+      [
+        { "label": "good" },
+        { "label": "well", "isTrue": true },
+        { "label": "fine" }
+      ]
+    ]
+  },
+  {
+    "id": "3",
+    "form": "From: U5L3 P73",
+    "contents": [
+      {
+        "content": "15 months that can change your life  学术间隔年",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Teachers and students agree – a gap year is a unique experience that can ____1____ your life forever. Gap years usually____2____when a student leaves schools in June and last ____3____ they start higher education in October of the following year. Prince William’s decision to have a gap year in Patagonia was typical of ____4____ people in the UK – they take a____5____ from studying and see some of the world ____6____ going on to university or____7____. It’s ____8____ opportunity to enjoy a bit of adventure, travel, maybe ____9____ some work experience or spend some time ____10____ other people."
+      }
+    ],
+    "options": [
+      [
+        { "label": "change", "isTrue": true },
+        { "label": "live" },
+        { "label": "have" }
+      ],
+      [
+        { "label": "finish" },
+        { "label": "begin", "isTrue": true },
+        { "label": "continue" }
+      ],
+      [
+        { "label": "so that" },
+        { "label": "but" },
+        { "label": "until", "isTrue": true }
+      ],
+      [
+        { "label": "young", "isTrue": true },
+        { "label": "old" },
+        { "label": "rich" }
+      ],
+      [
+        { "label": "breath" },
+        { "label": "nap" },
+        { "label": "break", "isTrue": true }
+      ],
+      [
+        { "label": "when" },
+        { "label": "before", "isTrue": true },
+        { "label": "after" }
+      ],
+      [
+        { "label": "college", "isTrue": true },
+        { "label": "work" },
+        { "label": "school" }
+      ],
+      [{ "label": "a" }, { "label": "/" }, { "label": "an", "isTrue": true }],
+      [
+        { "label": "gain", "isTrue": true },
+        { "label": "lose" },
+        { "label": "won" }
+      ],
+      [
+        { "label": "help" },
+        { "label": "helping", "isTrue": true },
+        { "label": "helped" }
+      ]
+    ]
+  },
+  {
+    "id": "4",
+    "form": "From: U8L2 P119",
+    "contents": [
+      {
+        "content": "Paparazzi Pirate: Blog 139狗仔队（专门追逐名人偷拍照片的摄影者或记者）",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "I had just woken up when I ____1____a call from Pepe at La Gaviota restaurant. He told me that some big names were coming for lunch. I left my house as soon as I had phoned my editor to check what shots he wanted. I arrived at 11 am and ____2____ behind the bushes with my camera."
+      },
+      {
+        "content": "I had been there ____3____ about two hours before an interesting car arrived. I saw George Clooney and his new girlfriend get out.____4____, I couldn’t get a good photo. Then, suddenly, I realised that they were going to the back door of the restaurant. I got on my motorbike and____5____their limousine. This time, I took a ____6____ shot of Clooney; he even smiled at me! I put the film in my pocket."
+      },
+      {
+        "content": "Just then Clooney’s bodyguard saw me. He wanted the film. We fought and I just managed to ____7____. I rushed to the office on my bike, but when I arrived and searched____8____ the film, I realised that it had ____9____out of my pocket during the fight. I felt really ____10____!"
+      }
+    ],
+    "options": [
+      [
+        { "label": "accepted" },
+        { "label": "dialed" },
+        { "label": "got", "isTrue": true }
+      ],
+      [
+        { "label": "hid", "isTrue": true },
+        { "label": "hidden" },
+        { "label": "hides" }
+      ],
+      [
+        { "label": "with" },
+        { "label": "for", "isTrue": true },
+        { "label": "till" }
+      ],
+      [
+        { "label": "Furthermore" },
+        { "label": "Besides" },
+        { "label": "Unfortunately", "isTrue": true }
+      ],
+      [
+        { "label": "ran" },
+        { "label": "chased", "isTrue": true },
+        { "label": "rushed" }
+      ],
+      [
+        { "label": "perfect", "isTrue": true },
+        { "label": "bad" },
+        { "label": "ugly" }
+      ],
+      [
+        { "label": "escape", "isTrue": true },
+        { "label": "win" },
+        { "label": "defeat" }
+      ],
+      [
+        { "label": "on" },
+        { "label": "by" },
+        { "label": "for", "isTrue": true }
+      ],
+      [
+        { "label": "hopped" },
+        { "label": "fallen", "isTrue": true },
+        { "label": "escaped" }
+      ],
+      [
+        { "label": "good" },
+        { "label": "relaxed" },
+        { "label": "stupid", "isTrue": true }
+      ]
+    ]
+  },
+  {
+    "id": "5",
+    "form": "From: U12L2 P180",
+    "contents": [
+      {
+        "content": "THE YOUNG AND ANGRY: in their own words",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "A Tree Dweller",
+        "isBold": true
+      },
+      {
+        "content": "Noah Rose, 29, is living in a tree house to protest about a new road ____1____ the local council is planning to build."
+      },
+      {
+        "content": "“Sometimes you can get a bit bored of ____2____ in a treehouse. I mean, you don’t have any of the basic things that you’re used to. I’m here because I really feel that this road should not be ____3____. It will just add to pollution and ____4____ some beautiful countryside. I know we’ll succeed ____5____ the end– I’m sure we can beat the Department of Transport. Who needs more roads anyway?”"
+      },
+      {
+        "content": "A Squatter",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Nancy Barrett, 23, lives in a squat in New Cross Road. The police want to evict her and other squatters from the houses in the area."
+      },
+      {
+        "content": "“We have tied ourselves ____6____ the house, so the police can’t move us out. They’ve got no right. This house has been empty ____7____ years and nobody owns it. We live here peacefully and don’t do any ____8____ to anyone. We don’t believe ____9____ capitalism or consumerism, and that’s why this protest is important. A home is a home and you shouldn’t have to be grateful to the banks for that. ____10____happens, I know we’ll have to leave in the end. It’s depressing but that’s how it is – the police always win.”"
+      }
+    ],
+    "options": [
+      [
+        { "label": "what" },
+        { "label": "who" },
+        { "label": "which", "isTrue": true }
+      ],
+      [
+        { "label": "living", "isTrue": true },
+        { "label": "live" },
+        { "label": "to live" }
+      ],
+      [
+        { "label": "build" },
+        { "label": "built", "isTrue": true },
+        { "label": "building" }
+      ],
+      [
+        { "label": "destroy", "isTrue": true },
+        { "label": "protect" },
+        { "label": "love" }
+      ],
+      [{ "label": "by" }, { "label": "in", "isTrue": true }, { "label": "at" }],
+      [
+        { "label": "with" },
+        { "label": "on" },
+        { "label": "to", "isTrue": true }
+      ],
+      [
+        { "label": "in" },
+        { "label": "for", "isTrue": true },
+        { "label": "by" }
+      ],
+      [
+        { "label": "harm", "isTrue": true },
+        { "label": "good" },
+        { "label": "use" }
+      ],
+      [{ "label": "on" }, { "label": "at" }, { "label": "in", "isTrue": true }],
+      [
+        { "label": "Whatever", "isTrue": true },
+        { "label": "However" },
+        { "label": "Whoever" }
+      ]
+    ]
+  },
+  {
+    "id": "6",
+    "form": "From: U12L3 P184",
+    "contents": [
+      {
+        "content": "2050 – A Day in the Life of Citizen KYZ606 and his Pet Computer Daniel",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Friday",
+        "isBold": true
+      },
+      {
+        "prefix": "8:00 ",
+        "content": "When I wake up, my pet computer, Daniel, smiles at me and says “Good morning”. He makes me a coffee and chooses my “look” for the day."
+      },
+      {
+        "prefix": "9:00 ",
+        "content": "At the office again. I want sunshine today so Daniel changes the lighting and air conditioning to create a ____1____day. It’s great here, because I don’t have to think – the computers do everything. While Daniel organizes my schedule, I talk to friends ____2____my mobile videophone."
+      },
+      {
+        "prefix": "11:30 ",
+        "content": "At the gym. My computer knows exactly ____3____I need to do. I don’t like doing so ____4____exercise, but Daniel says I’ll have a heart attack at the age of 53 if I don’t."
+      },
+      {
+        "prefix": "13:00 ",
+        "content": "Lunch in the office restaurant. We press some ____5____on the food-ordering machine, and the pills arrive quickly through a hole in the table. Everything tastes really good today."
+      },
+      {
+        "prefix": "13:30 ",
+        "content": "Back in the office, there’s nothing to do so I take a ____6____. Daniel will wake me up when I’ve had enough sleep."
+      },
+      {
+        "prefix": "16:00 ",
+        "content": "Daniel has woken me up, but there’s no work to do so I do a bit of ____7____online. I love shopping. Daniel helps me find a shirt that will look good at the party tonight. He really knows what I like."
+      },
+      {
+        "prefix": "19:00 ",
+        "content": "Back at home, I watch a football match, although it’s not very exciting ____8____Daniel tells me the result before the end. He does that with films as well – I get really annoyed with him."
+      },
+      {
+        "prefix": "21:00 ",
+        "content": "Party in full swing. As soon as I arrive, Daniel chooses me a partner ____9____will be compatible. She seems very nice. I order another whisky and a red warning light goes on – I am drinking too much again!"
+      },
+      {
+        "prefix": "23:00 ",
+        "content": "Time ____10____bed. Daniel prepares my pyjamas and my dreams for the night. I think I would prefer to dream on my own, but anyway… It’s been a good day… I think! "
+      }
+    ],
+    "options": [
+      [
+        { "label": "rainy" },
+        { "label": "sunny", "isTrue": true },
+        { "label": "cloudy" }
+      ],
+      [
+        { "label": "on", "isTrue": true },
+        { "label": "in" },
+        { "label": "through" }
+      ],
+      [
+        { "label": "which" },
+        { "label": "that" },
+        { "label": "what", "isTrue": true }
+      ],
+      [
+        { "label": "much", "isTrue": true },
+        { "label": "many" },
+        { "label": "more" }
+      ],
+      [
+        { "label": "cards" },
+        { "label": "keys" },
+        { "label": "buttons", "isTrue": true }
+      ],
+      [
+        { "label": "nap", "isTrue": true },
+        { "label": "walk" },
+        { "label": "shower" }
+      ],
+      [
+        { "label": "chatting" },
+        { "label": "shopping", "isTrue": true },
+        { "label": "looking" }
+      ],
+      [
+        { "label": "so that" },
+        { "label": "because", "isTrue": true },
+        { "label": "however" }
+      ],
+      [
+        { "label": "which" },
+        { "label": "what" },
+        { "label": "who", "isTrue": true }
+      ],
+      [
+        { "label": "for", "isTrue": true },
+        { "label": "to" },
+        { "label": "with" }
+      ]
+    ]
+  },
+  {
+    "id": "7",
+    "form": "From: U1L2 P10",
+    "contents": [
+      {
+        "content": "London: Melting Pot of Cultures",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "A  China"
+      },
+      {
+        "content": "Chinese people first came to Britain ____1____ 1885. The first arrivals were mostly seamen ____2____ worked on steamships. In the 1950s, many Chinese people settled in the central Soho area of London. This area is ____3____ Chinatown. Here, you can experience a taste of China by ____4____ in London’s best Chinese ____5____ and shopping for Chinese vegetables, herbal medicines and gifts."
+      },
+      {
+        "content": "B  The Caribbean"
+      },
+      {
+        "content": "During the 1950s, people from the Caribbean islands ____6____ in London to start a new life. Their reggae music, steel drums and culture ____7____ all now part of the capital’s atmosphere, especially during the Notting Hill Carnival, Europe’s ____8____ and most vibrant street party. When does it ____9____ place? You can catch it every year at the end of August. One of the ____10____ of the Caribbean community is in Brixton, in the south of London."
+      }
+    ],
+    "options": [
+      [{ "label": "on" }, { "label": "at" }, { "label": "in", "isTrue": true }],
+      [
+        { "label": "whom" },
+        { "label": "who", "isTrue": true },
+        { "label": "whose" }
+      ],
+      [
+        { "label": "called", "isTrue": true },
+        { "label": "call" },
+        { "label": "calling" }
+      ],
+      [
+        { "label": "eating", "isTrue": true },
+        { "label": "eat" },
+        { "label": "to eat" }
+      ],
+      [
+        { "label": "hotels" },
+        { "label": "bars" },
+        { "label": "restaurants", "isTrue": true }
+      ],
+      [
+        { "label": "got" },
+        { "label": "arrived", "isTrue": true },
+        { "label": "reached" }
+      ],
+      [
+        { "label": "is" },
+        { "label": "will be" },
+        { "label": "are", "isTrue": true }
+      ],
+      [
+        { "label": "largest", "isTrue": true },
+        { "label": "smallest" },
+        { "label": "newest" }
+      ],
+      [
+        { "label": "make" },
+        { "label": "take", "isTrue": true },
+        { "label": "give" }
+      ],
+      [
+        { "label": "tents" },
+        { "label": "cents" },
+        { "label": "centres", "isTrue": true }
+      ]
+    ]
+  }
+]

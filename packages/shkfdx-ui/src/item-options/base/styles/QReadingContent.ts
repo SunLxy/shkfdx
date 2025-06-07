@@ -4,6 +4,7 @@ export const useStyles = createStyles(({ token, css }) => {
   // { bold: item.isBold, center: item.isCenter }
   return ({
     container: css`
+      padding: 14px 0px;
     `,
     item: css`
       font-size: 12px;
@@ -13,6 +14,14 @@ export const useStyles = createStyles(({ token, css }) => {
       }
       &.center {
         text-align: center;
+      }
+    `,
+    title: css`
+      & > b {
+        padding-right: 4px;
+      }
+      & > span{
+        font-weight: 600;
       }
     `
   })

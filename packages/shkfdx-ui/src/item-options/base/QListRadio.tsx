@@ -40,7 +40,7 @@ export const QListRadio = (props: QListRadioProps) => {
       }
       return <div
         className={cx(styles.item, styl)}
-        key={item.label}
+        key={`${item.label}_${index}`}
         onClick={() => onChange(item.label)}
       >
         <b>{letterEnum[index]}.</b>

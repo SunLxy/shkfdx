@@ -16,7 +16,6 @@ export const useStyles = createStyles(({ token, css }) => {
       &.is_options {
         display: flex;
         flex-direction: row;
-        gap: 20px;
       }
     `,
     error: css`

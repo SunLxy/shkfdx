@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import Home from "@/pages/index"
 import English from '@/pages/english';
 import EnglishOne from '@/pages/english/one';
+import EnglishTwo from '@/pages/english/two';
 import { RootRoute } from "./root"
 
 const newRoutesConfig: RouteObject[] = [
@@ -21,6 +22,10 @@ const newRoutesConfig: RouteObject[] = [
       {
         path: '/english/one',
         element: <Suspense fallback={<div>Loading...</div>}><EnglishOne /></Suspense>
+      },
+      {
+        path: '/english/two',
+        element: <Suspense fallback={<div>Loading...</div>}><EnglishTwo /></Suspense>
       }
     ]
   }
