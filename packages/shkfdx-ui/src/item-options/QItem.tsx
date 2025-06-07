@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { QListRadioOptionItem } from "./base/QListRadio"
 import { useStyles } from "./styles/item"
 import { QTopic } from "./base/QTopic"
@@ -7,13 +7,13 @@ import { QListRadio } from "./base/QListRadio"
 
 export interface QItemProps {
   /**题目*/
-  topic?: React.ReactNode[]
+  topic?: (React.ReactNode | string)[]
 
   // TODO: 单选
   /**选项*/
   options?: QListRadioOptionItem[]
   /**排序*/
-  sort?: number
+  sort: number
 
   // TODO: 判断题
   /**是否是判断题*/
@@ -30,12 +30,35 @@ export interface QItemProps {
   isOptions?: boolean
 
   layout?: 'horizontal' | 'vertical'
+
+  /**显示答案的背题模式*/
+  isRead?: boolean
+  /**翻译*/
+  translate?: string
+
 }
 
 export const QItem = (props: QItemProps) => {
-  const { sort, isOptions = false, isBool, isInput, answer, options, layout = 'horizontal', topic } = props
+  const { sort, isOptions = false, isBool, isInput, answer, options, layout = 'horizontal', topic, isRead, translate } = props
   const { styles, cx } = useStyles()
-  const [state, setState] = useState({ value: '', isTrue: undefined })
+  const getValue = () => {
+    if (isRead) {
+      if (Array.isArray(options)) {
+        const value = options.find(item => item.isTrue)?.label
+        return { value, isTrue: undefined }
+      }
+      return { value: answer, isTrue: undefined }
+    }
+    return { value: '', isTrue: undefined }
+  }
+
+  const [state, setState] = useState(() => {
+    return getValue()
+  })
+
+  useEffect(() => {
+    setState(getValue());
+  }, [isRead])
 
   const BooleanOptions: QListRadioOptionItem[] = useMemo(() => {
     if (isBool) {
@@ -62,17 +85,12 @@ export const QItem = (props: QItemProps) => {
     setState({ value, isTrue: !!isT })
   }
 
-  return <div className={cx(styles.base, {
-    is_options: isOptions,
-    is_bool: isBool,
-    is_input: isInput
-  })}>
+  return <div className={cx(styles.base, { is_options: isOptions, is_bool: isBool, is_input: isInput })}>
     {isOptions ? <b>{sort}.</b> : <QTopic content={topic} sort={sort} />}
     {isBool ? <QListRadio layout={layout} value={state.value} options={BooleanOptions} onChange={onChange} /> : null}
     {options ? <QListRadio layout={layout} value={state.value} options={options} onChange={onChange} /> : null}
     {isInput ? <QInput value={state.value} isTrue={state.isTrue} onChange={onChange} /> : null}
-    {state.isTrue === false && isInput ? <div className={cx(styles.error)}></div> : null}
+    {state.isTrue === false && isInput ? <div className={cx(styles.error)}>填写错误</div> : null}
+    {translate && isRead ? <div className={cx(styles.translate)}>{translate}</div> : null}
   </div>
-
-
 }

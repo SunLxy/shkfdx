@@ -25,5 +25,10 @@ export const QInput = (props: QInputProps) => {
     setValue(value || '')
   }, [value])
 
-  return <Input value={value} onChange={onInput} className={cx(styles.input, { error: value && isTrue === false })} onBlur={(event) => props.onChange(event.target.value)} />
+  return <Input
+    value={_value}
+    onChange={onInput}
+    className={cx(styles.input, { error: value && isTrue === false })}
+    onBlur={(event) => props.onChange(event.target.value)}
+  />
 }
