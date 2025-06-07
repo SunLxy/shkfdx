@@ -2,11 +2,11 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "build": "npm run-script build --workspace shkfdx-ui",
+    "build:ui": "npm run-script build --workspace shkfdx-ui",
     "watch": "npm run-script watch --workspace shkfdx-ui",
     "build:website": "npm run-script build --workspace website",
     "start": "npm run-script dev --workspace website",
-    "build:all": "npm run build && npm run build:website"
+    "build": "npm run build:ui && npm run build:website"
   },
   "workspaces": [
     "packages/*",
