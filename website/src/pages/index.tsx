@@ -1,6 +1,11 @@
+import { NavLink } from "react-router-dom"
+import { MainSelecrLayout } from "shkfdx-ui"
 
 const Main = () => {
-  return <div>222</div>
+  return <MainSelecrLayout>
+    <NavLink to="/english">英语</NavLink>
+  </MainSelecrLayout>
 }
+
 
 export default Main;

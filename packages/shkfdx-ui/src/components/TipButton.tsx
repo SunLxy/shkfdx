@@ -3,7 +3,7 @@ const useStyles = createStyles(({ css, token }) => {
   return ({
     base: css`
       position: absolute;
-      top: 14px;
+      top: 54px;
       right: 14px;
       display: inline-flex;
       flex-direction: column;
