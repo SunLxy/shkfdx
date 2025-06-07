@@ -36,23 +36,31 @@ export interface QItemProps {
   /**翻译*/
   translate?: string
 
+  /**多选*/
+  isMulti?: boolean
 }
 
 export const QItem = (props: QItemProps) => {
-  const { sort, isOptions = false, isBool, isInput, answer, options, layout = 'horizontal', topic, isRead, translate } = props
+  const { sort, isOptions = false, isBool, isInput, answer, options, layout = 'horizontal', topic, isRead, translate, isMulti } = props
   const { styles, cx } = useStyles()
   const getValue = () => {
     if (isRead) {
+      if (isMulti) {
+        return { value: options?.filter(item => item.isTrue)?.map(item => item.label), isTrue: undefined, isAllSelect: undefined }
+      }
       if (Array.isArray(options)) {
         const value = options.find(item => item.isTrue)?.label
         return { value, isTrue: undefined }
       }
       return { value: answer, isTrue: undefined }
     }
+    if (isMulti) {
+      return { value: [], isTrue: undefined, isAllSelect: undefined }
+    }
     return { value: '', isTrue: undefined }
   }
 
-  const [state, setState] = useState(() => {
+  const [state, setState] = useState<{ value: string | string[], isTrue?: boolean, isAllSelect?: boolean }>(() => {
     return getValue()
   })
 
@@ -72,25 +80,58 @@ export const QItem = (props: QItemProps) => {
   }, [answer])
 
   const onChange = (value: string) => {
-    if (state.value) {
-      // 如果value不为空，则不可进行重新赋值
-      return;
-    }
-    let isT = false
-    if (isBool || isInput) {
-      isT = value === answer
+    if (isMulti) {
+      // 如果已经存在不可点击
+      if (state.value.includes(value)) {
+        return
+      }
+      // 判断是否存在选择错误的
+      let isT = undefined
+      if (state.isTrue !== false) {
+        const finx = options?.find(item => item.label === value)
+        isT = !!finx.isTrue
+      }
+      let _newList = []
+      if (Array.isArray(state.value)) {
+        const newValues = Array.from(new Set([...state.value, value]))
+        _newList = [...newValues]
+      } else {
+        _newList = [...value]
+      }
+      let isAllSelect = true;
+      for (let index = 0; index < options.length; index++) {
+        const item = options[index];
+        if (item.isTrue) {
+          const fix = _newList.find((it) => it === item);
+          if (!fix) {
+            isAllSelect = false
+            break;
+          }
+        }
+      }
+      setState({ value: [value], isTrue: isT, isAllSelect })
     } else {
-      isT = options?.find(item => item.label === value)?.isTrue
+      if (state.value) {
+        // 如果value不为空，则不可进行重新赋值
+        return;
+      }
+      let isT = false
+      if (isBool || isInput) {
+        isT = value === answer
+      } else {
+        isT = options?.find(item => item.label === value)?.isTrue
+      }
+      setState({ value, isTrue: !!isT })
     }
-    setState({ value, isTrue: !!isT })
   }
 
-  return <div className={cx(styles.base, { is_options: isOptions, is_bool: isBool, is_input: isInput })}>
+  return <div className={cx(styles.base, { is_options: isOptions, is_bool: isBool, is_input: isInput, is_translate: translate && isRead })}>
     {isOptions ? <b>{sort}.</b> : <QTopic content={topic} sort={sort} />}
     {isBool ? <QListRadio layout={layout} value={state.value} options={BooleanOptions} onChange={onChange} /> : null}
     {options ? <QListRadio layout={layout} value={state.value} options={options} onChange={onChange} /> : null}
-    {isInput ? <QInput value={state.value} isTrue={state.isTrue} onChange={onChange} /> : null}
-    {state.isTrue === false && isInput ? <div className={cx(styles.error)}>填写错误</div> : null}
+    {isInput ? <QInput value={state.value.toString()} isTrue={state.isTrue} onChange={onChange} /> : null}
     {translate && isRead ? <div className={cx(styles.translate)}>{translate}</div> : null}
+    {state.isTrue === false ? <div className={cx(styles.error)}>{isInput ? "填写错误" : "选择错误"}</div> : null}
+    {state.isAllSelect === false && isMulti ? <div className={cx(styles.warn)}>未选择所有数据</div> : null}
   </div>
 }

@@ -3,12 +3,15 @@ import { createStyles } from 'antd-style';
 export const useStyles = createStyles(({ token, css }) => {
   return ({
     base: css`
+      position: relative;
       display: flex;
       flex-direction: column;
       gap: 6px;
       font-size: 12px;
-      &+&{
-        margin-top: 8px;
+      border-bottom: 1px solid ${token.colorSplit};
+      padding-bottom: 8px;
+      & + & {
+        padding-top: 8px;
       }
       & > b {
         padding-right: 4px;
@@ -17,24 +20,32 @@ export const useStyles = createStyles(({ token, css }) => {
         display: flex;
         flex-direction: row;
       }
+      &.is_translate{
+        padding-bottom: 0px;
+      }
     `,
     error: css`
+      position: absolute;
+      bottom: -12px;
+      right: 0;
       color: ${token.colorError};
-      background-color: ${token.colorErrorBg};
-      font-size: 12px;
-      width: 100%;
-      text-align: right;
-      padding: 4px;
-      border-radius: 3px;
+      font-size: 10px;
+    `,
+    warn: css`
+      position: absolute;
+      bottom: -12px;
+      left: 0;
+      color: ${token.colorWarning};
+      font-size: 10px;
     `,
     translate: css`
-      font-size: 12px;
+      font-size: 10px;
       width: 100%;
       text-align: left;
       padding: 4px;
       background-color: ${token.colorFillContent};
       border-radius: 3px;
-      font-size: 12px;
+      margin-top: 8px;
     `
   })
 });

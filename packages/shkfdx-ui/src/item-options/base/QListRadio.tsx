@@ -16,11 +16,13 @@ export interface QListRadioProps {
   options: QListRadioOptionItem[]
   layout?: 'horizontal' | 'vertical'
   onChange?: (label: string) => void
-  value?: string
+  value?: string | string[]
+  /**多选*/
+  isMulti?: boolean
 }
 
 export const QListRadio = (props: QListRadioProps) => {
-  const { layout = 'horizontal', options = [], value, onChange } = props
+  const { layout = 'horizontal', options = [], value, onChange, isMulti = false } = props
   const { styles, cx } = useStyles()
 
   return <div
@@ -31,11 +33,17 @@ export const QListRadio = (props: QListRadioProps) => {
     {options.map((item, index) => {
       const styl = {}
       if (value) {
-        if (item.isTrue) {
-          styl['success'] = true
-        }
-        if (item.label === value && value) {
-          styl[item.isTrue ? "success" : "error"] = true
+        if (isMulti) {
+          if (value.includes(item.label)) {
+            styl[item.isTrue ? "success" : "error"] = true
+          }
+        } else {
+          if (item.isTrue) {
+            styl['success'] = true
+          }
+          if (item.label === value && value) {
+            styl[item.isTrue ? "success" : "error"] = true
+          }
         }
       }
       return <div
