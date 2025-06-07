@@ -16,5 +16,8 @@ export default defineConfig({
   },
   server: {
     base: "/shkfdx",
-  }
+  },
+  html: {
+    title: '刷题',
+  },
 });
