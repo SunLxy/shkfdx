@@ -32,11 +32,11 @@
       &.success{
         background-color: ${e.colorSuccessBorder};
       }
-    `})),d={0:"A",1:"B",2:"C",3:"D",4:"E",5:"F",6:"G",7:"H",8:"I",9:"J",10:"K",11:"L",12:"M",13:"N",14:"O",15:"P",16:"Q",17:"R",18:"S",19:"T",20:"U",21:"V",22:"W",23:"X",24:"Y",25:"Z"};function u(e){let t=[...e];for(let e=t.length-1;e>0;e--){let a=Math.floor(Math.random()*(e+1));[t[e],t[a]]=[t[a],t[e]]}return t}let c=e=>{let{layout:t="horizontal",options:a=[],value:i,onChange:l}=e,{styles:n,cx:s}=h();return(0,o.jsx)("div",{className:s("q_list_radio",n.container,{[`q_list_radio_${t}`]:!!t}),children:a.map((e,t)=>{let a={};return i&&(e.isTrue&&(a.success=!0),e.label===i&&i&&(a[e.isTrue?"success":"error"]=!0)),(0,o.jsxs)("div",{className:s(n.item,a),onClick:()=>l(e.label),children:[(0,o.jsxs)("b",{children:[d[t],"."]}),(0,o.jsx)("span",{children:e.label})]},`${e.label}_${t}`)})})};var b=a(1115);let _=(0,r.kc)(({token:e,css:t})=>({input:t`
+    `})),d={0:"A",1:"B",2:"C",3:"D",4:"E",5:"F",6:"G",7:"H",8:"I",9:"J",10:"K",11:"L",12:"M",13:"N",14:"O",15:"P",16:"Q",17:"R",18:"S",19:"T",20:"U",21:"V",22:"W",23:"X",24:"Y",25:"Z"};function u(e){let t=[...e];for(let e=t.length-1;e>0;e--){let a=Math.floor(Math.random()*(e+1));[t[e],t[a]]=[t[a],t[e]]}return t}let c=e=>{let{layout:t="horizontal",options:a=[],value:i,onChange:l,isMulti:n=!1}=e,{styles:s,cx:r}=h();return(0,o.jsx)("div",{className:r("q_list_radio",s.container,{[`q_list_radio_${t}`]:!!t}),children:a.map((e,t)=>{let a={};return i&&(n?i.includes(e.label)&&(a[e.isTrue?"success":"error"]=!0):(e.isTrue&&(a.success=!0),e.label===i&&i&&(a[e.isTrue?"success":"error"]=!0))),(0,o.jsxs)("div",{className:r(s.item,a),onClick:()=>l(e.label),children:[(0,o.jsxs)("b",{children:[d[t],"."]}),(0,o.jsx)("span",{children:e.label})]},`${e.label}_${t}`)})})};var b=a(1115);let p=(0,r.kc)(({token:e,css:t})=>({input:t`
       &.error {
         color: ${e.colorError};
       }
-    `})),p=e=>{let{isTrue:t,value:a}=e,{styles:i,cx:l}=_(),[n,r]=(0,s.useState)("");return(0,s.useEffect)(()=>{r(a||"")},[a]),(0,o.jsx)(b.Z,{value:n,onChange:e=>{a||r(e.target.value)},className:l(i.input,{error:a&&!1===t}),onBlur:t=>e.onChange(t.target.value)})},m=(0,r.kc)(({token:e,css:t})=>({container:t`
+    `})),_=e=>{let{isTrue:t,value:a}=e,{styles:i,cx:l}=p(),[n,r]=(0,s.useState)("");return(0,s.useEffect)(()=>{r(a||"")},[a]),(0,o.jsx)(b.Z,{value:n,onChange:e=>{a||r(e.target.value)},className:l(i.input,{error:a&&!1===t}),onBlur:t=>e.onChange(t.target.value)})},m=(0,r.kc)(({token:e,css:t})=>({container:t`
       padding: 14px 0px;
     `,item:t`
       font-size: 12px;
@@ -54,20 +54,23 @@
       & > span{
         font-weight: 600;
       }
-    `})),g=e=>{let{contents:t,sort:a,form:i}=e,{styles:l,cx:n}=m();return(0,o.jsxs)("div",{className:n("q_reading_content",l.container),children:[a||i?(0,o.jsxs)("div",{className:l.title,children:[(0,o.jsxs)("b",{children:[a,"."]}),(0,o.jsx)("span",{children:i})]}):(0,o.jsx)(o.Fragment,{}),t.map((e,t)=>(0,o.jsxs)("p",{style:e.color?{color:e.color}:{},className:n(l.item,{bold:e.isBold,center:e.isCenter}),children:[e.prefix?(0,o.jsx)("b",{children:e.prefix}):(0,o.jsx)(o.Fragment,{}),e.content]},t))]})},w=(0,r.kc)(({token:e,css:t})=>({container:t`
+    `})),g=e=>{let{contents:t,sort:a,form:i}=e,{styles:l,cx:n}=m();return(0,o.jsxs)("div",{className:n("q_reading_content",l.container),children:[a||i?(0,o.jsxs)("div",{className:l.title,children:[(0,o.jsxs)("b",{children:[a,"."]}),(0,o.jsx)("span",{children:i})]}):(0,o.jsx)(o.Fragment,{}),t.map((e,t)=>(0,o.jsxs)("p",{style:e.color?{color:e.color}:{},className:n(l.item,{bold:e.isBold,center:e.isCenter}),children:[e.prefix?(0,o.jsx)("b",{children:e.prefix}):(0,o.jsx)(o.Fragment,{}),e.content]},t))]})},f=(0,r.kc)(({token:e,css:t})=>({container:t`
     `,item:t`
       font-size: 12px;
       color: ${e.colorText};
       & > b {
         padding-right: 4px;
       }
-    `})),f=e=>{let{content:t=[],sort:a}=e,{styles:i,cx:l}=w();return(0,o.jsx)("div",{className:l("q_topic",i.container),children:t.map((e,t)=>0===t?(0,o.jsxs)("div",{className:l(i.item),children:[(0,o.jsxs)("b",{children:[a,"."]}),e]},t):(0,o.jsx)("div",{className:l(i.item),children:e},t))})},y=(0,r.kc)(({token:e,css:t})=>({base:t`
+    `})),w=e=>{let{content:t=[],sort:a}=e,{styles:i,cx:l}=f();return(0,o.jsx)("div",{className:l("q_topic",i.container),children:t.map((e,t)=>0===t?(0,o.jsxs)("div",{className:l(i.item),children:[(0,o.jsxs)("b",{children:[a,"."]}),e]},t):(0,o.jsx)("div",{className:l(i.item),children:e},t))})},y=(0,r.kc)(({token:e,css:t})=>({base:t`
+      position: relative;
       display: flex;
       flex-direction: column;
       gap: 6px;
       font-size: 12px;
-      &+&{
-        margin-top: 8px;
+      border-bottom: 1px solid ${e.colorSplit};
+      padding-bottom: 8px;
+      & + & {
+        padding-top: 8px;
       }
       & > b {
         padding-right: 4px;
@@ -76,23 +79,30 @@
         display: flex;
         flex-direction: row;
       }
+      &.is_translate{
+        padding-bottom: 0px;
+      }
     `,error:t`
+      position: absolute;
+      bottom: -12px;
+      right: 0;
       color: ${e.colorError};
-      background-color: ${e.colorErrorBg};
-      font-size: 12px;
-      width: 100%;
-      text-align: right;
-      padding: 4px;
-      border-radius: 3px;
+      font-size: 10px;
+    `,warn:t`
+      position: absolute;
+      bottom: -12px;
+      left: 0;
+      color: ${e.colorWarning};
+      font-size: 10px;
     `,translate:t`
-      font-size: 12px;
+      font-size: 10px;
       width: 100%;
       text-align: left;
       padding: 4px;
       background-color: ${e.colorFillContent};
       border-radius: 3px;
-      font-size: 12px;
-    `})),v=e=>{let{sort:t,isOptions:a=!1,isBool:i,isInput:l,answer:n,options:r,layout:h="horizontal",topic:d,isRead:u,translate:b}=e,{styles:_,cx:m}=y(),g=()=>u?Array.isArray(r)?{value:r.find(e=>e.isTrue)?.label,isTrue:void 0}:{value:n,isTrue:void 0}:{value:"",isTrue:void 0},[w,v]=(0,s.useState)(()=>g());(0,s.useEffect)(()=>{v(g())},[u]);let T=(0,s.useMemo)(()=>{if(i){if("正确"===n)return[{label:"正确",isTrue:!0},{label:"错误"}];else if("错误"===n)return[{label:"正确"},{label:"错误",isTrue:!0}]}return[]},[n]),k=e=>{if(w.value)return;let t=!1;t=i||l?e===n:r?.find(t=>t.label===e)?.isTrue,v({value:e,isTrue:!!t})};return(0,o.jsxs)("div",{className:m(_.base,{is_options:a,is_bool:i,is_input:l}),children:[a?(0,o.jsxs)("b",{children:[t,"."]}):(0,o.jsx)(f,{content:d,sort:t}),i?(0,o.jsx)(c,{layout:h,value:w.value,options:T,onChange:k}):null,r?(0,o.jsx)(c,{layout:h,value:w.value,options:r,onChange:k}):null,l?(0,o.jsx)(p,{value:w.value,isTrue:w.isTrue,onChange:k}):null,!1===w.isTrue&&l?(0,o.jsx)("div",{className:m(_.error),children:"填写错误"}):null,b&&u?(0,o.jsx)("div",{className:m(_.translate),children:b}):null]})},T=(0,r.kc)(({css:e})=>({base:e`
+      margin-top: 8px;
+    `})),v=e=>{let{sort:t,isOptions:a=!1,isBool:i,isInput:l,answer:n,options:r,layout:h="horizontal",topic:d,isRead:u,translate:b,isMulti:p}=e,{styles:m,cx:g}=y(),f=()=>u?p?{value:r?.filter(e=>e.isTrue)?.map(e=>e.label),isTrue:void 0,isAllSelect:void 0}:Array.isArray(r)?{value:r.find(e=>e.isTrue)?.label,isTrue:void 0}:{value:n,isTrue:void 0}:p?{value:[],isTrue:void 0,isAllSelect:void 0}:{value:"",isTrue:void 0},[v,T]=(0,s.useState)(()=>f());(0,s.useEffect)(()=>{T(f())},[u]);let k=(0,s.useMemo)(()=>{if(i){if("正确"===n)return[{label:"正确",isTrue:!0},{label:"错误"}];else if("错误"===n)return[{label:"正确"},{label:"错误",isTrue:!0}]}return[]},[n]),I=e=>{if(p){let t;if(v.value.includes(e))return;!1!==v.isTrue&&(t=!!(r?.find(t=>t.label===e)).isTrue);let a=[];a=Array.isArray(v.value)?[...Array.from(new Set([...v.value,e]))]:[...e];let o=!0;for(let e=0;e<r.length;e++){let t=r[e];if(t.isTrue&&!a.find(e=>e===t)){o=!1;break}}T({value:[e],isTrue:t,isAllSelect:o})}else{if(v.value)return;let t=!1;t=i||l?e===n:r?.find(t=>t.label===e)?.isTrue,T({value:e,isTrue:!!t})}};return(0,o.jsxs)("div",{className:g(m.base,{is_options:a,is_bool:i,is_input:l,is_translate:b&&u}),children:[a?(0,o.jsxs)("b",{children:[t,"."]}):(0,o.jsx)(w,{content:d,sort:t}),i?(0,o.jsx)(c,{layout:h,value:v.value,options:k,onChange:I}):null,r?(0,o.jsx)(c,{layout:h,value:v.value,options:r,onChange:I}):null,l?(0,o.jsx)(_,{value:v.value.toString(),isTrue:v.isTrue,onChange:I}):null,b&&u?(0,o.jsx)("div",{className:g(m.translate),children:b}):null,!1===v.isTrue?(0,o.jsx)("div",{className:g(m.error),children:l?"填写错误":"选择错误"}):null,!1===v.isAllSelect&&p?(0,o.jsx)("div",{className:g(m.warn),children:"未选择所有数据"}):null]})},T=(0,r.kc)(({css:e})=>({base:e`
       height: 100%;
       width: 100%;
       padding: 14px;
