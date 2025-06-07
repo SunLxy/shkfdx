@@ -16,8 +16,8 @@ export const useStyles = createStyles(({ token, css, ...rest }) => {
       &.q_list_radio_vertical{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
+        align-items:  flex-start;
+        justify-content:center;
         gap: 6px;
         flex-wrap: wrap;
       }
@@ -32,10 +32,10 @@ export const useStyles = createStyles(({ token, css, ...rest }) => {
         padding-right: 4px;
       }
       &.error{
-        background-color: ${token.colorError};
+        background-color: ${token.colorErrorBorder};
       }
       &.success{
-        background-color: ${token.colorSuccess};
+        background-color: ${token.colorSuccessBorder};
       }
     `
   })

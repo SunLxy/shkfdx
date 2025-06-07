@@ -1,0 +1,376 @@
+[
+  {
+    "id": "1",
+    "form": "From: U1 L1 P6",
+    "contents": [
+      {
+        "content": "Profiles",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Carolina",
+        "isBold": true
+      },
+      {
+        "content": "Hi, I’m Carolina and I’m 21 years old. I live in Berlin, but I was born in the south of Italy. We moved here from Italy when I was 14 because of my father’s work. I’m half German, half Italian. I started working in the family business a few years ago – we have a jeweller’s shop. I work in the shop every afternoon except Sundays, but it’s a bit boring. The city is OK but I never have time to enjoy it – everything is so hectic. I often miss Italy."
+      },
+      {
+        "content": "Rashid",
+        "isBold": true
+      },
+      {
+        "content": "My name’s Rashid. I’m 24 and I live in London. I’m Indian, but I was born here in the UK. My parents came here from Bombay (we call it Mumbai now) at the end of the 1960s. London’s a great place to be for me because I study architecture and there are lots of interesting buildings around. Every day I see something new. I don’t want to live anywhere else."
+      },
+      {
+        "content": "Linda",
+        "isBold": true
+      },
+      {
+        "content": "My name’s Linda. I’m 25 and live in a small town outside Vancouver. My mother is Spanish and my father comes from Lagos in Nigeria. We speak English, French and Spanish at home. I work as a teacher in the local school. It’s a great job but very tiring because I get up very early every morning. Before, I worked as a secretary – I didn’t like it at all! I really like the town I live in, although it’s very cold in winter. Cities like Vancouver are just too big for me."
+      }
+    ],
+    "options": [
+      {
+        "topic": ["Everybody’s parents have different nationalities. "],
+        "answer": "错误"
+      },
+      {
+        "topic": ["Everybody likes cities. "],
+        "answer": "错误"
+      },
+      {
+        "topic": ["Linda likes her job."],
+        "answer": "正确"
+      },
+      {
+        "topic": ["Carolina is the most positive about her city. "],
+        "answer": "错误"
+      },
+      {
+        "topic": ["Rashid was born in Bombay. "],
+        "answer": "错误"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "form": "From: U3 L3  P42",
+    "contents": [
+      {
+        "content": "Rat race rebels",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Most of us are trapped in a nine-to-five office routine and many of us would like to escape. We interviewed three people who have said “No!” to this rat race…"
+      },
+      {
+        "content": "Fiona",
+        "isBold": true
+      },
+      {
+        "content": "After university, I was on the dole for a few months. I didn’t have any money, so I was really pleased to get an office job… but it was very boring! I gave it up and went to do voluntary work for the VSO – Voluntary Service Overseas – in Rwanda. I teach old people and children to read and write. It’s not the most comfortable of jobs but it’s great to be doing something of real use for once."
+      },
+      {
+        "content": "Andy",
+        "isBold": true
+      },
+      {
+        "content": "I used to be a freelance news journalist. It was very stressful and I had to travel a lot. I applied for loads of other jobs with no success, so I started to think about my real interest – football! Now, I work from home and write football articles for press agencies around the world. It’s a full-time job but I have much more free time. I’m my own boss and I can get up when I want!"
+      },
+      {
+        "content": "Emma",
+        "isBold": true
+      },
+      {
+        "content": "I used to be a teacher and I worked 40 hours a week. Then, I saw the movie American Beauty and thought I could change my life too! I did a course in acupuncture and shiatsu massage. I took four years to get qualified but now I have set up my own business. Shiatsu is very popular these days because people are so stressed and you can earn quite good money."
+      }
+    ],
+    "options": [
+      {
+        "topic": ["Fiona didn’t have a job for a while."],
+        "answer": "正确"
+      },
+      {
+        "topic": ["Andy has turned an interest into a profession."],
+        "answer": "正确"
+      },
+      {
+        "topic": ["Fiona has her own company."],
+        "answer": "错误"
+      },
+      {
+        "topic": ["Fiona feels she is doing something useful. "],
+        "answer": "正确"
+      },
+      {
+        "topic": ["Andy was influenced by a film that he saw."],
+        "answer": "错误"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "form": "From: U5  L2  P71",
+    "contents": [
+      {
+        "content": "Your Weekend in Lisbon with Sunshine Tours",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Congratulations on booking your holiday with Sunshine Tours!!Here’s your travel itinerary for the long weekend. "
+      },
+      {
+        "content": "THURSDAY 18th June ",
+        "isBold": true
+      },
+      {
+        "content": "A Sunshine Tours rep will meet you at Lisbon airport and a coach will take you to your hotel."
+      },
+      {
+        "content": "FRIDAY 19th June",
+        "isBold": true
+      },
+      {
+        "content": "In the morning，we will take one of the city’s famous yellow trams up to the Castelo de São Jorge, with fabulous views over the city. The afternoon is free for you to explore the Baixa district with its interesting shops and cafés. In the evening, we will go to the Bairro Alto area for dinner and to hear the wonderfully melancholy fado music."
+      },
+      {
+        "content": "SATURDAY 20th June",
+        "isBold": true
+      },
+      {
+        "content": "A day of contrasts. In the morning, a trip to the oldest neighbourhood, Alfama. Its little cobbled streets are charming but it is also one of the poorest parts of the city. We will have lunch in the central Praça do Comércio and then take the metro to the modern Parque das Nações — the site of the Expo, which has some stunning architecture. In the evening, you are free to enjoy whatever part of the city you wish."
+      },
+      {
+        "content": "SUNDAY 21st June",
+        "isBold": true
+      },
+      {
+        "content": "A coach will take us out of the city to visit Sintra, summer residence of the kings of Portugal. Here, we will see the breathtaking Palácio Nacional and walk around Sintra’s beautiful woods and parks. On our way back, we will stop at Cascais, just half an hour from the capital. This is a real Portuguese beach resort, full of local people and crammed with restaurants, beach cafés and discos. After a relaxing dinner on the beach, the coach will take us back to the hotel. Our return flight leaves early on Monday morning."
+      }
+    ],
+    "options": [
+      {
+        "topic": ["There is nothing organized on the Friday afternoon."],
+        "answer": "正确"
+      },
+      {
+        "topic": [
+          "On Saturday afternoon, you will visit an old part of the city. "
+        ],
+        "answer": "错误"
+      },
+      {
+        "topic": ["Cascais is popular with Portuguese people."],
+        "answer": "正确"
+      },
+      {
+        "topic": ["You will spend Sunday evening outside Lisbon."],
+        "answer": "正确"
+      },
+      {
+        "topic": ["You are going to return on Sunday night. "],
+        "answer": "错误"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "form": "From: U6 L2  P85",
+    "contents": [
+      {
+        "content": "Chocoholics喜欢巧克力的人",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Everybody loves chocolate. A cup of cocoa before going to bed or a Mars bar on the bus – the British are obsessed with it. The average Briton eats 10kg of chocolate a year. Women eat far more chocolate than men, an amazing 67% of total chocolate consumption. And the most popular snack is KitKat – fifty are eaten every second in the UK."
+      },
+      {
+        "content": "Chocoholics are people with a chocolate obsession. But are they addicts? Not according to recent research. This shows that chocolate is not as addictive as coffee – in fact，there is no proof that chocolate creates addiction at all. And it’s a lot better for you than we thought. Some scientists say that it releases the same chemicals that your body produces when you are in love. Now that can’t be a bad thing!"
+      },
+      {
+        "content": "Some more good news – it doesn’t raise your cholesterol level or give you acne, as people believe, and it can even be good for your teeth! It does, however, contain caffeine and is bad if you get headaches. So the least sensible time to eat it is at night."
+      },
+      {
+        "content": "The British love chocolate but they are not as obsessed as the Swiss. The Swiss are officially the world’ greatest chocolate eaters – but then Swiss chocolate is the best!"
+      }
+    ],
+    "options": [
+      { "topic": ["Women buy less chocolate than men."], "answer": "错误" },
+      {
+        "topic": ["There is evidence that chocolate is addictive."],
+        "answer": "错误"
+      },
+      { "topic": ["Chocolate contains caffeine."], "answer": "正确" },
+      {
+        "topic": ["You should avoid chocolate if you suffer from migraines."],
+        "answer": "正确"
+      },
+      {
+        "topic": ["The world’s greatest chocolate eaters are the British."],
+        "answer": "错误"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "form": "From: U8 L3  P121",
+    "contents": [
+      {
+        "content": "Found Safe and Sound",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "The monkey who escaped from Bristol Zoo last weekend was discovered by school children yesterday. Police say that the animal, who was found in a school playground, was fine but a little hungry. The zoo admitted that it needed to improve its security."
+      },
+      {
+        "content": "Discovered…Naked and Drunk",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Hollywood resident Helen Hicks was stopped by police early on Sunday morning after dancing around her neighbourhood with no clothes on. Hicks has drunk half a bottle of vodka after an argument with her rock guitarist boyfriend Johnny Hedges. A friend says that Ms Hicks was suffering depression."
+      },
+      {
+        "content": "Hospitalised",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Lion tamer Sergei Ivanov was seriously injured by his lion, Sheba, during last night’s performance of the Moscow Circus. Ivanov has worked in the circus for over 25 years. He was taken to Springfields General Hospital last night. Doctors say that he is lucky to be alive."
+      },
+      {
+        "content": "Caught on Camera",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "Super-rich male model Justin Orlando’s love affair with British pop singer Ross Curtis was exposed this week. The two men were photographed together in a London restaurant. Orlando, who has never tried to hide his sexuality, said that he was very happy with his new partner."
+      }
+    ],
+    "options": [
+      {
+        "topic": ["The monkey was found by school children."],
+        "answer": "正确"
+      },
+      {
+        "topic": [
+          "The zoo said they were responsible for the monkey’s escape."
+        ],
+        "answer": "正确"
+      },
+      { "topic": ["Helen took her clothes off as a joke."], "answer": "错误" },
+      {
+        "topic": ["Sergei hadn’t had much experience with animals."],
+        "answer": "错误"
+      },
+      { "topic": ["Justin wanted to hide his sexuality."], "answer": "错误" }
+    ]
+  },
+  {
+    "id": "6",
+    "form": "From: U9 L1 P132",
+    "contents": [
+      {
+        "content": "Digital Natives",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "David is not very comfortable with new technology and he does not have many gadgets. Lucy loves new technology. She owns a games console, an MP3 player, and a mobile phone with a built-in digital camera. David is a teacher. Lucy is his student."
+      },
+      {
+        "content": "Like Lucy, many children grow up using computers almost every day and often know more about technology than adults. Educator Marc Prensky calls children like Lucy “digital natives”. Digital natives can quickly learn how to use new gadgets and new software, while non-digital natives spend a lot of time reading manuals and worrying about computer viruses. In fact, many parents try to save time by asking their children to teach them how to use new technology!"
+      },
+      {
+        "content": "The divide between digital natives and non-digital natives can cause problems at school because students and teachers grow up with very different ideas about technology. Many teachers think that playing computer games is a waste of time and that technology has made children unable to concentrate. However, many students think their classes are slow and boring, and want to use computers to study."
+      },
+      {
+        "content": "Prensky believes that digital natives have learned a lot from technology, but that they learn things in a different way. For example, reading a website is different from reading a book, so digital natives are good at finding the information they need and choosing what they want to read. So perhaps teachers need to change the way they teach and use more technology in class – because the number of digital natives will keep increasing!"
+      }
+    ],
+    "options": [
+      { "topic": ["David is a digital native."], "answer": "错误" },
+      {
+        "topic": ["Marc Prensky is interested in teaching with technology."],
+        "answer": "正确"
+      },
+      {
+        "topic": [
+          "Digital natives are comfortable using laptops and flash drives."
+        ],
+        "answer": "正确"
+      },
+      {
+        "topic": [
+          "Many teachers think computer games are only for having fun or killing time."
+        ],
+        "answer": "正确"
+      },
+      {
+        "topic": ["People read books and websites in the same way."],
+        "answer": "错误"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "form": "From: U10 L2  P153",
+    "contents": [
+      {
+        "content": "Spanglish",
+        "isBold": true,
+        "isCenter": true
+      },
+      {
+        "content": "In which city can you read signs like “Aparca your car aquí” or “Cuidado con los pickpockets”? Travelguide investigates."
+      },
+      {
+        "content": "1.2 million Hispanics live in the Big Apple and one in five New Yorkers speaks Spanish at home. In the last ten years, the Hispanic population has grown by 400 000. This reflects the enormous increase in the Hispanic population in the States. There are now 42 million Hispanics resident in the USA, representing 15% of the total population."
+      },
+      {
+        "content": "here is a new language, SPANGLISH – a strange mixture of Spanish and English – which is invading the city. The New York Times recently said that it had become the city’s third official language. Its use is colloquial and often limited to short sentences and signs. Many New Yorkers now wear socketines on their feet, drop something on the carpeta, shop for grocerias and have cornfley (“cornflakes”) for breakfast."
+      },
+      {
+        "content": "Norma Rodríguez, a 45-year-old Cuban living in Washington Heights, says it forms a part of her life now: “Sometimes, you don’t realize that you’re mixing the two languages. You just hear them both all the time and find that you’re inventing new words.” Other people, however, are fighting against this new street language. Businessman Juan Cortés sees it as a sign that the Spanish language is being destroyed. “It’s difficult, but I try not to speak it – it feels vulgar to me.”"
+      },
+      {
+        "content": "Meanwhile, a surprising number of academics have spoken in favour of Spanglish. José María Ruiz, from NY State University, even runs courses in Spanglish and has written a dictionary. “It is a dialogue between two languages and cultures. We have to accept that languages change and evolve. The only languages that never change are dead ones.”"
+      }
+    ],
+    "options": [
+      {
+        "topic": [
+          "The Spanish-speaking population has grown very fast recently."
+        ],
+        "answer": "正确"
+      },
+      {
+        "topic": [
+          "More people are interested in studying Spanish than before."
+        ],
+        "answer": "正确"
+      },
+      {
+        "topic": ["Spanglish is mainly used in formal contexts."],
+        "answer": "错误"
+      },
+      {
+        "topic": [
+          "Norma Rodríguez doesn’t notice when she is speaking Spanglish."
+        ],
+        "answer": "正确"
+      },
+      {
+        "topic": [
+          "Juan Cortés doesn’t speak Spanglish because he feels stupid when he tries."
+        ],
+        "answer": "错误"
+      }
+    ]
+  }
+]

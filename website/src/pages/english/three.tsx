@@ -1,10 +1,15 @@
-import { MainLayout, randomArray, TipButton, QItem, QReadingContent, QReadingContentItem, QListRadioOptionItem, Split } from "shkfdx-ui"
-import data from "./data/two.json"
+import { MainLayout, randomArray, TipButton, QItem, QReadingContent, QReadingContentItem, Split } from "shkfdx-ui"
+import data from "./data/three.json"
 import { useProxyStore } from "@carefrees/valtio"
 
-const EnglishTwo = () => {
+const EnglishThree = () => {
   const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false })
-  const dataList = state.dataList as unknown as ({ id: string, form?: string, contents: QReadingContentItem[], options: QListRadioOptionItem[][] })[]
+  const dataList = state.dataList as unknown as ({
+    id: string,
+    form?: string,
+    contents: QReadingContentItem[],
+    options?: { topic: string[], answer: string }[]
+  })[]
   const isRead = state.isRead
 
   return <MainLayout>
@@ -33,10 +38,11 @@ const EnglishTwo = () => {
           sort={index + 1}
         />
         {options.map((option, childIndex) => <QItem
-          isOptions
+          isBool
+          answer={option.answer}
+          topic={option.topic}
           key={`${childIndex}_${item.id}`}
           isRead={isRead}
-          options={randomArray(option || [])}
           sort={childIndex + 1}
         />)}
       </Split>
@@ -44,4 +50,4 @@ const EnglishTwo = () => {
   </MainLayout>
 }
 
-export default EnglishTwo
+export default EnglishThree

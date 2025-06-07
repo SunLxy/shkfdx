@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "topic": ["Last year I often went to the library of that university."],
+    "options": [
+      { "label": "去年我常去那所大学的图书馆。", "isTrue": true },
+      { "label": "去年我常去那所大学的实验室。" },
+      { "label": "去年我常去那所大学的文学楼。" }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": ["What does your brother do?"],
+    "options": [
+      { "label": "你哥哥要做什么？" },
+      { "label": "你哥哥在做什么？", "isTrue": true },
+      { "label": "你哥哥是做什么的？" }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["He does everything on his own."],
+    "options": [
+      { "label": "他就做自己的每件事。" },
+      { "label": "他每件事都要自己做。", "isTrue": true },
+      { "label": "他确实每件事都自己做。" }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "The Internet is a good place where people can chat and exchange ideas."
+    ],
+    "options": [
+      { "label": "网络是一个大家可以聊天交流的好地方。", "isTrue": true },
+      { "label": "网络是个好地方，人们在哪里才能聊天、交流思想呢？" },
+      { "label": "除了网络这个好地方，人们在哪里才能聊天、交流思想呢？" }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "I hardly recognized him when I saw him. He used to be heavy-weighted."
+    ],
+    "options": [
+      { "label": "看见他时，我努力了也没认出来。他以前很胖。" },
+      { "label": "看见他时，我差点没认出来。他以前很胖。", "isTrue": true },
+      { "label": "看见他时，我几乎没认出来。他一直很胖。" }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["My mother often took me to visit my grandpa when he was alive."],
+    "options": [
+      { "label": "我爷爷还健康时，我妈妈常带我去看他。" },
+      { "label": "我爷爷还活着时，我妈妈常带我去参观他。" },
+      { "label": "我爷爷还在世时，我妈妈常带我去看他。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["He specializes in chemistry."],
+    "options": [
+      { "label": "他专攻化学。", "isTrue": true },
+      { "label": "他尤其喜欢化学。" },
+      { "label": "他酷爱化学。" }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["I haven’t heard from him since 2000."],
+    "options": [
+      { "label": "2000年后我就没有听说过他了。" },
+      { "label": "2000年后我就没有见到过他了。" },
+      { "label": "2000年后我就没有收到过他的来信了。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": ["He hasn’t finished reading the book yet."],
+    "options": [
+      { "label": "他还没有完成就看书了。" },
+      { "label": "他还没有看完这本书。", "isTrue": true },
+      { "label": "他仍然在看这本书。" }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["I set up my own business after graduation."],
+    "options": [
+      { "label": "毕业后我就开办了自己的公司。", "isTrue": true },
+      { "label": "我渐渐地建立起自己的公司。" },
+      { "label": "我逐渐有了自己的生意。" }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["My doctor advised me to give up smoking."],
+    "options": [
+      { "label": "我的医生建议我抽点烟。" },
+      { "label": "我的医生劝我戒烟。", "isTrue": true },
+      { "label": "我的医生问我要不要放弃抽烟。" }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": [
+      "Almost one out of six of the students took part in the party yesterday."
+    ],
+    "options": [
+      { "label": "昨天，六个学生中有一个参加了聚会。" },
+      { "label": "昨天，六个学生全部参加了聚会。" },
+      { "label": "昨天，几乎有六分之一的学生参加了聚会。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": ["In 1970, China successfully launched a man-made satellite."],
+    "options": [
+      { "label": "1970年，中国成功地发射了一颗人造卫星。", "isTrue": true },
+      { "label": "1970年，中国成功地开发了一颗人造卫星。" },
+      { "label": "1970年，中国成功地上市了一颗人造卫星。" }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": ["She doesn’t have to take a shower every morning."],
+    "options": [
+      { "label": "她没必要每天早上都做秀。" },
+      { "label": "她没必要每天早上都洗淋浴。", "isTrue": true },
+      { "label": "她没必要每天早上都吃药。" }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": ["I can lift this stone."],
+    "options": [
+      { "label": "我能举起这块石头。", "isTrue": true },
+      { "label": "我能移开这块泥土。" },
+      { "label": "我能挪动这个炉子。" }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": ["I’ll have a white coffee and toast."],
+    "options": [
+      { "label": "我要一杯白色的咖啡和吐司。" },
+      { "label": "我要一杯清咖啡和吐司。" },
+      { "label": "我要一杯加奶咖啡和吐司。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": ["You won’t find a ticket for the match."],
+    "options": [
+      { "label": "你不会找到比赛用的球拍的。" },
+      { "label": "你不会搞到看比赛的票的。", "isTrue": true },
+      { "label": "你不会弄到相应的票的。" }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": ["On our way back, we met Mr. Smith."],
+    "options": [
+      { "label": "在对面的路上，我们遇到了史密斯先生。" },
+      { "label": "在后面的路上，我们遇到了史密斯先生。" },
+      { "label": "在回来的路上，我们遇到了史密斯先生。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": ["You can go into this building and explore it by yourself."],
+    "options": [
+      { "label": "你可以自己去这栋楼把它炸了。" },
+      { "label": "你可以亲自进到这栋楼里探个究竟。", "isTrue": true },
+      { "label": "你可以自己进到这栋楼里寻宝。" }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": ["Have you ever seen the beautiful views of the West Lake?"],
+    "options": [
+      { "label": "你见过西湖的美景吗？", "isTrue": true },
+      { "label": "你见过对西湖美景的评论吗？" },
+      { "label": "你见过对西湖的美好评论吗？" }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": ["It began to rain last night and lasted until this afternoon."],
+    "options": [
+      { "label": "昨晚开始下雨，最后，今天下午停了。" },
+      { "label": "大雨昨晚开始下，一直持续到今天下午。", "isTrue": true },
+      { "label": "前天晚上开始下雨，今天下午才停。" }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": ["They are all typical of Hollywood movies."],
+    "options": [
+      { "label": "它们是好莱坞电影的典型代表。", "isTrue": true },
+      { "label": "他们是好莱坞电影的典型演员。" },
+      { "label": "它们就是好莱坞电影。" }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": ["Parents agree that computer games only do harm to children."],
+    "options": [
+      { "label": "家长们都同意，电脑游戏对孩子只有一点帮助。" },
+      { "label": "家长们一致认为，电脑游戏只会引导孩子做错事。" },
+      { "label": "家长们都认为，电脑游戏对孩子有害无益。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": ["I’m taking the bus to school right now."],
+    "options": [
+      { "label": "我正在坐汽车回学校。" },
+      { "label": "我马上就坐汽车回学校。", "isTrue": true },
+      { "label": "我现在就带着汽车回学校。" }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": ["My parents will be lonely without me."],
+    "options": [
+      { "label": "我不在，我父母会孤独的。", "isTrue": true },
+      { "label": "没有我，我父母就独立了。" },
+      { "label": "没有我，我父母就轻松了。" }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": ["Peter might be playing basketball."],
+    "options": [
+      { "label": "彼得可能会打篮球。" },
+      { "label": "彼得可能在打篮球。", "isTrue": true },
+      { "label": "彼得可能擅长篮球。" }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": [
+      "Patients are advised to cut down on their consumption of alcohol."
+    ],
+    "options": [
+      { "label": "要耐心地降低酒的消耗。" },
+      { "label": "建议降低酒的消费。" },
+      { "label": "建议病人减少饮酒量。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": ["Do you have any proof that this man stole your bag?"],
+    "options": [
+      { "label": "你有证据证明这个人偷了你的包吗？", "isTrue": true },
+      { "label": "你是否确信这个人偷了你的包？" },
+      { "label": "你有证人证明这个人偷了你的包吗？" }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": ["Tom is not as handsome as Jack."],
+    "options": [
+      { "label": "汤姆跟杰克一样英俊。" },
+      { "label": "汤姆不如杰克英俊。", "isTrue": true },
+      { "label": "杰克不如汤姆英俊。" }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": ["Jane is the best singer in her class."],
+    "options": [
+      { "label": "简在她的班里歌唱得最好。", "isTrue": true },
+      { "label": "简在她的班里是个最优秀的单身女。" },
+      { "label": "简在她的班里身材最高挑。" }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": ["If you cook the supper, I’ll wash the dishes."],
+    "options": [
+      { "label": "是否你做晚饭我洗碗？" },
+      { "label": "要是你煮汤，我就洗碗。" },
+      { "label": "如果你做晚饭，我就洗碗。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": ["I guess she will get used to the life in America."],
+    "options": [
+      { "label": "我想她会习惯在美国的生活。", "isTrue": true },
+      { "label": "我猜测她曾经在美国的生活。" },
+      { "label": "我想她曾经在美国过得很好。" }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": ["I suppose he will lend you some money."],
+    "options": [
+      { "label": "我估计他会跟你借钱的。" },
+      { "label": "我建议他借钱给你。" },
+      { "label": "我想他会借钱给你的。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": ["Our school was founded in 1957."],
+    "options": [
+      { "label": "我们学校成立于1957年。", "isTrue": true },
+      { "label": "我们学校被发现于1957年。" },
+      { "label": "我们学校于1957年被外界所知。" }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": ["Please remember to close the windows before you leave."],
+    "options": [
+      { "label": "请记住你离开前关好了门窗。" },
+      { "label": "请记住离开前关好门窗。", "isTrue": true },
+      { "label": "记得你关好了门窗。" }
+    ]
+  },
+  {
+    "id": 36,
+    "topic": ["We hadn’t even arrived at the airport when the plane took off."],
+    "options": [
+      { "label": "飞机降落时我们甚至还没赶到机场。" },
+      { "label": "飞机起飞时我们甚至还没赶到机场。", "isTrue": true },
+      { "label": "飞机被拖走时我们甚至还没赶到机场。" }
+    ]
+  },
+  {
+    "id": 37,
+    "topic": ["I learnt yesterday that his mother had gone abroad."],
+    "options": [
+      { "label": "我昨天得知他妈妈已经出国了。", "isTrue": true },
+      { "label": "我得知他妈妈已经在昨天出国了。" },
+      { "label": "昨天我得知他妈妈上船了。" }
+    ]
+  },
+  {
+    "id": 38,
+    "topic": ["He didn’t go to bed until he had finished his work."],
+    "options": [
+      { "label": "他把工作做完后才去睡觉。", "isTrue": true },
+      { "label": "他要完成工作才去睡觉。" },
+      { "label": "他完成了工作，所以就去睡觉了。" }
+    ]
+  },
+  {
+    "id": 39,
+    "topic": ["The old lady was looking at him from head to foot."],
+    "options": [
+      { "label": "那位老太太从头到脚都很好看。" },
+      { "label": "那位老太太从头到脚都是他的样子。" },
+      { "label": "那位老太太从头到脚地看着他。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 40,
+    "topic": ["I suddenly saw a spider on the ceiling."],
+    "options": [
+      { "label": "我突然看到天花板上有个蜘蛛。", "isTrue": true },
+      { "label": "我突然看到房顶上有个辣椒。" },
+      { "label": "我突然看到扶手上有个钩子。" }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": ["What can you see if you shut your eyes?"],
+    "options": [
+      { "label": "如果蒙上眼睛，你还能看到什么？" },
+      { "label": "如果闭上眼睛，你还能看到什么？", "isTrue": true },
+      { "label": "如果眨巴一下眼睛，你还能看到什么？" }
+    ]
+  },
+  {
+    "id": 42,
+    "topic": ["I had to admit that I know little about economics."],
+    "options": [
+      { "label": "我得承认，我对经济学所知甚少。", "isTrue": true },
+      { "label": "我必须承认，我了解一点点经济学知识。" },
+      { "label": "我要承认，我对经济有点了解。" }
+    ]
+  },
+  {
+    "id": 43,
+    "topic": ["His writing has improved greatly this semester."],
+    "options": [
+      { "label": "这个学期，他的书法有了很大进步。" },
+      { "label": "这个夏天，他的写作有了很大进步。" },
+      { "label": "这个学期，他的写作有了很大进步。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 44,
+    "topic": ["The new road meets the villagers’ long-felt need."],
+    "options": [
+      { "label": "这条新路解决了村民们长久以来的需求。", "isTrue": true },
+      { "label": "这条新路遭遇了村民们的长久抵抗。" },
+      { "label": "这条新路满足了村民们的需求，他们表示真心地感谢。" }
+    ]
+  },
+  {
+    "id": 45,
+    "topic": ["If I left my mobile phone at home, I would go back for it."],
+    "options": [
+      { "label": "如果我真的把手机落在家里了，我就回去取了。", "isTrue": true },
+      { "label": "我把手机落在家里了，我回去取。" },
+      { "label": "我把手机落在家里了，我会回去取的。" }
+    ]
+  },
+  {
+    "id": 46,
+    "topic": [
+      "He said he had learnt about three thousand English words by the end of middle school."
+    ],
+    "options": [
+      { "label": "他说到学期中时，他大约学了3000个英语单词。" },
+      { "label": "他说到期末时，他大约学了3000个英语单词。" },
+      {
+        "label": "他说到中学毕业时，他大约学了3000个英语单词。",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "topic": [
+      "He said he had won the first place in the English speech contest."
+    ],
+    "options": [
+      { "label": "他说在英语演讲竞赛中，他获得了第一名。", "isTrue": true },
+      { "label": "他说在英语话语比赛中，他赢得了一等奖。" },
+      { "label": "他说在英语语言比赛中，他获得了第一名。" }
+    ]
+  },
+  {
+    "id": 48,
+    "topic": ["He is deeply moved."],
+    "options": [
+      { "label": "他被狠狠地移了位。" },
+      { "label": "他被深深地感动了。", "isTrue": true },
+      { "label": "他被彻底地征服了。" }
+    ]
+  },
+  {
+    "id": 49,
+    "topic": ["You speak English very well."],
+    "options": [
+      { "label": "你讲英语，很好。" },
+      { "label": "你说，英语很好。" },
+      { "label": "你英语讲得很好。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 50,
+    "topic": ["Some people are fighting against this new style."],
+    "options": [
+      { "label": "有些人正在抵制这种新风尚。", "isTrue": true },
+      { "label": "有些人正和这种新风尚作对。" },
+      { "label": "有些人正和这种新风尚打架。" }
+    ]
+  },
+  {
+    "id": 51,
+    "topic": ["It is a dialogue between two languages and cultures."],
+    "options": [
+      { "label": "这是两种语言和文化之间的较量。" },
+      { "label": "这是两种语言和文化之间的对话。", "isTrue": true },
+      { "label": "这是两种语言和文化之间的谈判。" }
+    ]
+  },
+  {
+    "id": 52,
+    "topic": ["In New York City, one in five people speaks Spanish at home."],
+    "options": [
+      { "label": "在纽约市，五分之一的人们在国内说西班牙语。" },
+      { "label": "在纽约市，五分之一的西班牙人在家里说西班牙语。" },
+      {
+        "label": "在纽约市，每五个人里就有一个人在家里说西班牙语。",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "topic": [
+      "I read something in the newspaper 【that you may be interested in】."
+    ],
+    "options": [
+      { "label": "我在报纸上看到了你也许会感兴趣的事情。", "isTrue": true },
+      { "label": "我在你也许会感兴趣的报纸上看到了一些消息。" },
+      { "label": "我在报纸上看到了一些消息，你一定会感兴趣。" }
+    ]
+  },
+  {
+    "id": 54,
+    "topic": ["You are not who I thought you were."],
+    "options": [
+      { "label": "你不是我想的那个人。" },
+      { "label": "你不是我原先所想的那种人。", "isTrue": true },
+      { "label": "你不是那谁，我以为。" }
+    ]
+  },
+  {
+    "id": 55,
+    "topic": ["I do not know the man who wrote the article."],
+    "options": [
+      { "label": "我不知道是谁写的这篇文章。" },
+      { "label": "我不认识那个人。谁写的文章？" },
+      { "label": "我不认识写这篇文章的那个人。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 56,
+    "topic": ["I like a jacket and tie on top instead of a T-shirt."],
+    "options": [
+      { "label": "我喜欢夹克衫，上面打领带，不喜欢T恤衫。" },
+      { "label": "我喜欢上面穿夹克打领带，不喜欢穿T恤。", "isTrue": true },
+      { "label": "我喜欢夹克衫和领带，不喜欢T恤。" }
+    ]
+  },
+  {
+    "id": 57,
+    "topic": ["You look very smart in your new suit."],
+    "options": [
+      { "label": "你穿上新衣服显得很帅。", "isTrue": true },
+      { "label": "你穿上新衣服显得很聪明。" },
+      { "label": "你穿上新衣服显得很挺。" }
+    ]
+  },
+  {
+    "id": 58,
+    "topic": ["You can learn how to type there."],
+    "options": [
+      { "label": "你可以学习如何在那里打字。" },
+      { "label": "在那里你可以学习打字。", "isTrue": true },
+      { "label": "你会了解怎么打字的。" }
+    ]
+  },
+  {
+    "id": 59,
+    "topic": ["The Japanese I know works very hard."],
+    "options": [
+      { "label": "我知道日本人工作很努力。" },
+      { "label": "我知道日本人的工作很难做。" },
+      { "label": "我认识的那个日本人工作很勤奋。", "isTrue": true }
+    ]
+  },
+  {
+    "id": 60,
+    "topic": ["Sarah was annoyed because Peter was telling the lies again."],
+    "options": [
+      { "label": "萨拉很烦恼，因为彼得又在说谎了。", "isTrue": true },
+      { "label": "萨拉很生气，因为彼得又告诉她要走。" },
+      { "label": "萨拉很震怒，因为彼得又要她躺下。" }
+    ]
+  }
+]

@@ -4,6 +4,9 @@ import Home from "@/pages/index"
 import English from '@/pages/english';
 import EnglishOne from '@/pages/english/one';
 import EnglishTwo from '@/pages/english/two';
+import EnglishThree from '@/pages/english/three';
+import EnglishFour from '@/pages/english/four';
+import EnglishFive from '@/pages/english/five';
 import { RootRoute } from "./root"
 
 const newRoutesConfig: RouteObject[] = [
@@ -26,6 +29,18 @@ const newRoutesConfig: RouteObject[] = [
       {
         path: '/english/two',
         element: <Suspense fallback={<div>Loading...</div>}><EnglishTwo /></Suspense>
+      },
+      {
+        path: '/english/three',
+        element: <Suspense fallback={<div>Loading...</div>}><EnglishThree /></Suspense>
+      },
+      {
+        path: '/english/four',
+        element: <Suspense fallback={<div>Loading...</div>}><EnglishFour /></Suspense>
+      },
+      {
+        path: '/english/five',
+        element: <Suspense fallback={<div>Loading...</div>}><EnglishFive /></Suspense>
       }
     ]
   }
