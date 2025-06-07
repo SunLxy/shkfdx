@@ -7,6 +7,7 @@ import EnglishTwo from '@/pages/english/two';
 import EnglishThree from '@/pages/english/three';
 import EnglishFour from '@/pages/english/four';
 import EnglishFive from '@/pages/english/five';
+import EnglishOther from '@/pages/english/other';
 import { RootRoute } from "./root"
 
 const newRoutesConfig: RouteObject[] = [
@@ -41,6 +42,10 @@ const newRoutesConfig: RouteObject[] = [
       {
         path: '/english/five',
         element: <Suspense fallback={<div>Loading...</div>}><EnglishFive /></Suspense>
+      },
+      {
+        path: '/english/other',
+        element: <Suspense fallback={<div>Loading...</div>}><EnglishOther /></Suspense>
       }
     ]
   }
