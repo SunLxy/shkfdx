@@ -34,14 +34,15 @@ export interface QItemProps {
   /**显示答案的背题模式*/
   isRead?: boolean
   /**翻译*/
-  translate?: string
-
+  translate?: string[]
   /**多选*/
   isMulti?: boolean
+  /**是否显示翻译*/
+  isShowTranslate?: boolean
 }
 
 export const QItem = (props: QItemProps) => {
-  const { sort, isOptions = false, isBool, isInput, answer, options, layout = 'horizontal', topic, isRead, translate, isMulti } = props
+  const { sort, isOptions = false, isBool, isInput, answer, options, layout = 'horizontal', topic, isRead, translate, isMulti, isShowTranslate } = props
   const { styles, cx } = useStyles()
   const getValue = () => {
     if (isRead) {
@@ -130,7 +131,9 @@ export const QItem = (props: QItemProps) => {
     {isBool ? <QListRadio layout={layout} value={state.value} options={BooleanOptions} onChange={onChange} /> : null}
     {options ? <QListRadio layout={layout} value={state.value} options={options} onChange={onChange} /> : null}
     {isInput ? <QInput value={state.value.toString()} isTrue={state.isTrue} onChange={onChange} /> : null}
-    {translate && isRead ? <div className={cx(styles.translate)}>{translate}</div> : null}
+    {Array.isArray(translate) && translate.length && (isRead || isShowTranslate) ? <div className={cx(styles.translate)}>
+      {translate.map((it, key) => <div key={key}>{it}</div>)}
+    </div> : null}
     {state.isTrue === false ? <div className={cx(styles.error)}>{isInput ? "填写错误" : "选择错误"}</div> : null}
     {state.isAllSelect === false && isMulti ? <div className={cx(styles.warn)}>未选择所有数据</div> : null}
   </div>

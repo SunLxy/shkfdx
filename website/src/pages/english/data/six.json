@@ -3,65 +3,65 @@
     "id": 1,
     "topic": ["他们是从美国来的吗？"],
     "options": [
-      { "label": ".Are they from America?", "isTrue": true },
-      { "label": ".Do they from America?" }
+      { "label": "Are they from America?", "isTrue": true },
+      { "label": "Do they from America?" }
     ]
   },
   {
     "id": 2,
     "topic": ["他的女朋友住在波兰吗？"],
     "options": [
-      { "label": ".Is his girlfriend live in Poland?" },
-      { "label": ".Is his girlfriend living in Poland?", "isTrue": true }
+      { "label": "Is his girlfriend live in Poland?" },
+      { "label": "Is his girlfriend living in Poland?", "isTrue": true }
     ]
   },
   {
     "id": 3,
     "topic": ["你在哪儿工作？"],
     "options": [
-      { "label": ".Where do you work?", "isTrue": true },
-      { "label": ".Where does you work?" }
+      { "label": "Where do you work?", "isTrue": true },
+      { "label": "Where does you work?" }
     ]
   },
   {
     "id": 4,
     "topic": ["我是老师，我教中文。"],
     "options": [
-      { "label": ".I am a teacher, I teach Chinese." },
-      { "label": ".I am a teacher. I teach Chinese.", "isTrue": true }
+      { "label": "I am a teacher, I teach Chinese." },
+      { "label": "I am a teacher. I teach Chinese.", "isTrue": true }
     ]
   },
   {
     "id": 5,
     "topic": ["这些孩子喜欢住在城市。"],
     "options": [
-      { "label": ".These children like to live in the city.", "isTrue": true },
-      { "label": ".These childs like living in the city." }
+      { "label": "These children like to live in the city.", "isTrue": true },
+      { "label": "These childs like living in the city." }
     ]
   },
   {
     "id": 6,
     "topic": ["萨姆经常来看你吗？"],
     "options": [
-      { "label": ".Does Sam often come to see you?", "isTrue": true },
-      { "label": ".Does Sam often come see you?" }
+      { "label": "Does Sam often come to see you?", "isTrue": true },
+      { "label": "Does Sam often come see you?" }
     ]
   },
   {
     "id": 7,
     "topic": ["碧和露西在同一所学校读书吗？"],
     "options": [
-      { "label": ".Do Bea and Lucy study at the same school?", "isTrue": true },
-      { "label": ".Do Bea and Lucy read the same books at school?" }
+      { "label": "Do Bea and Lucy study at the same school?", "isTrue": true },
+      { "label": "Do Bea and Lucy read the same books at school?" }
     ]
   },
   {
     "id": 8,
     "topic": ["她认为帮助他人是一项最完美的工作。"],
     "options": [
-      { "label": ".She thinks helping others is the most perfect job." },
+      { "label": "She thinks helping others is the most perfect job." },
       {
-        "label": ".She thinks helping others is a perfect job.",
+        "label": "She thinks helping others is a perfect job.",
         "isTrue": true
       }
     ]
@@ -70,24 +70,24 @@
     "id": 9,
     "topic": ["露西的工作是导游。"],
     "options": [
-      { "label": ".Lucy’s work is a tourist guide." },
-      { "label": ".Lucy works as a tourist guide.", "isTrue": true }
+      { "label": "Lucy’s work is a tourist guide." },
+      { "label": "Lucy works as a tourist guide.", "isTrue": true }
     ]
   },
   {
     "id": 10,
     "topic": ["你家乡有电影院吗？"],
     "options": [
-      { "label": ".Does your hometown got a cinema?" },
-      { "label": ".Is there any cinema in your hometown?", "isTrue": true }
+      { "label": "Does your hometown got a cinema?" },
+      { "label": "Is there any cinema in your hometown?", "isTrue": true }
     ]
   },
   {
     "id": 11,
     "topic": ["这里没有火车站。"],
     "options": [
-      { "label": ".There is not a train station here.", "isTrue": true },
-      { "label": ".Here is no train station." }
+      { "label": "There is not a train station here.", "isTrue": true },
+      { "label": "Here is no train station." }
     ]
   },
   {
@@ -95,10 +95,10 @@
     "topic": ["客厅里有一个沙发和一把扶手椅。"],
     "options": [
       {
-        "label": ".There is a sofa and an armchair in the living room.",
+        "label": "There is a sofa and an armchair in the living room.",
         "isTrue": true
       },
-      { "label": ".There are a sofa and an armchair in the living room." }
+      { "label": "There are a sofa and an armchair in the living room." }
     ]
   },
   {
@@ -106,11 +106,11 @@
     "topic": ["—你这是要去哪儿？—我要去超市。"],
     "options": [
       {
-        "label": ".— Where are you going? —I’m going to the supermarket.",
+        "label": "— Where are you going? —I’m going to the supermarket.",
         "isTrue": true
       },
       {
-        "label": ".— Where are you going? —I’m going to go to the supermarket."
+        "label": "— Where are you going? —I’m going to go to the supermarket."
       }
     ]
   },
@@ -118,8 +118,8 @@
     "id": 14,
     "topic": ["请查一下火车什么时候开。"],
     "options": [
-      { "label": ".Please find out when will the train leave." },
-      { "label": ".Please find out when the train leaves.", "isTrue": true }
+      { "label": "Please find out when will the train leave." },
+      { "label": "Please find out when the train leaves.", "isTrue": true }
     ]
   },
   {
@@ -127,34 +127,34 @@
     "topic": ["他收藏着不少外国硬币。"],
     "options": [
       {
-        "label": ".He has a very good collection of foreign coins.",
+        "label": "He has a very good collection of foreign coins.",
         "isTrue": true
       },
-      { "label": ".He has collected many foreign coin." }
+      { "label": "He has collected many foreign coin." }
     ]
   },
   {
     "id": 16,
     "topic": ["去公园怎么样？"],
     "options": [
-      { "label": ".How about going to the park?", "isTrue": true },
-      { "label": ".How about go to the park?" }
+      { "label": "How about going to the park?", "isTrue": true },
+      { "label": "How about go to the park?" }
     ]
   },
   {
     "id": 17,
     "topic": ["你能借我一把伞吗？"],
     "options": [
-      { "label": ".Can you lend me an umbrella?", "isTrue": true },
-      { "label": ".Can you borrow me an umbrella?" }
+      { "label": "Can you lend me an umbrella?", "isTrue": true },
+      { "label": "Can you borrow me an umbrella?" }
     ]
   },
   {
     "id": 18,
     "topic": ["玛丽穿着一件游泳衣。"],
     "options": [
-      { "label": ".Mary is putting on a swimming costume." },
-      { "label": ".Mary is wearing a swimming costume.", "isTrue": true }
+      { "label": "Mary is putting on a swimming costume." },
+      { "label": "Mary is wearing a swimming costume.", "isTrue": true }
     ]
   },
   {
@@ -162,10 +162,10 @@
     "topic": ["我爸爸明早飞北京。"],
     "options": [
       {
-        "label": ".My father is flying to Beijing tomorrow morning.",
+        "label": "My father is flying to Beijing tomorrow morning.",
         "isTrue": true
       },
-      { "label": ".My father is going to fly to Beijing tomorrow morning." }
+      { "label": "My father is going to fly to Beijing tomorrow morning." }
     ]
   },
   {
@@ -173,10 +173,10 @@
     "topic": ["我们整夜打牌、讲故事打发时间。"],
     "options": [
       {
-        "label": ".We passed the night playing cards and telling stories all night.",
+        "label": "We passed the night playing cards and telling stories all night.",
         "isTrue": true
       },
-      { "label": ".We passed the night play cards, tell stories all night." }
+      { "label": "We passed the night play cards, tell stories all night." }
     ]
   },
   {
@@ -184,11 +184,11 @@
     "topic": ["晚上七点半爸爸在火车站接我们。"],
     "options": [
       {
-        "label": ".My father met us at the railway station at about 7:30.",
+        "label": "My father met us at the railway station at about 7:30.",
         "isTrue": true
       },
       {
-        "label": ".My father received us at the railway station at about 7:30."
+        "label": "My father received us at the railway station at about 7:30."
       }
     ]
   },
@@ -196,32 +196,32 @@
     "id": 22,
     "topic": ["我昨晚睡得很晚。"],
     "options": [
-      { "label": ".I slept very late yesterday night." },
-      { "label": ".I slept very late last night.", "isTrue": true }
+      { "label": "I slept very late yesterday night." },
+      { "label": "I slept very late last night.", "isTrue": true }
     ]
   },
   {
     "id": 23,
     "topic": ["经验是最好的老师。"],
     "options": [
-      { "label": ".Experience is the best teacher.", "isTrue": true },
-      { "label": ".Experience is the most good teacher." }
+      { "label": "Experience is the best teacher.", "isTrue": true },
+      { "label": "Experience is the most good teacher." }
     ]
   },
   {
     "id": 24,
     "topic": ["我从不说谎。"],
     "options": [
-      { "label": ".I never tell a lie.", "isTrue": true },
-      { "label": ".I have never told a lie." }
+      { "label": "I never tell a lie.", "isTrue": true },
+      { "label": "I have never told a lie." }
     ]
   },
   {
     "id": 25,
     "topic": ["有人在敲门。"],
     "options": [
-      { "label": ".Someone is knocking the door." },
-      { "label": ".Someone is knocking at the door.", "isTrue": true }
+      { "label": "Someone is knocking the door." },
+      { "label": "Someone is knocking at the door.", "isTrue": true }
     ]
   },
   {
@@ -229,34 +229,34 @@
     "topic": ["我每年回去看望父母两到三次。"],
     "options": [
       {
-        "label": ".I go home to visit my parents two or three times a year.",
+        "label": "I go home to visit my parents two or three times a year.",
         "isTrue": true
       },
-      { "label": ".I go home to visit my parents twice or three times a year." }
+      { "label": "I go home to visit my parents twice or three times a year." }
     ]
   },
   {
     "id": 27,
     "topic": ["书桌靠墙放着。"],
     "options": [
-      { "label": ".The desk is opposite the wall." },
-      { "label": ".The desk is against the wall.", "isTrue": true }
+      { "label": "The desk is opposite the wall." },
+      { "label": "The desk is against the wall.", "isTrue": true }
     ]
   },
   {
     "id": 28,
     "topic": ["你不许在这里过马路。"],
     "options": [
-      { "label": ".You need not cross the road here." },
-      { "label": ".You must not cross the road here.", "isTrue": true }
+      { "label": "You need not cross the road here." },
+      { "label": "You must not cross the road here.", "isTrue": true }
     ]
   },
   {
     "id": 29,
     "topic": ["我们一起去那里吧！"],
     "options": [
-      { "label": ".Let’s go there together!", "isTrue": true },
-      { "label": ".Lets go there together!" }
+      { "label": "Let’s go there together!", "isTrue": true },
+      { "label": "Lets go there together!" }
     ]
   },
   {
@@ -264,11 +264,11 @@
     "topic": ["努力工作多年后，他们买了自己的房子，并且搬了进去。"],
     "options": [
       {
-        "label": ".After many years’ hard work, they afforded to buy their own house and moved into it.",
+        "label": "After many years’ hard work, they afforded to buy their own house and moved into it.",
         "isTrue": true
       },
       {
-        "label": ".After many years’ hard work, they afforded to buy their own house, moved into it."
+        "label": "After many years’ hard work, they afforded to buy their own house, moved into it."
       }
     ]
   },
@@ -276,16 +276,16 @@
     "id": 31,
     "topic": ["你不应该忘记说谢谢你。"],
     "options": [
-      { "label": ".You should not forget to say “thank you”.", "isTrue": true },
-      { "label": ".You should not forget saying “thank you”." }
+      { "label": "You should not forget to say “thank you”.", "isTrue": true },
+      { "label": "You should not forget saying “thank you”." }
     ]
   },
   {
     "id": 32,
     "topic": ["我应该把这件事情告诉他吗？"],
     "options": [
-      { "label": ".Must I tell him about it?" },
-      { "label": ".Should I tell him about it?", "isTrue": true }
+      { "label": "Must I tell him about it?" },
+      { "label": "Should I tell him about it?", "isTrue": true }
     ]
   },
   {
@@ -293,26 +293,26 @@
     "topic": ["我不得不每天很早就起床。"],
     "options": [
       {
-        "label": ".I have to get up very early in the morning every day.",
+        "label": "I have to get up very early in the morning every day.",
         "isTrue": true
       },
-      { "label": ".I must get up very early in the morning every day." }
+      { "label": "I must get up very early in the morning every day." }
     ]
   },
   {
     "id": 34,
     "topic": ["你不可以对别人这么粗鲁。"],
     "options": [
-      { "label": ".You can’t be so rude to other people.", "isTrue": true },
-      { "label": ".You are not able to be so rude to other people." }
+      { "label": "You can’t be so rude to other people.", "isTrue": true },
+      { "label": "You are not able to be so rude to other people." }
     ]
   },
   {
     "id": 35,
     "topic": ["你想喝一点牛奶吗？"],
     "options": [
-      { "label": ".Do you want to drink a little milk?" },
-      { "label": ".Would you like a little milk?", "isTrue": true }
+      { "label": "Do you want to drink a little milk?" },
+      { "label": "Would you like a little milk?", "isTrue": true }
     ]
   },
   {
@@ -320,10 +320,10 @@
     "topic": ["她爱吃甜食，每天都吃几粒糖果。"],
     "options": [
       {
-        "label": ".She has got a sweet tooth and eats a few sweets every day.",
+        "label": "She has got a sweet tooth and eats a few sweets every day.",
         "isTrue": true
       },
-      { "label": ".She loves eating sweets and eats a few sweets every day." }
+      { "label": "She loves eating sweets and eats a few sweets every day." }
     ]
   },
   {
@@ -331,10 +331,10 @@
     "topic": ["你可以尽你最大的努力，但不保证会成功。"],
     "options": [
       {
-        "label": ".You can try your best, however, success is not guaranteed."
+        "label": "You can try your best, however, success is not guaranteed."
       },
       {
-        "label": ".You can try your best, but success is not guaranteed.",
+        "label": "You can try your best, but success is not guaranteed.",
         "isTrue": true
       }
     ]
@@ -344,11 +344,11 @@
     "topic": ["《哈利·波特》成为今年奥斯卡大奖的赢家，这并不奇怪。"],
     "options": [
       {
-        "label": ".Harry Potter is not a surprise winner at this year’s Oscar Awards.",
+        "label": "Harry Potter is not a surprise winner at this year’s Oscar Awards.",
         "isTrue": true
       },
       {
-        "label": ".Harry Potter becomes the biggest winner at this year’s Oscar Awards, it is not a surprise."
+        "label": "Harry Potter becomes the biggest winner at this year’s Oscar Awards, it is not a surprise."
       }
     ]
   },
@@ -357,10 +357,10 @@
     "topic": ["玛吉不打算参加我们的体育俱乐部。"],
     "options": [
       {
-        "label": ".Margie isn’t going to join our sports club.",
+        "label": "Margie isn’t going to join our sports club.",
         "isTrue": true
       },
-      { "label": ".Margie isn’t going to join up our sports club." }
+      { "label": "Margie isn’t going to join up our sports club." }
     ]
   },
   {
@@ -368,50 +368,50 @@
     "topic": ["你曾梦想过成为一名科学家吗？"],
     "options": [
       {
-        "label": ".Have you ever dreamed of becoming a scientist?",
+        "label": "Have you ever dreamed of becoming a scientist?",
         "isTrue": true
       },
-      { "label": ".Do you ever dream of becoming a scientist?" }
+      { "label": "Do you ever dream of becoming a scientist?" }
     ]
   },
   {
     "id": 41,
     "topic": ["这家小酒馆既提供餐食，也提供酒水。"],
     "options": [
-      { "label": ".This pub supplies meals and drinks, too." },
-      { "label": ".This pub serves meals as well as drinks.", "isTrue": true }
+      { "label": "This pub supplies meals and drinks, too." },
+      { "label": "This pub serves meals as well as drinks.", "isTrue": true }
     ]
   },
   {
     "id": 42,
     "topic": ["你去过西班牙吗？"],
     "options": [
-      { "label": ".Have you ever been to Spain?", "isTrue": true },
-      { "label": ".Did you go to Spain?" }
+      { "label": "Have you ever been to Spain?", "isTrue": true },
+      { "label": "Did you go to Spain?" }
     ]
   },
   {
     "id": 43,
     "topic": ["她深受学生喜爱。"],
     "options": [
-      { "label": ".She is popular with students.", "isTrue": true },
-      { "label": ".She is loved deeply by students." }
+      { "label": "She is popular with students.", "isTrue": true },
+      { "label": "She is loved deeply by students." }
     ]
   },
   {
     "id": 44,
     "topic": ["火车十分钟前就到了。"],
     "options": [
-      { "label": ".The train has arrived ten minutes ago." },
-      { "label": ".The train arrived ten minutes ago.", "isTrue": true }
+      { "label": "The train has arrived ten minutes ago." },
+      { "label": "The train arrived ten minutes ago.", "isTrue": true }
     ]
   },
   {
     "id": 45,
     "topic": ["他们只有受到邀请时才会来。"],
     "options": [
-      { "label": ".They will only come if they are invited.", "isTrue": true },
-      { "label": ".They will come if only they are invited." }
+      { "label": "They will only come if they are invited.", "isTrue": true },
+      { "label": "They will come if only they are invited." }
     ]
   },
   {
@@ -419,10 +419,10 @@
     "topic": ["我们在背单词上花费太多的时间。"],
     "options": [
       {
-        "label": ".We spend too much time learning words by heart.",
+        "label": "We spend too much time learning words by heart.",
         "isTrue": true
       },
-      { "label": ".We waste too much time on learning words by heart." }
+      { "label": "We waste too much time on learning words by heart." }
     ]
   },
   {
@@ -430,10 +430,10 @@
     "topic": ["当遇到生词时，我经常查英语词典。"],
     "options": [
       {
-        "label": ".When I come across a new word, I often check an English dictionary."
+        "label": "When I come across a new word, I often check an English dictionary."
       },
       {
-        "label": ".When I come across a new word, I often consult an English dictionary.",
+        "label": "When I come across a new word, I often consult an English dictionary.",
         "isTrue": true
       }
     ]
@@ -442,17 +442,17 @@
     "id": 48,
     "topic": ["你昨晚睡得好吗？"],
     "options": [
-      { "label": ".Did you sleep well last night?", "isTrue": true },
-      { "label": ".Do you sleep well last night?" }
+      { "label": "Did you sleep well last night?", "isTrue": true },
+      { "label": "Do you sleep well last night?" }
     ]
   },
   {
     "id": 49,
     "topic": ["比起他的真名，他的笔名更是众所周知。"],
     "options": [
-      { "label": ".As for his real name, his pen name was more known." },
+      { "label": "As for his real name, his pen name was more known." },
       {
-        "label": ".He was better known for his pen name than for his real name.",
+        "label": "He was better known for his pen name than for his real name.",
         "isTrue": true
       }
     ]
@@ -462,11 +462,11 @@
     "topic": ["他从国外归来后才在一所高校任教师。"],
     "options": [
       {
-        "label": ".He did not work as a teacher in a university until he came back from abroad.",
+        "label": "He did not work as a teacher in a university until he came back from abroad.",
         "isTrue": true
       },
       {
-        "label": ".He worked as a teacher in a university after he came back from abroad."
+        "label": "He worked as a teacher in a university after he came back from abroad."
       }
     ]
   }

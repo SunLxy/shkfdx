@@ -2,1094 +2,686 @@
   {
     "id": 1,
     "topic": ["I ________ every week."],
+    "translate": ["我每周都去游泳。"],
     "options": [
-      {
-        "label": "go swimming",
-        "isTrue": true
-      },
-      {
-        "label": "goes swimming"
-      },
-      {
-        "label": "went swimming"
-      }
+      { "label": "go swimming", "isTrue": true },
+      { "label": "goes swimming" },
+      { "label": "went swimming" }
     ]
   },
   {
     "id": 2,
     "topic": ["I  ________ work yesterday."],
+    "translate": ["我昨天没去上班。"],
     "options": [
-      {
-        "label": "doesn’t go to"
-      },
-      {
-        "label": "didn’t go to",
-        "isTrue": true
-      },
-      {
-        "label": "don’t go to"
-      }
+      { "label": "doesn’t go to" },
+      { "label": "didn’t go to", "isTrue": true },
+      { "label": "don’t go to" }
     ]
   },
   {
     "id": 3,
     "topic": ["________  my father phone me last night?"],
+    "translate": ["我父亲昨晚给我打电话了吗？"],
     "options": [
-      {
-        "label": "Do"
-      },
-      {
-        "label": "Does"
-      },
-      {
-        "label": "Did",
-        "isTrue": true
-      }
+      { "label": "Do" },
+      { "label": "Does" },
+      { "label": "Did", "isTrue": true }
     ]
   },
   {
     "id": 4,
     "topic": ["What ________  in their spare time?"],
     "options": [
-      {
-        "label": "do the students often read",
-        "isTrue": true
-      },
-      {
-        "label": "the students often read"
-      },
-      {
-        "label": "the students do often read"
-      }
-    ]
+      { "label": "do the students often read", "isTrue": true },
+      { "label": "the students often read" },
+      { "label": "the students do often read" }
+    ],
+    "translate": ["学生们在课余时间经常读什么？"]
   },
   {
     "id": 5,
     "topic": ["I was reading the newspaper ________ Joyce came over to chat."],
     "options": [
-      {
-        "label": "at then"
-      },
-      {
-        "label": "when",
-        "isTrue": true
-      },
-      {
-        "label": "where"
-      }
-    ]
+      { "label": "at then" },
+      { "label": "when", "isTrue": true },
+      { "label": "where" }
+    ],
+    "translate": ["乔伊斯过来聊天时，我正在看报纸。"]
   },
   {
     "id": 6,
     "topic": ["I ________ sleep well when I was younger."],
     "options": [
-      {
-        "label": "don’t used to"
-      },
-      {
-        "label": "didn’t used to"
-      },
-      {
-        "label": "didn’t use to",
-        "isTrue": true
-      }
-    ]
+      { "label": "don’t used to" },
+      { "label": "didn’t used to" },
+      { "label": "didn’t use to", "isTrue": true }
+    ],
+    "translate": ["我年轻时睡眠不太好。"]
   },
   {
     "id": 7,
     "topic": ["We ________  everything together, but now we don’t."],
     "options": [
-      {
-        "label": "use todo"
-      },
-      {
-        "label": "used to do",
-        "isTrue": true
-      },
-      {
-        "label": "used do"
-      }
-    ]
+      { "label": "use todo" },
+      { "label": "used to do", "isTrue": true },
+      { "label": "used do" }
+    ],
+    "translate": ["我们过去总是一起做所有事情，但现在不了。"]
   },
   {
     "id": 8,
     "topic": ["There have been a lot of changes ________ 1978."],
     "options": [
-      {
-        "label": "since",
-        "isTrue": true
-      },
-      {
-        "label": "from"
-      },
-      {
-        "label": "for"
-      }
-    ]
+      { "label": "since", "isTrue": true },
+      { "label": "from" },
+      { "label": "for" }
+    ],
+    "translate": ["自1978年以来发生了很多变化。"]
   },
   {
     "id": 9,
     "topic": ["Her brother ________  in the army for three years."],
     "options": [
-      {
-        "label": "have been"
-      },
-      {
-        "label": "has been",
-        "isTrue": true
-      },
-      {
-        "label": "was"
-      }
-    ]
+      { "label": "have been" },
+      { "label": "has been", "isTrue": true },
+      { "label": "was" }
+    ],
+    "translate": ["她哥哥已经在部队服役三年了。"]
   },
   {
     "id": 10,
     "topic": ["I haven’t paid DJ Richard  ________ ."],
     "options": [
-      {
-        "label": "since"
-      },
-      {
-        "label": "already"
-      },
-      {
-        "label": "yet",
-        "isTrue": true
-      }
-    ]
+      { "label": "since" },
+      { "label": "already" },
+      { "label": "yet", "isTrue": true }
+    ],
+    "translate": ["我还没给DJ Richard付钱呢。"]
   },
   {
     "id": 11,
     "topic": ["Last year I often ________ that library."],
     "options": [
-      {
-        "label": "went to",
-        "isTrue": true
-      },
-      {
-        "label": "go to"
-      },
-      {
-        "label": "goes to"
-      }
-    ]
+      { "label": "went to", "isTrue": true },
+      { "label": "go to" },
+      { "label": "goes to" }
+    ],
+    "translate": ["去年我经常去那个图书馆。"]
   },
   {
     "id": 12,
     "topic": ["________ anything wrong with the machine?"],
     "options": [
-      {
-        "label": "Are there"
-      },
-      {
-        "label": "Is there",
-        "isTrue": true
-      },
-      {
-        "label": "Do there"
-      }
-    ]
+      { "label": "Are there" },
+      { "label": "Is there", "isTrue": true },
+      { "label": "Do there" }
+    ],
+    "translate": ["这台机器有什么问题吗？"]
   },
   {
     "id": 13,
     "topic": ["Who  ________ gave you those flowers?"],
     "options": [
-      {
-        "label": "/",
-        "isTrue": true
-      },
-      {
-        "label": "do"
-      },
-      {
-        "label": "did"
-      }
-    ]
+      { "label": "/", "isTrue": true },
+      { "label": "do" },
+      { "label": "did" }
+    ],
+    "translate": ["谁给你的那些花？"]
   },
   {
     "id": 14,
     "topic": ["I  ________ some drinks when I noticed this woman."],
     "options": [
-      {
-        "label": "am making"
-      },
-      {
-        "label": "make"
-      },
-      {
-        "label": "was making",
-        "isTrue": true
-      }
-    ]
+      { "label": "am making" },
+      { "label": "make" },
+      { "label": "was making", "isTrue": true }
+    ],
+    "translate": ["我注意到这个女人时，正在做一些饮料。"]
   },
   {
     "id": 15,
     "topic": ["Did you ________ play basketball?"],
     "options": [
-      {
-        "label": "use to",
-        "isTrue": true
-      },
-      {
-        "label": "used to"
-      },
-      {
-        "label": "be used to"
-      }
-    ]
+      { "label": "use to", "isTrue": true },
+      { "label": "used to" },
+      { "label": "be used to" }
+    ],
+    "translate": ["你过去常打篮球吗？"]
   },
   {
     "id": 16,
     "topic": ["She has just ________ Shanghai."],
     "options": [
-      {
-        "label": "went to"
-      },
-      {
-        "label": "gone to",
-        "isTrue": true
-      },
-      {
-        "label": "go to"
-      }
-    ]
+      { "label": "went to" },
+      { "label": "gone to", "isTrue": true },
+      { "label": "go to" }
+    ],
+    "translate": ["她刚去上海了。"]
   },
   {
     "id": 17,
     "topic": ["You ________ borrow my bike tomorrow."],
     "options": [
-      {
-        "label": "must"
-      },
-      {
-        "label": "can",
-        "isTrue": true
-      },
-      {
-        "label": "should"
-      }
-    ]
+      { "label": "must" },
+      { "label": "can", "isTrue": true },
+      { "label": "should" }
+    ],
+    "translate": ["你明天可以借我的自行车。"]
   },
   {
     "id": 18,
     "topic": ["You ________ go there."],
     "options": [
-      {
-        "label": "don’t have to",
-        "isTrue": true
-      },
-      {
-        "label": "need not to"
-      },
-      {
-        "label": "don’t need"
-      }
-    ]
+      { "label": "don’t have to", "isTrue": true },
+      { "label": "need not to" },
+      { "label": "don’t need" }
+    ],
+    "translate": ["你不必去那里。"]
   },
   {
     "id": 19,
     "topic": ["The nights ________ be cold."],
     "options": [
-      {
-        "label": "are"
-      },
-      {
-        "label": "should"
-      },
-      {
-        "label": "will",
-        "isTrue": true
-      }
-    ]
+      { "label": "are" },
+      { "label": "should" },
+      { "label": "will", "isTrue": true }
+    ],
+    "translate": ["夜晚会很冷。"]
   },
   {
     "id": 20,
     "topic": ["Hurry up,________ we’ll be late."],
     "options": [
-      {
-        "label": "or",
-        "isTrue": true
-      },
-      {
-        "label": "and"
-      },
-      {
-        "label": "but"
-      }
-    ]
+      { "label": "or", "isTrue": true },
+      { "label": "and" },
+      { "label": "but" }
+    ],
+    "translate": ["快点，否则我们要迟到了。"]
   },
   {
     "id": 21,
-    "topic": ["I ________go to the party."],
+    "topic": ["I ________ go to the party."],
     "options": [
-      {
-        "label": "might not",
-        "isTrue": true
-      },
-      {
-        "label": "not might"
-      },
-      {
-        "label": "mustn’t"
-      }
-    ]
+      { "label": "might not", "isTrue": true },
+      { "label": "not might" },
+      { "label": "mustn’t" }
+    ],
+    "translate": ["我可能不会去参加聚会。"]
   },
   {
     "id": 22,
     "topic": ["He ________ be ill. He looks so pale."],
     "options": [
-      {
-        "label": "can"
-      },
-      {
-        "label": "must",
-        "isTrue": true
-      },
-      {
-        "label": "mustn’t"
-      }
-    ]
+      { "label": "can" },
+      { "label": "must", "isTrue": true },
+      { "label": "mustn’t" }
+    ],
+    "translate": ["他一定是病了。他看起来脸色很苍白。"]
   },
   {
     "id": 23,
-    "topic": ["I can’t promise you       ."],
+    "topic": ["I can’t promise you ________ ."],
     "options": [
-      {
-        "label": "something"
-      },
-      {
-        "label": "anything",
-        "isTrue": true
-      },
-      {
-        "label": "nothing"
-      }
-    ]
+      { "label": "something" },
+      { "label": "anything", "isTrue": true },
+      { "label": "nothing" }
+    ],
+    "translate": ["我不能向你承诺任何事情。"]
   },
   {
     "id": 24,
     "topic": ["Jim is ________ Jack."],
     "options": [
-      {
-        "label": "as tall than"
-      },
-      {
-        "label": "as taller as"
-      },
-      {
-        "label": "as tall as",
-        "isTrue": true
-      }
-    ]
+      { "label": "as tall than" },
+      { "label": "as taller as" },
+      { "label": "as tall as", "isTrue": true }
+    ],
+    "translate": ["吉姆和杰克一样高。"]
   },
   {
     "id": 25,
     "topic": ["He is ________ boy in our class."],
     "options": [
-      {
-        "label": "the tallest",
-        "isTrue": true
-      },
-      {
-        "label": "the most tall"
-      },
-      {
-        "label": "a tallest"
-      }
-    ]
+      { "label": "the tallest", "isTrue": true },
+      { "label": "the most tall" },
+      { "label": "a tallest" }
+    ],
+    "translate": ["他是我们班最高的男孩。"]
   },
   {
     "id": 26,
-    "topic": ["________you don’t know the answer, ask me."],
+    "topic": ["________ you don’t know the answer, ask me."],
     "options": [
-      {
-        "label": "Since"
-      },
-      {
-        "label": "Because"
-      },
-      {
-        "label": "If",
-        "isTrue": true
-      }
-    ]
+      { "label": "Since" },
+      { "label": "Because" },
+      { "label": "If", "isTrue": true }
+    ],
+    "translate": ["如果你不知道答案，就问我。"]
   },
   {
     "id": 27,
     "topic": ["You ________ smoke here."],
     "options": [
-      {
-        "label": "mustn’t",
-        "isTrue": true
-      },
-      {
-        "label": "needn’t"
-      },
-      {
-        "label": "don’t"
-      }
-    ]
+      { "label": "mustn’t", "isTrue": true },
+      { "label": "needn’t" },
+      { "label": "don’t" }
+    ],
+    "translate": ["你不能在这里吸烟。"]
   },
   {
     "id": 28,
-    "topic": ["________Paris tonight. Look -- here’s the plane ticket."],
+    "topic": ["________ Paris tonight. Look -- here’s the plane ticket."],
     "options": [
-      {
-        "label": "I’m flying to",
-        "isTrue": true
-      },
-      {
-        "label": "fly to"
-      },
-      {
-        "label": "can fly to"
-      }
-    ]
+      { "label": "I’m flying to", "isTrue": true },
+      { "label": "fly to" },
+      { "label": "can fly to" }
+    ],
+    "translate": ["我今晚要飞往巴黎。看——这是机票。"]
   },
   {
     "id": 29,
     "topic": ["My car consumes ________ gas than hers."],
     "options": [
-      {
-        "label": "few"
-      },
-      {
-        "label": "less",
-        "isTrue": true
-      },
-      {
-        "label": "little"
-      }
-    ]
+      { "label": "few" },
+      { "label": "less", "isTrue": true },
+      { "label": "little" }
+    ],
+    "translate": ["我的车比她的车耗油少。"]
   },
   {
     "id": 30,
-    "topic": ["Mary has more books ______ her brother."],
+    "topic": ["Mary has more books ________ her brother."],
     "options": [
-      {
-        "label": "as"
-      },
-      {
-        "label": "like"
-      },
-      {
-        "label": "than",
-        "isTrue": true
-      }
-    ]
+      { "label": "as" },
+      { "label": "like" },
+      { "label": "than", "isTrue": true }
+    ],
+    "translate": ["玛丽比她哥哥的书多。"]
   },
   {
     "id": 31,
     "topic": ["He is ________ of the five brothers."],
     "options": [
-      {
-        "label": "the younger"
-      },
-      {
-        "label": "the youngest",
-        "isTrue": true
-      },
-      {
-        "label": "the most young"
-      }
-    ]
+      { "label": "the younger" },
+      { "label": "the youngest", "isTrue": true },
+      { "label": "the most young" }
+    ],
+    "translate": ["他是五兄弟中最小的。"]
   },
   {
     "id": 32,
     "topic": ["If it rains, I ________ stay at home."],
     "options": [
-      {
-        "label": "will",
-        "isTrue": true
-      },
-      {
-        "label": "might"
-      },
-      {
-        "label": "must"
-      }
-    ]
+      { "label": "will", "isTrue": true },
+      { "label": "might" },
+      { "label": "must" }
+    ],
+    "translate": ["如果下雨，我就待在家里。"]
   },
   {
     "id": 33,
-    "topic": ["My car________outside the school yesterday."],
+    "topic": ["My car ________ outside the school yesterday."],
     "options": [
-      {
-        "label": "is parking"
-      },
-      {
-        "label": "was park"
-      },
-      {
-        "label": "was parked",
-        "isTrue": true
-      }
-    ]
+      { "label": "is parking" },
+      { "label": "was park" },
+      { "label": "was parked", "isTrue": true }
+    ],
+    "translate": ["我的车昨天停在学校外面。"]
   },
   {
     "id": 34,
-    "topic": ["I’ve________ bought a new house."],
+    "topic": ["I’ve ________ bought a new house."],
     "options": [
-      {
-        "label": "just",
-        "isTrue": true
-      },
-      {
-        "label": "yet"
-      },
-      {
-        "label": "really"
-      }
-    ]
+      { "label": "just", "isTrue": true },
+      { "label": "yet" },
+      { "label": "really" }
+    ],
+    "translate": ["我刚买了一栋新房子。"]
   },
   {
     "id": 35,
-    "topic": ["When we got there, the basketball match  _____."],
+    "topic": ["When we got there, the basketball match  ________."],
     "options": [
-      {
-        "label": "has already started"
-      },
-      {
-        "label": "had already started",
-        "isTrue": true
-      },
-      {
-        "label": "had already starting"
-      }
-    ]
+      { "label": "has already started" },
+      { "label": "had already started", "isTrue": true },
+      { "label": "had already starting" }
+    ],
+    "translate": ["当我们到达那里时，篮球比赛已经开始了。"]
   },
   {
     "id": 36,
-    "topic": ["They were warmly  _____  by the local people."],
+    "topic": ["They were warmly  ________ by the local people."],
     "options": [
-      {
-        "label": "welcomed",
-        "isTrue": true
-      },
-      {
-        "label": "welcome"
-      },
-      {
-        "label": "welcoming"
-      }
-    ]
+      { "label": "welcomed", "isTrue": true },
+      { "label": "welcome" },
+      { "label": "welcoming" }
+    ],
+    "translate": ["他们受到了当地人的热烈欢迎。"]
   },
   {
     "id": 37,
     "topic": ["If I ________ you, I would refuse the money."],
     "options": [
-      {
-        "label": "am"
-      },
-      {
-        "label": "was"
-      },
-      {
-        "label": "were",
-        "isTrue": true
-      }
-    ]
+      { "label": "am" },
+      { "label": "was" },
+      { "label": "were", "isTrue": true }
+    ],
+    "translate": ["如果我是你，我会拒绝这笔钱。"]
   },
   {
     "id": 38,
-    "topic": ["If you dropped the glass, it        break."],
+    "topic": ["If you dropped the glass, it ________ break."],
     "options": [
-      {
-        "label": "will"
-      },
-      {
-        "label": "would",
-        "isTrue": true
-      },
-      {
-        "label": "can"
-      }
-    ]
+      { "label": "will" },
+      { "label": "would", "isTrue": true },
+      { "label": "can" }
+    ],
+    "translate": ["如果你把玻璃杯掉下去，它会碎的。"]
   },
   {
     "id": 39,
     "topic": ["He told me that he ________  me a special present."],
     "options": [
-      {
-        "label": "will buy"
-      },
-      {
-        "label": "would bought"
-      },
-      {
-        "label": "had bought",
-        "isTrue": true
-      }
-    ]
+      { "label": "will buy" },
+      { "label": "would bought" },
+      { "label": "had bought", "isTrue": true }
+    ],
+    "translate": ["他告诉我他给我买了一份特别的礼物。"]
   },
   {
     "id": 40,
     "topic": ["This house ________ last year."],
     "options": [
-      {
-        "label": "was built",
-        "isTrue": true
-      },
-      {
-        "label": "is built"
-      },
-      {
-        "label": "was build"
-      }
-    ]
+      { "label": "was built", "isTrue": true },
+      { "label": "is built" },
+      { "label": "was build" }
+    ],
+    "translate": ["这栋房子是去年建的。"]
   },
   {
     "id": 41,
     "topic": [
-      "the end of that year, Henry had collected more than a thousand foreign stamps."
+      "________ the end of that year, Henry had collected more than a thousand foreign stamps."
     ],
     "options": [
-      {
-        "label": "On"
-      },
-      {
-        "label": "At"
-      },
-      {
-        "label": "By",
-        "isTrue": true
-      }
-    ]
+      { "label": "On" },
+      { "label": "At" },
+      { "label": "By", "isTrue": true }
+    ],
+    "translate": ["到那年年底，亨利已经收集了一千多张外国邮票。"]
   },
   {
     "id": 42,
     "topic": ["She said that she ________ about her date."],
     "options": [
-      {
-        "label": "was really excited",
-        "isTrue": true
-      },
-      {
-        "label": "was really exciting"
-      },
-      {
-        "label": "is really excited"
-      }
-    ]
+      { "label": "was really excited", "isTrue": true },
+      { "label": "was really exciting" },
+      { "label": "is really excited" }
+    ],
+    "translate": ["她说她对自己的约会感到非常兴奋。"]
   },
   {
     "id": 43,
-    "topic": ["Jenny        a day’s work."],
+    "topic": ["Jenny  ________  a day’s work."],
     "options": [
-      {
-        "label": "already has done"
-      },
-      {
-        "label": "has already done",
-        "isTrue": true
-      },
-      {
-        "label": "has done already"
-      }
-    ]
+      { "label": "already has done" },
+      { "label": "has already done", "isTrue": true },
+      { "label": "has done already" }
+    ],
+    "translate": ["珍妮已经做完了一天的工作。"]
   },
   {
     "id": 44,
     "topic": ["The song was composed ________ an 8-year-old boy."],
     "options": [
-      {
-        "label": "with"
-      },
-      {
-        "label": "at"
-      },
-      {
-        "label": "by",
-        "isTrue": true
-      }
-    ]
+      { "label": "with" },
+      { "label": "at" },
+      { "label": "by", "isTrue": true }
+    ],
+    "translate": ["这首歌是一个8岁男孩创作的。"]
   },
   {
     "id": 45,
     "topic": ["He said that he ________ her the day before."],
     "options": [
-      {
-        "label": "saw"
-      },
-      {
-        "label": "have seen"
-      },
-      {
-        "label": "had seen",
-        "isTrue": true
-      }
-    ]
+      { "label": "saw" },
+      { "label": "have seen" },
+      { "label": "had seen", "isTrue": true }
+    ],
+    "translate": ["他说他前一天见过她。"]
   },
   {
     "id": 46,
     "topic": ["I met an old friend of mine________."],
     "options": [
-      {
-        "label": "on my way home",
-        "isTrue": true
-      },
-      {
-        "label": "on way home"
-      },
-      {
-        "label": "on my way to home"
-      }
-    ]
+      { "label": "on my way home", "isTrue": true },
+      { "label": "on way home" },
+      { "label": "on my way to home" }
+    ],
+    "translate": ["我在回家的路上遇到了我的一位老朋友。"]
   },
   {
     "id": 47,
     "topic": ["He went ________."],
     "options": [
-      {
-        "label": "to upstairs"
-      },
-      {
-        "label": "upstairs",
-        "isTrue": true
-      },
-      {
-        "label": "stair up"
-      }
-    ]
+      { "label": "to upstairs" },
+      { "label": "upstairs", "isTrue": true },
+      { "label": "stair up" }
+    ],
+    "translate": ["他上楼去了。"]
   },
   {
     "id": 48,
     "topic": ["He has an ________ jacket."],
     "options": [
-      {
-        "label": "black old leather"
-      },
-      {
-        "label": "leather old black"
-      },
-      {
-        "label": "old black leather",
-        "isTrue": true
-      }
-    ]
+      { "label": "black old leather" },
+      { "label": "leather old black" },
+      { "label": "old black leather", "isTrue": true }
+    ],
+    "translate": ["他有一件旧的黑色皮夹克。"]
   },
   {
     "id": 49,
     "topic": ["The film ________ I saw last night is about a young teacher."],
     "options": [
-      {
-        "label": "which",
-        "isTrue": true
-      },
-      {
-        "label": "who"
-      },
-      {
-        "label": "what"
-      }
-    ]
+      { "label": "which", "isTrue": true },
+      { "label": "who" },
+      { "label": "what" }
+    ],
+    "translate": ["我昨晚看的那部电影是关于一位年轻教师的。"]
   },
   {
     "id": 50,
     "topic": ["He is sorry ________ the news."],
     "options": [
-      {
-        "label": "hear"
-      },
-      {
-        "label": "to hear",
-        "isTrue": true
-      },
-      {
-        "label": "that hear"
-      }
-    ]
+      { "label": "hear" },
+      { "label": "to hear", "isTrue": true },
+      { "label": "that hear" }
+    ],
+    "translate": ["他听到这个消息感到很难过。"]
   },
   {
     "id": 51,
     "topic": ["My grandpa is wearing a ________ belt."],
     "options": [
-      {
-        "label": "red long plastic"
-      },
-      {
-        "label": "long plastic red"
-      },
-      {
-        "label": "long red plastic",
-        "isTrue": true
-      }
-    ]
+      { "label": "red long plastic" },
+      { "label": "long plastic red" },
+      { "label": "long red plastic", "isTrue": true }
+    ],
+    "translate": ["我爷爷戴着一条长长的红色塑料腰带。"]
   },
   {
     "id": 52,
     "topic": ["We have friends all over ________ world."],
     "options": [
-      {
-        "label": "the",
-        "isTrue": true
-      },
-      {
-        "label": "a"
-      },
-      {
-        "label": "/"
-      }
-    ]
+      { "label": "the", "isTrue": true },
+      { "label": "a" },
+      { "label": "/" }
+    ],
+    "translate": ["我们在世界各地都有朋友。"]
   },
   {
     "id": 53,
     "topic": ["I asked him how he liked ________ Paris."],
     "options": [
-      {
-        "label": "a"
-      },
-      {
-        "label": "the"
-      },
-      {
-        "label": "/",
-        "isTrue": true
-      }
-    ]
+      { "label": "a" },
+      { "label": "the" },
+      { "label": "/", "isTrue": true }
+    ],
+    "translate": ["我问他觉得巴黎怎么样。"]
   },
   {
     "id": 54,
     "topic": ["There must be life out there ________."],
     "options": [
-      {
-        "label": "anywhere"
-      },
-      {
-        "label": "somewhere",
-        "isTrue": true
-      },
-      {
-        "label": "everywhere"
-      }
-    ]
+      { "label": "anywhere" },
+      { "label": "somewhere", "isTrue": true },
+      { "label": "everywhere" }
+    ],
+    "translate": ["宇宙中某个地方一定有生命存在。"]
   },
   {
     "id": 55,
-    "topic": ["I hate ________bright colours like red and yellow."],
+    "topic": ["I hate ________ bright colours like red and yellow."],
     "options": [
-      {
-        "label": "wearing",
-        "isTrue": true
-      },
-      {
-        "label": "to wear"
-      },
-      {
-        "label": "wear"
-      }
-    ]
+      { "label": "wearing", "isTrue": true },
+      { "label": "to wear" },
+      { "label": "wear" }
+    ],
+    "translate": ["我讨厌穿像红色和黄色这样鲜艳的颜色。"]
   },
   {
     "id": 56,
-    "topic": ["The ________have a lot of time to do their own research work."],
+    "topic": ["The ________ have a lot of time to do their own research work."],
     "options": [
-      {
-        "label": "there students"
-      },
-      {
-        "label": "students there",
-        "isTrue": true
-      },
-      {
-        "label": "there are students"
-      }
-    ]
+      { "label": "there students" },
+      { "label": "students there", "isTrue": true },
+      { "label": "there are students" }
+    ],
+    "translate": ["那里的学生有很多时间做自己的研究工作。"]
   },
   {
     "id": 57,
-    "topic": ["I ________him singing."],
+    "topic": ["I ________ him singing."],
     "options": [
-      {
-        "label": "have never heard",
-        "isTrue": true
-      },
-      {
-        "label": "never have heard"
-      },
-      {
-        "label": "have heard never"
-      }
-    ]
+      { "label": "have never heard", "isTrue": true },
+      { "label": "never have heard" },
+      { "label": "have heard never" }
+    ],
+    "translate": ["我从未听过他唱歌。"]
   },
   {
     "id": 58,
-    "topic": ["The old man walked home________."],
+    "topic": ["The old man walked home ________ ."],
     "options": [
-      {
-        "label": "slow"
-      },
-      {
-        "label": "slower"
-      },
-      {
-        "label": "slowly",
-        "isTrue": true
-      }
-    ]
+      { "label": "slow" },
+      { "label": "slower" },
+      { "label": "slowly", "isTrue": true }
+    ],
+    "translate": ["老人慢慢地走回家。"]
   },
   {
     "id": 59,
     "topic": ["He often comes to school ________."],
     "options": [
-      {
-        "label": "late",
-        "isTrue": true
-      },
-      {
-        "label": "lately"
-      },
-      {
-        "label": "in late"
-      }
-    ]
+      { "label": "late", "isTrue": true },
+      { "label": "lately" },
+      { "label": "in late" }
+    ],
+    "translate": ["他经常上学迟到。"]
   },
   {
     "id": 60,
-    "topic": ["The girl ________answered the phone was polite enough."],
+    "topic": ["The girl ________ answered the phone was polite enough."],
     "options": [
-      {
-        "label": "which"
-      },
-      {
-        "label": "that",
-        "isTrue": true
-      },
-      {
-        "label": "what"
-      }
-    ]
+      { "label": "which" },
+      { "label": "that", "isTrue": true },
+      { "label": "what" }
+    ],
+    "translate": ["接电话的那个女孩很有礼貌。"]
   },
   {
     "id": 61,
     "topic": ["Your shoes need ________."],
     "options": [
-      {
-        "label": "polish"
-      },
-      {
-        "label": "polished"
-      },
-      {
-        "label": "polishing",
-        "isTrue": true
-      }
-    ]
+      { "label": "polish" },
+      { "label": "polished" },
+      { "label": "polishing", "isTrue": true }
+    ],
+    "translate": ["你的鞋子需要擦亮了。"]
   },
   {
     "id": 62,
     "topic": ["________ abroad can be very exciting."],
     "options": [
-      {
-        "label": "Travelling",
-        "isTrue": true
-      },
-      {
-        "label": "Travel"
-      },
-      {
-        "label": "Travelled"
-      }
-    ]
+      { "label": "Travelling", "isTrue": true },
+      { "label": "Travel" },
+      { "label": "Travelled" }
+    ],
+    "translate": ["出国旅行可能会非常令人兴奋。"]
   },
   {
     "id": 63,
-    "topic": ["I enjoy ________with you."],
+    "topic": ["I enjoy ________ with you."],
     "options": [
-      {
-        "label": "work"
-      },
-      {
-        "label": "to work"
-      },
-      {
-        "label": "working",
-        "isTrue": true
-      }
-    ]
+      { "label": "work" },
+      { "label": "to work" },
+      { "label": "working", "isTrue": true }
+    ],
+    "translate": ["我喜欢和你一起工作。"]
   },
   {
     "id": 64,
     "topic": ["I found my ________ paintings."],
     "options": [
-      {
-        "label": "two first small oil"
-      },
-      {
-        "label": "first two small oil",
-        "isTrue": true
-      },
-      {
-        "label": "first small two oil"
-      }
-    ]
+      { "label": "two first small oil" },
+      { "label": "first two small oil", "isTrue": true },
+      { "label": "first small two oil" }
+    ],
+    "translate": ["我找到了我的前两幅小油画。"]
   },
   {
     "id": 65,
     "topic": ["I considered ________ better not to go."],
     "options": [
-      {
-        "label": "it",
-        "isTrue": true
-      },
-      {
-        "label": "that"
-      },
-      {
-        "label": "/"
-      }
-    ]
+      { "label": "it", "isTrue": true },
+      { "label": "that" },
+      { "label": "/" }
+    ],
+    "translate": ["我认为最好不去。"]
   },
   {
     "id": 66,
     "topic": ["I would like ________ more money on clothes."],
     "options": [
-      {
-        "label": "spending"
-      },
-      {
-        "label": "to spend",
-        "isTrue": true
-      },
-      {
-        "label": "spend"
-      }
-    ]
+      { "label": "spending" },
+      { "label": "to spend", "isTrue": true },
+      { "label": "spend" }
+    ],
+    "translate": ["我想在衣服上多花点钱。"]
   },
   {
     "id": 67,
     "topic": [
-      "She has two cats. ________big cat is white, and ________ small one is black."
+      "She has two cats. ________ big cat is white, and ________ small one is black."
     ],
     "options": [
-      {
-        "label": "the, a"
-      },
-      {
-        "label": "A, the"
-      },
-      {
-        "label": "The, the",
-        "isTrue": true
-      }
-    ]
+      { "label": "the, a" },
+      { "label": "A, the" },
+      { "label": "The, the", "isTrue": true }
+    ],
+    "translate": ["她有两只猫。大猫是白色的，小猫是黑色的。"]
   },
   {
     "id": 68,
     "topic": ["________ is power."],
     "options": [
-      {
-        "label": "The knowledge"
-      },
-      {
-        "label": "Knowledge",
-        "isTrue": true
-      },
-      {
-        "label": "knowledge"
-      }
-    ]
+      { "label": "The knowledge" },
+      { "label": "Knowledge", "isTrue": true },
+      { "label": "knowledge" }
+    ],
+    "translate": ["知识就是力量。"]
   },
   {
     "id": 69,
@@ -1097,112 +689,70 @@
       "We ________ visit our friends in Germany in April. They invited us last week."
     ],
     "options": [
-      {
-        "label": "are going to",
-        "isTrue": true
-      },
-      {
-        "label": "will"
-      },
-      {
-        "label": "are about to"
-      }
-    ]
+      { "label": "are going to", "isTrue": true },
+      { "label": "will" },
+      { "label": "are about to" }
+    ],
+    "translate": ["我们打算四月份去德国看望我们的朋友。他们上周邀请了我们。"]
   },
   {
     "id": 70,
-    "topic": ["The weather is________ than it was yesterday."],
+    "topic": ["The weather is ________ than it was yesterday."],
     "options": [
-      {
-        "label": "more bad"
-      },
-      {
-        "label": "more worse"
-      },
-      {
-        "label": "worse",
-        "isTrue": true
-      }
-    ]
+      { "label": "more bad" },
+      { "label": "more worse" },
+      { "label": "worse", "isTrue": true }
+    ],
+    "translate": ["天气比昨天更糟了。"]
   },
   {
     "id": 71,
-    "topic": ["It is one of the best concerts I________."],
+    "topic": ["It is one of the best concerts I ________ ."],
     "options": [
-      {
-        "label": "went to"
-      },
-      {
-        "label": "have ever been to",
-        "isTrue": true
-      },
-      {
-        "label": "had gone to"
-      }
-    ]
+      { "label": "went to" },
+      { "label": "have ever been to", "isTrue": true },
+      { "label": "had gone to" }
+    ],
+    "translate": ["这是我去过的最好的音乐会之一。"]
   },
   {
     "id": 72,
-    "topic": ["China is no longer what it________."],
+    "topic": ["China is no longer what it ________ ."],
     "options": [
-      {
-        "label": "used to be",
-        "isTrue": true
-      },
-      {
-        "label": "was used to being"
-      },
-      {
-        "label": "used to being"
-      }
-    ]
+      { "label": "used to be", "isTrue": true },
+      { "label": "was used to being" },
+      { "label": "used to being" }
+    ],
+    "translate": ["中国已不再是过去的样子了。"]
   },
   {
     "id": 73,
-    "topic": ["The workers are busy________models for the exhibition."],
+    "topic": ["The workers are busy ________ models for the exhibition."],
     "options": [
-      {
-        "label": "to make"
-      },
-      {
-        "label": "with making"
-      },
-      {
-        "label": "making",
-        "isTrue": true
-      }
-    ]
+      { "label": "to make" },
+      { "label": "with making" },
+      { "label": "making", "isTrue": true }
+    ],
+    "translate": ["工人们正忙着为展览制作模型。"]
   },
   {
     "id": 74,
-    "topic": ["________you change your mind, I won’t be able to help you."],
+    "topic": ["________ you change your mind, I won’t be able to help you."],
     "options": [
-      {
-        "label": "When"
-      },
-      {
-        "label": "Unless",
-        "isTrue": true
-      },
-      {
-        "label": "While"
-      }
-    ]
+      { "label": "When" },
+      { "label": "Unless", "isTrue": true },
+      { "label": "While" }
+    ],
+    "translate": ["除非你改变主意，否则我无法帮助你。"]
   },
   {
     "id": 75,
-    "topic": ["I have taken many photos. I’m going to get the film________."],
+    "topic": ["I have taken many photos. I’m going to get the film ________."],
     "options": [
-      {
-        "label": "developed",
-        "isTrue": true
-      },
-      {
-        "label": "developing"
-      },
-      {
-        "label": "to be developed"
-      }
-    ]
+      { "label": "developed", "isTrue": true },
+      { "label": "developing" },
+      { "label": "to be developed" }
+    ],
+    "translate": ["我拍了很多照片。我打算把胶卷冲洗出来。"]
   }
 ]
