@@ -1,0 +1,396 @@
+[
+  {
+    "id": 1,
+    "topic": ["安装______是使用WWW最基本的条件。"],
+    "options": [
+      {
+        "label": "浏览器",
+        "isTrue": true
+      },
+      {
+        "label": "IE"
+      },
+      {
+        "label": "操作系统"
+      },
+      {
+        "label": "Dreamweaver"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": ["网页制作的超文本标记语言称为______。"],
+    "options": [
+      {
+        "label": "VB语言"
+      },
+      {
+        "label": "HTML语言",
+        "isTrue": true
+      },
+      {
+        "label": "BASIC语言"
+      },
+      {
+        "label": "ASCII"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["下面可以用来做HTML代码编辑器的是______。"],
+    "options": [
+      {
+        "label": "Photoshop"
+      },
+      {
+        "label": "flash"
+      },
+      {
+        "label": "以上都不可以"
+      },
+      {
+        "label": "记事本程序",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": ["下面的协议是超文本传输协议的是______。"],
+    "options": [
+      {
+        "label": "http",
+        "isTrue": true
+      },
+      {
+        "label": "ftp"
+      },
+      {
+        "label": "gopher"
+      },
+      {
+        "label": "news"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": ["下面在Dreamweaver中,对对象进行编辑的说法正确的是______。"],
+    "options": [
+      {
+        "label": "只能手动代码编辑"
+      },
+      {
+        "label": "只能进行可视化编辑"
+      },
+      {
+        "label": "可以手动代码编辑也可以进行可视化编辑",
+        "isTrue": true
+      },
+      {
+        "label": "以上说法都错"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["通常一个站点的主页默认文档名是______。"],
+    "options": [
+      {
+        "label": "Index.html",
+        "isTrue": true
+      },
+      {
+        "label": "Main.html"
+      },
+      {
+        "label": "Webpage.html"
+      },
+      {
+        "label": "Homepage.html"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["HTTP协议是______。"],
+    "options": [
+      {
+        "label": "超文本传输协议",
+        "isTrue": true
+      },
+      {
+        "label": "邮件协议"
+      },
+      {
+        "label": "远程登录协议"
+      },
+      {
+        "label": "文件传输协议"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["下列关于IP地址和域名的叙述中，正确的是______。"],
+    "options": [
+      {
+        "label": "接入互联网的计算机都必须要有域名"
+      },
+      {
+        "label": "域名必须以“www”开头"
+      },
+      {
+        "label": "一个域名一般只对应一个IP地址",
+        "isTrue": true
+      },
+      {
+        "label": "网关是管理IP地址和域名的设备"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": ["______ 是国别代码。"],
+    "options": [
+      {
+        "label": "center"
+      },
+      {
+        "label": "nbu"
+      },
+      {
+        "label": "edu"
+      },
+      {
+        "label": "cn",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "在网页设计中，________是所有页面的重中之重，是一个网站的灵魂所在。"
+    ],
+    "options": [
+      {
+        "label": "引导页"
+      },
+      {
+        "label": "脚本页面"
+      },
+      {
+        "label": "导航栏"
+      },
+      {
+        "label": "主页面",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["目前在internet上应用最为广泛的服务是___________。"],
+    "options": [
+      {
+        "label": "FTP服务"
+      },
+      {
+        "label": "WWW服务",
+        "isTrue": true
+      },
+      {
+        "label": "Telnet服务"
+      },
+      {
+        "label": "Gopher服务"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["在客户端网页脚本语言中最通用的是_____________。"],
+    "options": [
+      {
+        "label": "JavaScript",
+        "isTrue": true
+      },
+      {
+        "label": "VB"
+      },
+      {
+        "label": "Perl"
+      },
+      {
+        "label": "ASP"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": ["URL是用于完整地描述网页和资源的标识方法，它不包括________。"],
+    "options": [
+      {
+        "label": "协议"
+      },
+      {
+        "label": "主机名"
+      },
+      {
+        "label": "邮政编码",
+        "isTrue": true
+      },
+      {
+        "label": "路径"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": [
+      "下述的URL中代表协议的是_______。",
+      "http://zh.wikipedia.org:80/wiki/Special:Search?search=铁路&go=Go"
+    ],
+    "options": [
+      {
+        "label": "http",
+        "isTrue": true
+      },
+      {
+        "label": "zh.wikipedia.org"
+      },
+      {
+        "label": "80"
+      },
+      {
+        "label": "/wiki/Special:Search"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": [
+      "下述的URL中代表网络端口号的是_______。",
+      "http://zh.wikipedia.org:80/wiki/Special:Search?search=铁路&go=Go"
+    ],
+    "options": [
+      {
+        "label": "http"
+      },
+      {
+        "label": "zh.wikipedia.org"
+      },
+      {
+        "label": "80",
+        "isTrue": true
+      },
+      {
+        "label": "/wiki/Special:Search"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": [
+      "下述的URL中代表服务器的是_______。",
+      "http://zh.wikipedia.org:80/wiki/Special:Search?search=铁路&go=Go"
+    ],
+    "options": [
+      {
+        "label": "http"
+      },
+      {
+        "label": "zh.wikipedia.org",
+        "isTrue": true
+      },
+      {
+        "label": "80"
+      },
+      {
+        "label": "/wiki/Special:Search"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": [
+      "下述的URL中代表路径的是_______。",
+      "http://zh.wikipedia.org:80/wiki/Special:Search?search=铁路&go=Go"
+    ],
+    "options": [
+      {
+        "label": "http"
+      },
+      {
+        "label": "zh.wikipedia.org"
+      },
+      {
+        "label": "80"
+      },
+      {
+        "label": "/wiki/Special:Search",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": ["关于URL中端口号的说明，正确的表述是_______。"],
+    "options": [
+      {
+        "label": "URL中不可以有端口号"
+      },
+      {
+        "label": "URL中一定要标明端口号"
+      },
+      {
+        "label": "URL中可以标明端口号，也可以不标明端口号",
+        "isTrue": true
+      },
+      {
+        "label": "以上都是正确的"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": ["以下有关URL中协议的说明，哪个是正确的_______。"],
+    "options": [
+      {
+        "label": "大多数浏览器不要求用户输入URL中的协议部分",
+        "isTrue": true
+      },
+      {
+        "label": "大多数浏览器不能识别不包含协议部分的URL网页"
+      },
+      {
+        "label": "如果URL中不包含协议部分，浏览器将缺省使用mail协议"
+      },
+      {
+        "label": "以上的说法都是错误"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": ["下面所列的软件中，哪个不是美化网页的基本工具________。"],
+    "options": [
+      {
+        "label": "Photoshop"
+      },
+      {
+        "label": "Fireworks"
+      },
+      {
+        "label": "Flash",
+        "isTrue": true
+      },
+      {
+        "label": "excel"
+      }
+    ]
+  }
+]

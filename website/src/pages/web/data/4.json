@@ -1,0 +1,867 @@
+[
+  {
+    "id": 1,
+    "topic": ["在Dreamweaver中不能将文本添加到文档的方法有_____。"],
+    "options": [
+      {
+        "label": "直接在Dreamweaver 中打开文本文件",
+        "isTrue": true
+      },
+      {
+        "label": "直接在文档窗口键入文本"
+      },
+      {
+        "label": "从现有的文本文档中拷贝和粘贴"
+      },
+      {
+        "label": "导入Microsoft Word 内容"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": ["在Dreamweaver中，输入空格需同时按下_____键"],
+    "options": [
+      {
+        "label": "Alt+ Shift+空格"
+      },
+      {
+        "label": "Shift+空格"
+      },
+      {
+        "label": "Ctrl+空格"
+      },
+      {
+        "label": "Ctrl+Shift+空格",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["在Dreamweaver中，下面关于设置段落属性说法错误的是_____。"],
+    "options": [
+      {
+        "label": "主要段落属性包括对齐方式和缩进/凸出"
+      },
+      {
+        "label": "在默认状态下，文本是右对齐方式",
+        "isTrue": true
+      },
+      {
+        "label": "可以通过不同按钮来改变对齐方式"
+      },
+      {
+        "label": "可以通过不同按钮来实现缩进和凸出"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": ["以下关于网页文件命名的说法错误的是_____。"],
+    "options": [
+      {
+        "label": "建议使用长文件名或中文文件名以便更清楚易懂",
+        "isTrue": true
+      },
+      {
+        "label": "使用字母和数字，不要使用特殊字符"
+      },
+      {
+        "label": "用字母作为文件名的开头，不要使用数字"
+      },
+      {
+        "label": "使用下划线或破折号来模拟分隔单词的空格"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": ["在Dreamweaver 中，快速打开默认的浏览器进行浏览按_____键"],
+    "options": [
+      {
+        "label": "F5"
+      },
+      {
+        "label": "回车"
+      },
+      {
+        "label": "F12",
+        "isTrue": true
+      },
+      {
+        "label": "F8"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["在Dreamweaver中，下面关于有序列表说法错误的是_____。"],
+    "options": [
+      {
+        "label": "能自动地产生列表项目的标号"
+      },
+      {
+        "label": "不可以创建嵌套列表",
+        "isTrue": true
+      },
+      {
+        "label": "可以改变有序列表的编号样式"
+      },
+      {
+        "label": "有序列表是指有明显的轻重或者先后顺序的项目"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["下列_____图片在Dreamweaver中是不支持的。"],
+    "options": [
+      {
+        "label": "gif"
+      },
+      {
+        "label": "jpg"
+      },
+      {
+        "label": "jpeg"
+      },
+      {
+        "label": "bmp",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["在HTML中，下面_____是段落标签"],
+    "options": [
+      {
+        "label": "〈P〉…〈/P〉",
+        "isTrue": true
+      },
+      {
+        "label": "〈A〉…〈A〉"
+      },
+      {
+        "label": "〈FONT〉…〈/FONT〉"
+      },
+      {
+        "label": "〈BODY〉…〈/BODY〉"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": ["在背景颜色设置时可使用颜色选择器或输入Web_____值。"],
+    "options": [
+      {
+        "label": "二进制"
+      },
+      {
+        "label": "十六进制",
+        "isTrue": true
+      },
+      {
+        "label": "十进制"
+      },
+      {
+        "label": "八进制"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["在开始制作网页的时候，要先_____。"],
+    "options": [
+      {
+        "label": "整体布局"
+      },
+      {
+        "label": "插入图画和Flash动画"
+      },
+      {
+        "label": "插入文字"
+      },
+      {
+        "label": "定义一个本地站点",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["在Dreamweaver中插入水平线，设置它的宽度的单位有像素和_____。"],
+    "options": [
+      {
+        "label": "厘米"
+      },
+      {
+        "label": "pt"
+      },
+      {
+        "label": "em"
+      },
+      {
+        "label": "%",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["HTML的颜色属性值中，Black的的代码是_____。"],
+    "options": [
+      {
+        "label": "\"#008000\""
+      },
+      {
+        "label": "\"#C0C0C0\""
+      },
+      {
+        "label": "\"#00FF00\""
+      },
+      {
+        "label": "\"#000000\"",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": ["设置水平线高度的HTML代码是_____。"],
+    "options": [
+      {
+        "label": "<hr>"
+      },
+      {
+        "label": "<hr width=?>"
+      },
+      {
+        "label": "<hr size=?>",
+        "isTrue": true
+      },
+      {
+        "label": "<hr noshade>"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": ["编辑网页时，我们可以通过_____查看源代码。"],
+    "options": [
+      {
+        "label": "代码视图和拆分视图",
+        "isTrue": true
+      },
+      {
+        "label": "代码视图和设计视图"
+      },
+      {
+        "label": "设计视图和拆分视图"
+      },
+      {
+        "label": "三者均可"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": ["编辑网页时，我们不能通过_____直接编写源代码。"],
+    "options": [
+      {
+        "label": "代码视图"
+      },
+      {
+        "label": "设计视图",
+        "isTrue": true
+      },
+      {
+        "label": "拆分视图"
+      },
+      {
+        "label": "三者都不行"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": ["下面什么标签可以应用于<head></head>中_____。"],
+    "options": [
+      {
+        "label": "<html>"
+      },
+      {
+        "label": "<body>"
+      },
+      {
+        "label": "<title>",
+        "isTrue": true
+      },
+      {
+        "label": "<image>"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": ["隐藏全部浮动面板的快捷键是_____。"],
+    "options": [
+      {
+        "label": "F1"
+      },
+      {
+        "label": "F2"
+      },
+      {
+        "label": "F3"
+      },
+      {
+        "label": "F4",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": ["下列_____的操作对应的是<br>标记。"],
+    "options": [
+      {
+        "label": "Enter"
+      },
+      {
+        "label": "Shift+Enter",
+        "isTrue": true
+      },
+      {
+        "label": "Ctrl+Enter"
+      },
+      {
+        "label": "Ctrl+Shift"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": ["文档标题可以在_____对话框中修改。"],
+    "options": [
+      {
+        "label": "首选参数"
+      },
+      {
+        "label": "标签编辑器"
+      },
+      {
+        "label": "编辑站点"
+      },
+      {
+        "label": "页面属性",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": ["关于网页中的换行，说法错误的是_____。"],
+    "options": [
+      {
+        "label": "可以直接在HTML代码中按下回车键换行，网页中的内容也会换行",
+        "isTrue": true
+      },
+      {
+        "label": "可以使用<br>标签换行"
+      },
+      {
+        "label": "可以使用<p>标签换行"
+      },
+      {
+        "label": "使用<br>标签换行，行与行之间没有间隔；使用<p>标签换行，两行之间会空一行"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": ["下列标记不会成对出现的是_____。"],
+    "options": [
+      {
+        "label": "<html>"
+      },
+      {
+        "label": "<table>"
+      },
+      {
+        "label": "<form>"
+      },
+      {
+        "label": "<meta>",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": ["Dreamweaver CS6中换行的快捷键是_____。"],
+    "options": [
+      {
+        "label": "shift + enter",
+        "isTrue": true
+      },
+      {
+        "label": "ctrl + enter"
+      },
+      {
+        "label": "alt + enter"
+      },
+      {
+        "label": "enter"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": ["Dreamweaver CS6中连续键入空格的快捷键是_____。"],
+    "options": [
+      {
+        "label": "space"
+      },
+      {
+        "label": "shift + space"
+      },
+      {
+        "label": "ctrl + space"
+      },
+      {
+        "label": "ctrl + shift + space",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": ["以下操作能实现连续输入空格的是_____。"],
+    "options": [
+      {
+        "label": "选择“编辑”——“首选参数”在常规选项卡中选择“允许多个连续的空格”复选框"
+      },
+      {
+        "label": "选择“插入”——“HMTL”——“特殊字符”——“不换行空格”命令"
+      },
+      {
+        "label": "按住快捷键 ctrl + shift + space"
+      },
+      {
+        "label": "连续按多个空格键",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": [
+      "将水平线的宽度值设为_____时，可以随着浏览器的窗口大小而随之变化。"
+    ],
+    "options": [
+      {
+        "label": "50像素"
+      },
+      {
+        "label": "100像素"
+      },
+      {
+        "label": "200像素"
+      },
+      {
+        "label": "100百分比",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": [
+      "在Dreamweaver CS6中，编辑好的网页常常需要预览，则预览的快捷键是_____。"
+    ],
+    "options": [
+      {
+        "label": "f1"
+      },
+      {
+        "label": "f6"
+      },
+      {
+        "label": "f11"
+      },
+      {
+        "label": "f12",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": ["以下扩展名可用于HTML文件的是_____。"],
+    "options": [
+      {
+        "label": "asp"
+      },
+      {
+        "label": "html",
+        "isTrue": true
+      },
+      {
+        "label": "txt"
+      },
+      {
+        "label": "jsp"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": ["在Dreamweaver CS6中，如果要执行页面属性，应该执行_____命令。"],
+    "options": [
+      {
+        "label": "文件"
+      },
+      {
+        "label": "编辑"
+      },
+      {
+        "label": "修改",
+        "isTrue": true
+      },
+      {
+        "label": "命令"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": ["在Dreamweaver CS6中，下面关于首页制作的说法错误的是_____。"],
+    "options": [
+      {
+        "label": "首页的文件名称可以是index.html或index.htm"
+      },
+      {
+        "label": "可以使用排版表格和排版单元格来进行定位网页元素"
+      },
+      {
+        "label": "可以使用表格对网页元素进行定位"
+      },
+      {
+        "label": "在首页中我们不可以使用CSS样式来定义风格",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": ["下面关于页面的背景和风格设置说法错误的是_____。"],
+    "options": [
+      {
+        "label": "在页面属性设置中一般定义页边距为0"
+      },
+      {
+        "label": "可以设置页面的背景图片"
+      },
+      {
+        "label": "页面的背景图片一般选择显眼的图像，特别是大型网站",
+        "isTrue": true
+      },
+      {
+        "label": "页面的风格一般以网站的主题而定"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": ["在Dreamweaver CS6中，下面关于使用列表说法错误的是_____。"],
+    "options": [
+      {
+        "label": "列表是指把具有相似特征或者是具有先后顺序的几行文字进行对其排列"
+      },
+      {
+        "label": "列表分为有序列表和无序列表两种"
+      },
+      {
+        "label": "所谓有序列表，是指有明显的轻重或者先后顺序的项目"
+      },
+      {
+        "label": "不可以创建嵌套列表",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": ["文档标题可以在_____对话框中修改"],
+    "options": [
+      {
+        "label": "首选参数"
+      },
+      {
+        "label": "页面属性",
+        "isTrue": true
+      },
+      {
+        "label": "编辑站点"
+      },
+      {
+        "label": "标签编辑器"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": ["在Dreamweaver CS6中，下面关于拆分单元格说法错误的是_____。"],
+    "options": [
+      {
+        "label": "用鼠标将光标定位在要拆分的单元格中，在属性面板中单击按钮"
+      },
+      {
+        "label": "用鼠标将光标定位在要拆分的单元格中，在拆分单元格中选择行，表示水平拆分单元格"
+      },
+      {
+        "label": "用鼠标将光标定位在要拆分的单元格中，选择列，表示垂直拆分单元格"
+      },
+      {
+        "label": "拆分单元格只能把一个单元格拆分成两个",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": ["下面哪些操作不可以在“文件”面板中完成_____。"],
+    "options": [
+      {
+        "label": "创建新文件"
+      },
+      {
+        "label": "显示站点地图"
+      },
+      {
+        "label": "文件的移动和删除"
+      },
+      {
+        "label": "复制站点",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": ["下面哪个选项不属于Dreamweaver CS6编辑区的视图模式_____。"],
+    "options": [
+      {
+        "label": "代码视图"
+      },
+      {
+        "label": "设计视图"
+      },
+      {
+        "label": "标准视图",
+        "isTrue": true
+      },
+      {
+        "label": "拆分视图"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "topic": ["在Dreamweaver CS6中，恢复被撤销操作的是哪个快捷组合键_____。"],
+    "options": [
+      {
+        "label": "ctrl + x"
+      },
+      {
+        "label": "ctrl + z"
+      },
+      {
+        "label": "ctrl + y",
+        "isTrue": true
+      },
+      {
+        "label": "shift + y"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "topic": ["在Dreamweaver CS6中，下面可以用来做代码编辑器的是_____。"],
+    "options": [
+      {
+        "label": "记事本程序",
+        "isTrue": true
+      },
+      {
+        "label": "photoshop"
+      },
+      {
+        "label": "flash"
+      },
+      {
+        "label": "以上都不可以"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "topic": ["下面哪个选项不是属于网页中三种最基本的页面组成元素_____。"],
+    "options": [
+      {
+        "label": "文字"
+      },
+      {
+        "label": "图形"
+      },
+      {
+        "label": "超链接"
+      },
+      {
+        "label": "表格",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "topic": ["下面关于添加次要预览浏览器的说法错误是_____。"],
+    "options": [
+      {
+        "label": "定义次要浏览器要先在系统中安装要定义的其他浏览器"
+      },
+      {
+        "label": "定义次要预览浏览器时要浏览选择次要预览浏览器的程序文件"
+      },
+      {
+        "label": "可以添加第三预览浏览器",
+        "isTrue": true
+      },
+      {
+        "label": "当第一预览浏览器不能使用时, 系统会自动选择次要浏览器"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "topic": [
+      "在Dreamveaver 中, 设置页面属性时, 对在Page Properties 属性设置框中Tracing Imag选项说法错误的是_____。"
+    ],
+    "options": [
+      {
+        "label": "网页排版的一种辅助手段"
+      },
+      {
+        "label": "用来进行图像的对位"
+      },
+      {
+        "label": "只有网页预览时有效",
+        "isTrue": true
+      },
+      {
+        "label": "对HTML 文档并不产生任何影响"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": ["HTML的颜色属性值中，Red的的代码是？_____。"],
+    "options": [
+      {
+        "label": "\"#FF0000\"",
+        "isTrue": true
+      },
+      {
+        "label": "\"#C0C0C0\""
+      },
+      {
+        "label": "\"#00FF00\""
+      },
+      {
+        "label": "\"#000000\""
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "topic": ["HTML的颜色属性值中，Green的的代码是_____。"],
+    "options": [
+      {
+        "label": "\"#008000\"",
+        "isTrue": true
+      },
+      {
+        "label": "\"#C0C0C0\""
+      },
+      {
+        "label": "\"#0000FF\""
+      },
+      {
+        "label": "\"#FF0000\""
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "topic": ["HTML的颜色属性值中，Blue的的代码是_____。"],
+    "options": [
+      {
+        "label": "\"#008000\""
+      },
+      {
+        "label": "\"#00FF00\""
+      },
+      {
+        "label": "\"#0000FF\"",
+        "isTrue": true
+      },
+      {
+        "label": "\"#FF0000\""
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "topic": [
+      "Dreamweaver 的网页属性编辑视窗中，Left Margin 是用来设置_____。"
+    ],
+    "options": [
+      {
+        "label": "距顶边距离"
+      },
+      {
+        "label": "距左边距离",
+        "isTrue": true
+      },
+      {
+        "label": "边距高度"
+      },
+      {
+        "label": "边距宽度"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "topic": [
+      "可以通过在标签中添加相应的属性改变水平线的外观，其中改变粗细的属性是_____。"
+    ],
+    "options": [
+      {
+        "label": "width"
+      },
+      {
+        "label": "size",
+        "isTrue": true
+      },
+      {
+        "label": "align"
+      },
+      {
+        "label": "color"
+      }
+    ]
+  }
+]

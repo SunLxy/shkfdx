@@ -22,6 +22,7 @@ export interface QItemProps {
   // TODO: 填空
   /**是否是填空*/
   isInput?: boolean
+  isTextArea?: boolean
   /**答案*/
   answer?: string
 
@@ -42,7 +43,7 @@ export interface QItemProps {
 }
 
 export const QItem = (props: QItemProps) => {
-  const { sort, isOptions = false, isBool, isInput, answer, options, layout = 'horizontal', topic, isRead, translate, isMulti, isShowTranslate } = props
+  const { sort, isOptions = false, isBool, isInput, isTextArea, answer, options, layout = 'horizontal', topic, isRead, translate, isMulti, isShowTranslate } = props
   const { styles, cx } = useStyles()
   const getValue = () => {
     if (isRead) {
@@ -130,11 +131,11 @@ export const QItem = (props: QItemProps) => {
     {isOptions ? <b>{sort}.</b> : <QTopic content={topic} sort={sort} />}
     {isBool ? <QListRadio layout={layout} value={state.value} options={BooleanOptions} onChange={onChange} /> : null}
     {options ? <QListRadio layout={layout} value={state.value} options={options} onChange={onChange} /> : null}
-    {isInput ? <QInput value={state.value.toString()} isTrue={state.isTrue} onChange={onChange} /> : null}
+    {(isInput || isTextArea) ? <QInput isTextArea={isTextArea} value={state.value.toString()} isTrue={state.isTrue} onChange={onChange} /> : null}
     {Array.isArray(translate) && translate.length && (isRead || isShowTranslate) ? <div className={cx(styles.translate)}>
       {translate.map((it, key) => <div key={key}>{it}</div>)}
     </div> : null}
-    {state.isTrue === false ? <div className={cx(styles.error)}>{isInput ? "填写错误" : "选择错误"}</div> : null}
+    {state.isTrue === false ? <div className={cx(styles.error)}>{(isInput || isTextArea) ? "填写错误" : "选择错误"}</div> : null}
     {state.isAllSelect === false && isMulti ? <div className={cx(styles.warn)}>未选择所有数据</div> : null}
   </div>
 }

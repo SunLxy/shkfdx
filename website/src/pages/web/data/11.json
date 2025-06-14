@@ -1,0 +1,616 @@
+[
+  {
+    "id": 1,
+    "topic": ["动态HTML事件“OnmouseOver”表示______。"],
+    "options": [
+      {
+        "label": "用户将鼠标移动到页面元素之上时触发该事件",
+        "isTrue": true
+      },
+      {
+        "label": "用户移动鼠标时触发该事件"
+      },
+      {
+        "label": "用户释放鼠标左键时触发该事件"
+      },
+      {
+        "label": "用户按下鼠标左键时触发该事件"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": ["动态HTML事件“OnmouseOut”表示______。"],
+    "options": [
+      {
+        "label": "用户将鼠标移开页面元素之上时触发该事件",
+        "isTrue": true
+      },
+      {
+        "label": "用户释放鼠标左键时触发该事件"
+      },
+      {
+        "label": "用户移动鼠标时触发该事件"
+      },
+      {
+        "label": "用户按下鼠标左键时触发该事件"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["动态HTML事件“OnmouseDown”表示______。"],
+    "options": [
+      {
+        "label": "用户按下鼠标左键时触发该事件",
+        "isTrue": true
+      },
+      {
+        "label": "用户将鼠标移开页面元素之上时触发该事件"
+      },
+      {
+        "label": "用户释放鼠标左键时触发该事件"
+      },
+      {
+        "label": "用户移动鼠标时触发该事件"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": ["动态HTML事件“OnClick”表示______。"],
+    "options": [
+      {
+        "label": "用户单击页面元素触发该事件",
+        "isTrue": true
+      },
+      {
+        "label": "用户将鼠标移开页面元素之上时触发该事件"
+      },
+      {
+        "label": "用户将鼠标移到页面元素之上时触发该事件"
+      },
+      {
+        "label": "用户按下鼠标左键时触发该事件"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "如果想实现打开网页时在状态栏中显示“欢迎访问我的主页！”，可使用______行为实现。"
+    ],
+    "options": [
+      {
+        "label": "设置状态条文本",
+        "isTrue": true
+      },
+      {
+        "label": "设置框架文本"
+      },
+      {
+        "label": "设置层文本"
+      },
+      {
+        "label": "改变属性"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["OnDbClick表示______事件。"],
+    "options": [
+      {
+        "label": "当鼠标从特定对象上移动开时，就会发生此事件"
+      },
+      {
+        "label": "当特定对象被双击时就会发生该事件",
+        "isTrue": true
+      },
+      {
+        "label": "当鼠标被按下后又被释放时，该事件就会发生"
+      },
+      {
+        "label": "当特定对象被单击时会发生该事件，比如链接、按钮、图像等。"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["Dreamweaver打开行为面板的快捷操作是______。"],
+    "options": [
+      {
+        "label": "F7"
+      },
+      {
+        "label": "Shift +",
+        "isTrue": true
+      },
+      {
+        "label": "F4"
+      },
+      {
+        "label": "F9"
+      },
+      {
+        "label": "F10"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["下列关于行为的说法不正确的是______。"],
+    "options": [
+      {
+        "label": "行为即是事件，事件就是行为",
+        "isTrue": true
+      },
+      {
+        "label": "行为是事件和动作的组合"
+      },
+      {
+        "label": "行为是Dreamweaver预置的JavaScript程序库"
+      },
+      {
+        "label": "使用过行为可以改变对象属性、打开浏览器和播放音乐等"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": ["在网页中出现滚动文字，需要在代码视图插入哪种标记______。"],
+    "options": [
+      {
+        "label": "〈Marquee〉…〈/Marquee 〉",
+        "isTrue": true
+      },
+      {
+        "label": "〈A〉…〈A〉"
+      },
+      {
+        "label": "〈IMG〉…〈/IMG〉"
+      },
+      {
+        "label": "〈FONT〉…〈/FONT〉"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["以下的看法______是对的。"],
+    "options": [
+      {
+        "label": "事件=行为+动作"
+      },
+      {
+        "label": "行为=动作+事件",
+        "isTrue": true
+      },
+      {
+        "label": "动作=行为+事件"
+      },
+      {
+        "label": "三者之间无关系"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": [
+      "在浏览器上设置弹出信息框时，若需要信息框在页面加载时弹出，应选择的触发事件是______。"
+    ],
+    "options": [
+      {
+        "label": "onUnload"
+      },
+      {
+        "label": "onLoad",
+        "isTrue": true
+      },
+      {
+        "label": "onMouseDown"
+      },
+      {
+        "label": "onSelect"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["在Dreamweaver CS6中，在进行数据绑定时，分隔符应该是______。"],
+    "options": [
+      {
+        "label": "文件性数据源的默认分隔符是逗号，而且要采用中文标点"
+      },
+      {
+        "label": "文件性数据源的默认分隔符是逗号，而且要采用英文标点",
+        "isTrue": true
+      },
+      {
+        "label": "文件性数据源的默认分隔符是冒号，而且要采用中文标点"
+      },
+      {
+        "label": "文件性数据源的默认分隔符是冒号，而且要采用英文标点"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": ["下面的哪个动态HTML 技术是Navigator 浏览器可以支持的______。"],
+    "options": [
+      {
+        "label": "可下载字体",
+        "isTrue": true
+      },
+      {
+        "label": "多媒体"
+      },
+      {
+        "label": "数据绑定"
+      },
+      {
+        "label": "以上都不支持"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": [
+      "在浏览器上设置弹出信息框时，若需要信息框在页面加载时弹出，应选择的触发事件是______。"
+    ],
+    "options": [
+      {
+        "label": "onUnload"
+      },
+      {
+        "label": "onLoad",
+        "isTrue": true
+      },
+      {
+        "label": "onMouseDown"
+      },
+      {
+        "label": "onSelect"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": [
+      "JavaScript事件中，表示当Text中的文字选中后产生动作的事件是______。"
+    ],
+    "options": [
+      {
+        "label": "onCLick"
+      },
+      {
+        "label": "onSelect",
+        "isTrue": true
+      },
+      {
+        "label": "onChange"
+      },
+      {
+        "label": "onFocus"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": [
+      "JavaScript事件中，表示在select表格项中一个选项状态改变后产生动作的事件是______。"
+    ],
+    "options": [
+      {
+        "label": "onCLick"
+      },
+      {
+        "label": "onSelect"
+      },
+      {
+        "label": "onChange",
+        "isTrue": true
+      },
+      {
+        "label": "onFocus"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": [
+      "JavaScript事件中，表示用户单击select对象时产生动作的事件是______。"
+    ],
+    "options": [
+      {
+        "label": "onCLick"
+      },
+      {
+        "label": "onSelect"
+      },
+      {
+        "label": "onChange"
+      },
+      {
+        "label": "onFocus",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": [
+      "在大多数浏览器常用的事件中，表示当页面载入结束时产生的事件是______。"
+    ],
+    "options": [
+      {
+        "label": "onLoad",
+        "isTrue": true
+      },
+      {
+        "label": "onUnload"
+      },
+      {
+        "label": "onClick"
+      },
+      {
+        "label": "onDblick"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": [
+      "在大多数浏览器常用的事件中，表示当访问者离开页面时产生的事件是______。"
+    ],
+    "options": [
+      {
+        "label": "onLoad"
+      },
+      {
+        "label": "onUnload",
+        "isTrue": true
+      },
+      {
+        "label": "onClick"
+      },
+      {
+        "label": "onDblick"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": ["跑马灯标记<marquee>的属性中，表示跑马速度的属性是______。"],
+    "options": [
+      {
+        "label": "behavior"
+      },
+      {
+        "label": "direction"
+      },
+      {
+        "label": "scrollamount",
+        "isTrue": true
+      },
+      {
+        "label": "scrolldelay"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": ["跑马灯标记<marquee>的属性中，表示跑马延迟的属性是______。"],
+    "options": [
+      {
+        "label": "behavior"
+      },
+      {
+        "label": "direction"
+      },
+      {
+        "label": "scrollamount"
+      },
+      {
+        "label": "scrolldelay",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": [
+      "JavaScript的输入可以通过windows对象实现，Windows对象返回主页的方法是____。"
+    ],
+    "options": [
+      {
+        "label": "Close()"
+      },
+      {
+        "label": "Back()"
+      },
+      {
+        "label": "Forward()"
+      },
+      {
+        "label": "Home()",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": ["下面所列的类型值中，哪个不是用来设置滚动方式的_______。"],
+    "options": [
+      {
+        "label": "scroll"
+      },
+      {
+        "label": "slide"
+      },
+      {
+        "label": "alternate"
+      },
+      {
+        "label": "size",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": [
+      "下面所列的类型值中，哪个是用来设置循环滚动的滚动方式的_______。"
+    ],
+    "options": [
+      {
+        "label": "scroll",
+        "isTrue": true
+      },
+      {
+        "label": "slide"
+      },
+      {
+        "label": "alternate"
+      },
+      {
+        "label": "size"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": [
+      "下面所列的类型值中，哪个是用来设置只滚动一次就停止的滚动方式的_______。"
+    ],
+    "options": [
+      {
+        "label": "scroll"
+      },
+      {
+        "label": "slide",
+        "isTrue": true
+      },
+      {
+        "label": "alternate"
+      },
+      {
+        "label": "size"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": ["下面所列的类型值中，哪个是用来设置来回交替滚动方式的_______。"],
+    "options": [
+      {
+        "label": "scroll"
+      },
+      {
+        "label": "slide"
+      },
+      {
+        "label": "alternate",
+        "isTrue": true
+      },
+      {
+        "label": "size"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": ["下面所列的类型值中，哪个是用来设置滚动速度的_______。"],
+    "options": [
+      {
+        "label": "scrollamount",
+        "isTrue": true
+      },
+      {
+        "label": "scrolldelay"
+      },
+      {
+        "label": "loop"
+      },
+      {
+        "label": "deriction"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": ["下面所列的类型值中，哪个是用来设置滚动的时间间隔的_______。"],
+    "options": [
+      {
+        "label": "scrollamount"
+      },
+      {
+        "label": "scrolldelay",
+        "isTrue": true
+      },
+      {
+        "label": "loop"
+      },
+      {
+        "label": "deriction"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": ["下面所列的类型值中，哪个是用来设置滚动循环次数的_______。"],
+    "options": [
+      {
+        "label": "scrollamount"
+      },
+      {
+        "label": "scrolldelay"
+      },
+      {
+        "label": "loop",
+        "isTrue": true
+      },
+      {
+        "label": "deriction"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": ["以下对动态网页的特点的描述中正确的是________。"],
+    "options": [
+      {
+        "label": "动态网页比静态网页安全性更高"
+      },
+      {
+        "label": "Flash、GIF是动态网页最显著的特征"
+      },
+      {
+        "label": "动态网页中不需要使用HTML标签"
+      },
+      {
+        "label": "ASP、ASP.net都是常用的动态网页技术",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": ["以下HTML标签中滚动字幕标签为_________。"],
+    "options": [
+      {
+        "label": "<img>"
+      },
+      {
+        "label": "<marquee>",
+        "isTrue": true
+      },
+      {
+        "label": "<a>"
+      },
+      {
+        "label": "<p>"
+      }
+    ]
+  }
+]

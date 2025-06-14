@@ -1,0 +1,1373 @@
+[
+  {
+    "id": 1,
+    "topic": ["CSS是______。"],
+    "options": [
+      {
+        "label": "层叠样式表",
+        "isTrue": true
+      },
+      {
+        "label": "层"
+      },
+      {
+        "label": "行为"
+      },
+      {
+        "label": "浏览器"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "______几乎可以控制所有文字的属性，它也可以套用到多个网页，甚至整个网站的网页上。"
+    ],
+    "options": [
+      {
+        "label": "HTML样式"
+      },
+      {
+        "label": "CSS样式",
+        "isTrue": true
+      },
+      {
+        "label": "页面属性"
+      },
+      {
+        "label": "文本属性面板"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["CSS样式表存在于文档的______区域中。"],
+    "options": [
+      {
+        "label": "HTML"
+      },
+      {
+        "label": "BODY"
+      },
+      {
+        "label": "HEAD",
+        "isTrue": true
+      },
+      {
+        "label": "TABLE"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": ["CSS样式选择器的类型有______。"],
+    "options": [
+      {
+        "label": "标签、类、文本"
+      },
+      {
+        "label": "类、标签、图像"
+      },
+      {
+        "label": "类、标签、高级",
+        "isTrue": true
+      },
+      {
+        "label": "FLASH、类、ID"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": ["Dreamweaver中CSS滤镜特效属于CSS样式定义分类中的______。"],
+    "options": [
+      {
+        "label": "定位"
+      },
+      {
+        "label": "类型"
+      },
+      {
+        "label": "边框"
+      },
+      {
+        "label": "扩展",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["下面______可以快速打开“CSS样式”面板。"],
+    "options": [
+      {
+        "label": "Ctrl+S"
+      },
+      {
+        "label": "Shift+F11",
+        "isTrue": true
+      },
+      {
+        "label": "Shift+F3"
+      },
+      {
+        "label": "Ctrl+F3"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["CSS 的全称是什么______。"],
+    "options": [
+      {
+        "label": "Cascading Sheet Style"
+      },
+      {
+        "label": "Cascading Style Sheet",
+        "isTrue": true
+      },
+      {
+        "label": "Cascading System Sheet"
+      },
+      {
+        "label": "Cascading Style System"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["CSS可以精确控制的项目是______。"],
+    "options": [
+      {
+        "label": "文本、段落"
+      },
+      {
+        "label": "图像、页面背景"
+      },
+      {
+        "label": "表单元素"
+      },
+      {
+        "label": "以上都对",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": ["调出CSS样表面板使用的快捷键是______。"],
+    "options": [
+      {
+        "label": "shift + f11",
+        "isTrue": true
+      },
+      {
+        "label": "shift + f5"
+      },
+      {
+        "label": "shift + f4"
+      },
+      {
+        "label": "shift + f1"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["下列各项中不是CSS样式表优点的是______。"],
+    "options": [
+      {
+        "label": "CSS对于设计者来说是一种简单．灵活．易学的工具，能使任何浏览器都听从指令，知道该如何显示元素及其内容"
+      },
+      {
+        "label": "CSS可以用来在浏览器的客户端进行程序编制，从而控制浏览器等对象操作，创建出丰富的动态效果",
+        "isTrue": true
+      },
+      {
+        "label": "一个样式表可以用于多个页面，甚至整个站点，因此具有更好的易用性和扩展性"
+      },
+      {
+        "label": "使用CSS样式表定义整个站点，可以大大简化网站建设，减少设计者的工作量"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["在CSS中，下列不属于样式定义中选择符的是______。"],
+    "options": [
+      {
+        "label": "HTML中的标记"
+      },
+      {
+        "label": "变量",
+        "isTrue": true
+      },
+      {
+        "label": "class"
+      },
+      {
+        "label": "ID"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["外部式样式单文件的扩展名为______。"],
+    "options": [
+      {
+        "label": ".js"
+      },
+      {
+        "label": ".dora"
+      },
+      {
+        "label": ".htm"
+      },
+      {
+        "label": ".CSS",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": [
+      "CSS选择器用于超链接样式设置，表示正常状态下的链接文字样式的属性是______。"
+    ],
+    "options": [
+      {
+        "label": "a:link",
+        "isTrue": true
+      },
+      {
+        "label": "a:visited"
+      },
+      {
+        "label": "a:hover"
+      },
+      {
+        "label": "a:active"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": [
+      "CSS选择器用于超链接样式设置，表示访问过的链接文字样式的属性是______。"
+    ],
+    "options": [
+      {
+        "label": "a:link"
+      },
+      {
+        "label": "a:visited",
+        "isTrue": true
+      },
+      {
+        "label": "a:hover"
+      },
+      {
+        "label": "a:active"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": [
+      "CSS选择器用于超链接样式设置，表示鼠标放在链接文字上时的样式的属性是______。"
+    ],
+    "options": [
+      {
+        "label": "a:link"
+      },
+      {
+        "label": "a:visited"
+      },
+      {
+        "label": "a:hover",
+        "isTrue": true
+      },
+      {
+        "label": "a:active"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": [
+      "CSS选择器用于超链接样式设置，表示鼠标单击时的链接文字样式的属性是______。"
+    ],
+    "options": [
+      {
+        "label": "a:link"
+      },
+      {
+        "label": "a:visited"
+      },
+      {
+        "label": "a:hover"
+      },
+      {
+        "label": "a:active",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": [
+      "当在对象上移动鼠标时，CSS样式中采用竖起手指的手形光标的属性是_______。"
+    ],
+    "options": [
+      {
+        "label": "cursor:hand",
+        "isTrue": true
+      },
+      {
+        "label": "cursor:default"
+      },
+      {
+        "label": "cursor:crosshair"
+      },
+      {
+        "label": "cursor:text"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": [
+      "当在对象上移动鼠标时，CSS样式中采用大写字母I的形状为光标的属性是_______。"
+    ],
+    "options": [
+      {
+        "label": "cursor:hand"
+      },
+      {
+        "label": "cursor:default"
+      },
+      {
+        "label": "cursor:crosshair"
+      },
+      {
+        "label": "cursor:text",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": [
+      "当在对象上移动鼠标时，CSS样式中采用简单的十字线光标的属性是_______。"
+    ],
+    "options": [
+      {
+        "label": "cursor:hand"
+      },
+      {
+        "label": "cursor:default"
+      },
+      {
+        "label": "cursor:crosshair",
+        "isTrue": true
+      },
+      {
+        "label": "cursor:text"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": [
+      "当在对象上移动鼠标时，CSS样式中采用客户平台的默认光标的属性是_______。"
+    ],
+    "options": [
+      {
+        "label": "cursor:hand"
+      },
+      {
+        "label": "cursor:default",
+        "isTrue": true
+      },
+      {
+        "label": "cursor:crosshair"
+      },
+      {
+        "label": "cursor:text"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": [
+      "当在对象上移动鼠标时，CSS样式中采用带问号标记的箭头光标的属性是_______。"
+    ],
+    "options": [
+      {
+        "label": "cursor:wait"
+      },
+      {
+        "label": "cursor:help",
+        "isTrue": true
+      },
+      {
+        "label": "cursor:e-resize"
+      },
+      {
+        "label": "cursor:ne-resize"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": [
+      "当在对象上移动鼠标时，CSS样式中表示程序忙，请等待的光标属性是_______。"
+    ],
+    "options": [
+      {
+        "label": "cursor:wait",
+        "isTrue": true
+      },
+      {
+        "label": "cursor:help"
+      },
+      {
+        "label": "cursor:e-resize"
+      },
+      {
+        "label": "cursor:ne-resize"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": [
+      "当在对象上移动鼠标时，CSS样式中采用向东的箭头为光标的属性是_______。"
+    ],
+    "options": [
+      {
+        "label": "cursor:wait"
+      },
+      {
+        "label": "cursor:help"
+      },
+      {
+        "label": "cursor:e-resize",
+        "isTrue": true
+      },
+      {
+        "label": "cursor:ne-resiz"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": ["CSS样式中，alpha属性设置开始时的透明度的参数是_______。"],
+    "options": [
+      {
+        "label": "filter:alpha(opacity=xx);",
+        "isTrue": true
+      },
+      {
+        "label": "filter:alpha(finishopacity=xx);"
+      },
+      {
+        "label": "filter:alpha(style=x);"
+      },
+      {
+        "label": "filter:alpha(startx=xx);"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": ["CSS样式中，alpha属性设置结束时的透明度的参数是_______。"],
+    "options": [
+      {
+        "label": "filter:alpha(opacity=xx);"
+      },
+      {
+        "label": "filter:alpha(finishopacity=xx);",
+        "isTrue": true
+      },
+      {
+        "label": "filter:alpha(style=x);"
+      },
+      {
+        "label": "filter:alpha(startx=xx);"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": ["CSS样式中，alpha属性设置渐变样式的参数是_______。"],
+    "options": [
+      {
+        "label": "filter:alpha(opacity=xx);"
+      },
+      {
+        "label": "filter:alpha(finishopacity=xx);"
+      },
+      {
+        "label": "filter:alpha(style=x);",
+        "isTrue": true
+      },
+      {
+        "label": "filter:alpha(startx=xx);"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": [
+      "CSS样式中，alpha属性设置透明度渐变开始点的垂直的参数是_______。"
+    ],
+    "options": [
+      {
+        "label": "filter:alpha(opacity=xx);"
+      },
+      {
+        "label": "filter:alpha(finishopacity=xx);"
+      },
+      {
+        "label": "filter:alpha(style=x);"
+      },
+      {
+        "label": "filter:alpha(startx=xx);",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": ["CSS样式中，alpha属性设置透明度无渐变的参数是_______。"],
+    "options": [
+      {
+        "label": "filter:alpha(style=0);",
+        "isTrue": true
+      },
+      {
+        "label": "filter:alpha(style=1);"
+      },
+      {
+        "label": "filter:alpha(style=2);"
+      },
+      {
+        "label": "filter:alpha(style=3);"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": ["CSS样式中，alpha属性设置透明度为直线渐变的参数是_______。"],
+    "options": [
+      {
+        "label": "filter:alpha(style=0);"
+      },
+      {
+        "label": "filter:alpha(style=1);",
+        "isTrue": true
+      },
+      {
+        "label": "filter:alpha(style=2);"
+      },
+      {
+        "label": "filter:alpha(style=3);"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": ["CSS样式中，alpha属性设置透明度为圆形渐变的参数是_______。"],
+    "options": [
+      {
+        "label": "filter:alpha(style=0);"
+      },
+      {
+        "label": "filter:alpha(style=1);"
+      },
+      {
+        "label": "filter:alpha(style=2);",
+        "isTrue": true
+      },
+      {
+        "label": "filter:alpha(style=3);"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": ["CSS样式中，alpha属性设置透明度为矩形渐变的参数是_______。"],
+    "options": [
+      {
+        "label": "filter:alpha(style=0);"
+      },
+      {
+        "label": "filter:alpha(style=1);"
+      },
+      {
+        "label": "filter:alpha(style=2);"
+      },
+      {
+        "label": "filter:alpha(style=3);",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": ["在CSS样式中，下列语句表示上边框为点线边框的选项是________。"],
+    "options": [
+      {
+        "label": "border-top-style:dashed;"
+      },
+      {
+        "label": "border-top-style:dotted;",
+        "isTrue": true
+      },
+      {
+        "label": "border-top-style:solid;"
+      },
+      {
+        "label": "border-top-style:double;"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": ["在CSS样式中，下列语句表示上边框为虚线边框的选项是________。"],
+    "options": [
+      {
+        "label": "border-top-style:dashed;",
+        "isTrue": true
+      },
+      {
+        "label": "border-top-style:dotted;"
+      },
+      {
+        "label": "border-top-style:solid;"
+      },
+      {
+        "label": "border-top-style:double;"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": ["在CSS样式中，下列语句表示上边框为实线边框的选项是________。"],
+    "options": [
+      {
+        "label": "border-top-style:dashed;"
+      },
+      {
+        "label": "border-top-style:dotted;"
+      },
+      {
+        "label": "border-top-style:solid;",
+        "isTrue": true
+      },
+      {
+        "label": "border-top-style:double;"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": ["在CSS样式中，下列语句表示上边框为双实线边框的选项是________。"],
+    "options": [
+      {
+        "label": "border-top-style:dashed;"
+      },
+      {
+        "label": "border-top-style:dotted;"
+      },
+      {
+        "label": "border-top-style:solid;"
+      },
+      {
+        "label": "border-top-style:double;",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "topic": ["在CSS样式中，下列语句表示上边框为脊形的选项是________。"],
+    "options": [
+      {
+        "label": "border-top-style:groove;"
+      },
+      {
+        "label": "border-top-style: ridge;",
+        "isTrue": true
+      },
+      {
+        "label": "border-top-style:inset;"
+      },
+      {
+        "label": "border-top-style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "topic": [
+      "在CSS样式中，下列语句表示上边框为具有立体感的沟槽的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border-top-style: groove;",
+        "isTrue": true
+      },
+      {
+        "label": "border-top-style: ridge;"
+      },
+      {
+        "label": "border-top-style: inset;"
+      },
+      {
+        "label": "border-top-style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "topic": [
+      "在CSS样式中，下列语句表示上边框为整个边框凹陷的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border-top-style: groove;"
+      },
+      {
+        "label": "border-top-style: ridge;"
+      },
+      {
+        "label": "border-top-style: inset;",
+        "isTrue": true
+      },
+      {
+        "label": "border-top-style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "topic": [
+      "在CSS样式中，下列语句表示上边框为整个边框突起的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border-top-style: groove;"
+      },
+      {
+        "label": "border-top-style: ridge;"
+      },
+      {
+        "label": "border-top-style: inset;"
+      },
+      {
+        "label": "border-top-style: outset;",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "topic": [
+      "在CSS样式中，下列语句表示右边框为具有立体感的沟槽选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border- right -style: groove;",
+        "isTrue": true
+      },
+      {
+        "label": "border- right -style: ridge;"
+      },
+      {
+        "label": "border- right -style: inset;"
+      },
+      {
+        "label": "border- right -style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": ["在CSS样式中，下列语句表示右边框为脊形的的选项是________。"],
+    "options": [
+      {
+        "label": "border- right -style: groove;"
+      },
+      {
+        "label": "border- right -style: ridge;",
+        "isTrue": true
+      },
+      {
+        "label": "border- right -style: inset;"
+      },
+      {
+        "label": "border- right -style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "topic": [
+      "在CSS样式中，下列语句表示右边框为整个边框凹陷的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border- right -style: groove;"
+      },
+      {
+        "label": "border- right -style: ridge;"
+      },
+      {
+        "label": "border- right -style: inset;",
+        "isTrue": true
+      },
+      {
+        "label": "border- right -style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "topic": [
+      "在CSS样式中，下列语句表示右边框为整个边框突起的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border-right-style: groove;"
+      },
+      {
+        "label": "border- right -style: ridge;"
+      },
+      {
+        "label": "border- right -style: inset;"
+      },
+      {
+        "label": "border- right -style: outset;",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "topic": [
+      "在CSS样式中，下列语句表示底边框为具有立体感的沟槽的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border- bottom -style: groove;",
+        "isTrue": true
+      },
+      {
+        "label": "border- bottom -style: ridge;"
+      },
+      {
+        "label": "border- bottom -style: inset;"
+      },
+      {
+        "label": "border- bottom -style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "topic": ["在CSS样式中，下列语句表示底边框为脊形的的选项是________。"],
+    "options": [
+      {
+        "label": "border- bottom -style: groove;"
+      },
+      {
+        "label": "border- bottom -style: ridge;",
+        "isTrue": true
+      },
+      {
+        "label": "border- bottom -style: inset;"
+      },
+      {
+        "label": "border- bottom -style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "topic": [
+      "在CSS样式中，下列语句表示底边框为整个边框凹陷的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border- bottom -style: groove;"
+      },
+      {
+        "label": "border- bottom -style: ridge;"
+      },
+      {
+        "label": "border- bottom -style: inset;",
+        "isTrue": true
+      },
+      {
+        "label": "border- bottom -style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "topic": [
+      "在CSS样式中，下列语句表示底边框为整个边框突起的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border- bottom -style: groove;"
+      },
+      {
+        "label": "border- bottom -style: ridge;"
+      },
+      {
+        "label": "border- bottom -style: inset;"
+      },
+      {
+        "label": "border- bottom -style: outset;",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "topic": [
+      "在CSS样式中，下列语句表示左边框为具有立体感的沟槽的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border- left -style: groove;",
+        "isTrue": true
+      },
+      {
+        "label": "border- left -style: ridge;"
+      },
+      {
+        "label": "border- left -style: inset;"
+      },
+      {
+        "label": "border- left -style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "topic": ["在CSS样式中，下列语句表示左边框为脊形的的选项是________。"],
+    "options": [
+      {
+        "label": "border- left -style: groove;"
+      },
+      {
+        "label": "border- left -style: ridge;",
+        "isTrue": true
+      },
+      {
+        "label": "border- left -style: inset;"
+      },
+      {
+        "label": "border- left -style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "topic": [
+      "在CSS样式中，下列语句表示左边框为整个边框凹陷的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border- left -style: groove;"
+      },
+      {
+        "label": "border- left -style: ridge;"
+      },
+      {
+        "label": "border- left -style: inset;",
+        "isTrue": true
+      },
+      {
+        "label": "border- left -style: outset;"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "topic": [
+      "在CSS样式中，下列语句表示左边框为整个边框突起的选项是________。"
+    ],
+    "options": [
+      {
+        "label": "border- left -style: groove;"
+      },
+      {
+        "label": "border- left -style:ridge;"
+      },
+      {
+        "label": "border- left -style: inset;"
+      },
+      {
+        "label": "border- left -style:outset;",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "topic": [
+      "在字体的样式面板中，如果要设置行间距，则需要设置如下的______属性。"
+    ],
+    "options": [
+      {
+        "label": "大小"
+      },
+      {
+        "label": "行高",
+        "isTrue": true
+      },
+      {
+        "label": "修饰"
+      },
+      {
+        "label": "样式"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "topic": ["下面不属于CSS插入形式的是_____。"],
+    "options": [
+      {
+        "label": "内联式"
+      },
+      {
+        "label": "嵌入式"
+      },
+      {
+        "label": "外部式"
+      },
+      {
+        "label": "索引式",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "topic": ["下面说法错误的是_______。"],
+    "options": [
+      {
+        "label": "CSS样式表不能制作体积更小下载更快的网页",
+        "isTrue": true
+      },
+      {
+        "label": "CSS样式表可以使许多网页同时更新"
+      },
+      {
+        "label": "CSS样式表可以控制页面的布局"
+      },
+      {
+        "label": "CSS样式表可以将格式和结构分离"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "topic": ["CSS样式表不可能实现_______功能。"],
+    "options": [
+      {
+        "label": "将格式和结构分离",
+        "isTrue": true
+      },
+      {
+        "label": "一个CSS文件控制多个网页"
+      },
+      {
+        "label": "控制图片的精确位置"
+      },
+      {
+        "label": "兼容所有的浏览器"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "topic": ["在CSS中要使文本闪烁，text-decoration属性的取值应该是_______。"],
+    "options": [
+      {
+        "label": "none"
+      },
+      {
+        "label": "underline"
+      },
+      {
+        "label": "blink",
+        "isTrue": true
+      },
+      {
+        "label": "overline"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "topic": ["在CSS中使用背景图片需要使用参数_______。"],
+    "options": [
+      {
+        "label": "image"
+      },
+      {
+        "label": "url",
+        "isTrue": true
+      },
+      {
+        "label": "style"
+      },
+      {
+        "label": "embed"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "topic": [
+      "在CSS的文本属性中，文本修饰的取值text-decoration：overline表示________。"
+    ],
+    "options": [
+      {
+        "label": "不用修饰"
+      },
+      {
+        "label": "下划线"
+      },
+      {
+        "label": "上划线",
+        "isTrue": true
+      },
+      {
+        "label": "横线从字中间穿过"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "topic": [
+      "在CSS的文本属性中，文本修饰的取值text-decoration：underline表示________。"
+    ],
+    "options": [
+      {
+        "label": "不用修饰"
+      },
+      {
+        "label": "下划线",
+        "isTrue": true
+      },
+      {
+        "label": "上划线"
+      },
+      {
+        "label": "横线从字中间穿过"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "topic": [
+      "在CSS的文本属性中，文本修饰的取值text-decoration：line-through表示________。"
+    ],
+    "options": [
+      {
+        "label": "不用修饰"
+      },
+      {
+        "label": "下划线"
+      },
+      {
+        "label": "上划线"
+      },
+      {
+        "label": "横线从字中间穿过",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "topic": ["CSS样式与HTML样式相比，不同之处是________。"],
+    "options": [
+      {
+        "label": "CSS样式比HTML样式功能更强大"
+      },
+      {
+        "label": "CSS样式不能自定义添加"
+      },
+      {
+        "label": "CSS样式是指多重风格样式",
+        "isTrue": true
+      },
+      {
+        "label": "自定义的CSS样式不能导出外部样式文件，供其他网站编辑使用"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "topic": ["使用嵌入式方法引用样式单应该使用的引用标记是________。"],
+    "options": [
+      {
+        "label": "<link>"
+      },
+      {
+        "label": "<object>"
+      },
+      {
+        "label": "<style>",
+        "isTrue": true
+      },
+      {
+        "label": "<head>"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "topic": [
+      "以下各项中可以精确控制文本大小，使得文本的样式并不随浏览器设置而产生变化的是________。"
+    ],
+    "options": [
+      {
+        "label": "HTMLStye"
+      },
+      {
+        "label": "HTML"
+      },
+      {
+        "label": "Stye"
+      },
+      {
+        "label": "CSS",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "topic": ["下列关于CSS的说法错误的是________。"],
+    "options": [
+      {
+        "label": "CSS的全称是Cascading Style Sheets，中文的意思是“层叠样式表”"
+      },
+      {
+        "label": "CSS样式不仅可以控制大多数传统的文本格式属性，还可以定义一些特殊的HTML属性"
+      },
+      {
+        "label": "使用Dreamweaver只能可视化创建CSS样式，无法以源代码方式对其进行编辑",
+        "isTrue": true
+      },
+      {
+        "label": "CSS的作用是精确定义页面中各元素以及页面的整体样式"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "topic": ["下列选项中不属于CSS选择符的是________。"],
+    "options": [
+      {
+        "label": "超文本标记选择符"
+      },
+      {
+        "label": "类选择符"
+      },
+      {
+        "label": "ID选择符"
+      },
+      {
+        "label": "对象选择符",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "topic": ["在CSS语言中下列哪一项的适用对象是\"内部元素\"________。"],
+    "options": [
+      {
+        "label": "背景重复"
+      },
+      {
+        "label": "背景附件"
+      },
+      {
+        "label": "纵向排列",
+        "isTrue": true
+      },
+      {
+        "label": "背景位置"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "topic": ["下列对CSS\"关联选择符\"表述不正确的一项是________。"],
+    "options": [
+      {
+        "label": "关联选择符只不过是一个用空格隔开的两个或更多的单一选择符组成的字符串"
+      },
+      {
+        "label": "选择符可以指定一般属性"
+      },
+      {
+        "label": "它们的优先权比单一的选择符大"
+      },
+      {
+        "label": "关联选择符也是一类单一选择符",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "topic": ["在CSS语言中下列哪一项是\"目录样式图象\"的语法________。"],
+    "options": [
+      {
+        "label": "width:<值>"
+      },
+      {
+        "label": "height:<值>"
+      },
+      {
+        "label": "white-space:<值>"
+      },
+      {
+        "label": "list-style-image:<值>",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "topic": ["在CSS语言中下列哪一项是\"左边框\"的语法________。"],
+    "options": [
+      {
+        "label": "border-left-width:<值>"
+      },
+      {
+        "label": "border-top-width:<值>"
+      },
+      {
+        "label": "border-left:<值>",
+        "isTrue": true
+      },
+      {
+        "label": "border-top-width:<值>"
+      }
+    ]
+  }
+]

@@ -8,6 +8,11 @@ import EnglishThree from '@/pages/english/three';
 import EnglishFour from '@/pages/english/four';
 import EnglishFive from '@/pages/english/five';
 import EnglishOther from '@/pages/english/other';
+import Web from '@/pages/web/index';
+import WebOne from '@/pages/web/one';
+import WebTwo from '@/pages/web/two';
+import WebThree from '@/pages/web/three';
+
 import { RootRoute } from "./root"
 
 const newRoutesConfig: RouteObject[] = [
@@ -46,7 +51,24 @@ const newRoutesConfig: RouteObject[] = [
       {
         path: '/english/other',
         element: <Suspense fallback={<div>Loading...</div>}><EnglishOther /></Suspense>
-      }
+      },
+      {
+        path: '/web',
+        element: <Suspense fallback={<div>Loading...</div>}><Web /></Suspense>
+      },
+      {
+        path: '/web/one',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne /></Suspense>
+      },
+      {
+        path: '/web/two',
+        element: <Suspense fallback={<div>Loading...</div>}><WebTwo /></Suspense>
+      },
+      {
+        path: '/web/three',
+        element: <Suspense fallback={<div>Loading...</div>}><WebThree /></Suspense>
+      },
+
     ]
   }
 ]

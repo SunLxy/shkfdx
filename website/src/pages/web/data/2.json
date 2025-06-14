@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1,
+    "topic": ["Dreamweaver是属于______公司的产品。"],
+    "options": [
+      {
+        "label": "Microsoft"
+      },
+      {
+        "label": "Adobe",
+        "isTrue": true
+      },
+      {
+        "label": "SUN"
+      },
+      {
+        "label": "IBM"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "如果Dreamweaver中的“属性”面板没有出现，显示该面板的命令是______菜单中的“属性”命令。"
+    ],
+    "options": [
+      {
+        "label": "查看"
+      },
+      {
+        "label": "编辑"
+      },
+      {
+        "label": "站点"
+      },
+      {
+        "label": "窗口",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["下列不属于“网页制作三剑客”的是______。"],
+    "options": [
+      {
+        "label": "Fireworks"
+      },
+      {
+        "label": "Dreamweaver"
+      },
+      {
+        "label": "Photoshop",
+        "isTrue": true
+      },
+      {
+        "label": "Flash"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "通过Dreamweaver CS6的导入和导出站点的功能，站点导出的文件格式为_________。"
+    ],
+    "options": [
+      {
+        "label": "*.html"
+      },
+      {
+        "label": "*.ste",
+        "isTrue": true
+      },
+      {
+        "label": "*.gif"
+      },
+      {
+        "label": "*.css"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "在默认的情况下，启动Dreamweaver后会出现起始页对话框，若想打开时，不出现起始页，应通过_____菜单实现？"
+    ],
+    "options": [
+      {
+        "label": "文件"
+      },
+      {
+        "label": "编辑",
+        "isTrue": true
+      },
+      {
+        "label": "视图"
+      },
+      {
+        "label": "修改"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["要设置Dreamweaver的外观，需要在________对话框中完成。"],
+    "options": [
+      {
+        "label": "页面属性"
+      },
+      {
+        "label": "属性检查器"
+      },
+      {
+        "label": "文档窗口"
+      },
+      {
+        "label": "首选参数",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["在_______菜单中，单击不同的命令可以打开不同的面板。"],
+    "options": [
+      {
+        "label": "文件"
+      },
+      {
+        "label": "修改"
+      },
+      {
+        "label": "命令"
+      },
+      {
+        "label": "窗口",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["有关Dreamweaver的浏览器兼容性测试，下述不正确的说法是______。"],
+    "options": [
+      {
+        "label": "浏览器兼容性测试可以在文档上运行"
+      },
+      {
+        "label": "浏览器兼容性测试可以在目录上运行"
+      },
+      {
+        "label": "浏览器兼容性测试可以在整个网站上运行"
+      },
+      {
+        "label": "浏览器兼容性测试检查站点中的JavaScript 脚本语言",
+        "isTrue": true
+      }
+    ]
+  }
+]

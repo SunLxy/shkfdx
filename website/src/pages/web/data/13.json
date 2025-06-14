@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "在Dreamweaver中，关于插入到页面中的Flash动画说法错误的是______。"
+    ],
+    "options": [
+      {
+        "label": "具有.fla 扩展名的Flash文件尚未在Flash中发布，不能导入到Dreamweaver中"
+      },
+      {
+        "label": "Flash在Dreamweaver的编辑状态下可以预览动画"
+      },
+      {
+        "label": "在属性检查器中可为影片设置播放参数"
+      },
+      {
+        "label": "Flash文件只有在浏览器中才能播放",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "利用时间轴做动画效果，如果想要一个动作在页面载入5秒启动，并且是每秒15帧的效果，那么起始关键帧应该设置在时间链的______。"
+    ],
+    "options": [
+      {
+        "label": "第1帧"
+      },
+      {
+        "label": "第60帧"
+      },
+      {
+        "label": "第75帧",
+        "isTrue": true
+      },
+      {
+        "label": "第5帧"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "对插入网页中的Flash动画，不能在属性面板中设置动画的______属性。"
+    ],
+    "options": [
+      {
+        "label": "动画是否循环播放"
+      },
+      {
+        "label": "动画循环播放的次数",
+        "isTrue": true
+      },
+      {
+        "label": "动画播放时的品质"
+      },
+      {
+        "label": "是否自动播放动画"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": ["Fps的意义是______。"],
+    "options": [
+      {
+        "label": "比特率"
+      },
+      {
+        "label": "帧速率",
+        "isTrue": true
+      },
+      {
+        "label": "层叠样式表"
+      },
+      {
+        "label": "表单"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": ["在网页上添加背景音乐时，下列可以设定播放器可见属性的是______。"],
+    "options": [
+      {
+        "label": "hidden",
+        "isTrue": true
+      },
+      {
+        "label": "src"
+      },
+      {
+        "label": "loop"
+      },
+      {
+        "label": "autostart"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["Flash动画的扩展名为______。"],
+    "options": [
+      {
+        "label": "*.flv"
+      },
+      {
+        "label": "*.swf",
+        "isTrue": true
+      },
+      {
+        "label": "*.swt"
+      },
+      {
+        "label": "*.fla"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["在Dreamweaver CS6的插入菜单中，Flash表示______。"],
+    "options": [
+      {
+        "label": "插入一个ActiveX占位符"
+      },
+      {
+        "label": "打开可以输入或浏览的插入Applet对话框"
+      },
+      {
+        "label": "打开插入插件对话框"
+      },
+      {
+        "label": "打开插入Flash影片对话框",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["下面______操作不能在网页中插入flash动画"],
+    "options": [
+      {
+        "label": "执行菜单命令“插入/媒体/flash”"
+      },
+      {
+        "label": "点击对象面板上“常用”对象组里的“flash”按钮"
+      },
+      {
+        "label": "在设计视图下，直接将flash动画拖拽到文件中"
+      },
+      {
+        "label": "在任意视图下，直接将flash动画拖拽到文件中",
+        "isTrue": true
+      }
+    ]
+  }
+]

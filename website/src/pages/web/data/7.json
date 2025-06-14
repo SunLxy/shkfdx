@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "topic": ["_____不是组成表格的最基本元素。"],
+    "options": [
+      {
+        "label": "边框",
+        "isTrue": true
+      },
+      {
+        "label": "行"
+      },
+      {
+        "label": "列"
+      },
+      {
+        "label": "单元格"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": ["关于表格的使用，以下哪个说法是正确的_____。"],
+    "options": [
+      {
+        "label": "表格能够转化为层",
+        "isTrue": true
+      },
+      {
+        "label": "表格不能被任意拆分"
+      },
+      {
+        "label": "表格不支持背景色修改"
+      },
+      {
+        "label": "表格不能嵌套"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["在Dreamweaver中，有关表格对象的陈述不正确的是_____。"],
+    "options": [
+      {
+        "label": "表格一旦设计好，行列数就不能调整",
+        "isTrue": true
+      },
+      {
+        "label": "表格可以嵌套"
+      },
+      {
+        "label": "表格中单元格的宽度可以自行调整"
+      },
+      {
+        "label": "表格支持背景色修改，也支持背景图片"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": ["在Dreamweaver中，下面关于表格布局属性的说法错误的是_____。"],
+    "options": [
+      {
+        "label": "可以设置单元格之间的距离但是不能设置单元格内部的内容和单元格边框之间的距离",
+        "isTrue": true
+      },
+      {
+        "label": "可以设置表格的背景颜色"
+      },
+      {
+        "label": "可以设置高度"
+      },
+      {
+        "label": "可以设置宽度"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": ["关于表格的说法，正确的是_____。"],
+    "options": [
+      {
+        "label": "可以将Excel等软件处理过的数据导入网页上的表格",
+        "isTrue": true
+      },
+      {
+        "label": "按“Shift”的同时用鼠标单击可以选定若干分散的单元格"
+      },
+      {
+        "label": "如果表格中包含合并单元格，也能对其进行排序"
+      },
+      {
+        "label": "表格和层之间不能进行转换"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["在Dreamweaver中，下面关于导入和导出表格数据说法错误的是_____。"],
+    "options": [
+      {
+        "label": "文本文件不可以导入到Dreamweaver中并格式化为表格",
+        "isTrue": true
+      },
+      {
+        "label": "Word文档可以导入到Dreamweaver中并格式化为表格"
+      },
+      {
+        "label": "Dreamweaver提供了与外界数据交换的工具"
+      },
+      {
+        "label": "可以将网页中的表格导出为Word文档"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["在HTML中，下面_____是插入表格标签。"],
+    "options": [
+      {
+        "label": "<table>…</table>",
+        "isTrue": true
+      },
+      {
+        "label": "〈A〉…〈A〉"
+      },
+      {
+        "label": "〈FONT〉…〈/FONT〉"
+      },
+      {
+        "label": "〈IMG〉…〈/IMG〉"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["表格的HTML代码中的<tr>和</tr>指定的是______。"],
+    "options": [
+      {
+        "label": "列"
+      },
+      {
+        "label": "表格"
+      },
+      {
+        "label": "行",
+        "isTrue": true
+      },
+      {
+        "label": "单元格"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": ["要制作不规则的表格，要对表格进行合并和______。操作。"],
+    "options": [
+      {
+        "label": "插入行"
+      },
+      {
+        "label": "插入列"
+      },
+      {
+        "label": "嵌套"
+      },
+      {
+        "label": "拆分",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["下面不可以在表格中插入的是______。"],
+    "options": [
+      {
+        "label": "图像"
+      },
+      {
+        "label": "Photoshop",
+        "isTrue": true
+      },
+      {
+        "label": "文字"
+      },
+      {
+        "label": "多媒体素材"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["下列关于布局表格的说法正确的是______。"],
+    "options": [
+      {
+        "label": "编辑布局表格必须使用布局视图",
+        "isTrue": true
+      },
+      {
+        "label": "页面内所有的布局表格都可以移动"
+      },
+      {
+        "label": "布局表格的任何位置都可以直接插入文本"
+      },
+      {
+        "label": "布局表格必须转换为普通表格以后才可以对单元格进行编辑"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["使用Dreamweaver 将任一单元格拆分为3行的操作正确的是______。"],
+    "options": [
+      {
+        "label": "表格属性栏“拆分”对话框，列数3"
+      },
+      {
+        "label": "表格属性栏“拆分”对话框，行数3",
+        "isTrue": true
+      },
+      {
+        "label": "右键菜单—>表格—>插入行"
+      },
+      {
+        "label": "右键菜单—>表格—>插入列"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": ["关于表格背景，说法正确的是______。"],
+    "options": [
+      {
+        "label": "只能定义表格背景颜色，不能用图片作为表格背景"
+      },
+      {
+        "label": "可以使用颜色或图片作为表格背景图，但图片格式必须是GIF格式"
+      },
+      {
+        "label": "可以使用颜色或图片作为表格背景图，但图片格式必须是JPEG 格式"
+      },
+      {
+        "label": "可以使用颜色或图片作为表格背景图，可以使用任何的GIF或 者JPEG图片文件",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": ["设置表格的行数和列数，不能采用的方法是______。"],
+    "options": [
+      {
+        "label": "在插入表格时设置表格的行数和列数"
+      },
+      {
+        "label": "打开代码视图，在<table>标签中修改相应属性，以修改表格的 行数与列数"
+      },
+      {
+        "label": "选中整个表格，在属性面板中修改其行数和列数"
+      },
+      {
+        "label": "通过拆分、合并或删除行、列来修改行数与列数",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": [
+      "在Dreamweaver中，可以对表格中的每一个单元格都进行属性的设置。对单元格进行属性设置主要是通过______面板来实现的。"
+    ],
+    "options": [
+      {
+        "label": "属性",
+        "isTrue": true
+      },
+      {
+        "label": "资源"
+      },
+      {
+        "label": "文件"
+      },
+      {
+        "label": "数据库连接"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": [
+      "在网页制作中，把表格框架的粗细设置为______，可以隐藏表格的边框。"
+    ],
+    "options": [
+      {
+        "label": "0像素",
+        "isTrue": true
+      },
+      {
+        "label": "1像素"
+      },
+      {
+        "label": "5像素"
+      },
+      {
+        "label": "10像素"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": ["单击文档窗口状态栏中的______标签，会选中整个表格。"],
+    "options": [
+      {
+        "label": "<div>"
+      },
+      {
+        "label": "<span>"
+      },
+      {
+        "label": "<table>",
+        "isTrue": true
+      },
+      {
+        "label": "<tr>"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": ["在表格单元格中可以插入的对象有______。"],
+    "options": [
+      {
+        "label": "文本"
+      },
+      {
+        "label": "图像"
+      },
+      {
+        "label": "flash动画"
+      },
+      {
+        "label": "以上都可以",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": ["不可以在插入表格时弹出对话框中设置的属性______。"],
+    "options": [
+      {
+        "label": "行数"
+      },
+      {
+        "label": "边框粗细"
+      },
+      {
+        "label": "边框高度",
+        "isTrue": true
+      },
+      {
+        "label": "列数"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": ["关于表格背景，说法正确的是______。"],
+    "options": [
+      {
+        "label": "能定义表格背景颜色，不能用图片作为表格背景"
+      },
+      {
+        "label": "以使用颜色或图片作为表格背景图，但图片格式必须是GIF格式"
+      },
+      {
+        "label": "以使用颜色或图片作为表格背景图，但图片格式必须是JPEG格式"
+      },
+      {
+        "label": "使用颜色或图片作为表格背景图，可以使用任何的GIF或者JPEG图片文件",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": [
+      "在Dreamweaver CS6中，下面哪个操作不能通过鼠标选择整个表格______。"
+    ],
+    "options": [
+      {
+        "label": "当光标在表格中时，在Dreamweaver界面窗口左下角的标签选择器中单击<table>标签"
+      },
+      {
+        "label": "将鼠标移动到表格的底部或右部的边框，当鼠标指针变成如图 形状时单击鼠标"
+      },
+      {
+        "label": "将鼠标移到任何的表格框上，当鼠标指针变成如图 形状时单击鼠标"
+      },
+      {
+        "label": "把鼠标指针移到单元格里，再双击鼠标",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": [
+      "表格用标签<table>和</table>定义，它的表示横向合并的属性是______。"
+    ],
+    "options": [
+      {
+        "label": "colspan",
+        "isTrue": true
+      },
+      {
+        "label": "rowspan"
+      },
+      {
+        "label": "cellpadding"
+      },
+      {
+        "label": "cellspacing"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": [
+      "表格用标签<table>和</table>定义，它的表示纵向合并的属性是______。"
+    ],
+    "options": [
+      {
+        "label": "colspan"
+      },
+      {
+        "label": "rowspan",
+        "isTrue": true
+      },
+      {
+        "label": "cellpadding"
+      },
+      {
+        "label": "cellspacing"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": [
+      "表格用标签<table>和</table>定义，它的表示单元格与内容间距的属性是______。"
+    ],
+    "options": [
+      {
+        "label": "colspan"
+      },
+      {
+        "label": "rowspan"
+      },
+      {
+        "label": "cellpadding",
+        "isTrue": true
+      },
+      {
+        "label": "cellspacing"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": [
+      "表格用标签<table>和</table>定义，它的表示表格与单元格间距的属性是______。"
+    ],
+    "options": [
+      {
+        "label": "colspan"
+      },
+      {
+        "label": "rowspan"
+      },
+      {
+        "label": "cellpadding"
+      },
+      {
+        "label": "cellspacing",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": ["下面所列的类型值中，哪个不是无序列表的序号类型_______。"],
+    "options": [
+      {
+        "label": "disc"
+      },
+      {
+        "label": "circle"
+      },
+      {
+        "label": "square"
+      },
+      {
+        "label": "align",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": [
+      "下面所列的类型值中，哪个是无序列表的表示黑色实心圆点的序号类型_______。"
+    ],
+    "options": [
+      {
+        "label": "disc",
+        "isTrue": true
+      },
+      {
+        "label": "circle"
+      },
+      {
+        "label": "square"
+      },
+      {
+        "label": "align"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": [
+      "下面所列的类型值中，哪个是无序列表的表示空心圆环的序号类型_______。"
+    ],
+    "options": [
+      {
+        "label": "disc"
+      },
+      {
+        "label": "circle",
+        "isTrue": true
+      },
+      {
+        "label": "square"
+      },
+      {
+        "label": "align"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": ["表格的边框有若干中属性，其中表示表格内框宽度的属性是________。"],
+    "options": [
+      {
+        "label": "bordercolor"
+      },
+      {
+        "label": "border"
+      },
+      {
+        "label": "cellspacing",
+        "isTrue": true
+      },
+      {
+        "label": "cellpadding"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": [
+      "表格的边框有若干中属性，其中表示表格内文字和边框间距的属性是________。"
+    ],
+    "options": [
+      {
+        "label": "bordercolor"
+      },
+      {
+        "label": "border"
+      },
+      {
+        "label": "cellspacing"
+      },
+      {
+        "label": "cellpadding",
+        "isTrue": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,1016 @@
+[
+  {
+    "id": 1,
+    "topic": ["下面表单的工作过程说法错误的是______。"],
+    "options": [
+      {
+        "label": "服务器上专门的程序对这些数据进行处理，如果有错误会自动修正错误",
+        "isTrue": true
+      },
+      {
+        "label": "当数据完整无误后，服务器反馈一个输入完成信息"
+      },
+      {
+        "label": "这些信息通过Internet传送到服务器上"
+      },
+      {
+        "label": "访问者在浏览有表单的网页时，填上必需的信息，然后按某个按钮递交"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "在Dreamweaver中插入单行文本域时，下面不是文本域形式的是______。"
+    ],
+    "options": [
+      {
+        "label": "限制行域",
+        "isTrue": true
+      },
+      {
+        "label": "单行域"
+      },
+      {
+        "label": "密码域"
+      },
+      {
+        "label": "多行域"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["表单可以和______放在一行。"],
+    "options": [
+      {
+        "label": "这些选项都不能",
+        "isTrue": true
+      },
+      {
+        "label": "文本"
+      },
+      {
+        "label": "图像"
+      },
+      {
+        "label": "表单"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": ["下面关于设置文本域的属性说法错误的是______。"],
+    "options": [
+      {
+        "label": "通过设置可以控制单行文本域的高度",
+        "isTrue": true
+      },
+      {
+        "label": "单行文本域只能输入单行的文本"
+      },
+      {
+        "label": "通过设置可以控制输入单行文本域的最长字符数"
+      },
+      {
+        "label": "密码域的主要特点是不在表单中显示具体输入内容，而是用*来替代显示"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "在Dreamweaver中，可利用表单与浏览者进行交流，在设计中要区分男女性别，通常采用______。"
+    ],
+    "options": [
+      {
+        "label": "复选框"
+      },
+      {
+        "label": "单选按钮",
+        "isTrue": true
+      },
+      {
+        "label": "单行文本域"
+      },
+      {
+        "label": "提交按钮"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["以下应用不属于利用表单功能设计的有______。"],
+    "options": [
+      {
+        "label": "用户注册"
+      },
+      {
+        "label": "浏览数据库记录",
+        "isTrue": true
+      },
+      {
+        "label": "网上订购"
+      },
+      {
+        "label": "用户登录"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["在表单元素“列表”的属性中，______用来设置列表显示的行数"],
+    "options": [
+      {
+        "label": "类型"
+      },
+      {
+        "label": "高度",
+        "isTrue": true
+      },
+      {
+        "label": "允许多选"
+      },
+      {
+        "label": "列表值"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "HTML代码<input type=text name=\"\"address\"\" size=30>表示______。"
+    ],
+    "options": [
+      {
+        "label": "创建一个单选框"
+      },
+      {
+        "label": "创建一个单行文本输入区域",
+        "isTrue": true
+      },
+      {
+        "label": "创建一个提交按纽"
+      },
+      {
+        "label": "创建一个使用图象的提交按纽"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": ["HTML代码<select name=”NAME”></select>表示______。"],
+    "options": [
+      {
+        "label": "创建表格"
+      },
+      {
+        "label": "创建一个滚动菜单"
+      },
+      {
+        "label": "设置每个表单项的内容"
+      },
+      {
+        "label": "创建一个下拉菜单",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["当标记的TYPE属性值为______时,代表一个可选多项的复选框。"],
+    "options": [
+      {
+        "label": "TEXT"
+      },
+      {
+        "label": "PASSWORD"
+      },
+      {
+        "label": "RADIO"
+      },
+      {
+        "label": "CHECKBOX",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["下列不属于表单元素的是______。"],
+    "options": [
+      {
+        "label": "文本域"
+      },
+      {
+        "label": "菜单/列表"
+      },
+      {
+        "label": "图像域"
+      },
+      {
+        "label": "有序列表",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["下列______中的是表单域的内容。"],
+    "options": [
+      {
+        "label": "<table>……</table>"
+      },
+      {
+        "label": "<form>……</form>",
+        "isTrue": true
+      },
+      {
+        "label": "<p>……</p>"
+      },
+      {
+        "label": "<JavaScript>……</JavaScript>"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": ["下列关于表单对象的说法正确的是______。"],
+    "options": [
+      {
+        "label": "两个密码文本框的名称必须一样"
+      },
+      {
+        "label": "同一组的单选按钮的选定值必须一样"
+      },
+      {
+        "label": "菜单和列表的区别在于显示项目的高度和选定范围",
+        "isTrue": true
+      },
+      {
+        "label": "可以将提交按钮与要提交的数据放在不同的表单域中"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": [
+      "“单选按钮”是插入共享同一名称的单选按钮的集合，插入“单选按钮组”后要逐个命名______。"
+    ],
+    "options": [
+      {
+        "label": "没必要，Dreamweaver会自动命名"
+      },
+      {
+        "label": "有必要，要不然无法发送数据"
+      },
+      {
+        "label": "无法命名"
+      },
+      {
+        "label": "一个组中的所有单选按钮必须具有相同的名称，而且必须包含不同的域值。",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": ["下面关于设置按钮属性的说法错误的是______。"],
+    "options": [
+      {
+        "label": "在设置属性面板上的按钮属性有提交属性"
+      },
+      {
+        "label": "在设置属性面板上的按钮属性有重置属性"
+      },
+      {
+        "label": "可以用图片来制作图形按钮"
+      },
+      {
+        "label": "按钮属性只有提交属性",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": ["以下说法正确的是______。"],
+    "options": [
+      {
+        "label": "普通按钮很不美观，为了设计需要，使用图像代替按钮，通常使用图像域来提交数据"
+      },
+      {
+        "label": "一般情况下，表单中只设有普通按钮"
+      },
+      {
+        "label": "提交按钮的作用是，将表单数据提交到系统中进行存档"
+      },
+      {
+        "label": "重置按钮的作用是，将表单的内容还原为初始状态",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": ["下面关于设置按钮属性的说法错误的是______。"],
+    "options": [
+      {
+        "label": "在设置属性面板上的按钮属性有提交属性"
+      },
+      {
+        "label": "在设置属性面板上的按钮属性有重置属性"
+      },
+      {
+        "label": "在设置属性面板上的按钮自己不可以添加属性",
+        "isTrue": true
+      },
+      {
+        "label": "可以用图片来制作图像按钮"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": ["下面关于设置文本域的属性说法错误的是______。"],
+    "options": [
+      {
+        "label": "单行文本域只能输入单行的文本"
+      },
+      {
+        "label": "通过设置可以控制单行域的高度",
+        "isTrue": true
+      },
+      {
+        "label": "通过设置可以控制输入单行域的最长字符数"
+      },
+      {
+        "label": "密码域的主要特点是不在表单中显示具体输入内容，而是用*来代替显示"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": ["在使用表单时，文本域主要有几种形式______。"],
+    "options": [
+      {
+        "label": "1"
+      },
+      {
+        "label": "2"
+      },
+      {
+        "label": "3",
+        "isTrue": true
+      },
+      {
+        "label": "4"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": ["能够设置成密码域的是______。"],
+    "options": [
+      {
+        "label": "只有单行文本域",
+        "isTrue": true
+      },
+      {
+        "label": "只有多行文本"
+      },
+      {
+        "label": "单行、多行文本域"
+      },
+      {
+        "label": "多行Textarea标识"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": ["表单中，text文字字段用来设置表单元素的名称的参数是_______。"],
+    "options": [
+      {
+        "label": "name",
+        "isTrue": true
+      },
+      {
+        "label": "value"
+      },
+      {
+        "label": "size"
+      },
+      {
+        "label": "maxlegth"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": ["表单中，text文字字段用来设置文本框的默认值的参数是_______。"],
+    "options": [
+      {
+        "label": "name"
+      },
+      {
+        "label": "value",
+        "isTrue": true
+      },
+      {
+        "label": "size"
+      },
+      {
+        "label": "maxlegth"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": [
+      "有一个供用户注册的网页，在用户填写完成后，点击“确定”按钮，网页将检查所填写的资料的有效性，这是因为使用了Dreamweaver的______事件。"
+    ],
+    "options": [
+      {
+        "label": "检查表单",
+        "isTrue": true
+      },
+      {
+        "label": "检查插件"
+      },
+      {
+        "label": "检查浏览器"
+      },
+      {
+        "label": "改变属性"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": ["表单中，text文字字段用来设置文本框显示的长度的参数是_______。"],
+    "options": [
+      {
+        "label": "name"
+      },
+      {
+        "label": "value"
+      },
+      {
+        "label": "size",
+        "isTrue": true
+      },
+      {
+        "label": "maxlegth"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": ["下列关于各表单域的描述不正确的是_______。"],
+    "options": [
+      {
+        "label": "单选按钮一般以两个或两个以上的形式出现"
+      },
+      {
+        "label": "在表单中，复选框一般都不是单独出现的，都是多个复选框同时使用"
+      },
+      {
+        "label": "图片域可以用来替代按钮的工作"
+      },
+      {
+        "label": "我们可以在菜单域中选择多项信息",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": ["下面哪一项表示的是文件域_______。"],
+    "options": [
+      {
+        "label": "type=”hidden”"
+      },
+      {
+        "label": "type=”file”",
+        "isTrue": true
+      },
+      {
+        "label": "type=”text”"
+      },
+      {
+        "label": "type=”checkbox”"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": ["下面哪一项表示的不是按钮_______。"],
+    "options": [
+      {
+        "label": "type=”submit”"
+      },
+      {
+        "label": "type=”reset”"
+      },
+      {
+        "label": "type=”image”",
+        "isTrue": true
+      },
+      {
+        "label": "type=”button”"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": ["下列关于各表单域的描述正确的一项是_______。"],
+    "options": [
+      {
+        "label": "单选按钮的名称可以不同"
+      },
+      {
+        "label": "复选框的选定值必须是相同的"
+      },
+      {
+        "label": "列表可以显示多行选项",
+        "isTrue": true
+      },
+      {
+        "label": "菜单可以显示多行选项"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": ["在多行的文本区域中，下列哪一项设置可以出现水平滚动条_______。"],
+    "options": [
+      {
+        "label": "将其【换行】属性设置为“默认”"
+      },
+      {
+        "label": "将其【换行】属性设置为“关”",
+        "isTrue": true
+      },
+      {
+        "label": "将其【换行】属性设置为“虚拟”"
+      },
+      {
+        "label": "将其【换行】属性设置为“实体”"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": [
+      "．如果要表单提交信息不以附件的形式发送，只要将表单的“MTME类型”设置为_______。"
+    ],
+    "options": [
+      {
+        "label": "text／plain",
+        "isTrue": true
+      },
+      {
+        "label": "password"
+      },
+      {
+        "label": "submit"
+      },
+      {
+        "label": "button"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": [
+      "．在表单中包含性别选项，且默认状态为“男”被选中，下列正确的是_______。"
+    ],
+    "options": [
+      {
+        "label": "<input type=radio name=sex checked> 男",
+        "isTrue": true
+      },
+      {
+        "label": "<input type=radio name=sex enabled>男"
+      },
+      {
+        "label": "<input type=checkbox name=sex checked>男"
+      },
+      {
+        "label": "<input type=checkbox name=sex enabled>男"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": ["在表单标记中，用______属性来提交填写的信息、调用表单处理程序。"],
+    "options": [
+      {
+        "label": "method"
+      },
+      {
+        "label": "name"
+      },
+      {
+        "label": "style"
+      },
+      {
+        "label": "action",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": [
+      "若要获得名为login的表单中，名为txtuser的文本输入框的值，以下获取的方法中，正确的是______。"
+    ],
+    "options": [
+      {
+        "label": "username=login.txtser.value"
+      },
+      {
+        "label": "username=document.txtuser.value"
+      },
+      {
+        "label": "username=document.login.txtuser"
+      },
+      {
+        "label": "username=document.txtuser.value",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": ["下列关于表单的说法不正确的一项是______。"],
+    "options": [
+      {
+        "label": "表单对象可以单独存在于网页表单之外"
+      },
+      {
+        "label": "表单中包含各种表单对象，如文本域、列表框和按钮"
+      },
+      {
+        "label": "表单就是表单对象",
+        "isTrue": true
+      },
+      {
+        "label": "表单由两部分组成：一是描述表单的HTML源代码；二是用来处理用户在表单域中输入的信息的服务器端应用程序客户端脚本"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": ["下列叙述正确的是______。"],
+    "options": [
+      {
+        "label": "表单由两部分组成：一是描述表单的HTML源代码；二是用来处理用户在表单域中输入的信息的服务器端应用程序客户端脚本",
+        "isTrue": true
+      },
+      {
+        "label": "使用Dreamweaver MX可以创建表单，可以给表单中添加表单对象，但不能通过使用“行为”来验证用户输入的信息的正确性"
+      },
+      {
+        "label": "当访问者将信息输入Web站点表单并单击提交按钮时，这些信息将被发送到服务器，但服务器端脚本或应用程序不能对这些信息进行直接处理"
+      },
+      {
+        "label": "表单通常用来做调查表、订单，但不能用来做搜索界面"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "topic": [
+      "表单域是获得用户在表单中输入文本的主要方式。其中有3种类型的表单域，不属于这3种类型的是______。"
+    ],
+    "options": [
+      {
+        "label": "文本域"
+      },
+      {
+        "label": "文件域",
+        "isTrue": true
+      },
+      {
+        "label": "隐藏域"
+      },
+      {
+        "label": "图像域"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "topic": ["下列哪种元素不能插入层中______。"],
+    "options": [
+      {
+        "label": "层"
+      },
+      {
+        "label": "框架",
+        "isTrue": true
+      },
+      {
+        "label": "表格"
+      },
+      {
+        "label": "表单及各种表单对象"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "topic": [
+      "．如果要在表单里创建一个普通文本框，以下写法中正确的是_______。"
+    ],
+    "options": [
+      {
+        "label": "<INPUT>",
+        "isTrue": true
+      },
+      {
+        "label": "<INPUT type=“password”>"
+      },
+      {
+        "label": "<INPUT type=“checkbox”>"
+      },
+      {
+        "label": "<INPUT type=“radio”>"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "topic": ["以下有关表单的说明中，错误的是_______。"],
+    "options": [
+      {
+        "label": "表单通常用于搜集用户信息"
+      },
+      {
+        "label": "在FORM标记符中使用action属性指定表单处理程序的位置"
+      },
+      {
+        "label": "表单中只能包含表单控件，而不能包含其他诸如图片之类的内容",
+        "isTrue": true
+      },
+      {
+        "label": "在FORM标记符中使用method属性指定提交表单数据的方法"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "topic": [
+      "在指定单选框时，只有将以下______属性的值指定为相同时，才能使它们成为一组。"
+    ],
+    "options": [
+      {
+        "label": "type"
+      },
+      {
+        "label": "name",
+        "isTrue": true
+      },
+      {
+        "label": "value"
+      },
+      {
+        "label": "checked"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": ["以下表单控件中，不是由INPUT标记符创建的为_______。"],
+    "options": [
+      {
+        "label": "单选框"
+      },
+      {
+        "label": "口令框"
+      },
+      {
+        "label": "选项菜单",
+        "isTrue": true
+      },
+      {
+        "label": "提交按钮"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "topic": ["若要产生一个4行30列的多行文本域，以下方法中，正确的是_______。"],
+    "options": [
+      {
+        "label": "<Input type=”text” Rows=”4” Cols=”30” Name=”txtintrol”>"
+      },
+      {
+        "label": "<TextArea Rows=”4” Cols=”30” Name=”txtintro”>"
+      },
+      {
+        "label": "<TextArea Rows=”4” Cols=”30” Name=”txtintro”></TextArea>",
+        "isTrue": true
+      },
+      {
+        "label": "<TextArea Rows=”30” Cols=”4” Name=”txtintro”></TextArea>"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "topic": ["在Dreamweaver中，最常用的表单处理脚本语言是_______。"],
+    "options": [
+      {
+        "label": "C"
+      },
+      {
+        "label": "Java"
+      },
+      {
+        "label": "ASP"
+      },
+      {
+        "label": "JavaScript",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "topic": [
+      "在表单中需要把用户的数据以密码的形式接受，应该定义的表单元素是_______。"
+    ],
+    "options": [
+      {
+        "label": "<input type=text>"
+      },
+      {
+        "label": "<input type=password>",
+        "isTrue": true
+      },
+      {
+        "label": "ASP<input type=checkbox>"
+      },
+      {
+        "label": "JavaScript<input type=radio>"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "topic": ["以下有关列表的说法中，错误的是_______。"],
+    "options": [
+      {
+        "label": "有序列表和无序列表可以互相嵌套。"
+      },
+      {
+        "label": "指定嵌套列表时，也可以具体指定项目符号或编号样式。"
+      },
+      {
+        "label": "无序列表应使用 UL 和 LI 标记符进行创建。"
+      },
+      {
+        "label": "在创建列表时，LI 标记符的结束标记符不可省略",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "topic": ["制作无序号号列表，需使用_______标签。"],
+    "options": [
+      {
+        "label": "〈p〉和〈/p〉"
+      },
+      {
+        "label": "〈ul〉〈/ul〉和〈li〉",
+        "isTrue": true
+      },
+      {
+        "label": "〈dl〉〈/dl〉和〈li〉"
+      },
+      {
+        "label": "〈ol〉〈/ol〉和〈li〉"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "topic": ["表单主要用来_______。"],
+    "options": [
+      {
+        "label": "显示图像"
+      },
+      {
+        "label": "设置超链接"
+      },
+      {
+        "label": "收集信息",
+        "isTrue": true
+      },
+      {
+        "label": "浏览网页信息"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "topic": ["如果要在网页中添加表单，应在文档中添加的标记符是_______。"],
+    "options": [
+      {
+        "label": "<input>"
+      },
+      {
+        "label": "<form></form>",
+        "isTrue": true
+      },
+      {
+        "label": "<object> </object>"
+      },
+      {
+        "label": "<applet></applet>"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "topic": ["表单中的按钮有三种，即_______。"],
+    "options": [
+      {
+        "label": "提交按钮、FLASH按钮、交换按钮"
+      },
+      {
+        "label": "提交按钮、重置按钮、普通按钮",
+        "isTrue": true
+      },
+      {
+        "label": "Flash按钮、重置按钮、普通按钮"
+      },
+      {
+        "label": "提交按钮、重置按钮、交换按钮"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "topic": ["表单中单行文本框有效性验证，对 ______数据类型无效。"],
+    "options": [
+      {
+        "label": "文本"
+      },
+      {
+        "label": "日期",
+        "isTrue": true
+      },
+      {
+        "label": "整数"
+      },
+      {
+        "label": "数字"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "topic": ["〈select name=*〉…〈/select〉标记的作用是_______。"],
+    "options": [
+      {
+        "label": "结构化查询语句"
+      },
+      {
+        "label": "选择菜单框"
+      },
+      {
+        "label": "列表框",
+        "isTrue": true
+      },
+      {
+        "label": "选择语句"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "topic": [
+      "当<INPUT>标记的TYPE属性值为_______时，代表一个可选多项的复选框。"
+    ],
+    "options": [
+      {
+        "label": "TEXT"
+      },
+      {
+        "label": "PASSWORD"
+      },
+      {
+        "label": "RADIO"
+      },
+      {
+        "label": "CHECKBOX",
+        "isTrue": true
+      }
+    ]
+  }
+]
