@@ -142,3 +142,22 @@ export const QItem = (props: QItemProps) => {
     {state.isAllSelect === false && isMulti ? <div className={cx(styles.warn)}>未选择所有数据</div> : null}
   </div>
 }
+export interface QItemTranslateProps {
+  /**翻译*/
+  translate?: string[]
+  /**显示答案的背题模式*/
+  isRead?: boolean
+  /**多选*/
+  isMulti?: boolean
+  /**是否显示翻译*/
+  isShowTranslate?: boolean
+
+}
+
+export const QItemTranslate = (props: QItemTranslateProps) => {
+  const { translate, isRead, isShowTranslate } = props
+  const { styles, cx } = useStyles()
+  return Array.isArray(translate) && translate.length && (isRead || isShowTranslate) ? <div className={cx(styles.translate)}>
+    {translate.map((it, key) => <div key={key}>{it}</div>)}
+  </div> : null
+}

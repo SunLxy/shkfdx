@@ -1,11 +1,12 @@
-import { MainLayout, randomArray, TipButton, QItem, QReadingContent, QReadingContentItem, QListRadioOptionItem, Split } from "shkfdx-ui"
+import { MainLayout, randomArray, TipButton, QItem, QReadingContent, QReadingContentItem, QListRadioOptionItem, Split, QItemTranslate } from "shkfdx-ui"
 import data from "./data/two.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const EnglishTwo = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false })
-  const dataList = state.dataList as unknown as ({ id: string, form?: string, contents: QReadingContentItem[], options: QListRadioOptionItem[][] })[]
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true })
+  const dataList = state.dataList as unknown as ({ translate: string[], id: string, form?: string, contents: QReadingContentItem[], options: QListRadioOptionItem[][] })[]
   const isRead = state.isRead
+  const isShowTranslate = state.isShowTranslate
 
   return <MainLayout>
     <TipButton
@@ -21,7 +22,13 @@ const EnglishTwo = () => {
             dispatch({ dataList: randomArray(data) })
           },
           children: "刷新顺序"
-        }
+        },
+        {
+          onClick: () => {
+            dispatch({ isShowTranslate: !isShowTranslate })
+          },
+          children: isShowTranslate ? "隐藏翻译" : "显示翻译"
+        },
       ]}
     />
     {dataList.map((item, index) => {
@@ -32,6 +39,12 @@ const EnglishTwo = () => {
           form={item.form}
           sort={index + 1}
         />
+        <QItemTranslate
+          isShowTranslate={isShowTranslate}
+          isRead={isRead}
+          translate={item.translate}
+        />
+        <br />
         {options.map((option, childIndex) => <QItem
           isOptions
           key={`${childIndex}_${item.id}`}
