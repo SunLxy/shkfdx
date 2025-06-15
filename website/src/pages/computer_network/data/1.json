@@ -1,0 +1,697 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "通常按网络覆盖的地理范围分类，可分为：(  )、城域网和广域网三种。"
+    ],
+    "options": [
+      {
+        "label": "星型网"
+      },
+      {
+        "label": "有线网"
+      },
+      {
+        "label": "无线网"
+      },
+      {
+        "label": "局域网",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": ["通常一个大学拥有许多个互连的局域网，这样的网络常被称为(  )。"],
+    "options": [
+      {
+        "label": "星型网"
+      },
+      {
+        "label": "校园网",
+        "isTrue": true
+      },
+      {
+        "label": "广域网"
+      },
+      {
+        "label": "专用网"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "(  )协议，它源于ARPANET网，现在已经成为Internet互联网的通信协议。"
+    ],
+    "options": [
+      {
+        "label": "PPP"
+      },
+      {
+        "label": "TCP/IP",
+        "isTrue": true
+      },
+      {
+        "label": "DNS"
+      },
+      {
+        "label": "FTP"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "(  )的规模限定在一座城市的范围内，其作用距离约为5-50公里，如，在一个城市的范围内，将政府部门、大型企业、机关以及社会服务部门的计算机连网。"
+    ],
+    "options": [
+      {
+        "label": "城域网",
+        "isTrue": true
+      },
+      {
+        "label": "局域网"
+      },
+      {
+        "label": "无线网"
+      },
+      {
+        "label": "广域网"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": ["、下列给出的协议中,属于TCP/IP协议结构的传输层是(  )"],
+    "options": [
+      {
+        "label": "FTP"
+      },
+      {
+        "label": "IP"
+      },
+      {
+        "label": "TCP",
+        "isTrue": true
+      },
+      {
+        "label": "Telnet"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["计算机网络按网络的使用者分类可以分为：(  )、专用网两种。"],
+    "options": [
+      {
+        "label": "有线网"
+      },
+      {
+        "label": "星型网"
+      },
+      {
+        "label": "公用网",
+        "isTrue": true
+      },
+      {
+        "label": "个人区域网"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["(  )是OSI 参考模型的最低层，它直接面向原始比特流的传输。"],
+    "options": [
+      {
+        "label": "表示层"
+      },
+      {
+        "label": "网络层"
+      },
+      {
+        "label": "数据链路层"
+      },
+      {
+        "label": "物理层",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "在五层协议的体系结构中，(  )负责建立相邻结点之间的数据链路，提供节点间可靠数据传输。"
+    ],
+    "options": [
+      {
+        "label": "表示层"
+      },
+      {
+        "label": "网络层"
+      },
+      {
+        "label": "数据链路层",
+        "isTrue": true
+      },
+      {
+        "label": "物理层"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "(  )是OSI 参考模型中最靠近用户的一层，其通过应用进程间的交互来完成特定网络应用。"
+    ],
+    "options": [
+      {
+        "label": "应用层",
+        "isTrue": true
+      },
+      {
+        "label": "网络层"
+      },
+      {
+        "label": "数据链路层"
+      },
+      {
+        "label": "物理层"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["(  )参考模型层次结构中，没有表示层和会话层。"],
+    "options": [
+      {
+        "label": "OSI"
+      },
+      {
+        "label": "TCP/IP",
+        "isTrue": true
+      },
+      {
+        "label": "DNS"
+      },
+      {
+        "label": "ISO"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["ISO提出OSI模型是为了(  )。"],
+    "options": [
+      {
+        "label": "建立一个设计任何网络结构都必须遵从的绝对标准"
+      },
+      {
+        "label": "克服多厂商网络固有的通信问题",
+        "isTrue": true
+      },
+      {
+        "label": "证明没有分层的网络结构是不可行的"
+      },
+      {
+        "label": "上列叙述都不是"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["、下列(  )不是按距离来划分的。"],
+    "options": [
+      {
+        "label": "广域网"
+      },
+      {
+        "label": "局域网"
+      },
+      {
+        "label": "城域网"
+      },
+      {
+        "label": "公用网",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": [
+      "在体系结构中，是(  )将数据组装成帧，每一帧包括数据和必要的控制信息。"
+    ],
+    "options": [
+      {
+        "label": "应用层"
+      },
+      {
+        "label": "网络层"
+      },
+      {
+        "label": "数据链路层",
+        "isTrue": true
+      },
+      {
+        "label": "物理层"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": [
+      "(  )是控制两个对等实体（或多个实体）间通信时所必须遵守的规则或标准的集合。"
+    ],
+    "options": [
+      {
+        "label": "实体"
+      },
+      {
+        "label": "语义"
+      },
+      {
+        "label": "数据"
+      },
+      {
+        "label": "协议",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": ["、TCP/IP参考模型中的网络接口层对应于OSI中的(  )。"],
+    "options": [
+      {
+        "label": "A、网络层"
+      },
+      {
+        "label": "B、物理层"
+      },
+      {
+        "label": "C、数据链路层"
+      },
+      {
+        "label": "D、物理层与数据链路层",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": [
+      "TCP是TCP/IP体系中面向连接的运输层协议，它提供(  )的数据传输服务。"
+    ],
+    "options": [
+      {
+        "label": "非连接"
+      },
+      {
+        "label": "可靠",
+        "isTrue": true
+      },
+      {
+        "label": "全双工"
+      },
+      {
+        "label": "半连接"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": ["电路交换要经过连接建立、(  )和连接释放三个阶段。"],
+    "options": [
+      {
+        "label": "信息传输",
+        "isTrue": true
+      },
+      {
+        "label": "资源共享"
+      },
+      {
+        "label": "点对点传输"
+      },
+      {
+        "label": "数据分析"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": ["路由器的用途是用来转发信息的，其转发信息的单位是(  )。"],
+    "options": [
+      {
+        "label": "帧"
+      },
+      {
+        "label": "分组",
+        "isTrue": true
+      },
+      {
+        "label": "比特流"
+      },
+      {
+        "label": "文件"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": [
+      "TCP/IP的网络层最重要的协议是(  )，它可将多个网络连成一个互连网。"
+    ],
+    "options": [
+      {
+        "label": "IP",
+        "isTrue": true
+      },
+      {
+        "label": "TCP"
+      },
+      {
+        "label": "UDP"
+      },
+      {
+        "label": "FTP"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": ["在TCP/IP体系中TCP提供(  )服务。"],
+    "options": [
+      {
+        "label": "应用层"
+      },
+      {
+        "label": "网络层"
+      },
+      {
+        "label": "数据链路层"
+      },
+      {
+        "label": "运输层",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": [
+      "随着电信和信息技术的发展，国际上出现了所谓“三网融合”的趋势，下列不属于三网之一的是(  )"
+    ],
+    "options": [
+      {
+        "label": "电信网络"
+      },
+      {
+        "label": "有线电视网络"
+      },
+      {
+        "label": "计算机网络"
+      },
+      {
+        "label": "卫星通信网",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": [
+      "对等层次之间传送到数据单元称为该层的协议数据单元，其英文缩写为(  )"
+    ],
+    "options": [
+      {
+        "label": "SDU"
+      },
+      {
+        "label": "IDU"
+      },
+      {
+        "label": "PDU",
+        "isTrue": true
+      },
+      {
+        "label": "ICI"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": ["Internet最先是由美国的(  )发展和演化而来。"],
+    "options": [
+      {
+        "label": "ARPANET",
+        "isTrue": true
+      },
+      {
+        "label": "NSFNET"
+      },
+      {
+        "label": "CSNET"
+      },
+      {
+        "label": "BITNET"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": [
+      "在网络环境中，对等实体之间的通信需要实体向相邻的上一层实体提供一种能力，这种能力称为(  )"
+    ],
+    "options": [
+      {
+        "label": "协议"
+      },
+      {
+        "label": "服务",
+        "isTrue": true
+      },
+      {
+        "label": "用户"
+      },
+      {
+        "label": "功能"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": ["世界上第一个计算机网络是 (  )。"],
+    "options": [
+      {
+        "label": "ARPANET",
+        "isTrue": true
+      },
+      {
+        "label": "ChinaNet"
+      },
+      {
+        "label": "Internet"
+      },
+      {
+        "label": "CERNET"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": ["计算机互联的主要目的是(  )。"],
+    "options": [
+      {
+        "label": "制定网络协议"
+      },
+      {
+        "label": "将计算机技术与通信技术相结合"
+      },
+      {
+        "label": "集中计算"
+      },
+      {
+        "label": "资源共享",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": ["在TCP/IP协议簇中，UDP协议工作在(  )。"],
+    "options": [
+      {
+        "label": "应用层"
+      },
+      {
+        "label": "传输层",
+        "isTrue": true
+      },
+      {
+        "label": "网络互联层"
+      },
+      {
+        "label": "网络接口层"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": ["Internet的前身是(  )。"],
+    "options": [
+      {
+        "label": "A、Intranet"
+      },
+      {
+        "label": "B、Ethernet"
+      },
+      {
+        "label": "C、ARPAnet",
+        "isTrue": true
+      },
+      {
+        "label": "D、Cernet"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": ["Internet的核心协议是 (  ) 。"],
+    "options": [
+      {
+        "label": "A、X.25"
+      },
+      {
+        "label": "B、TCP/IP",
+        "isTrue": true
+      },
+      {
+        "label": "C、ICMP"
+      },
+      {
+        "label": "D、UDP"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": [
+      "服务与协议是完全不同的两个概念，下列关于它们的说法错误的是  (  )。"
+    ],
+    "options": [
+      {
+        "label": "A、协议是水平的，即协议是控制对等实体间通信的规则。服务是垂直的，即服务是下层向上层通过层间接口提供的。"
+      },
+      {
+        "label": "B、在协议的控制下，两个对等实体间的通信使得本层能够向上一层提供服务。要实现本层协议，还需要使用下面一层所提供的服务。"
+      },
+      {
+        "label": "C、协议的实现保证了能够向上一层提供服务。"
+      },
+      {
+        "label": "D、OSI将层与层之间交换的数据单位称为协议数据单元PDU。",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": [
+      "在TCP/IP的进程之间进行通信经常使用客户/服务器方式，下面关于客户和服务器的描述错误的是 (  )。"
+    ],
+    "options": [
+      {
+        "label": "A、客户和服务器是指通信中所涉及的两个应用进程。"
+      },
+      {
+        "label": "B、客户/服务器方式描述的是进程之间服务与被服务的关系。"
+      },
+      {
+        "label": "C、服务器是服务请求方，客户是服务提供方。",
+        "isTrue": true
+      },
+      {
+        "label": "D、一个客户程序可与多个服务器进行通信。"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": [
+      "常用的数据传输速率单位有kbit/s、Mbit/s、Gbit/s。1Gbit/s等于 (  )。"
+    ],
+    "options": [
+      {
+        "label": "A、1×103Mbit/s",
+        "isTrue": true
+      },
+      {
+        "label": "B、1×103kbit/s"
+      },
+      {
+        "label": "C、1×106Mbit/s"
+      },
+      {
+        "label": "D、1×109kbit/s"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": ["一座大楼内的一个计算机网络系统，属于  (  )。"],
+    "options": [
+      {
+        "label": "A、PAN"
+      },
+      {
+        "label": "B、LAN",
+        "isTrue": true
+      },
+      {
+        "label": "C、MAN"
+      },
+      {
+        "label": "D、WAN"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": ["信息传输速率的一般单位为 (  )。"],
+    "options": [
+      {
+        "label": "A、bit/s",
+        "isTrue": true
+      },
+      {
+        "label": "B、bit"
+      },
+      {
+        "label": "C、Baud"
+      },
+      {
+        "label": "D、Baud/s"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": ["在ISO/OSI参考模型中，网络层的主要功能是(  )。"],
+    "options": [
+      {
+        "label": "A、提供可靠的端—端服务，透明地传送报文"
+      },
+      {
+        "label": "B、路由选择、拥塞控制与网络互连",
+        "isTrue": true
+      },
+      {
+        "label": "C、在通信实体之间传送以帧为单位的数据"
+      },
+      {
+        "label": "D、数据格式变换、数据加密与解密、数据压缩与恢复"
+      }
+    ]
+  }
+]

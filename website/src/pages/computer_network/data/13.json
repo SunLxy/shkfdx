@@ -1,0 +1,559 @@
+[
+  {
+    "id": 1,
+    "topic": ["计算机网络面临的安全性威胁中，哪些属于被动攻击？ "],
+    "options": [
+      {
+        "label": "截获",
+        "isTrue": true
+      },
+      {
+        "label": "篡改"
+      },
+      {
+        "label": "特洛伊木马"
+      },
+      {
+        "label": "拒绝服务(DoS)"
+      },
+      {
+        "label": "流量分析",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": ["以下哪些属于主动攻击？ A B C"],
+    "options": [
+      {
+        "label": "篡改",
+        "isTrue": true
+      },
+      {
+        "label": "拒绝服务(DoS)",
+        "isTrue": true
+      },
+      {
+        "label": "分布式拒绝服务(DDoS)",
+        "isTrue": true
+      },
+      {
+        "label": "恶意程序",
+        "isTrue": true
+      },
+      {
+        "label": "截获"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["计算机网络通信安全的目标包括哪些？ "],
+    "options": [
+      {
+        "label": "防止报文内容分析",
+        "isTrue": true
+      },
+      {
+        "label": "运行的安全性",
+        "isTrue": true
+      },
+      {
+        "label": "检测更改报文流",
+        "isTrue": true
+      },
+      {
+        "label": "检测流量分析"
+      },
+      {
+        "label": "防止恶意程序",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": ["安全的计算机网络应达到的目标包括哪些？ "],
+    "options": [
+      {
+        "label": "保密性",
+        "isTrue": true
+      },
+      {
+        "label": "端点鉴别",
+        "isTrue": true
+      },
+      {
+        "label": "信息的完整性",
+        "isTrue": true
+      },
+      {
+        "label": "运行的安全性",
+        "isTrue": true
+      },
+      {
+        "label": "防止服务拒绝"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": ["对称密钥密码体制中，以下哪些描述是正确的？ "],
+    "options": [
+      {
+        "label": "加密和解密使用相同的密钥",
+        "isTrue": true
+      },
+      {
+        "label": "加密密钥K和解密密钥K是不同的"
+      },
+      {
+        "label": "DES是一种分组密码",
+        "isTrue": true
+      },
+      {
+        "label": "DES使用的密钥长度为64位"
+      },
+      {
+        "label": "三重DES使用两个56位的密钥",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["公钥密码体制相比对称密钥密码体制，主要优势有哪些？ "],
+    "options": [
+      {
+        "label": "解决了密钥分配问题",
+        "isTrue": true
+      },
+      {
+        "label": "可以用于数字签名",
+        "isTrue": true
+      },
+      {
+        "label": "加密速度更快"
+      },
+      {
+        "label": "解密速度更快"
+      },
+      {
+        "label": "需要较少的计算资源"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["以下哪些属于实用的单向密码散列函数？"],
+    "options": [
+      {
+        "label": "MD5",
+        "isTrue": true
+      },
+      {
+        "label": "SHA-1",
+        "isTrue": true
+      },
+      {
+        "label": "SHA-256",
+        "isTrue": true
+      },
+      {
+        "label": "DES"
+      },
+      {
+        "label": "AES"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["报文鉴别码(MAC)的作用包括哪些？ "],
+    "options": [
+      {
+        "label": "防止报文篡改",
+        "isTrue": true
+      },
+      {
+        "label": "防止报文伪造",
+        "isTrue": true
+      },
+      {
+        "label": "加密报文内容"
+      },
+      {
+        "label": "实现报文鉴别",
+        "isTrue": true
+      },
+      {
+        "label": "加密物理地址"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": ["以下哪些属于实用的单向密码散列函数？ "],
+    "options": [
+      {
+        "label": "MD5",
+        "isTrue": true
+      },
+      {
+        "label": "SHA-1",
+        "isTrue": true
+      },
+      {
+        "label": "SHA-256",
+        "isTrue": true
+      },
+      {
+        "label": "DES"
+      },
+      {
+        "label": "AES"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["密码散列函数应具备的特点包括哪些？ "],
+    "options": [
+      {
+        "label": "结果长度应较短和固定",
+        "isTrue": true
+      },
+      {
+        "label": "应具有很好的抗碰撞性",
+        "isTrue": true
+      },
+      {
+        "label": "应是单向函数",
+        "isTrue": true
+      },
+      {
+        "label": "易于逆向变换"
+      },
+      {
+        "label": "输出的每一个比特都与输入的每一个比特有关",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["数字签名的主要功能包括哪些？ "],
+    "options": [
+      {
+        "label": "实体鉴别",
+        "isTrue": true
+      },
+      {
+        "label": "报文鉴别",
+        "isTrue": true
+      },
+      {
+        "label": "不可否认",
+        "isTrue": true
+      },
+      {
+        "label": "加密数据"
+      },
+      {
+        "label": "防止重放攻击"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["Kerberos协议中的AS和TGS分别承担哪些角色？ "],
+    "options": [
+      {
+        "label": "认证服务器(AS)负责用户鉴别",
+        "isTrue": true
+      },
+      {
+        "label": "票据授予服务器(TGS)负责发放会话密钥",
+        "isTrue": true
+      },
+      {
+        "label": "AS和TGS都是KDC的一部分",
+        "isTrue": true
+      },
+      {
+        "label": "TGS负责用户鉴别"
+      },
+      {
+        "label": "AS负责发放会话密钥"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": ["IPsec协议的主要功能包括哪些？"],
+    "options": [
+      {
+        "label": "提供源点鉴别",
+        "isTrue": true
+      },
+      {
+        "label": "提供数据完整性",
+        "isTrue": true
+      },
+      {
+        "label": "提供数据保密",
+        "isTrue": true
+      },
+      {
+        "label": "防止IP地址欺诈",
+        "isTrue": true
+      },
+      {
+        "label": "提供电子邮件加密"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": ["IPsec安全数据报的工作方式包括哪些？ "],
+    "options": [
+      {
+        "label": "运输方式(transport mode)",
+        "isTrue": true
+      },
+      {
+        "label": "隧道方式(tunnel mode)",
+        "isTrue": true
+      },
+      {
+        "label": "仅适用于IPv4"
+      },
+      {
+        "label": "仅适用于IPv6"
+      },
+      {
+        "label": "提供SSL安全访问"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": ["TLS协议的主要作用包括哪些？ "],
+    "options": [
+      {
+        "label": "管理IP地址分配"
+      },
+      {
+        "label": "提供数据加密服务",
+        "isTrue": true
+      },
+      {
+        "label": "实现数据完整性校验",
+        "isTrue": true
+      },
+      {
+        "label": "提供端到端的安全通信",
+        "isTrue": true
+      },
+      {
+        "label": "在应用层和运输层之间建立安全通道",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": ["TLS握手阶段的主要任务包括哪些？ "],
+    "options": [
+      {
+        "label": "验证服务器身份",
+        "isTrue": true
+      },
+      {
+        "label": "生成会话密钥",
+        "isTrue": true
+      },
+      {
+        "label": "协商加密算法",
+        "isTrue": true
+      },
+      {
+        "label": "完成数据传输"
+      },
+      {
+        "label": "完成TCP三次握手"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": ["应用层安全协议PGP的主要特点包括哪些？ "],
+    "options": [
+      {
+        "label": "提供电子邮件加密",
+        "isTrue": true
+      },
+      {
+        "label": "实现发送方鉴别",
+        "isTrue": true
+      },
+      {
+        "label": "保证报文完整性",
+        "isTrue": true
+      },
+      {
+        "label": "使用非对称加密技术",
+        "isTrue": true
+      },
+      {
+        "label": "管理网络设备"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": ["防火墙的主要功能包括哪些？ "],
+    "options": [
+      {
+        "label": "控制进出网络边界的分组",
+        "isTrue": true
+      },
+      {
+        "label": "实施访问控制策略",
+        "isTrue": true
+      },
+      {
+        "label": "允许所有通信"
+      },
+      {
+        "label": "减少潜在入侵的发生",
+        "isTrue": true
+      },
+      {
+        "label": "提高网络速度"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": ["防火墙根据技术分类可以分为（     ）。"],
+    "options": [
+      {
+        "label": "软件防火墙"
+      },
+      {
+        "label": "应用网关",
+        "isTrue": true
+      },
+      {
+        "label": "物理防火墙"
+      },
+      {
+        "label": "逻辑防火墙"
+      },
+      {
+        "label": "分组过滤路由器",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": ["入侵检测系统(IDS)的主要作用包括哪些？"],
+    "options": [
+      {
+        "label": "检测网络入侵",
+        "isTrue": true
+      },
+      {
+        "label": "阻止网络入侵",
+        "isTrue": true
+      },
+      {
+        "label": "分析网络流量",
+        "isTrue": true
+      },
+      {
+        "label": "执行入侵响应",
+        "isTrue": true
+      },
+      {
+        "label": "提供网络加密"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": ["以下哪些属于入侵检测系统(IDS)的分类？"],
+    "options": [
+      {
+        "label": "基于网络连接方式"
+      },
+      {
+        "label": "基于异常的 IDS",
+        "isTrue": true
+      },
+      {
+        "label": "基于主机的 IDS",
+        "isTrue": true
+      },
+      {
+        "label": "基于网络的 IDS",
+        "isTrue": true
+      },
+      {
+        "label": "基于特征的 IDS",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": ["椭圆曲线密码(ECC)的主要应用包括哪些？ "],
+    "options": [
+      {
+        "label": "电子护照",
+        "isTrue": true
+      },
+      {
+        "label": "金融系统",
+        "isTrue": true
+      },
+      {
+        "label": "量子密码"
+      },
+      {
+        "label": "商密九号算法 SM9"
+      },
+      {
+        "label": "移动安全",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": ["MD5算法的安全性问题包括哪些？"],
+    "options": [
+      {
+        "label": "计算速度快"
+      },
+      {
+        "label": "被证明存在碰撞",
+        "isTrue": true
+      },
+      {
+        "label": "输出长度过短",
+        "isTrue": true
+      },
+      {
+        "label": "被王小云教授攻破",
+        "isTrue": true
+      },
+      {
+        "label": "目前无法被破解"
+      }
+    ]
+  }
+]

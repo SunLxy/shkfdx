@@ -1,0 +1,430 @@
+[
+  {
+    "id": 1,
+    "topic": ["在TCP/IP协议族中用来实现无连接服务的协议是(  )。"],
+    "options": [
+      {
+        "label": "TCP"
+      },
+      {
+        "label": "HTTP"
+      },
+      {
+        "label": "UDP",
+        "isTrue": true
+      },
+      {
+        "label": "ARP"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": ["(  )有连接建立、数据传输、连接释放三阶段"],
+    "options": [
+      {
+        "label": "包传输"
+      },
+      {
+        "label": "UDP报文传输"
+      },
+      {
+        "label": "TCP报文传输",
+        "isTrue": true
+      },
+      {
+        "label": "以太帧传输"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["TCP协议提供的服务特征不包括(  )"],
+    "options": [
+      {
+        "label": "面向连接的传输"
+      },
+      {
+        "label": "支持广播方式通信",
+        "isTrue": true
+      },
+      {
+        "label": "全双工传输方式"
+      },
+      {
+        "label": "用字节流方式传输"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": ["TCP段结构中的端口字段长度为(  )"],
+    "options": [
+      {
+        "label": "4bit"
+      },
+      {
+        "label": "8bit"
+      },
+      {
+        "label": "16bit",
+        "isTrue": true
+      },
+      {
+        "label": "32bit"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": ["在TCP/IP协议簇中，UDP协议工作在(  )。"],
+    "options": [
+      {
+        "label": "应用层"
+      },
+      {
+        "label": "运输层",
+        "isTrue": true
+      },
+      {
+        "label": "网络互联层"
+      },
+      {
+        "label": "网络接口层"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["SMTP所使用的端口号为(  )"],
+    "options": [
+      {
+        "label": "20"
+      },
+      {
+        "label": "21"
+      },
+      {
+        "label": "25",
+        "isTrue": true
+      },
+      {
+        "label": "110"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["HTTP所使用的端口号为(  )"],
+    "options": [
+      {
+        "label": "20"
+      },
+      {
+        "label": "21"
+      },
+      {
+        "label": "25"
+      },
+      {
+        "label": "80",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "TCP是TCP/IP体系中面向连接的传输层协议，它提供(  )的可靠交付的服务。"
+    ],
+    "options": [
+      {
+        "label": "半双工"
+      },
+      {
+        "label": "单工"
+      },
+      {
+        "label": "全双工",
+        "isTrue": true
+      },
+      {
+        "label": "半单工"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "TCP是面向连接的协议，每一次面向连接的通信中都包含连接的建立和(  )"
+    ],
+    "options": [
+      {
+        "label": "确认"
+      },
+      {
+        "label": "释放",
+        "isTrue": true
+      },
+      {
+        "label": "反馈"
+      },
+      {
+        "label": "数据传送"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["TCP的连接释放过程是(  )。"],
+    "options": [
+      {
+        "label": "一次联络"
+      },
+      {
+        "label": "二次联络"
+      },
+      {
+        "label": "三次联络"
+      },
+      {
+        "label": "四次联络",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["TCP的连接建立过程是(  )。"],
+    "options": [
+      {
+        "label": "一次联络"
+      },
+      {
+        "label": "二次联络"
+      },
+      {
+        "label": "三次联络",
+        "isTrue": true
+      },
+      {
+        "label": "四次联络"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["目前，因特网中的拥塞控制任务主要是在(  )上完成的。"],
+    "options": [
+      {
+        "label": "物理层"
+      },
+      {
+        "label": "数据链路层"
+      },
+      {
+        "label": "网络层"
+      },
+      {
+        "label": "运输层",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": ["TCP使用(  )机制为应用程序提供流量控制。"],
+    "options": [
+      {
+        "label": "滑动窗口",
+        "isTrue": true
+      },
+      {
+        "label": "接收方控制"
+      },
+      {
+        "label": "开环控制"
+      },
+      {
+        "label": "闭环控制"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": ["TCP连接建立采用的是(  )方式"],
+    "options": [
+      {
+        "label": "浏览器服务器"
+      },
+      {
+        "label": "主从"
+      },
+      {
+        "label": "客户服务器",
+        "isTrue": true
+      },
+      {
+        "label": "请求响应"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": [
+      "UDP用户数据报的首部十六进制表示为：06 32 00 45 00 1C  E2 17。则用户数据报的长度为(  )。"
+    ],
+    "options": [
+      {
+        "label": "32"
+      },
+      {
+        "label": "28",
+        "isTrue": true
+      },
+      {
+        "label": "45"
+      },
+      {
+        "label": "17"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": ["为使网络尽可能不发生拥塞，TCP发送方的窗口大小不取决于(  )。"],
+    "options": [
+      {
+        "label": "接受窗口"
+      },
+      {
+        "label": "拥塞窗口"
+      },
+      {
+        "label": "自适应窗口",
+        "isTrue": true
+      },
+      {
+        "label": "网络拥塞程度"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": ["TCP的确认是对所有按序接收到的数据的确认，该方法称为(  )。"],
+    "options": [
+      {
+        "label": "累积确认",
+        "isTrue": true
+      },
+      {
+        "label": "按需确认"
+      },
+      {
+        "label": "按序确认"
+      },
+      {
+        "label": "一次确认"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": [
+      "小于(  )的TCP/UDP端口号已保留与现有服务一一对应，此数字以上的端口号可自由分配。"
+    ],
+    "options": [
+      {
+        "label": "199"
+      },
+      {
+        "label": "100"
+      },
+      {
+        "label": "1024",
+        "isTrue": true
+      },
+      {
+        "label": "2048"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": ["在TCP协议中，建立连接时需要将控制字段中的(  )标志位置1."],
+    "options": [
+      {
+        "label": "ACK"
+      },
+      {
+        "label": "FIN"
+      },
+      {
+        "label": "PSH"
+      },
+      {
+        "label": "SYN",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": ["在TCP协议中，断开连接时需要将控制字段中的(  )标志位置1."],
+    "options": [
+      {
+        "label": "ACK"
+      },
+      {
+        "label": "FIN",
+        "isTrue": true
+      },
+      {
+        "label": "PSH"
+      },
+      {
+        "label": "SYN"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": ["将一个局域网连入Internet，首选的设备是 (  )。"],
+    "options": [
+      {
+        "label": "路由器",
+        "isTrue": true
+      },
+      {
+        "label": "中继器"
+      },
+      {
+        "label": "网桥"
+      },
+      {
+        "label": "网关"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": [
+      "TCP/IP为实现高效率的数据传输，在传输层采用了UDP协议，其传输的可靠性则由(  )提供。"
+    ],
+    "options": [
+      {
+        "label": "应用进程",
+        "isTrue": true
+      },
+      {
+        "label": "TCP"
+      },
+      {
+        "label": "DNS"
+      },
+      {
+        "label": "IP"
+      }
+    ]
+  }
+]

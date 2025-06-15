@@ -40,10 +40,12 @@ export interface QItemProps {
   isMulti?: boolean
   /**是否显示翻译*/
   isShowTranslate?: boolean
+  /**题目下面显示内容*/
+  children?: React.ReactNode
 }
 
 export const QItem = (props: QItemProps) => {
-  const { sort, isOptions = false, isBool, isInput, isTextArea, answer, options, layout = 'horizontal', topic, isRead, translate, isMulti, isShowTranslate } = props
+  const { sort, isOptions = false, isBool, isInput, isTextArea, answer, options, layout = 'horizontal', topic, isRead, translate, isMulti, isShowTranslate, children } = props
   const { styles, cx } = useStyles()
   const getValue = () => {
     if (isRead) {
@@ -129,6 +131,7 @@ export const QItem = (props: QItemProps) => {
 
   return <div className={cx(styles.base, { is_options: isOptions, is_bool: isBool, is_input: isInput, is_translate: translate && isRead })}>
     {isOptions ? <b>{sort}.</b> : <QTopic content={topic} sort={sort} />}
+    {children}
     {isBool ? <QListRadio layout={layout} value={state.value} options={BooleanOptions} onChange={onChange} /> : null}
     {options ? <QListRadio layout={layout} value={state.value} options={options} onChange={onChange} /> : null}
     {(isInput || isTextArea) ? <QInput isTextArea={isTextArea} value={state.value.toString()} isTrue={state.isTrue} onChange={onChange} /> : null}

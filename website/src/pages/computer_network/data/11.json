@@ -1,0 +1,700 @@
+[
+  {
+    "id": 1,
+    "topic": ["UDP提供面向(  )的传输服务。"],
+    "options": [
+      {
+        "label": "端口"
+      },
+      {
+        "label": "地址"
+      },
+      {
+        "label": "连接"
+      },
+      {
+        "label": "无连接",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": ["TCP提供面向(  )的传输服务。"],
+    "options": [
+      {
+        "label": "端口"
+      },
+      {
+        "label": "地址"
+      },
+      {
+        "label": "连接",
+        "isTrue": true
+      },
+      {
+        "label": "无连接"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": ["能够把域名转换成为网络可以识别的IP地址的协议是(  )。"],
+    "options": [
+      {
+        "label": "DNS",
+        "isTrue": true
+      },
+      {
+        "label": "FTP"
+      },
+      {
+        "label": "Telnet"
+      },
+      {
+        "label": "SMTP"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "远程登陆协议Telnet、电子邮件协议SMTP、文件传送协议FTP依赖(  )协议。"
+    ],
+    "options": [
+      {
+        "label": "TCP",
+        "isTrue": true
+      },
+      {
+        "label": "UDP"
+      },
+      {
+        "label": "ICMP"
+      },
+      {
+        "label": "IGMP"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": ["在TCP/IP协议中Telnet协议是在下列哪一层(  )"],
+    "options": [
+      {
+        "label": "网络接口层"
+      },
+      {
+        "label": "网络层"
+      },
+      {
+        "label": "传输层"
+      },
+      {
+        "label": "应用层",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": ["TCP/IP协议应用层中http协议与传输层进行交换数据是通过(  )端口"],
+    "options": [
+      {
+        "label": "80",
+        "isTrue": true
+      },
+      {
+        "label": "110"
+      },
+      {
+        "label": "21"
+      },
+      {
+        "label": "28"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": ["下列因特网应用中使用UDP协议的有(  )"],
+    "options": [
+      {
+        "label": "电子邮件"
+      },
+      {
+        "label": "万维网"
+      },
+      {
+        "label": "远程终端访问"
+      },
+      {
+        "label": "流式多媒体通信",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": ["下列哪个地址是电子邮件地址(  )。"],
+    "options": [
+      {
+        "label": "WWW.263.NET.CN"
+      },
+      {
+        "label": "CSSC@163.NET",
+        "isTrue": true
+      },
+      {
+        "label": "192.168.0.100"
+      },
+      {
+        "label": "http://www.sohu.com"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "在电子邮件程序向邮件服务器中发送邮件时，使用的是简单邮件传送协议SMTP，而电子邮件程序从邮件服务器中读取邮件时，可以使用(  ) 协议。"
+    ],
+    "options": [
+      {
+        "label": "PPP"
+      },
+      {
+        "label": "POP3",
+        "isTrue": true
+      },
+      {
+        "label": "P-to-P"
+      },
+      {
+        "label": "NEWS"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": ["HTTP是(  )。"],
+    "options": [
+      {
+        "label": "统一资源定位器"
+      },
+      {
+        "label": "远程登录协议"
+      },
+      {
+        "label": "文件传输协议"
+      },
+      {
+        "label": "超文本传输协议",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": ["超文本之所以称之为超文本，是因为它里面包含有(  )。"],
+    "options": [
+      {
+        "label": "图形"
+      },
+      {
+        "label": "声音"
+      },
+      {
+        "label": "与其它文本链接的文本",
+        "isTrue": true
+      },
+      {
+        "label": "电影"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": ["HTTP是一个属于(  )的面向对象的协议。"],
+    "options": [
+      {
+        "label": "网络层"
+      },
+      {
+        "label": "物理层"
+      },
+      {
+        "label": "传输层"
+      },
+      {
+        "label": "应用层",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": ["URL一般由4部分组成：协议、主机和路径及(  ) 。"],
+    "options": [
+      {
+        "label": "客户名"
+      },
+      {
+        "label": "浏览器名"
+      },
+      {
+        "label": "端口",
+        "isTrue": true
+      },
+      {
+        "label": "进程名"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": ["以下哪个不是FTP的目标(  )。"],
+    "options": [
+      {
+        "label": "在主机之间共享计算机程序或数据；"
+      },
+      {
+        "label": "让本地主机间接地使用远程计算机；"
+      },
+      {
+        "label": "把域名转换成为网络可以识别的IP地址",
+        "isTrue": true
+      },
+      {
+        "label": "可靠．有效的传输数据"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": ["在Internet中能够提供任意两台计算机之间传输文件的协议是(  )。"],
+    "options": [
+      {
+        "label": "WWW"
+      },
+      {
+        "label": "FTP",
+        "isTrue": true
+      },
+      {
+        "label": "Telnet"
+      },
+      {
+        "label": "SMTP"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": [
+      "动态主机配置协议DHCP，它工作在OSI的(  )，是一种帮助计算机从指定的DHCP服务器获取它们的配置信息的协议。"
+    ],
+    "options": [
+      {
+        "label": "网络层"
+      },
+      {
+        "label": "物理层"
+      },
+      {
+        "label": "传输层"
+      },
+      {
+        "label": "应用层",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": [
+      "远程登录是指用户使用(  )命令，使自己的计算机暂时成为远程主机的一个仿真终端的过程。"
+    ],
+    "options": [
+      {
+        "label": "WWW"
+      },
+      {
+        "label": "FTP"
+      },
+      {
+        "label": "Telnet",
+        "isTrue": true
+      },
+      {
+        "label": "SMTP"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": [
+      "要让一台计算机上网，首先要接入，然后需要有一个IP地址，其IP地址可以通过 (  )协议由服务器分配得到。"
+    ],
+    "options": [
+      {
+        "label": "HTTP"
+      },
+      {
+        "label": "DNS"
+      },
+      {
+        "label": "ARP"
+      },
+      {
+        "label": "DHCP",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": ["FTP指的是(  )。"],
+    "options": [
+      {
+        "label": "万维网"
+      },
+      {
+        "label": "电子邮件"
+      },
+      {
+        "label": "文件传输",
+        "isTrue": true
+      },
+      {
+        "label": "远程登录"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": [
+      "网络用户可以通过Internet与全世界的因特网用户发电子邮件，电子邮件的传递可由下面的 (  ) 协议完成。"
+    ],
+    "options": [
+      {
+        "label": "POP3和ISP"
+      },
+      {
+        "label": "POP3和ICP"
+      },
+      {
+        "label": "POP3和SMTP",
+        "isTrue": true
+      },
+      {
+        "label": "POP3和TCP/IP"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": ["SNMP协议是一种(  )。"],
+    "options": [
+      {
+        "label": "域名服务协议"
+      },
+      {
+        "label": "文件传输协议"
+      },
+      {
+        "label": "邮件传输协议"
+      },
+      {
+        "label": "简单网络管理协议",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": ["在Internet的域名系统中，用来表示教育组织的是(  )"],
+    "options": [
+      {
+        "label": "EDU",
+        "isTrue": true
+      },
+      {
+        "label": "COM"
+      },
+      {
+        "label": "GOV"
+      },
+      {
+        "label": "NET"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": ["在Internet的域名系统中，用来表示政府部门的是(  )"],
+    "options": [
+      {
+        "label": "EDU"
+      },
+      {
+        "label": "COM"
+      },
+      {
+        "label": "GOV",
+        "isTrue": true
+      },
+      {
+        "label": "NET"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": ["以下哪种是URL的一般形式。(  )"],
+    "options": [
+      {
+        "label": "<协议>://<路径>:<端口>/<主机 >"
+      },
+      {
+        "label": "<协议>://<路径>:<主机>/<端口 >"
+      },
+      {
+        "label": "<协议>://<主机>:<端口>/<路径>",
+        "isTrue": true
+      },
+      {
+        "label": "<协议>://<主机>:<路径 >/<端口>"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": ["下面协议中,用于电子邮件email传输控制的是(  )。"],
+    "options": [
+      {
+        "label": "SNMP"
+      },
+      {
+        "label": "SMTP",
+        "isTrue": true
+      },
+      {
+        "label": "HTTP"
+      },
+      {
+        "label": "HTML"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": ["在www.tsinghua.edu.cn这个完整域名名称里，(  )是主机名"],
+    "options": [
+      {
+        "label": "edu.cn"
+      },
+      {
+        "label": "tsinghua"
+      },
+      {
+        "label": "tsinghua.edu.cn"
+      },
+      {
+        "label": "www",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": ["下面提供FTP服务的默认TCP端口号是(  )。"],
+    "options": [
+      {
+        "label": "21",
+        "isTrue": true
+      },
+      {
+        "label": "25"
+      },
+      {
+        "label": "23"
+      },
+      {
+        "label": "80"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": ["下列协议属于应用层协议的是 (  )。"],
+    "options": [
+      {
+        "label": "TCP、和UDP"
+      },
+      {
+        "label": "ARP、IP和UDP"
+      },
+      {
+        "label": "FTP、SMTP和TELNET",
+        "isTrue": true
+      },
+      {
+        "label": "ICMP、RARP和ARP"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": ["检查网络连通性的应用程序是 (  ) 。"],
+    "options": [
+      {
+        "label": "PING",
+        "isTrue": true
+      },
+      {
+        "label": "ARP"
+      },
+      {
+        "label": "NFS"
+      },
+      {
+        "label": "DNS"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": ["下面协议中用于WWW传输控制的是 (  )。"],
+    "options": [
+      {
+        "label": "URL"
+      },
+      {
+        "label": "SMTP"
+      },
+      {
+        "label": "HTTP",
+        "isTrue": true
+      },
+      {
+        "label": "HTML"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": ["超文本的含义是 (  )。"],
+    "options": [
+      {
+        "label": "该文本中含有声音"
+      },
+      {
+        "label": "该文本中含有二进制数"
+      },
+      {
+        "label": "该文本中含有链接到其他文本的链接点",
+        "isTrue": true
+      },
+      {
+        "label": "该文本中含有图像"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": ["对于主机域名 for.zj.edu.cn 来说，其中 (  ) 表示主机名。"],
+    "options": [
+      {
+        "label": "zj"
+      },
+      {
+        "label": "for",
+        "isTrue": true
+      },
+      {
+        "label": "edu"
+      },
+      {
+        "label": "cn"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": ["远程登录是使用下面的 (  ) 协议。"],
+    "options": [
+      {
+        "label": "SMTP"
+      },
+      {
+        "label": "FTP"
+      },
+      {
+        "label": "UDP"
+      },
+      {
+        "label": "TELNET",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": ["文件传输是使用下面的 (  ) 协议。"],
+    "options": [
+      {
+        "label": "SMTP"
+      },
+      {
+        "label": "FTP",
+        "isTrue": true
+      },
+      {
+        "label": "SNMP"
+      },
+      {
+        "label": "TELNET"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": [
+      "主机域名www.sina.com.cn由多个域组成。其中哪个代表最高层域。(  )"
+    ],
+    "options": [
+      {
+        "label": ".www"
+      },
+      {
+        "label": ".sina"
+      },
+      {
+        "label": ".com"
+      },
+      {
+        "label": ".cn",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "topic": ["使用匿名FTP服务，用户登录时常常使用(  )作为用户名。"],
+    "options": [
+      {
+        "label": "anonymous",
+        "isTrue": true
+      },
+      {
+        "label": "主机的IP地址"
+      },
+      {
+        "label": "自己的E-mail地址"
+      },
+      {
+        "label": "节点的IP地址"
+      }
+    ]
+  }
+]
