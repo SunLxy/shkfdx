@@ -1,11 +1,11 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
-import data1 from "./data/1.json"
-import { useProxyStore } from "@carefrees/valtio"
 
+import data16 from "./data/16.json"
+import { useProxyStore } from "@carefrees/valtio"
 
 const WebOne = () => {
   const { state, dispatch } = useProxyStore({
-    dataList: randomArray(data1 || []),
+    dataList: randomArray(data16 || []),
     isRead: false,
   })
   const dataList = state.dataList as unknown as (QItemProps & { id: string | number })[]
@@ -21,7 +21,7 @@ const WebOne = () => {
         },
         {
           onClick: () => {
-            dispatch({ dataList: randomArray(data1 || []), })
+            dispatch({ dataList: randomArray(data16 || []), })
           },
           children: "刷新顺序"
         }

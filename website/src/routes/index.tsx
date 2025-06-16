@@ -9,7 +9,22 @@ import EnglishFour from '@/pages/english/four';
 import EnglishFive from '@/pages/english/five';
 import EnglishOther from '@/pages/english/other';
 import Web from '@/pages/web/index';
-import WebOne from '@/pages/web/one';
+import WebOne1 from '@/pages/web/one';
+import WebOne2 from '@/pages/web/one-2';
+import WebOne3 from '@/pages/web/one-3';
+import WebOne4 from '@/pages/web/one-4';
+import WebOne5 from '@/pages/web/one-5';
+import WebOne6 from '@/pages/web/one-6';
+import WebOne7 from '@/pages/web/one-7';
+import WebOne8 from '@/pages/web/one-8';
+import WebOne9 from '@/pages/web/one-9';
+import WebOne10 from '@/pages/web/one-10';
+import WebOne11 from '@/pages/web/one-11';
+import WebOne13 from '@/pages/web/one-13';
+import WebOne14 from '@/pages/web/one-14';
+import WebOne15 from '@/pages/web/one-15';
+import WebOne16 from '@/pages/web/one-16';
+
 import WebTwo from '@/pages/web/two';
 import WebThree from '@/pages/web/three';
 import Computer_network from '@/pages/computer_network';
@@ -84,10 +99,74 @@ const newRoutesConfig: RouteObject[] = [
         path: '/web',
         element: <Suspense fallback={<div>Loading...</div>}><Web /></Suspense>
       },
+
       {
-        path: '/web/one',
-        element: <Suspense fallback={<div>Loading...</div>}><WebOne /></Suspense>
+        path: '/web/one-1',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne1 /></Suspense>
       },
+      {
+        path: '/web/one-2',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne2 /></Suspense>
+      },
+      {
+        path: '/web/one-3',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne3 /></Suspense>
+      },
+      {
+        path: '/web/one-4',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne4 /></Suspense>
+      },
+      {
+        path: '/web/one-5',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne5 /></Suspense>
+      },
+      {
+        path: '/web/one-6',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne6 /></Suspense>
+      },
+      {
+        path: '/web/one-7',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne7 /></Suspense>
+      },
+
+      {
+        path: '/web/one-8',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne8 /></Suspense>
+      },
+      {
+        path: '/web/one-9',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne9 /></Suspense>
+      },
+      {
+        path: '/web/one-10',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne10 /></Suspense>
+      },
+      {
+        path: '/web/one-11',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne11 /></Suspense>
+      },
+      {
+        path: '/web/one-13',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne13 /></Suspense>
+      },
+      {
+        path: '/web/one-14',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne14 /></Suspense>
+      },
+      {
+        path: '/web/one-15',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne15 /></Suspense>
+      },
+      {
+        path: '/web/one-16',
+        element: <Suspense fallback={<div>Loading...</div>}><WebOne16 /></Suspense>
+      },
+
+
+
+
+
+
       {
         path: '/web/two',
         element: <Suspense fallback={<div>Loading...</div>}><WebTwo /></Suspense>
