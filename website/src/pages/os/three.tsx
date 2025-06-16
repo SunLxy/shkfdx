@@ -9,17 +9,17 @@ import png6 from "./assets/6.png"
 const Main = () => {
   return <MainLayout>
     <Divider >第一题</Divider>
-    <img src={png1} alt="" />
+    <img width="100%" style={{ maxWidth: 800 }} src={png1} alt="" />
     <Divider >第二题</Divider>
-    <img src={png2} alt="" />
+    <img width="100%" style={{ maxWidth: 800 }} src={png2} alt="" />
     <Divider >第三题</Divider>
-    <img src={png3} alt="" />
+    <img width="100%" style={{ maxWidth: 800 }} src={png3} alt="" />
     <Divider >第四题</Divider>
-    <img src={png4} alt="" />
+    <img width="100%" style={{ maxWidth: 800 }} src={png4} alt="" />
     <Divider >第五题</Divider>
-    <img src={png5} alt="" />
+    <img width="100%" style={{ maxWidth: 800 }} src={png5} alt="" />
     <Divider>第六题</Divider>
-    <img src={png6} alt="" />
+    <img width="100%" style={{ maxWidth: 800 }} src={png6} alt="" />
   </MainLayout>
 }
 export default Main
