@@ -83,7 +83,7 @@
   },
   {
     "id": 5,
-    "topic": ["、下列给出的协议中,属于TCP/IP协议结构的传输层是(  )"],
+    "topic": ["下列给出的协议中,属于TCP/IP协议结构的传输层是(  )"],
     "options": [
       {
         "label": "FTP"
@@ -220,7 +220,7 @@
   },
   {
     "id": 12,
-    "topic": ["、下列(  )不是按距离来划分的。"],
+    "topic": ["下列(  )不是按距离来划分的。"],
     "options": [
       {
         "label": "广域网"
@@ -281,19 +281,19 @@
   },
   {
     "id": 15,
-    "topic": ["、TCP/IP参考模型中的网络接口层对应于OSI中的(  )。"],
+    "topic": ["TCP/IP参考模型中的网络接口层对应于OSI中的(  )。"],
     "options": [
       {
-        "label": "A、网络层"
+        "label": "网络层"
       },
       {
-        "label": "B、物理层"
+        "label": "物理层"
       },
       {
-        "label": "C、数据链路层"
+        "label": "数据链路层"
       },
       {
-        "label": "D、物理层与数据链路层",
+        "label": "物理层与数据链路层",
         "isTrue": true
       }
     ]
@@ -541,17 +541,17 @@
     "topic": ["Internet的前身是(  )。"],
     "options": [
       {
-        "label": "A、Intranet"
+        "label": "Intranet"
       },
       {
-        "label": "B、Ethernet"
+        "label": "Ethernet"
       },
       {
-        "label": "C、ARPAnet",
+        "label": "ARPAnet",
         "isTrue": true
       },
       {
-        "label": "D、Cernet"
+        "label": "Cernet"
       }
     ]
   },
@@ -560,17 +560,17 @@
     "topic": ["Internet的核心协议是 (  ) 。"],
     "options": [
       {
-        "label": "A、X.25"
+        "label": "X.25"
       },
       {
-        "label": "B、TCP/IP",
+        "label": "TCP/IP",
         "isTrue": true
       },
       {
-        "label": "C、ICMP"
+        "label": "ICMP"
       },
       {
-        "label": "D、UDP"
+        "label": "UDP"
       }
     ]
   },
@@ -581,16 +581,16 @@
     ],
     "options": [
       {
-        "label": "A、协议是水平的，即协议是控制对等实体间通信的规则。服务是垂直的，即服务是下层向上层通过层间接口提供的。"
+        "label": "协议是水平的，即协议是控制对等实体间通信的规则。服务是垂直的，即服务是下层向上层通过层间接口提供的。"
       },
       {
-        "label": "B、在协议的控制下，两个对等实体间的通信使得本层能够向上一层提供服务。要实现本层协议，还需要使用下面一层所提供的服务。"
+        "label": "在协议的控制下，两个对等实体间的通信使得本层能够向上一层提供服务。要实现本层协议，还需要使用下面一层所提供的服务。"
       },
       {
-        "label": "C、协议的实现保证了能够向上一层提供服务。"
+        "label": "协议的实现保证了能够向上一层提供服务。"
       },
       {
-        "label": "D、OSI将层与层之间交换的数据单位称为协议数据单元PDU。",
+        "label": "OSI将层与层之间交换的数据单位称为协议数据单元PDU。",
         "isTrue": true
       }
     ]
@@ -602,17 +602,17 @@
     ],
     "options": [
       {
-        "label": "A、客户和服务器是指通信中所涉及的两个应用进程。"
+        "label": "客户和服务器是指通信中所涉及的两个应用进程。"
       },
       {
-        "label": "B、客户/服务器方式描述的是进程之间服务与被服务的关系。"
+        "label": "客户/服务器方式描述的是进程之间服务与被服务的关系。"
       },
       {
-        "label": "C、服务器是服务请求方，客户是服务提供方。",
+        "label": "服务器是服务请求方，客户是服务提供方。",
         "isTrue": true
       },
       {
-        "label": "D、一个客户程序可与多个服务器进行通信。"
+        "label": "一个客户程序可与多个服务器进行通信。"
       }
     ]
   },
@@ -623,17 +623,17 @@
     ],
     "options": [
       {
-        "label": "A、1×103Mbit/s",
+        "label": "1×103Mbit/s",
         "isTrue": true
       },
       {
-        "label": "B、1×103kbit/s"
+        "label": "1×103kbit/s"
       },
       {
-        "label": "C、1×106Mbit/s"
+        "label": "1×106Mbit/s"
       },
       {
-        "label": "D、1×109kbit/s"
+        "label": "1×109kbit/s"
       }
     ]
   },
@@ -642,17 +642,17 @@
     "topic": ["一座大楼内的一个计算机网络系统，属于  (  )。"],
     "options": [
       {
-        "label": "A、PAN"
+        "label": "PAN"
       },
       {
-        "label": "B、LAN",
+        "label": "LAN",
         "isTrue": true
       },
       {
-        "label": "C、MAN"
+        "label": "MAN"
       },
       {
-        "label": "D、WAN"
+        "label": "WAN"
       }
     ]
   },
@@ -661,17 +661,17 @@
     "topic": ["信息传输速率的一般单位为 (  )。"],
     "options": [
       {
-        "label": "A、bit/s",
+        "label": "bit/s",
         "isTrue": true
       },
       {
-        "label": "B、bit"
+        "label": "bit"
       },
       {
-        "label": "C、Baud"
+        "label": "Baud"
       },
       {
-        "label": "D、Baud/s"
+        "label": "Baud/s"
       }
     ]
   },
@@ -680,17 +680,17 @@
     "topic": ["在ISO/OSI参考模型中，网络层的主要功能是(  )。"],
     "options": [
       {
-        "label": "A、提供可靠的端—端服务，透明地传送报文"
+        "label": "提供可靠的端—端服务，透明地传送报文"
       },
       {
-        "label": "B、路由选择、拥塞控制与网络互连",
+        "label": "路由选择、拥塞控制与网络互连",
         "isTrue": true
       },
       {
-        "label": "C、在通信实体之间传送以帧为单位的数据"
+        "label": "在通信实体之间传送以帧为单位的数据"
       },
       {
-        "label": "D、数据格式变换、数据加密与解密、数据压缩与恢复"
+        "label": "数据格式变换、数据加密与解密、数据压缩与恢复"
       }
     ]
   }
