@@ -996,13 +996,13 @@
         "label": "J1、J2、J3"
       },
       {
+        "label": "J3、J2、J1"
+      },
+      {
         "label": "J2、J1、J3"
       },
       {
-        "label": "J1、J3、J2"
-      },
-      {
-        "label": "J3、J2、J1",
+        "label": "J1、J3、J2",
         "isTrue": true
       }
     ]
