@@ -2025,14 +2025,14 @@
         "label": "碎片"
       },
       {
-        "label": "CPU 空闲",
-        "isTrue": true
+        "label": "CPU 空闲"
       },
       {
         "label": "多重中断"
       },
       {
-        "label": "抖动"
+        "label": "抖动",
+        "isTrue": true
       }
     ]
   },
