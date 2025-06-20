@@ -19,10 +19,12 @@ export interface QListRadioProps {
   value?: string | string[]
   /**多选*/
   isMulti?: boolean
+  /**只显示答案*/
+  isOnlyAnswer?: boolean
 }
 
 export const QListRadio = (props: QListRadioProps) => {
-  const { layout = 'horizontal', options = [], value, onChange, isMulti = false } = props
+  const { layout = 'horizontal', options = [], value, onChange, isMulti = false, isOnlyAnswer = false } = props
   const { styles, cx } = useStyles()
 
   return <div
@@ -32,6 +34,8 @@ export const QListRadio = (props: QListRadioProps) => {
   >
     {options.map((item, index) => {
       const styl = {}
+      const style: React.CSSProperties = {}
+      const styleB: React.CSSProperties = {}
       if (value) {
         if (isMulti) {
           if (value.includes(item.label)) {
@@ -46,12 +50,22 @@ export const QListRadio = (props: QListRadioProps) => {
           }
         }
       }
+      if (isOnlyAnswer) {
+        if (item.isTrue) {
+          styl['success'] = true
+          styleB.display = 'none'
+        } else {
+          style.display = 'none'
+        }
+      }
+      console.log(style)
       return <div
         className={cx(styles.item, styl)}
         key={`${item.label}_${index}`}
         onClick={() => onChange(item.label)}
+        style={style}
       >
-        <b>{letterEnum[index]}.</b>
+        <b style={styleB} >{letterEnum[index]}.</b>
         <span>{item.label}</span>
       </div>
     })}

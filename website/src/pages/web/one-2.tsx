@@ -6,9 +6,12 @@ const WebOne = () => {
   const { state, dispatch } = useProxyStore({
     dataList: randomArray(data2 || []),
     isRead: false,
+    isOnlyAnswer: true
   })
   const dataList = state.dataList as unknown as (QItemProps & { id: string | number })[]
   const isRead = state.isRead
+  const isOnlyAnswer = state.isOnlyAnswer
+
   return <MainLayout>
     <TipButton
       items={[
@@ -23,6 +26,12 @@ const WebOne = () => {
             dispatch({ dataList: randomArray(data2 || []), })
           },
           children: "刷新顺序"
+        },
+        {
+          onClick: () => {
+            dispatch({ isOnlyAnswer: !isOnlyAnswer })
+          },
+          children: isOnlyAnswer ? "隐藏" : "显示"
         }
       ]}
     />
@@ -30,6 +39,7 @@ const WebOne = () => {
       return <QItem
         key={item.id}
         isRead={isRead}
+        isOnlyAnswer={isOnlyAnswer}
         topic={item.topic}
         options={randomArray(item.options || [])}
         sort={index + 1}

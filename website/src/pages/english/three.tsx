@@ -3,7 +3,7 @@ import data from "./data/three.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const EnglishThree = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true, isOnlyAnswer: true })
 
   const dataList = state.dataList as unknown as ({
     id: string,
@@ -14,7 +14,7 @@ const EnglishThree = () => {
   })[]
   const isRead = state.isRead
   const isShowTranslate = state.isShowTranslate
-
+  const isOnlyAnswer = state.isOnlyAnswer
   return <MainLayout>
     <TipButton
       items={[
@@ -36,6 +36,12 @@ const EnglishThree = () => {
           },
           children: isShowTranslate ? "隐藏翻译" : "显示翻译"
         },
+        {
+          onClick: () => {
+            dispatch({ isOnlyAnswer: !isOnlyAnswer })
+          },
+          children: isOnlyAnswer ? "隐藏" : "显示"
+        },
       ]}
     />
     {dataList.map((item, index) => {
@@ -54,6 +60,7 @@ const EnglishThree = () => {
         <br />
         {options.map((option, childIndex) => <QItem
           isBool
+          isOnlyAnswer={isOnlyAnswer}
           answer={option.answer}
           topic={option.topic}
           key={`${childIndex}_${item.id}`}

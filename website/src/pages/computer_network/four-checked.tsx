@@ -3,9 +3,10 @@ import data from "./data/8.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const NetworkOneChecked = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
+  const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout>
     <TipButton
@@ -22,6 +23,12 @@ const NetworkOneChecked = () => {
           },
           children: "刷新顺序"
         },
+        {
+          onClick: () => {
+            dispatch({ isOnlyAnswer: !isOnlyAnswer })
+          },
+          children: isOnlyAnswer ? "隐藏" : "显示"
+        },
       ]}
     />
     {dataList.map((item, index) => {
@@ -29,6 +36,7 @@ const NetworkOneChecked = () => {
         key={item.id}
         answer={item.answer}
         isRead={isRead}
+        isOnlyAnswer={isOnlyAnswer}
         topic={item.topic}
         isBool
         sort={index + 1}

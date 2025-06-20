@@ -3,9 +3,10 @@ import data from "./data/one.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const OsOne = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
+  const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout>
     <TipButton
@@ -21,7 +22,13 @@ const OsOne = () => {
             dispatch({ dataList: randomArray(data) })
           },
           children: "刷新顺序"
-        }
+        },
+        {
+          onClick: () => {
+            dispatch({ isOnlyAnswer: !isOnlyAnswer })
+          },
+          children: isOnlyAnswer ? "隐藏" : "显示"
+        },
       ]}
     />
     {dataList.map((item, index) => {
@@ -29,6 +36,7 @@ const OsOne = () => {
         key={item.id}
         isRead={isRead}
         topic={item.topic}
+        isOnlyAnswer={isOnlyAnswer}
         options={randomArray(item.options || [])}
         sort={index + 1}
       />

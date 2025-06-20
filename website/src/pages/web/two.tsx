@@ -3,9 +3,13 @@ import data from "./data/two.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const WebTwo = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false })
+  const { state, dispatch } = useProxyStore({
+    dataList: randomArray(data), isRead: false,
+    isOnlyAnswer: true
+  })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
+  const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout>
     <TipButton
@@ -22,6 +26,12 @@ const WebTwo = () => {
           },
           children: "刷新顺序"
         },
+        {
+          onClick: () => {
+            dispatch({ isOnlyAnswer: !isOnlyAnswer })
+          },
+          children: isOnlyAnswer ? "隐藏" : "显示"
+        }
       ]}
     />
     {dataList.map((item, index) => {
@@ -30,6 +40,7 @@ const WebTwo = () => {
         answer={item.answer}
         isRead={isRead}
         topic={item.topic}
+        isOnlyAnswer={isOnlyAnswer}
         isBool
         sort={index + 1}
       />

@@ -3,9 +3,13 @@ import data from "./data/three.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const WebThree = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false })
+  const { state, dispatch } = useProxyStore({
+    dataList: randomArray(data), isRead: false,
+    isOnlyAnswer: true
+  })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
+  const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout>
     <TipButton
@@ -22,6 +26,12 @@ const WebThree = () => {
           },
           children: "刷新顺序"
         },
+        {
+          onClick: () => {
+            dispatch({ isOnlyAnswer: !isOnlyAnswer })
+          },
+          children: isOnlyAnswer ? "隐藏" : "显示"
+        }
       ]}
     />
     {dataList.map((item, index) => {
@@ -31,6 +41,7 @@ const WebThree = () => {
         isTextArea
         isRead={isRead}
         topic={item.topic}
+        isOnlyAnswer={isOnlyAnswer}
         sort={index + 1}
       />
     })}

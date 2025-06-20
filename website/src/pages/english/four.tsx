@@ -3,7 +3,7 @@ import data from "./data/four.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const EnglishFour = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as ({
     id: string,
     form?: string,
@@ -13,6 +13,7 @@ const EnglishFour = () => {
   })[]
   const isRead = state.isRead
   const isShowTranslate = state.isShowTranslate
+  const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout>
     <TipButton
@@ -34,6 +35,12 @@ const EnglishFour = () => {
             dispatch({ isShowTranslate: !isShowTranslate })
           },
           children: isShowTranslate ? "隐藏翻译" : "显示翻译"
+        },
+        {
+          onClick: () => {
+            dispatch({ isOnlyAnswer: !isOnlyAnswer })
+          },
+          children: isOnlyAnswer ? "隐藏" : "显示"
         },
       ]}
     />
@@ -57,6 +64,7 @@ const EnglishFour = () => {
           topic={option.topic}
           key={`${childIndex}_${item.id}`}
           isRead={isRead}
+          isOnlyAnswer={isOnlyAnswer}
           sort={childIndex + 1}
         />)}
       </Split>

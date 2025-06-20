@@ -3,10 +3,11 @@ import data from "./data/two.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const EnglishTwo = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as ({ translate: string[], id: string, form?: string, contents: QReadingContentItem[], options: QListRadioOptionItem[][] })[]
   const isRead = state.isRead
   const isShowTranslate = state.isShowTranslate
+  const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout>
     <TipButton
@@ -29,6 +30,12 @@ const EnglishTwo = () => {
           },
           children: isShowTranslate ? "隐藏翻译" : "显示翻译"
         },
+        {
+          onClick: () => {
+            dispatch({ isOnlyAnswer: !isOnlyAnswer })
+          },
+          children: isOnlyAnswer ? "隐藏" : "显示"
+        },
       ]}
     />
     {dataList.map((item, index) => {
@@ -47,6 +54,7 @@ const EnglishTwo = () => {
         <br />
         {options.map((option, childIndex) => <QItem
           isOptions
+          isOnlyAnswer={isOnlyAnswer}
           key={`${childIndex}_${item.id}`}
           isRead={isRead}
           options={randomArray(option || [])}

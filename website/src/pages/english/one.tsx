@@ -3,10 +3,11 @@ import data from "./data/one.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const EnglishOne = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
   const isShowTranslate = state.isShowTranslate
+  const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout>
     <TipButton
@@ -29,6 +30,12 @@ const EnglishOne = () => {
           },
           children: isShowTranslate ? "隐藏翻译" : "显示翻译"
         },
+        {
+          onClick: () => {
+            dispatch({ isOnlyAnswer: !isOnlyAnswer })
+          },
+          children: isOnlyAnswer ? "隐藏" : "显示"
+        },
       ]}
     />
     {dataList.map((item, index) => {
@@ -38,6 +45,7 @@ const EnglishOne = () => {
         translate={item.translate}
         isRead={isRead}
         topic={item.topic}
+        isOnlyAnswer={isOnlyAnswer}
         options={randomArray(item.options || [])}
         sort={index + 1}
       />
