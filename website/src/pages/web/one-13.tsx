@@ -16,7 +16,7 @@ const WebOne = () => {
       items={[
         {
           onClick: () => {
-            dispatch({ isRead: !isRead })
+            dispatch({ isRead: !isRead, isOnlyAnswer: false })
           },
           children: isRead ? "答题模式" : "背题模式"
         },
