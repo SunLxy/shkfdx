@@ -4,7 +4,7 @@ import { useProxyStore } from "@carefrees/valtio"
 
 const WebTwo = () => {
   const { state, dispatch } = useProxyStore({
-    dataList: randomArray(data), isRead: false,
+    dataList: randomArray(data), isRead: true,
     isOnlyAnswer: true
   })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]

@@ -5,7 +5,7 @@ import { useProxyStore } from "@carefrees/valtio"
 const WebOne = () => {
   const { state, dispatch } = useProxyStore({
     dataList: randomArray(data8 || []),
-    isRead: false,
+    isRead: true,
     isOnlyAnswer: true
   })
   const dataList = state.dataList as unknown as (QItemProps & { id: string | number })[]

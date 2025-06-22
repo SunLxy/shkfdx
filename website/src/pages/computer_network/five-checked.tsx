@@ -3,7 +3,7 @@ import data from "./data/10.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const NetworkOneChecked = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isOnlyAnswer: true })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer

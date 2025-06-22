@@ -10,7 +10,7 @@ const imgs = {
 }
 
 const NetworkOne = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isOnlyAnswer: true })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as (QItemProps & { id: string | number })[]
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer

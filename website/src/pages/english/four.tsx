@@ -3,7 +3,7 @@ import data from "./data/four.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const EnglishFour = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true, isOnlyAnswer: true })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isShowTranslate: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as ({
     id: string,
     form?: string,

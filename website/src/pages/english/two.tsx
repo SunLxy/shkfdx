@@ -3,7 +3,7 @@ import data from "./data/two.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const EnglishTwo = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: false, isShowTranslate: true, isOnlyAnswer: true })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isShowTranslate: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as ({ translate: string[], id: string, form?: string, contents: QReadingContentItem[], options: QListRadioOptionItem[][] })[]
   const isRead = state.isRead
   const isShowTranslate = state.isShowTranslate
