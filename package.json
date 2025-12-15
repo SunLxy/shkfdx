@@ -5,12 +5,14 @@
     "build:ui": "npm run-script build --workspace shkfdx-ui",
     "watch": "npm run-script watch --workspace shkfdx-ui",
     "build:website": "npm run-script build --workspace website",
-    "start": "npm run-script dev --workspace website",
-    "build": "npm run build:ui && npm run build:website"
+    "build:shkfdx3": "npm run-script build --workspace shkfdx3",
+    "start": "npm run-script dev --workspace shkfdx3",
+    "build": "npm run build:ui && npm run build:website && npm run build:shkfdx3"
   },
   "workspaces": [
     "packages/*",
-    "website"
+    "website",
+    "shkfdx3"
   ],
   "dependencies": {},
   "devDependencies": {

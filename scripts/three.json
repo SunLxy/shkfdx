@@ -1,0 +1,1141 @@
+[
+  {
+    "sort": 1,
+    "title": "P27, Unit 2",
+    "topic": [
+      "Tania is a personal shopper. She works with lots of different people. They ask her to buy something and she goes out to the shops and finds it. “Some people ask me to buy birthday or Christmas presents.”",
+      "Jake is a TV researcher. His job is to find new ideas for TV programmes. He surfs the internet and looks for stories. But he also travels around the country talking to people. “I love my job. Every story I research is like a new world.”",
+      "Debbie is a dog walker. She helps busy people look after their dogs. She takes them for walks, washes them and gives them food when their owners are away. “I love dogs and I like helping people. It’s a perfect job.”"
+    ],
+    "translate": [
+      "Tania是一名私人购物者。她和很多不同的人一起工作。他们让她买东西，她去商店找到了。“有些人让我买生日或圣诞节礼物。”",
+      "杰克是一名电视研究员。他的工作是为电视节目寻找新的创意。他上网找故事。但他也在全国各地旅行，与人们交谈。“我热爱我的工作。我研究的每一个故事都像一个新世界。”",
+      "黛比是个遛狗的人。她帮助忙碌的人照顾他们的狗。主人不在的时候，她带着它们散步，给它们洗澡，给它们食物。“我喜欢狗，我喜欢帮助别人。这是一份完美的工作。”"
+    ],
+    "options": [
+      {
+        "label": "Tania spends hours in shopping centres.",
+        "translate": "Tania在购物中心呆了几个小时。",
+        "is": true
+      },
+      {
+        "label": "TDebbie travels a lot.",
+        "translate": "TDebbie经常旅行。",
+        "is": false
+      },
+      {
+        "label": "Jake uses a computer",
+        "translate": "杰克用电脑",
+        "is": true
+      },
+      {
+        "label": "Tania finds things at good prices",
+        "translate": "Tania以优惠的价格找到东西",
+        "is": true
+      },
+      {
+        "label": "Debbie and Tania help busy people.",
+        "translate": "Debbie和Tania帮助忙碌的人。",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 2,
+    "title": "P30, Unit 2",
+    "topic": [
+      {
+        "children": "Jade's morning",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "I wake up at about 6:45. I get up and go for a run. Then I have a shower and get dressed. I have a quick breakfast and then I brush my teeth. I leave the house at 8 am. I walk to work. I get to the office at about 8:15. On Saturday and Sunday I get up at about 10:30 and have a long, slow breakfast.",
+      {
+        "children": "Tim's morning",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "I wake up at about 10:30 and I have a cup of coffee with my mum. I have a shower, get dressed and I go to my friend's house. We study together, listen to music and play his computer games. At 1 o'clock we get the bus to the university. Our classes start at 2:30.",
+      {
+        "children": "Cassie’s morning",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "I get up at about 7:30. I make breakfast for Jade and her dad. We have breakfast at about 7:45. Then I have a shower, brush my teeth and get dressed. I work at home. I start work at about 8:30. At about 10 o'clock I leave the house to do some shopping. When I get home I have a cup of coffee with Tim and read the newspaper."
+    ],
+    "translate": [
+      "Jade的早晨",
+      "我大约在6:45醒来。我起身去跑步。然后我洗个澡，穿好衣服。我匆匆吃了一顿早餐，然后刷牙。我早上8点离开家。我步行去上班。我大约8点15分到办公室。周六和周日，我大约10:30起床，吃一顿漫长而缓慢的早餐。",
+      "蒂姆的早晨",
+      "我大约在10:30醒来，和妈妈喝了一杯咖啡。我洗了个澡，穿好衣服，然后去了朋友家。我们一起学习，听音乐，玩他的电脑游戏。1点钟我们坐公共汽车去大学。我们的课两点半开始。",
+      "凯西的早晨",
+      "我大约七点半起床。我为杰德和她爸爸做早餐。我们大约在7:45吃早餐。然后我洗个澡，刷牙，穿好衣服。我在家工作。我大约八点半开始工作。大约10点钟，我离开家去买东西。回到家后，我和蒂姆喝了一杯咖啡，看了报纸。"
+    ],
+    "options": [
+      {
+        "label": "Tim gets up early.",
+        "translate": "Tim起得很早。",
+        "is": false
+      },
+      {
+        "label": "Tim goes to university in the afternoon.",
+        "translate": "Tim下午去上大学。",
+        "is": true
+      },
+      {
+        "label": "Cassie makes breakfast for her family. ",
+        "translate": "Cassie为家人做早餐。",
+        "is": true
+      },
+      {
+        "label": "Cassie goes shopping in the afternoon.",
+        "translate": "Cassie下午去购物。",
+        "is": false
+      },
+      {
+        "label": "Jade walks to work.",
+        "translate": "Jade步行去上班。",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 3,
+    "title": "P41, Unit 3",
+    "topic": [
+      "I live in Oxford with my parents, in a small flat in the centre of town. It's in an old building but it's got a lift. It's on a quiet street about five minutes from the shops. It's got two bedrooms, my bedroom and my parents' bedroom, a living room and a small kitchen. It's not very big and it hasn't got a garden but there is a lovely rooftop terrace. I spend most of my time in the living room watching TV or in my bedroom listening to music."
+    ],
+    "translate": [
+      "我和父母住在牛津市中心的一套小公寓里。它在一栋旧楼里，但有电梯。它位于一条安静的街道上，距离商店约五分钟路程。它有两间卧室，我的卧室和我父母的卧室，一个客厅和一个小厨房。它不是很大，也没有花园，但有一个可爱的屋顶露台。我大部分时间都在客厅看电视或在卧室听音乐。"
+    ],
+    "options": [
+      {
+        "label": "The author lives in the centre of town.",
+        "translate": "作者住在市中心。",
+        "is": true
+      },
+      {
+        "label": "The flat has not got a lift.",
+        "translate": "这套公寓没有电梯。",
+        "is": false
+      },
+      {
+        "label": "The flat is near the shops.",
+        "translate": "这套公寓靠近商店。",
+        "is": true
+      },
+      {
+        "label": "The flat has a garden.",
+        "translate": "这套公寓有一个花园。",
+        "is": false
+      },
+      {
+        "label": "The author spends most of his time reading in the living room.",
+        "translate": "作者大部分时间都在客厅里阅读。",
+        "is": false
+      }
+    ]
+  },
+  {
+    "sort": 4,
+    "title": "P61, Unit 4",
+    "topic": [
+      {
+        "children": "Double Take",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Two women, one face. Two very different characters, one destiny. Jane lives in a sleepy town in the USA. She is happily married with two children and a loving husband. Then one summer her double comes to town. She’s a criminal running from the police. That’s when Jane starts to have problems.",
+      {
+        "children": "Year Zero",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "It’s the year 3000. All the clocks stop at midnight. The computers finally take control of the world. But a small group of hackers think they can control the machines. Can they save the planet from total destruction? Watch the film and see. The special effects are truly fantastic. Don’t miss it!",
+      {
+        "children": "Roses Only Live One Day",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "A historic romance. Paris, 1789. Jean Pierre is a simple servant. Rose is the beautiful young daughter of his master. History brings them together, but the revolution breaks their hearts. A story of impossible love. But can there possibly be a happy ending? Watch it and find out!"
+    ],
+    "translate": [
+      "双拿",
+      "两个女人，一张脸。两个截然不同的角色，一个命运。简住在美国一个宁静的小镇上。她婚姻幸福，有两个孩子和一个慈爱的丈夫。然后有一年夏天，她的替身来到了城里。她是个躲避警察的罪犯。就在那时，简开始出现问题。",
+      "零年",
+      "现在是3000年。所有的钟都在午夜停止。计算机终于控制了世界。但一小群黑客认为他们可以控制这些机器。他们能拯救地球免于彻底毁灭吗？看电影，看看。特效真是太棒了。不要错过！",
+      "玫瑰只活一天",
+      "一段历史性的浪漫。1789年，巴黎。让-皮埃尔是个简单的仆人。罗斯是他主人美丽的小女儿。历史把他们联系在一起，但革命让他们心碎。一个不可能的爱情故事。但有可能有一个幸福的结局吗？观看并找出答案！"
+    ],
+    "options": [
+      {
+        "label": "Double Take is about two sisters.",
+        "translate": "Double Take是关于两个姐妹的。",
+        "is": false
+      },
+      {
+        "label": "Year Zero is about the past.",
+        "translate": "零年是关于过去的。",
+        "is": false
+      },
+      {
+        "label": "The story in Roses Only Live One Day happens in France.",
+        "translate": "《玫瑰只活一天》中的故事发生在法国。",
+        "is": true
+      },
+      {
+        "label": "The special effects in Year Zero are very good.",
+        "translate": "《元年》的特效非常好。",
+        "is": true
+      },
+      {
+        "label": "Double Take is about a criminal.",
+        "translate": "双重打击是关于一个罪犯的。",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 5,
+    "title": "P78, Unit 5",
+    "topic": [
+      "We had a great time last weekend. We decided to camp on Mount Olympus. You know, the mountain with flames that burn in the rock? It was really good!",
+      "We travelled from Antalya by bus and arrived in Çirali at 6. The bus stopped on the main road and we walked a couple of kilometres to the village. We had a cup of tea and then we started the walk up the mountain. We arrived at the flames just as the sun started to go down.",
+      "What a view! We watched the sky turn red and then the stars started to come out. It was really beautiful. The flames are incredible too. Some of them are really big. We cooked our food over one of them. We stayed awake all night. We passed the time playing cards and telling stories. One of my friends had a guitar and he played all our favourite songs. Next time you visit we can go there together. But for now — have a look at our fantastic photos! ",
+      "Take care,",
+      {
+        "children": "Orich",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      }
+    ],
+    "translate": [
+      "上周末我们玩得很开心。我们决定在奥林匹斯山露营。你知道，那座在岩石中燃烧着火焰的山吗？这真的很棒！",
+      "我们乘公共汽车从安塔利亚出发，于6点抵达奇拉利。公共汽车在主干道上停了下来，我们走了几公里到村子。我们喝了一杯茶，然后开始上山。太阳刚下山，我们就到了火场。",
+      "多美的景色啊！我们看着天空变红，然后星星开始出现。它真的很漂亮。火焰也令人难以置信。其中一些真的很大。我们在其中一个上面做饭。我们彻夜未眠。我们打牌和讲故事打发时间。我的一个朋友有一把吉他，他演奏了我们所有最喜欢的歌曲。下次你来的时候，我们可以一起去。但就目前而言，看看我们精彩的照片吧！",
+      "当心，",
+      "奥里奇"
+    ],
+    "options": [
+      {
+        "label": "They went camping on Mount Olympus last weekend.",
+        "translate": "他们上周末去奥林匹斯山露营了。",
+        "is": true
+      },
+      {
+        "label": "They drove all the way to the village. ",
+        "translate": "他们一路开车去了村子。",
+        "is": false
+      },
+      {
+        "label": "They arrived at the flames at midnight.",
+        "translate": "他们在午夜到达火场。",
+        "is": false
+      },
+      {
+        "label": "They didn’t sleep all that night.",
+        "translate": "他们整晚都没睡。",
+        "is": true
+      },
+      {
+        "label": "Orich didn’t go with them.",
+        "translate": "奥里奇没有和他们一起去。",
+        "is": false
+      }
+    ]
+  },
+  {
+    "sort": 6,
+    "title": "P90, Unit 6",
+    "topic": [
+      "It was about thirty years ago. My mum lived with a friend in London. One day she went to the supermarket to buy some things for a surprise birthday party for her friend.",
+      "At the checkout she paid and put all the things into shopping bags. She put her flatmate’s present and card in with the shopping. As she turned to leave she bumped into another shopper. Her bags fell on the floor. The other shopper dropped his bags too. They helped each other put the things back in the right bags and they both left the supermarket. When my mum got home she couldn’t find the card and birthday present in the bags.",
+      "When the other shopper got home he found a parcel and a few letters in his shopping. One of them had an address on it. That evening he took the letters and parcel to the address. He rang the bell and my mum answered the door. She looked at the man. He was tall and dark and had a lovely smile. She invited him to the party. And, well, that was that! They fell in love."
+    ],
+    "translate": [
+      "那是大约三十年前的事了。我妈妈和一个朋友住在伦敦。一天，她去超市买了一些东西，准备给朋友一个惊喜的生日聚会。",
+      "在收银台，她付了钱，把所有的东西都放进购物袋里。她把室友的礼物和卡片放在购物的地方。当她转身离开时，她撞上了另一位购物者。她的包掉在了地板上。另一位购物者也丢了包。他们互相帮忙把东西放回正确的袋子里，然后都离开了超市。当我妈妈回到家时，她在包里找不到卡片和生日礼物。",
+      "当另一位购物者回到家时，他在购物中发现了一个包裹和几封信。其中一个上面有地址。那天晚上，他把信件和包裹拿到了地址。他按了门铃，我妈妈接了门。她看着那个男人。他又高又黑，笑容很可爱。她邀请他参加聚会。好吧，就是这样！他们相爱了。"
+    ],
+    "options": [
+      {
+        "label": "The author’s mother went to buy some things for a graduation party.",
+        "translate": "作者的母亲去为毕业派对买了一些东西。",
+        "is": false
+      },
+      {
+        "label": "The story begins in a supermarket.",
+        "translate": "故事始于一家超市。",
+        "is": true
+      },
+      {
+        "label": "The author’s flatmate knew the man.",
+        "translate": "作者的室友认识这个人。",
+        "is": false
+      },
+      {
+        "label": "The man sent back the things thanks to the address on a letter.",
+        "translate": "由于信上的地址，该男子寄回了这些东西。",
+        "is": true
+      },
+      {
+        "label": "The story is about the author’s father and mother.",
+        "translate": "故事是关于作者的父亲和母亲的。",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 7,
+    "title": "P105, Unit 7",
+    "topic": [
+      {
+        "children": "A Day in the Life of Sara Robbins",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      {
+        "children": "Sara Robbins is a newsreader on the radio. Many people don’t recognise her face, but everybody knows her voice!",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Sara’s day usually starts when most people are asleep. Her alarm clock normally goes off at 3 am and she needs to be at the studios at four. “The roads are always very quiet at that time and I get to work very quickly.” At 6 am Sara says “good morning” to her listeners. The programme lasts for three hours. “After the programme we have a short meeting to talk about the next day and then we have a long, slow breakfast!”",
+      "Sara never goes back home after work. “I really need to relax after the programme. I almost always do some sport and sometimes I meet up with a friend.”",
+      "Sara doesn’t often go out in the evenings during the week. She prefers to stay at home. She loves cooking and hardly ever eats out in the restaurants. “I don’t really have the time.”",
+      "At weekends, her life is quite different. She often goes away for the weekend. “I love going to Rome or Paris or New York.” She loves the theatres and the art galleries, and says that “the shopping is great!”"
+    ],
+    "translate": [
+      "莎拉·罗宾斯生命中的一天",
+      "萨拉·罗宾斯是电台的新闻播音员。很多人认不出她的脸，但每个人都知道她的声音！",
+      "萨拉的一天通常在大多数人睡着的时候开始。她的闹钟通常在凌晨3点响起，她需要在4点到工作室。“那时道路总是很安静，我很快就开始工作了。”早上6点，萨拉对听众说“早上好”。这个节目持续三个小时。“节目结束后，我们举行了一个简短的会议，讨论第二天的事情，然后我们吃了一顿漫长而缓慢的早餐！”",
+      "萨拉下班后从不回家。“节目结束后，我真的需要放松一下。我几乎总是做一些运动，有时还会和朋友见面。”",
+      "萨拉一周中晚上不经常出去。她宁愿呆在家里。她喜欢做饭，几乎从不在餐馆吃饭。“我真的没有时间。”",
+      "在周末，她的生活完全不同。她经常在周末外出。“我喜欢去罗马、巴黎或纽约。”她喜欢剧院和美术馆，并说“购物很棒！”"
+    ],
+    "options": [
+      {
+        "label": "Sara wakes up at 3 am.",
+        "translate": "萨拉凌晨3点醒来。",
+        "is": true
+      },
+      {
+        "label": "The program finishes at 10 am.",
+        "translate": "节目上午10点结束。",
+        "is": false
+      },
+      {
+        "label": "She goes straight home after work.",
+        "translate": "她下班后直接回家。",
+        "is": false
+      },
+      {
+        "label": "She often eats out during the week.",
+        "translate": "她经常在一周内外出就餐。",
+        "is": false
+      },
+      {
+        "label": "She enjoys travelling at the weekend.",
+        "translate": "她喜欢周末旅行。",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 8,
+    "title": "P114, Unit 7",
+    "topic": [
+      "Designer clothes? A luxury home? Jill Summers, 28, doesn’t want these things. She says her lottery win of ￡2m isn’t going to change her life.",
+      "Jill and her husband Derrick, 30, live and work on a farm in Ashford, south-east England. They get up at 4:30 am, seven days a week, 365 days a year.",
+      "“We’re not stopping now, just because we’ve had some good luck,” says Jill. She and Derrick say they aren’t leaving the family home. “We’re very happy here,” says the lucky Mrs. Summers.",
+      "Next month the couple are going on their first holiday for eight years. “We’re travelling around Asia and Australia for a few months,” says Derrick. And what about the business? “We’re paying someone to look after the farm. For the first time in eight years.”",
+      "And what else are they doing with the money? “Well, tomorrow we’re picking up our new car. And next week we’re having a big party for all our friends and family. We’re giving 10% of the money to charity. But we aren’t planning any big changes.”",
+      "And does she still play the lottery? “Why not, some of the money goes to good causes.”"
+    ],
+    "translate": [
+      "设计师服装？豪华住宅？28岁的吉尔·萨默斯不想要这些东西。她说，她中了200万英镑的彩票不会改变她的生活。",
+      "吉尔和她30岁的丈夫德里克在英格兰东南部阿什福德的一个农场生活和工作。他们一年365天，一周七天，每天早上4:30起床。",
+      "吉尔说：“我们现在不会因为运气好就停下来。”。她和Derrick说他们不会离开家。“我们在这里很开心，”幸运的萨默斯夫人说。",
+      "下个月，这对夫妇将迎来八年来的第一个假期。德里克说：“我们将在亚洲和澳大利亚旅行几个月。”。那生意呢？“我们花钱请人照看农场。这是八年来的第一次。”",
+      "他们还用这些钱做什么？“好吧，明天我们要去买新车。下周我们将为所有的朋友和家人举办一场盛大的聚会。我们将把10%的钱捐给慈善机构。但我们不打算做出任何重大改变。”",
+      "她还在玩彩票吗？“为什么不呢，部分资金用于公益事业。”"
+    ],
+    "options": [
+      {
+        "label": "Jill and her husband get up at 4:30 every morning.",
+        "translate": "吉尔和她的丈夫每天早上4:30起床。",
+        "is": true
+      },
+      {
+        "label": "They are going to buy a new house.",
+        "translate": "他们要买一栋新房子。",
+        "is": false
+      },
+      {
+        "label": "They are going on a holiday.",
+        "translate": "他们要去度假。",
+        "is": true
+      },
+      {
+        "label": "They haven’t paid anyone to look after the farm during the last eight years.",
+        "translate": "在过去的八年里，他们没有付钱给任何人来照看农场。",
+        "is": true
+      },
+      {
+        "label": "Jill will not play lottery any more.",
+        "translate": "吉尔再也不玩彩票了。",
+        "is": false
+      }
+    ]
+  },
+  {
+    "sort": 9,
+    "title": "P130, Unit 8",
+    "topic": [
+      {
+        "children": "Hide and Seek",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "In this game one child counts to a hundred. All the other children find a good place to hide. The boy or girl who counted to a hundred must then go and find the other children. The child who is still hiding at the end of the game is the winner.",
+      {
+        "children": "Snap!",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "This is a very simple card game. Two people can play. The two people have the same number of cards. They take it in turns to put the cards down on the table. If two consecutive cards are the same, they must shout “Snap!”.",
+      {
+        "children": "I spy",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "This is a word game. Two or more people can play. One person chooses an object they can see, and says “I spy with my little eye something beginning with…” and the first letter of the object they can see. The other players must try to guess the word. This is a very good game for long car journeys!"
+    ],
+    "translate": [
+      "隐藏和查找",
+      "在这个游戏中，一个孩子数到一百。其他孩子都找了个好地方躲起来。数到一百的男孩或女孩必须去找其他孩子。游戏结束时仍然躲着的孩子是赢家。",
+      "快！",
+      "这是一个非常简单的纸牌游戏。两个人可以玩。这两个人有相同数量的牌。他们轮流把牌放在桌子上。如果连续两张牌相同，他们必须大喊“啪！”。",
+      "我是间谍",
+      "这是一个文字游戏。两个或两个以上的人可以玩。一个人选择一个他们能看到的物体，然后说“我用我的小眼睛侦察一些以…开头的东西”，以及他们能看到物体的第一个字母。其他玩家必须试着猜这个词。这是一款非常适合长途汽车旅行的游戏！"
+    ],
+    "options": [
+      {
+        "label": "The child who counts to a hundred is the winner.",
+        "translate": "数到一百的孩子是赢家。",
+        "is": false
+      },
+      {
+        "label": "Snap is a card game.",
+        "translate": "Snap是一款纸牌游戏。",
+        "is": true
+      },
+      {
+        "label": "At least two people are needed to play Snap.",
+        "translate": "玩Snap至少需要两个人。",
+        "is": true
+      },
+      {
+        "label": "Two or more people can play I spy.",
+        "translate": "两个或两个以上的人可以玩我间谍。",
+        "is": true
+      },
+      {
+        "label": "While playing I spy, one of the players must say the word of the object they can see.",
+        "translate": "在玩I spy时，其中一名玩家必须说出他们能看到的物体的单词。",
+        "is": false
+      }
+    ]
+  },
+  {
+    "sort": 10,
+    "title": "P138, Unit 9",
+    "topic": [
+      {
+        "children": "What Should I Buy?",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      {
+        "children": "The Art of Present Buying",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      "Should buying presents be difficult? Tami Shantra believes not. Here she offers some tips for pain-free present buying.",
+      "1. You shouldn’t leave present buying until the last minute.",
+      "2. You should spend some time thinking about the person you’re buying for before you go shopping.",
+      "3. You should never spend more than you can afford.",
+      "4. You should always spend a little time and thought on the presentation.",
+      "5. You should always try to give the person a present on the special day if possible.",
+      "6. You should always buy a simple card to go with the present and write a short message inside it.",
+      "7. You shouldn’t buy clothes or shoes for someone you don’t know very well.",
+      "8. If you don’t know the person very well, it’s better to buy something quite basic, like a box of chocolates or a bunch of flowers.",
+      "9. Surprise presents are the best presents. You don’t need to wait for a special occasion to buy a present for a person you love.",
+      "10. Last but not least: remember that buying presents is a pleasure, not a duty. And they should always be given with smile!"
+    ],
+    "translate": [
+      "我该买什么？",
+      "购买礼物的艺术",
+      "买礼物应该很难吗？塔米·尚特拉不这么认为。在这里，她提供了一些无痛购买礼物的技巧。",
+      "1.你不应该把买礼物留到最后一刻。",
+      "2.在去购物之前，你应该花点时间想想你要为谁买东西。",
+      "3.你永远不应该花得超出你的承受能力。",
+      "4.你应该在演讲上花点时间和精力。",
+      "5.如果可能的话，你应该尽量在特殊的日子给对方一份礼物。",
+      "6.你应该买一张简单的卡片作为礼物，并在里面写一条短信。",
+      "7.你不应该给不太熟悉的人买衣服或鞋子。",
+      "8.如果你不太了解这个人，最好买一些基本的东西，比如一盒巧克力或一束花。",
+      "9.惊喜礼物是最好的礼物。你不需要等到一个特殊的场合给你爱的人买礼物。",
+      "10.最后但同样重要的是：记住买礼物是一种乐趣，而不是一种义务。他们应该总是面带微笑地给予！"
+    ],
+    "options": [
+      {
+        "label": "It’s better to spend more than you can afford.",
+        "translate": "花钱比你能负担得起的要好。",
+        "is": false
+      },
+      {
+        "label": "You should always spend a little time on the presentation.",
+        "translate": "你应该在演示上花点时间。",
+        "is": true
+      },
+      {
+        "label": "You should never give the present on the special day.",
+        "translate": "你永远不应该在特殊的日子送礼物。",
+        "is": false
+      },
+      {
+        "label": "You should buy shoes for someone you don't know very well.",
+        "translate": "你应该给你不太熟悉的人买鞋。",
+        "is": false
+      },
+      {
+        "label": "The best presents are surprise presents.",
+        "translate": "最好的礼物是惊喜礼物。",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 11,
+    "title": "P140, Unit 9",
+    "topic": [
+      {
+        "children": "The World’s Greatest Food Fight",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      "On the last Wednesday of August, the Spanish town of Buñol, celebrates the world’s biggest food fight, the “tomatina”. A crowd of up to 20,000 people meet in the town’s main square and throw tomatoes at each other.",
+      "The first tomatina took place in the mid-1940s. It started with an argument between two men from the town.",
+      "The men started throwing tomatoes at each other. The argument turned into a game, and everyone on the street started throwing tomatoes. They had so much fun they decided to celebrate the tomatina every year on the same day.",
+      "The fight starts at 12 noon, at the sound of an enormous firework. It finishes exactly one hour later with the sound of second banger. The participants must not throw any tomatoes before or after these signals. For many years participants brought their own tomatoes, but in 1980 the local council started organising the event and now they pay for the 40,000 kilos of tomatoes used each year. The tomatina is now an international festival and people from all over the world come to Buñol to enjoy the fun."
+    ],
+    "translate": [
+      "世界上最大的粮食大战",
+      "8月的最后一个星期三，西班牙小镇布尼奥尔庆祝世界上最大的食物大战“番茄大战”。多达2万人聚集在镇上的主广场上，互相扔西红柿。",
+      "第一次番茄大战发生在20世纪40年代中期。事情始于镇上两个男人之间的争吵。",
+      "男人们开始互相扔西红柿。争论变成了一场游戏，街上的每个人都开始扔西红柿。他们玩得很开心，决定每年在同一天庆祝番茄节。",
+      "战斗于中午12点开始，伴随着巨大的烟花声。一小时后，随着第二声巨响结束。参与者不得在这些信号之前或之后投掷任何西红柿。多年来，参与者自带西红柿，但在1980年，当地议会开始组织这项活动，现在他们每年支付40000公斤西红柿的费用。番茄节现在是一个国际节日，来自世界各地的人们来到布尼奥尔享受乐趣。"
+    ],
+    "options": [
+      {
+        "label": "Tomatina is the largest food fight in the world.",
+        "translate": "西红柿大战是世界上最大的粮食大战。",
+        "is": true
+      },
+      {
+        "label": "Tomatina first took place more than a century ago.",
+        "translate": "番茄大战最早发生在一个多世纪前。",
+        "is": false
+      },
+      {
+        "label": "Tomatina originates from an argument.",
+        "translate": "西红柿起源于一个论点。",
+        "is": true
+      },
+      {
+        "label": "The fight lasts exactly one hour.",
+        "translate": "战斗只持续一个小时。”",
+        "is": true
+      },
+      {
+        "label": "It is a religious festival.",
+        "translate": "这是一个宗教节日。",
+        "is": false
+      }
+    ]
+  },
+  {
+    "sort": 12,
+    "title": "P143, Unit 9",
+    "topic": [
+      {
+        "children": "Diwali",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      "Diwali (the festival of lights) is one of the most important dates in the Hindu calendar. It is celebrated by Hindus all over the world and takes place in the Hindu month of Aswin (October/November). It lasts for four days and ends with the celebration of the Hindu New Year.",
+      "On the first day, people decorate their homes with rangolis, traditional patterns made with coloured powders. They light hundreds of tiny oil lamps and make traditional sweets. They buy something new for the house or some jewellery for the women. It is lucky to buy something silver.",
+      "On the second day, it is traditional to get up early and take a bath before sunrise. In Southern India, people take oil baths, using traditional herbs and fragrant powders.",
+      "On the third day, the night before the new moon rises, they celebrate with an enormous fireworks display which can last for five or six hours. The noise and smoke is incredible.",
+      "On the last day, the first day of the Hindu New Year, people visit family members and business colleagues to give them sweets, dry fruits and gifts. All across India, normal life comes to a stop as everyone celebrates the new year."
+    ],
+    "translate": [
+      "排灯节",
+      "排灯节（灯节）是印度教日历中最重要的日期之一。世界各地的印度教徒都庆祝这个节日，它发生在印度教的阿斯温月（10月/11月）。它持续四天，以庆祝印度教新年结束。",
+      "第一天，人们用rangolis装饰他们的家，这是用彩色粉末制成的传统图案。他们点燃数百盏小油灯，制作传统糖果。他们为房子买些新东西，或者为女人买些珠宝。能买到银子真是幸运。",
+      "第二天，按照传统，早起并在日出前洗澡。在印度南部，人们使用传统草药和香粉进行油浴。",
+      "第三天，新月升起的前一天晚上，他们会举行一场持续五六个小时的盛大烟花汇演来庆祝。噪音和烟雾令人难以置信。",
+      "在印度教新年的最后一天，也就是第一天，人们会拜访家人和同事，给他们糖果、干果和礼物。在印度各地，随着每个人庆祝新年，正常的生活都停止了。"
+    ],
+    "options": [
+      {
+        "label": "Diwali is celebrated in October or November.",
+        "translate": "排灯节在十月或十一月庆祝。",
+        "is": true
+      },
+      {
+        "label": "On the first day, people like to buy something gold.",
+        "translate": "第一天，人们喜欢买黄金。",
+        "is": false
+      },
+      {
+        "label": "On the second day, it is traditional to take a bath after sunrise.",
+        "translate": "第二天，日出后洗澡是传统。",
+        "is": false
+      },
+      {
+        "label": "The fireworks display can last for more than five hours.",
+        "translate": "烟花汇演可以持续五个多小时。",
+        "is": true
+      },
+      {
+        "label": "The last day of Diwali is the Hindu New Year.",
+        "translate": "排灯节的最后一天是印度教新年",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 13,
+    "title": "P155, Unit 10",
+    "topic": [
+      {
+        "children": "Home Remedies: Colds",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      "1. A good remedy for a sore throat is to gargle with a strong solution of salt and warm water. If you gargle several times a day the salt helps your sore throat feel much better.",
+      "2. Here's a Japanese remedy. If you have a bad cold, drink a solution of garlic and rice wine once a day for a couple of days.",
+      "3. And here's a remedy from Mexico. When you have a cold, boil some water and some cinnamon, a few raisins and one teaspoon of oregano. Add honey and lemon. Drink it three times a day for two or three days.",
+      "4. In Morocco, when you catch a cold you have to eat an omelette with garlic, and a half teaspoon of pepper cooked in olive oil. You eat it two times a day for three days. Drink a big glass of hot mint tea with it."
+    ],
+    "translate": [
+      "家庭疗法：感冒",
+      "1.治疗喉咙痛的好方法是用浓盐和温水漱口。如果你每天漱口几次，盐会让你的喉咙痛感觉好多了。",
+      "2.这是一种日本药。如果你得了重感冒，连续几天每天喝一次大蒜和米酒的溶液。",
+      "3.这是墨西哥的补救措施。当你感冒时，煮一些水和一些肉桂，一些葡萄干和一茶匙牛至。加入蜂蜜和柠檬。每天喝三次，持续两三天。",
+      "4.在摩洛哥，当你感冒时，你必须吃大蒜煎蛋卷和半茶匙用橄榄油烹制的胡椒。你连续三天每天吃两次。用它喝一大杯热薄荷茶。"
+    ],
+    "options": [
+      {
+        "label": "Gargling with salt and warm water helps your sore throat feel better.",
+        "translate": "用盐和温水漱口有助于缓解喉咙痛。",
+        "is": true
+      },
+      {
+        "label": "Drink a solution of garlic and rice wine three times a day if you have a bad cold.",
+        "translate": "如果你得了重感冒，每天喝三次大蒜和米酒的溶液。",
+        "is": false
+      },
+      {
+        "label": "The Mexico remedy uses cold water.",
+        "translate": "墨西哥的补救措施使用冷水。",
+        "is": false
+      },
+      {
+        "label": "Garlic is used in two remedies.",
+        "translate": "大蒜用于两种疗法。",
+        "is": true
+      },
+      {
+        "label": "The Morocco remedy should be taken three times a day for three days.",
+        "translate": "摩洛哥的补救措施应每天服用三次，持续三天。",
+        "is": false
+      }
+    ]
+  },
+  {
+    "sort": 14,
+    "title": "P161, Unit 10",
+    "topic": [
+      {
+        "children": "The Best Towns in the World",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      "Every year a different town wins the High Quality of Life award. Past winners include Gubbio in Italy, Kobe in Japan and Stranda in Norway.",
+      "Gubbio is famous for its magnificent main square. It won the award because of its perfect climate, excellent social services and wonderful food. The historical Japanese town of Kobe is famous for its beautiful wooden temples. Kobe won the award because of its cultural facilities, healthy fish diet and clean air. The tiny fishing town of Stranda, with only 4,700 inhabitants, won because of its low levels of crime, free sports facilities and community spirit.",
+      "Gubbio and Kobe were not surprise winners. Hundreds of thousands of tourists visit both towns every year. But very few people know about Stranda. Stranda is not beautiful because of its history, but because of the mountains around it. In winter they are covered in snow, in spring they are covered in flowers. The people have a very healthy diet of fresh fish and locally produced vegetables. There is no crime and no unemployment. The people are very friendly and when you meet them on the street, in a shop or skiing in the mountains, they always have time to stop and talk."
+    ],
+    "translate": [
+      "世界上最好的城镇",
+      "每年都有不同的城镇获得高质量生活奖。往届获奖者包括意大利的古比奥、日本的科比和挪威的斯特兰达。",
+      "古比奥以其宏伟的主广场而闻名。它因其完美的气候、优质的社会服务和美味的食物而获奖。历史悠久的日本城市神户以其美丽的木制寺庙而闻名。神户因其文化设施、健康的鱼类饮食和清洁的空气而获奖。只有4700名居民的小渔村斯特兰达因其低犯罪率、免费体育设施和社区精神而获胜。",
+      "古比奥和科比并不是意外的赢家。每年有数十万游客参观这两个城镇。但很少有人知道斯特拉达。斯特拉达的美丽不是因为它的历史，而是因为它周围的山脉。冬天，它们被雪覆盖着，春天，它们被鲜花覆盖着。人们的饮食非常健康，有新鲜的鱼和当地生产的蔬菜。没有犯罪，也没有失业。人们非常友好，当你在街上、商店里或山上滑雪时，他们总是有时间停下来聊天。"
+    ],
+    "options": [
+      {
+        "label": "Kobe has free sports facilities.",
+        "translate": "科比有免费的体育设施。",
+        "is": false
+      },
+      {
+        "label": "Gubbio is famous for its good food.",
+        "translate": "古比奥以其美食而闻名。",
+        "is": true
+      },
+      {
+        "label": "Gubbio has particularly friendly people.",
+        "translate": "古比奥人特别友好。",
+        "is": false
+      },
+      {
+        "label": "Stranda has very good weather.",
+        "translate": "斯特拉达的天气很好。",
+        "is": false
+      },
+      {
+        "label": "Kobe is famous for its architecture.",
+        "translate": "科比以其建筑而闻名。",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 15,
+    "title": "P182, Unit 12",
+    "topic": [
+      {
+        "children": "Record Breakers",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      "A class of 17 geography students and their teacher, Sven Olrig, are preparing to set a new world record, for the longest lesson. The current record stands at 24 hours. Mr Olrig says that he has prepared a class that is fun and dynamic, and there is no danger of anyone going to sleep. The students say that they have prepared plenty of jokes and games to help keep Mr Olrig awake. The local TV station is going to film the class to make sure that no one falls asleep. Parents and friends are sponsoring the class and all the money they make is going to go to the World Wildlife Fund.",
+      "Fiorella Bartolucci, 15, from Rome, is training hard to break the pogo stick jumping world record. She spends five hours a day, every day, practicing in her local park. The current record for pogo stick jumping stands at 37.18km in 12 hours and 12 minutes. Fiorella wants to jump over 40km in less than ten hours. A local TV station is going to be showing her record attempt live on TV and all the money made from advertising is going to go to a local children’s charity. “I’ve always loved pogoing,” says Fiorella, “and this record attempt gives me the opportunity to do something I love and help people at the same time.”",
+      "Anya Vordermann hated snakes when she was a child, but since she started working in the Cape Town zoo she has changed her mind. “They’re fascinating,” she says, “and beautiful.” But some of them can also be dangerous. “Yes, a lot of the snakes we work with are venomous, but they only attack if they are scared…or hungry.” Anya is planning to spend 70 days in a cage in the company of more than 50 venomous snakes! She’s hoping to break the world record, which stands at 69 days, and when asked why she was doing it she said, “Well, it’s an experience! And of course, any publicity for the zoo helps.”"
+    ],
+    "translate": [
+      "记录打破者",
+      "一个由17名地理学生组成的班级和他们的老师Sven Olrig正准备创下最长课程的新世界纪录。目前的记录是24小时。Olrig先生说，他已经准备了一节有趣而充满活力的课，而且没有人睡觉的危险。学生们说，他们准备了很多笑话和游戏来帮助奥尔里格保持清醒。当地电视台将拍摄这节课，以确保没有人睡着。家长和朋友们正在赞助这门课，他们赚的所有钱都将捐给世界野生动物基金会。",
+      "来自罗马的15岁的Fiorella Bartolucci正在努力训练，以打破弹簧撑杆跳高的世界纪录。她每天花五个小时在当地的公园练习。目前的弹簧撑杆跳高纪录是12小时12分钟跑37.18公里。菲奥雷拉希望在不到10小时的时间内跳过40公里。当地一家电视台将在电视上直播她的唱片尝试，所有广告收入都将捐给当地一家儿童慈善机构。菲奥雷拉说：“我一直都很喜欢集体迫害，这次创纪录的尝试让我有机会做我喜欢的事情，同时帮助人们。”",
+      "安雅·沃德曼小时候讨厌蛇，但自从她开始在开普敦动物园工作以来，她改变了主意。“它们很迷人，”她说，“而且很漂亮。”但其中一些也可能很危险。“是的，我们接触的很多蛇都是有毒的，但它们只有在害怕或饥饿的时候才会攻击。”安雅计划在50多条毒蛇的陪伴下在笼子里度过70天！她希望打破69天的世界纪录，当被问及为什么要这样做时，她说：“好吧，这是一次经历！当然，动物园的任何宣传都有帮助。”"
+    ],
+    "options": [
+      {
+        "label": "Sven Olrig’s class has to last more than 24 hours if they want to set a new world record for the longest lesson.",
+        "translate": "Sven Olrig的课程必须持续24小时以上，才能创造最长课程的新世界纪录。",
+        "is": true
+      },
+      {
+        "label": "All the students have to be awake during the whole class.",
+        "translate": "全班学生都必须醒着。",
+        "is": true
+      },
+      {
+        "label": "The money made from Fiorella’s record breaking will help some children.",
+        "translate": "菲奥雷拉破纪录的收入将帮助一些孩子。",
+        "is": true
+      },
+      {
+        "label": "Anya always loves snakes.",
+        "translate": "安雅总是喜欢蛇。",
+        "is": false
+      },
+      {
+        "label": "Anya’s attempt may help the zoo become more famous.",
+        "translate": "安雅的尝试可能会帮助动物园变得更加出名。",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 16,
+    "title": "P185, Unit 12",
+    "topic": [
+      {
+        "children": "J.K. Rowling",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      "J.K. Rowling was born in Bristol on July 31st 1965. She has one sister who is two years younger than her. Both girls loved stories about fantasy worlds and fabulous adventures. Rowling wrote her first story, called Rabbit, at the age of six.",
+      "After graduation, Rowling worked as a translator. During this time, on a particularly long train journey in the summer of 1990, the idea came to her of a boy who is a wizard but doesn’t know it.",
+      "In 1992 Rowling moved to Portugal and fell in love with a Portuguese TV journalist. When her marriage ended in divorce, Rowling returned to Britain with a suitcase full of notes about Harry Potter and his adventures. She went to live near her sister in Edinburgh. She spent her time looking after her baby daughter and writing the first Harry Potter book.",
+      "When the book appeared in 1997 it was an instant success. The last book in the series, Harry Potter and the Deathly Hallows, appeared ten years later and became the fastest selling book of all time. The publishers have translated the series into 65 languages.",
+      "With the Harry Potter saga at an end, J. K. Rowling is dedicating her time and money to charities across the globe. She says she’s going to continue writing and she’s currently working on a couple of projects but she isn’t sure what she’s going to publish next."
+    ],
+    "translate": [
+      "J.K.罗琳",
+      "J.K.罗琳于1965年7月31日出生在布里斯托尔。她有一个妹妹，比她小两岁。两个女孩都喜欢幻想世界和精彩冒险的故事。罗琳六岁时写了她的第一个故事《兔子》。",
+      "毕业后，罗琳从事翻译工作。在这段时间里，在1990年夏天的一次特别漫长的火车旅行中，她想到了一个男孩，他是一个巫师，但并不知道。",
+      "1992年，罗琳搬到葡萄牙，爱上了一位葡萄牙电视记者。当她的婚姻以离婚告终时，罗琳带着一个装满哈利波特和他的冒险经历的手提箱回到了英国。她搬到了爱丁堡，住在姐姐附近。她花时间照顾她的小女儿，并写了第一本《哈利波特》。",
+      "当这本书于1997年出版时，它立刻获得了成功。该系列的最后一本书《哈利波特与死亡圣器》于十年后出版，成为有史以来销量最快的书。出版商已将该系列翻译成65种语言。",
+      "随着《哈利波特》故事的结束，J.K.罗琳将她的时间和金钱奉献给全球的慈善事业。她说她将继续写作，目前正在进行几个项目，但她不确定接下来会发表什么。"
+    ],
+    "options": [
+      {
+        "label": "J.K. Rowling wrote her first story when she was eight years old.",
+        "translate": "J.K.罗琳八岁时写了她的第一个故事。",
+        "is": false
+      },
+      {
+        "label": "The idea of the Harry Potter stories came to her when she was on a long bus trip.",
+        "translate": "当她在一次长途巴士旅行中想到哈利波特故事时。",
+        "is": false
+      },
+      {
+        "label": "J.K. Rowling’s sister lives in Edinburgh.",
+        "translate": "J.K.罗琳的妹妹住在爱丁堡。",
+        "is": true
+      },
+      {
+        "label": "The first Harry Potter book was not very successful at the beginning.",
+        "translate": "第一本《哈利波特》一开始不是很成功。",
+        "is": false
+      },
+      {
+        "label": "J.K. Rowling doesn't want to do any more writing.",
+        "translate": "J.K.罗琳不想再写作了。",
+        "is": false
+      }
+    ]
+  },
+  {
+    "sort": 17,
+    "title": "",
+    "topic": [
+      {
+        "children": "Mary Kay: One of America’s Most Influential Women",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      "Mary Kathlyn Wagner was born in the state of Texas in 1918.",
+      "For much of her childhood, she cared for her sick father while her mother worked long hours at a public eating place. Mary Kay married Ben Rogers when she was seventeen years old. They had three children before he left home to serve in World War Two.",
+      "When he returned, their marriage ended. May Kay looked for a job so she could support her children.",
+      "Mary Kay was successful selling home care products. Her supervisor praised her work. But they never increased her earnings. She left the company after a man she trained was given a more important job than she had.",
+      "Mary Kay said later that she learned from this experience. It taught her that men did not believe that a woman could succeed in business. She decided to prove them wrong. So she bought the rights to Mister Heath’s skin care products and started her own company. The Mary Kay Cosmetics Company began operating in Dallas, Texas, in 1963. The idea was to sell skin care products through demonstrations in homes and offices.",
+      "Nine sales representatives were chosen to sell the products.",
+      "The sales representatives were independent workers. They bought Products like soaps and skin softening liquids from the company and sold them at higher prices to friends, family members and other individuals.",
+      "Mary Kay decided that each representative who brought other sales women into the company would receive part of the new person’s earnings.",
+      "Mary Kay told the women who worked for her that to be successful in life a person should put family first and work second. She said women must discover how to be good wives and mothers while at the same time learning how to succeed in work."
+    ],
+    "translate": [
+      "玫琳凯：美国最具影响力的女性之一",
+      "玛丽·凯瑟琳·瓦格纳于1918年出生于得克萨斯州。",
+      "在童年的大部分时间里，她照顾生病的父亲，而母亲则在公共餐厅长时间工作。玫琳凯17岁时嫁给了本·罗杰斯。在他离家参加第二次世界大战之前，他们有三个孩子。",
+      "当他回来时，他们的婚姻结束了。May Kay找了一份工作，这样她就可以养活她的孩子了。",
+      "玫琳凯成功地销售了家庭护理产品。她的上司表扬了她的工作，但他们从未增加她的收入。在她培训的一名男子得到了一份比她更重要的工作后，她离开了公司。",
+      "玫琳凯后来说，她从这次经历中吸取了教训。它教会了她，男人不相信女人能在商业上取得成功。她决定证明他们错了。于是，她买下了希思先生护肤品的版权，并创办了自己的公司。玫琳凯化妆品公司于1963年在德克萨斯州达拉斯开始运营。这个想法是通过在家庭和办公室的演示来销售护肤品。",
+      "选出了九名销售代表来销售产品。",
+      "销售代表是独立工作者。他们从该公司购买肥皂和皮肤软化液等产品，并以更高的价格卖给朋友、家人和其他个人。",
+      "玫琳凯决定，每位将其他销售女性引入公司的代表都将获得新人的部分收入。",
+      "玫琳凯告诉为她工作的女性，要想在生活中取得成功，一个人应该把家庭放在第一位，工作放在第二位。她说，女性必须发现如何成为好妻子和好母亲，同时学习如何在工作中取得成功。"
+    ],
+    "options": [
+      {
+        "label": "Mary Kay was born into a very rich family.",
+        "translate": "玫琳凯出生在一个非常富裕的家庭。",
+        "is": false
+      },
+      {
+        "label": "Mary Kay and her husband got divorced when he returned from the World War II.",
+        "translate": "玫琳凯和她的丈夫在二战结束后离婚了。",
+        "is": true
+      },
+      {
+        "label": "Mary Kay believed that a woman could succeed in business.",
+        "translate": "玫琳凯相信女性可以在商业上取得成功。",
+        "is": true
+      },
+      {
+        "label": "Mary Kay started her own company in 1963 and began to sell skin care products at home and abroad.",
+        "translate": "玫琳凯于1963年创办了自己的公司，开始在国内外销售护肤品。",
+        "is": false
+      },
+      {
+        "label": "Mary Kay told her workers that a successful woman should always put work first in her life.",
+        "translate": "玫琳凯告诉她的员工，一个成功的女性应该始终把工作放在生活的首位。",
+        "is": false
+      }
+    ]
+  },
+  {
+    "sort": 18,
+    "title": "",
+    "topic": [
+      {
+        "children": "An Apple a Day",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      "There is a popular expression that says: ‘An apple a day keeps the doctor away’. Apples have important health qualities and people have known about these qualities for thousands of years. But what makes apples so healthy?",
+      {
+        "children": "Vitamin A",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Apples are full of vitamin A which helps protect you from colds and infections. It actually gives more protection against colds than vitamin C! It also helps you grow and gives you better night vision.",
+      {
+        "children": "Other vitamins",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Apples are also a good source of vitamin C. Vitamin C keeps your defences working efficiently and protects your body against viruses and bacteria. Apples also contain B vitamins, important for healthy nerve, and vitamin E.",
+      {
+        "children": "Minerals",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Apples also contain important minerals. Their iron content is not high, but apples have a property that helps the body to absorb iron better. They contain a generous quantity of calcium.",
+      {
+        "children": "Fibre",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Apples are rich in fibre. They are, in fact, one of the best sources of fibre you can buy. Eating fibre can help to reduce your cholesterol levels.",
+      {
+        "children": "Antioxidants",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Apples also contain antioxidants. Antioxidants keep your body younger for longer and can reduce the risk of heart disease and cancer. They are especially abundant in the apple’s skin."
+    ],
+    "translate": [
+      "一天一个苹果",
+      "有一句流行语说：“一天一苹果，远离医生”。苹果具有重要的健康品质，人们几千年来就知道这些品质。是什么让苹果如此健康？",
+      "维生素A",
+      "苹果富含维生素A，有助于保护你免受感冒和感染。它实际上比维生素C更能预防感冒！它还能帮助你成长，让你有更好的夜视能力。",
+      "其他维生素",
+      "苹果也是维生素C的良好来源。维生素C可以让你的防御系统高效工作，保护你的身体免受病毒和细菌的侵害。苹果还含有对健康神经很重要的B族维生素和维生素E。",
+      "矿物",
+      "苹果还含有重要的矿物质。它们的铁含量不高，但苹果有一种有助于身体更好地吸收铁的特性。它们含有大量的钙。",
+      "纤维",
+      "苹果富含纤维。事实上，它们是你能买到的最好的纤维来源之一。吃纤维有助于降低胆固醇水平。",
+      "抗氧化剂",
+      "苹果也含有抗氧化剂。抗氧化剂可以让你的身体更年轻，并可以降低患心脏病和癌症的风险。它们在苹果皮中含量特别丰富。"
+    ],
+    "options": [
+      {
+        "label": "Eating apples can help you see better at night.",
+        "translate": "吃苹果可以帮助你晚上看得更清楚。",
+        "is": true
+      },
+      {
+        "label": "Vitamin C gives you the best protection against colds.",
+        "translate": "维生素C对感冒有最好的保护作用。",
+        "is": false
+      },
+      {
+        "label": "Apples contain all five vitamins.",
+        "translate": "苹果含有所有五种维生素。",
+        "is": false
+      },
+      {
+        "label": "Apples can protect the body against cancer.",
+        "translate": "苹果可以保护身体免受癌症的侵袭。",
+        "is": true
+      },
+      {
+        "label": "It’s best to peel the skin before you eat apples.",
+        "translate": "吃苹果前最好去皮。",
+        "is": false
+      }
+    ]
+  },
+  {
+    "sort": 19,
+    "title": "",
+    "topic": [
+      {
+        "children": "Guinness World Records",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      {
+        "children": "The longest walk on water",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Remy Bricka walked on water and didn’t have proper food for weeks. Why? Because he walked across the Atlantic Ocean. He started his journey in Tenerife in the Spanish Canary Islands on April 2nd and ended in Trinidad on 31st May 1998. He walked 5,636 kilometres. He didn’t walk directly on water – he used inflatable skis and a paddle. He drank seawater through a special filter, and he occasionally ate a flying fish!",
+      {
+        "children": "The longest drumming solo",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Steven Darvill spent the first day of the 21st century drumming. He drummed for 36 hours in North Vancouver, Canada to break the world record. Steven prepared for the marathon by running long distances as well as drumming. During the marathon, he rested for 15 minutes every eight hours but drummed 460 tunes before he stopped on 2nd January 2000. When he finished, he had a long bath and ate chicken – he said it was the best chicken ever!",
+      {
+        "children": "The fastest bottle opening",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "The fastest time for opening bottles of beer was set in Munich, Germany on 2nd April 1999. A team of people, who work for a brewery, opened 300 beer bottles in one minute, 47 seconds. Each person in the team opened 100 bottles with a specially designed bottle-opener before passing it on to the next member of the team to continue."
+    ],
+    "translate": [
+      "吉尼斯世界纪录",
+      "最长的水上步行",
+      "雷米·布里卡靠水行走，好几个星期都没有合适的食物。为什么？因为他走过了大西洋。他于4月2日在西班牙加那利群岛的特内里费岛开始了他的旅程，并于1998年5月31日在特立尼达岛结束。他走了5636公里。他没有直接在水上行走，而是使用充气滑雪板和桨。他通过特殊的过滤器喝海水，偶尔还会吃飞鱼！",
+      "最长的鼓手独奏",
+      "史蒂文·达尔维尔度过了21世纪的第一天打鼓。他在加拿大北温哥华击鼓36小时，打破了世界纪录。史蒂文通过长跑和击鼓为马拉松做准备。在马拉松比赛中，他每8小时休息15分钟，但在2000年1月2日停止之前，他敲了460首曲子。吃完后，他洗了个长澡，吃了鸡肉——他说这是有史以来最好的鸡肉！",
+      "开瓶速度最快",
+      "1999年4月2日，德国慕尼黑创下了打开啤酒瓶的最快时间。一个在啤酒厂工作的团队在1分47秒内打开了300个啤酒瓶。团队中的每个人都用专门设计的开瓶器打开了100个瓶子，然后将其传递给团队的下一个成员继续。"
+    ],
+    "options": [
+      {
+        "label": "Remy walked for more than two months.",
+        "translate": "雷米走了两个多月。",
+        "is": false
+      },
+      {
+        "label": "Remy only ate fish and drank water.",
+        "translate": "雷米只吃鱼，只喝水。",
+        "is": true
+      },
+      {
+        "label": "Steven Darvill drummed for 36 hours without any stop.",
+        "translate": "史蒂文·达尔维尔连续击鼓36小时。",
+        "is": false
+      },
+      {
+        "label": "Steven Darvill always drummed the same music.",
+        "translate": "史蒂文·达维尔总是敲同样的音乐。",
+        "is": false
+      },
+      {
+        "label": "The fastest bottle opening record was set by a group of people.",
+        "translate": "最快开瓶记录是由一群人创造的。",
+        "is": true
+      }
+    ]
+  },
+  {
+    "sort": 20,
+    "title": "",
+    "topic": [
+      {
+        "children": "Visiting Egypt",
+        "style": {
+          "fontWeight": "bolder",
+          "textAlign": "center"
+        }
+      },
+      {
+        "children": "Visas and Money",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Visitors to Egypt must have a passport and a tourist visa. If you fly to Egypt, you can get a tourist visa at the airport, but it’s cheaper if you go to a consulate. You can stay in the country for one month with a tourist visa; if you’re going to stay longer, you need a tourist residence visa. You should always have your passport with you to register in hotels and change money.",
+      {
+        "children": "The Climate",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "The best time to visit Egypt is in March, April, October or early November. Summers are very hot, with temperatures of 35°in Cairo and 40°in the southern Nile Valley. In winter, Cairo can be cold and the Mediterranean coast is sometimes windy.",
+      {
+        "children": "Eating Habits",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "People usually eat vegetables with bread and don’t often eat meat or fish. The traditional drink is tea. You can drink the water in cities but it’s safer to drink bottled water. If you visit someone’s house, don’t eat with your left hand and remember to take off your shoes.",
+      {
+        "children": "The Capital City",
+        "style": {
+          "fontWeight": "bolder"
+        }
+      },
+      "Cairo is a busy capital city with a lot of traffic and air pollution. To get around the city you can walk or take a taxi – if you aren’t nervous about driving in fast cars! Most people come to see the beautiful architecture, the mosques and museums, but the city also has a lot of markets and street life."
+    ],
+    "translate": [
+      "访问埃及",
+      "签证和金钱",
+      "前往埃及的游客必须持有护照和旅游签证。如果你飞往埃及，你可以在机场获得旅游签证，但如果你去领事馆，会更便宜。您可以持旅游签证在该国停留一个月；如果你打算停留更长时间，你需要旅游居留签证。你应该随身携带护照，以便在酒店登记和兑换货币。",
+      "气候",
+      "访问埃及的最佳时间是3月、4月、10月或11月初。夏季非常炎热，开罗的气温为35°，尼罗河谷南部的气温为40°。冬天，开罗可能很冷，地中海沿岸有时会刮风。",
+      "饮食习惯",
+      "人们通常吃蔬菜配面包，不经常吃肉或鱼。传统的饮料是茶。你可以在城市里喝水，但喝瓶装水更安全。如果你去别人家，不要用左手吃饭，记得脱鞋。",
+      "首都",
+      "开罗是一个繁忙的首都，交通繁忙，空气污染严重。如果你对开快车不感到紧张，你可以步行或乘出租车在城市里转转！大多数人来这里看美丽的建筑、清真寺和博物馆，但这座城市也有很多市场和街头生活。"
+    ],
+    "options": [
+      {
+        "label": "You must have a tourist residence visa to go to Egypt.",
+        "translate": "你必须持有旅游居留签证才能去埃及。",
+        "is": false
+      },
+      {
+        "label": "It’s a good idea to take your passport with you when you go out.",
+        "translate": "出门时带上护照是个好主意。",
+        "is": true
+      },
+      {
+        "label": "It’s always hot and sunny in Egypt.",
+        "translate": "埃及总是炎热晴朗。",
+        "is": false
+      },
+      {
+        "label": "It’s safer to drink bottled water.",
+        "translate": "喝瓶装水更安全。",
+        "is": true
+      },
+      {
+        "label": "There are very few cars in Cairo.",
+        "translate": "开罗的汽车很少。",
+        "is": false
+      }
+    ]
+  }
+]

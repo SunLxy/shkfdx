@@ -1,0 +1,12 @@
+[
+  [{ "label": "what" }, { "label": "who" }, { "label": "which" }],
+  [{ "label": "living" }, { "label": "live" }, { "label": "to live" }],
+  [{ "label": "build" }, { "label": "built" }, { "label": "building" }],
+  [{ "label": "destroy" }, { "label": "protect" }, { "label": "love" }],
+  [{ "label": "by" }, { "label": "in" }, { "label": "at" }],
+  [{ "label": "with" }, { "label": "on" }, { "label": "to" }],
+  [{ "label": "in" }, { "label": "for" }, { "label": "by" }],
+  [{ "label": "harm" }, { "label": "good" }, { "label": "use" }],
+  [{ "label": "on" }, { "label": "at" }, { "label": "in" }],
+  [{ "label": "Whatever" }, { "label": "However" }, { "label": "Whoever" }]
+]
