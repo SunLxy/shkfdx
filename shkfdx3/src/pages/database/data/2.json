@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "SQL查询语句中，SELECT子句对应于关系代数中的____操作。"
+    ],
+    "answer": "投影"
+  },
+  {
+    "id": 2,
+    "topic": [
+      "SQL查询语句中，WHERE子句对应于关系代数中的____操作。"
+    ],
+    "answer": "选择"
+  },
+  {
+    "id": 3,
+    "topic": [
+      "SQL查询语句中，FROM子句对应于关系代数中的____操作。"
+    ],
+    "answer": "笛卡尔积"
+  },
+  {
+    "id": 4,
+    "topic": [
+      "关系代数中的____操作是对一个关系进行水平分割。"
+    ],
+    "answer": "选择"
+  },
+  {
+    "id": 5,
+    "topic": [
+      "关系代数中的____操作是对一个关系进行垂直分割"
+    ],
+    "answer": "投影"
+  },
+  {
+    "id": 6,
+    "topic": [
+      "设关系R、S和W的元组个数分别为3、5和6，则这三个关系的笛卡尔积的元组个数为____ 。"
+    ],
+    "answer": "90"
+  },
+  {
+    "id": 7,
+    "topic": [
+      "设关系R、S和W的属性个数分别为2、3和4，则这三个关系的笛卡尔积的属性个数为____ 。"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 8,
+    "topic": [
+      "设关系R和S的元组个数分别为3和2，则R×S的元组个数为____ 。"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 9,
+    "topic": [
+      "设关系R和S的属性个数分别为3和4，则它们的笛卡尔积的属性个数为____ 。"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 10,
+    "topic": [
+      "设关系R中有5个元组，S中有4个元组，则R×S中有（ ____）个元组。"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 11,
+    "topic": [
+      "nchar(10)用于存放固定长度的10个____字符数据。"
+    ],
+    "answer": "Unicode"
+  },
+  {
+    "id": 12,
+    "topic": [
+      "12.char与varchar的区别在于，  _____ 按可变长存储字符数据。"
+    ],
+    "answer": "varchar"
+  },
+  {
+    "id": 13,
+    "topic": [
+      "char与nchar的区别在于， ____ 用于存放Unicode字符数据。"
+    ],
+    "answer": "nchar"
+  },
+  {
+    "id": 14,
+    "topic": [
+      "char(10)数据类型占据____字节的存储空间。"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 15,
+    "topic": [
+      "nchar(10)数据类型占据____字节的存储空间。"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 16,
+    "topic": [
+      "将年龄字段（age）限制在12～40岁之间，应如何定义约束___"
+    ],
+    "answer": "check age between 12 and 40"
+  },
+  {
+    "id": 17,
+    "topic": [
+      "将性别字段（sex）限制在’男’或’女’这两种取值，应如何定义约束____"
+    ],
+    "answer": "check sex in ('男','女')"
+  },
+  {
+    "id": 18,
+    "topic": [
+      "已知课程表包括课程号，课程名和学分三个字段，课程号已被定义为主键，现要求限定课程名的取值不能重复，则应该在课程名字段上定义（____）约束。"
+    ],
+    "answer": "唯一"
+  },
+  {
+    "id": 19,
+    "topic": [
+      "已知商品表包括商品编号，商品名和价格三个字段，商品编号已被定义为主键，现要求限定商品名的取值不能重复，则应该在商品名字段上定义（____）约束。"
+    ],
+    "answer": "唯一"
+  },
+  {
+    "id": 20,
+    "topic": [
+      "一张表上可以定义多个主键，这种说法是（____）的。（注：填写正确或错误）"
+    ],
+    "answer": "错误 "
+  },
+  {
+    "id": 21,
+    "topic": [
+      "创建数据库d的SQL语句是（ ____ ）。"
+    ],
+    "answer": "create database d"
+  },
+  {
+    "id": 22,
+    "topic": [
+      "删除数据库d的SQL语句是（____）。"
+    ],
+    "answer": "drop database  d"
+  },
+  {
+    "id": 23,
+    "topic": [
+      "删除表t的SQL语句是（____）。"
+    ],
+    "answer": "drop table t"
+  },
+  {
+    "id": 24,
+    "topic": [
+      "删除视图v的SQL语句是（____）。"
+    ],
+    "answer": "drop view v"
+  },
+  {
+    "id": 25,
+    "topic": [
+      "向表中增加约束，或是更改表结构，需要用到（ ____ ）命令。"
+    ],
+    "answer": "alter table"
+  },
+  {
+    "id": 26,
+    "topic": [
+      "已知学生表存储学号，姓名，年龄信息，表结构如下：student（sid，sname，age），age为整型，其余字段为字符型。则向学生表中添加学号为1001，姓名为李华，年龄为20的记录，应该执行的SQL语句是"
+    ],
+    "answer": "insert into student values('1001','李华',20)"
+  },
+  {
+    "id": 27,
+    "topic": [
+      "已知员工表存储工号，姓名，出生日期信息，表结构如下：employee（eid, ename, birthdate）,birthdate为datetime数据类型，其余字段为字符型。则向员工表中添加工号为2002，姓名为王刚，出生日期为1990年10月12日的记录，应该执行的SQL语句是"
+    ],
+    "answer": "insert into employee values('2002','王刚', '1990-10-12')"
+  },
+  {
+    "id": 28,
+    "topic": [
+      "已知图书表存储图书编号，图书名，作者信息，表结构如下：book（bid，bname，author），三个字段均为字符型。则向图书表中添加编号为b059，书名为数据结构，作者为张雷的记录，应该执行的SQL语句是"
+    ],
+    "answer": "insert into book values('b059','数据结构','张雷')"
+  },
+  {
+    "id": 29,
+    "topic": [
+      "已知成绩表存储学号，课程号和成绩信息，表结构如下：sc（sid，cid，score），score字段为整型，其余字段为字符型。则向成绩表中添加1001号学生选修c005号课程，成绩为80分的记录，应该执行的SQL语句是"
+    ],
+    "answer": "insert into sc values('1001','c005',80)"
+  },
+  {
+    "id": 30,
+    "topic": [
+      "30.已知课程表存储课程号，课程名，学分信息，表结构如下：course（cid，cname，credit），credit字段为整型，允许为空；其余字段为字符型。则向课程表中添加编号为c001，名称为数据库，学分待定的一门课程记录，应该执行的SQL语句是"
+    ],
+    "answer": "insert into course(cid,cname) values('c001','数据库')"
+  },
+  {
+    "id": 31,
+    "topic": [
+      "已知成绩表存储学号，课程号和成绩信息，表结构如下：sc（sid，cid，score），score字段为整型，其余字段为字符型。则从成绩表中删除1001号学生的所有选修记录，应该执行的SQL语句是"
+    ],
+    "answer": "delete from sc where sid='1001'"
+  },
+  {
+    "id": 32,
+    "topic": [
+      "32.已知课程表存储课程号，课程名，学分信息，表结构如下：course（cid，cname，credit），credit字段为整型，其余字段为字符型。则从课程表中删除学分大于6的所有课程记录，应该执行的SQL语句是"
+    ],
+    "answer": "delete from course where credit>6"
+  },
+  {
+    "id": 33,
+    "topic": [
+      "已知图书表存储图书编号，图书名，作者信息，表结构如下：book（bid，bname，author），三个字段均为字符型。则从图书表中删除书名中包括数据库关键词的所有图书的记录，应该执行的SQL语句是"
+    ],
+    "answer": "delete from book where bname like '%数据库%'"
+  },
+  {
+    "id": 34,
+    "topic": [
+      "已知员工表存储工号，姓名，出生日期信息，表结构如下：employee（eid, ename, birthdate）,birthdate为datetime数据类型，其余字段为字符型。则从员工表中删除工号为1001的员工的记录，应该执行的SQL语句是"
+    ],
+    "answer": "delete from employee where eid='1001'"
+  },
+  {
+    "id": 35,
+    "topic": [
+      "已知借阅表存储用户名，图书编号和借阅时间信息，表结构如下：ub（uid，bid，borrowdate），borrowdate字段为日期型，其余字段为字符型。则从借阅表中删除早于1980年1月1日的借阅记录，应该执行的SQL语句是"
+    ],
+    "answer": "delete from ub where borrowdate<'1980-1-1'"
+  },
+  {
+    "id": 36,
+    "topic": [
+      "已知成绩表存储学号，课程号和成绩信息，表结构如下：sc（sid，cid，score），score字段为整型，其余字段为字符型。则将1001号学生选修c005课程的成绩增加百分之五，应该执行的SQL语句是"
+    ],
+    "answer": "update sc set score=score*1.05 where sid='1001' and cid='c005'"
+  },
+  {
+    "id": 37,
+    "topic": [
+      "已知课程表存储课程号，课程名，学分信息，表结构如下：course（cid，cname，credit），credit字段为整型，其余字段为字符型。则将数据结构课程的学分修改为4，应该执行的SQL语句是"
+    ],
+    "answer": "update course set credit=4 where cname='数据结构'"
+  },
+  {
+    "id": 38,
+    "topic": [
+      "已知图书表存储图书编号，图书名，作者信息，表结构如下：book（bid，bname，author），三个字段均为字符型。则将图书编号为b049的图书的作者修改为张雷，应该执行的SQL语句是"
+    ],
+    "answer": "update book set author='张雷' where bid='b049'"
+  },
+  {
+    "id": 39,
+    "topic": [
+      "已知员工表存储工号，姓名，出生日期信息，表结构如下：employee（eid, ename, birthdate）,birthdate为datetime数据类型，其余字段为字符型。则将1001号员工的出生日期修改为1995年10月20日，应该执行的SQL语句是"
+    ],
+    "answer": "update employee set birthdate='1995-10-20' where eid='1001'"
+  },
+  {
+    "id": 40,
+    "topic": [
+      "40.已知学生表存储学号，姓名，年龄信息，表结构如下：student（sid，sname，age），age为整型，其余字段为字符型。则将所有学生的年龄增长一岁，应该执行的SQL语句是"
+    ],
+    "answer": "update student set age=age+1"
+  }
+]

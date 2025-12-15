@@ -23,7 +23,7 @@ export interface QReadingContentProps {
 }
 
 export const QReadingContent = (props: QReadingContentProps) => {
-  const { contents, sort, form } = props
+  const { contents = [], sort, form } = props
   const { styles, cx } = useStyles()
   return <div className={cx('q_reading_content', styles.container)} >
     {(sort || form) ? <div className={styles.title}>

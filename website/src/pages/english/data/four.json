@@ -35,38 +35,71 @@
     ],
     "options": [
       {
-        "topic": ["When did most people from India arrive in London?"],
+        "topic": [
+          "When did most people from India arrive in London?"
+        ],
         "options": [
-          { "label": "The 1950s and 60s.", "isTrue": true },
-          { "label": "The 1950s." },
-          { "label": "The 1960s." }
+          {
+            "label": "The 1950s and 60s.",
+            "isTrue": true
+          },
+          {
+            "label": "The 1950s."
+          },
+          {
+            "label": "The 1960s."
+          }
         ]
       },
       {
-        "topic": ["How often does a typical family have a curry?"],
+        "topic": [
+          "How often does a typical family have a curry?"
+        ],
         "options": [
-          { "label": "Two times." },
-          { "label": "Every two weeks.", "isTrue": true },
-          { "label": "Two weeks." }
+          {
+            "label": "Two times."
+          },
+          {
+            "label": "Every two weeks.",
+            "isTrue": true
+          },
+          {
+            "label": "Two weeks."
+          }
         ]
       },
       {
-        "topic": ["Where do many Polish people live?"],
+        "topic": [
+          "Where do many Polish people live?"
+        ],
         "options": [
-          { "label": "The east of the city." },
-          { "label": " Catholic churches." },
-          { "label": "The Hammersmith area.", "isTrue": true }
+          {
+            "label": "The east of the city."
+          },
+          {
+            "label": " Catholic churches."
+          },
+          {
+            "label": "The Hammersmith area.",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["Why do Polish people come to London?"],
+        "topic": [
+          "Why do Polish people come to London?"
+        ],
         "options": [
           {
             "label": "They can earn three times as much money in the UK.",
             "isTrue": true
           },
-          { "label": " Unemployment remains high in the UK." },
-          { "label": "They are growing rapidly." }
+          {
+            "label": " Unemployment remains high in the UK."
+          },
+          {
+            "label": "They are growing rapidly."
+          }
         ]
       },
       {
@@ -74,9 +107,16 @@
           "What kind of traditional West Africa foods do markets sell?"
         ],
         "options": [
-          { "label": "Ghana and Nigeria." },
-          { "label": "Languages, music and culture." },
-          { "label": "Yams and different types of rice.", "isTrue": true }
+          {
+            "label": "Ghana and Nigeria."
+          },
+          {
+            "label": "Languages, music and culture."
+          },
+          {
+            "label": "Yams and different types of rice.",
+            "isTrue": true
+          }
         ]
       }
     ],
@@ -154,43 +194,88 @@
     ],
     "options": [
       {
-        "topic": ["When did Nike start its business?"],
+        "topic": [
+          "When did Nike start its business?"
+        ],
         "options": [
-          { "label": "In the sixties.", "isTrue": true },
-          { "label": "In the mid-eighties." },
-          { "label": "In 1987." }
+          {
+            "label": "In the sixties.",
+            "isTrue": true
+          },
+          {
+            "label": "In the mid-eighties."
+          },
+          {
+            "label": "In 1987."
+          }
         ]
       },
       {
-        "topic": ["When was Umbro founded?"],
+        "topic": [
+          "When was Umbro founded?"
+        ],
         "options": [
-          { "label": "In 1920." },
-          { "label": "In 1924.", "isTrue": true },
-          { "label": "In 1966." }
+          {
+            "label": "In 1920."
+          },
+          {
+            "label": "In 1924.",
+            "isTrue": true
+          },
+          {
+            "label": "In 1966."
+          }
         ]
       },
       {
-        "topic": ["Who designed the logo of Nike?"],
+        "topic": [
+          "Who designed the logo of Nike?"
+        ],
         "options": [
-          { "label": "Phil Knight and Bill Bowerman." },
-          { "label": "Paula Radcliffe." },
-          { "label": "Caroline Davidson.", "isTrue": true }
+          {
+            "label": "Phil Knight and Bill Bowerman."
+          },
+          {
+            "label": "Paula Radcliffe."
+          },
+          {
+            "label": "Caroline Davidson.",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["Which of the following does not wear Umbro?"],
+        "topic": [
+          "Which of the following does not wear Umbro?"
+        ],
         "options": [
-          { "label": "John Terry." },
-          { "label": "Michael Owen." },
-          { "label": "Tiger Woods.", "isTrue": true }
+          {
+            "label": "John Terry."
+          },
+          {
+            "label": "Michael Owen."
+          },
+          {
+            "label": "Tiger Woods.",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["Which of the statements about “Swoosh” is right?"],
+        "topic": [
+          "Which of the statements about “Swoosh” is right?"
+        ],
         "options": [
-          { "label": "It is the slogan of Nike." },
-          { "label": "It represents the wing of Nike.", "isTrue": true },
-          { "label": "It was created in 1972." }
+          {
+            "label": "It is the slogan of Nike."
+          },
+          {
+            "label": "It represents the wing of Nike.",
+            "isTrue": true
+          },
+          {
+            "label": "It was created in 1972."
+          }
         ]
       }
     ],
@@ -239,27 +324,54 @@
     ],
     "options": [
       {
-        "topic": ["What did Thorpe’s father want Ian to be?"],
+        "topic": [
+          "What did Thorpe’s father want Ian to be?"
+        ],
         "options": [
-          { "label": "A flipper." },
-          { "label": "A cricketer.", "isTrue": true },
-          { "label": "A swimmer." }
+          {
+            "label": "A flipper."
+          },
+          {
+            "label": "A cricketer.",
+            "isTrue": true
+          },
+          {
+            "label": "A swimmer."
+          }
         ]
       },
       {
-        "topic": ["What is Thorpe’s first nickname?"],
+        "topic": [
+          "What is Thorpe’s first nickname?"
+        ],
         "options": [
-          { "label": "Ian." },
-          { "label": "Fountain for Youth." },
-          { "label": "Flipper.", "isTrue": true }
+          {
+            "label": "Ian."
+          },
+          {
+            "label": "Fountain for Youth."
+          },
+          {
+            "label": "Flipper.",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["What did Ian win at the 2000 Sydney Olympic Games?"],
+        "topic": [
+          "What did Ian win at the 2000 Sydney Olympic Games?"
+        ],
         "options": [
-          { "label": "Three gold medals.", "isTrue": true },
-          { "label": "Three silver medals." },
-          { "label": "Three bronze medals." }
+          {
+            "label": "Three gold medals.",
+            "isTrue": true
+          },
+          {
+            "label": "Three silver medals."
+          },
+          {
+            "label": "Three bronze medals."
+          }
         ]
       },
       {
@@ -267,17 +379,33 @@
           "Which of the following is to celebrate Ian’s victories in the Olympic?"
         ],
         "options": [
-          { "label": "A fragrance called “Ian Thorpe for Men”." },
-          { "label": "Special Australian stamps.", "isTrue": true },
-          { "label": "A range of men’s underwear." }
+          {
+            "label": "A fragrance called “Ian Thorpe for Men”."
+          },
+          {
+            "label": "Special Australian stamps.",
+            "isTrue": true
+          },
+          {
+            "label": "A range of men’s underwear."
+          }
         ]
       },
       {
-        "topic": ["When did Thorpe withdraw from professional swimming?"],
+        "topic": [
+          "When did Thorpe withdraw from professional swimming?"
+        ],
         "options": [
-          { "label": "In 1982." },
-          { "label": "In 2000." },
-          { "label": "In 2006.", "isTrue": true }
+          {
+            "label": "In 1982."
+          },
+          {
+            "label": "In 2000."
+          },
+          {
+            "label": "In 2006.",
+            "isTrue": true
+          }
         ]
       }
     ],
@@ -329,43 +457,88 @@
     ],
     "options": [
       {
-        "topic": ["McDonald’s was founded in _____ ."],
+        "topic": [
+          "McDonald’s was founded in _____ ."
+        ],
         "options": [
-          { "label": "New York" },
-          { "label": "California", "isTrue": true },
-          { "label": "Texas" }
+          {
+            "label": "New York"
+          },
+          {
+            "label": "California",
+            "isTrue": true
+          },
+          {
+            "label": "Texas"
+          }
         ]
       },
       {
-        "topic": ["The busiest McDonald’s restaurant is in _____ ."],
+        "topic": [
+          "The busiest McDonald’s restaurant is in _____ ."
+        ],
         "options": [
-          { "label": "America" },
-          { "label": "Britain" },
-          { "label": "Moscow", "isTrue": true }
+          {
+            "label": "America"
+          },
+          {
+            "label": "Britain"
+          },
+          {
+            "label": "Moscow",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["Coca-Cola was invented by _____ ."],
+        "topic": [
+          "Coca-Cola was invented by _____ ."
+        ],
         "options": [
-          { "label": "a pharmacist", "isTrue": true },
-          { "label": "a doctor" },
-          { "label": "a nutritionist" }
+          {
+            "label": "a pharmacist",
+            "isTrue": true
+          },
+          {
+            "label": "a doctor"
+          },
+          {
+            "label": "a nutritionist"
+          }
         ]
       },
       {
-        "topic": ["Nokia is based in  _____ ."],
+        "topic": [
+          "Nokia is based in  _____ ."
+        ],
         "options": [
-          { "label": "Japan" },
-          { "label": "Korea" },
-          { "label": "Finland", "isTrue": true }
+          {
+            "label": "Japan"
+          },
+          {
+            "label": "Korea"
+          },
+          {
+            "label": "Finland",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["The first pair of Levi’s jeans were made in _____  ."],
+        "topic": [
+          "The first pair of Levi’s jeans were made in _____  ."
+        ],
         "options": [
-          { "label": "1853" },
-          { "label": "1873", "isTrue": true },
-          { "label": "1903" }
+          {
+            "label": "1853"
+          },
+          {
+            "label": "1873",
+            "isTrue": true
+          },
+          {
+            "label": "1903"
+          }
         ]
       }
     ],
@@ -408,11 +581,20 @@
     ],
     "options": [
       {
-        "topic": ["Why was Ms Hicks arrested?"],
+        "topic": [
+          "Why was Ms Hicks arrested?"
+        ],
         "options": [
-          { "label": "Because she was divorced." },
-          { "label": "Because she was drunk and naked.", "isTrue": true },
-          { "label": "Because she walked around her neighbourhood." }
+          {
+            "label": "Because she was divorced."
+          },
+          {
+            "label": "Because she was drunk and naked.",
+            "isTrue": true
+          },
+          {
+            "label": "Because she walked around her neighbourhood."
+          }
         ]
       },
       {
@@ -420,33 +602,67 @@
           "What is the relationship between Johnny Hedges and Ms Hicks?"
         ],
         "options": [
-          { "label": "They are boyfriend and girlfriend.", "isTrue": true },
-          { "label": "They are husband and wife." },
-          { "label": "They are close friends." }
+          {
+            "label": "They are boyfriend and girlfriend.",
+            "isTrue": true
+          },
+          {
+            "label": "They are husband and wife."
+          },
+          {
+            "label": "They are close friends."
+          }
         ]
       },
       {
-        "topic": ["What happened according to Dorothy Sánchez?"],
+        "topic": [
+          "What happened according to Dorothy Sánchez?"
+        ],
         "options": [
-          { "label": "She heard they were fighting." },
-          { "label": "She said Ms Hicks asked her for help." },
-          { "label": "She saw Ms Hicks taking off her dress.", "isTrue": true }
+          {
+            "label": "She heard they were fighting."
+          },
+          {
+            "label": "She said Ms Hicks asked her for help."
+          },
+          {
+            "label": "She saw Ms Hicks taking off her dress.",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["What did the police do to Ms Hicks?"],
+        "topic": [
+          "What did the police do to Ms Hicks?"
+        ],
         "options": [
-          { "label": "They picked her up.", "isTrue": true },
-          { "label": "They took her to the prison." },
-          { "label": "They set her free immediately." }
+          {
+            "label": "They picked her up.",
+            "isTrue": true
+          },
+          {
+            "label": "They took her to the prison."
+          },
+          {
+            "label": "They set her free immediately."
+          }
         ]
       },
       {
-        "topic": ["What cannot we know from the article?  推断"],
+        "topic": [
+          "What cannot we know from the article?  推断"
+        ],
         "options": [
-          { "label": "Ms Hicks lived alone." },
-          { "label": "Ms Hicks was very rich." },
-          { "label": "Ms Hicks lived a happy life.", "isTrue": true }
+          {
+            "label": "Ms Hicks lived alone."
+          },
+          {
+            "label": "Ms Hicks was very rich."
+          },
+          {
+            "label": "Ms Hicks lived a happy life.",
+            "isTrue": true
+          }
         ]
       }
     ],
@@ -490,27 +706,54 @@
     ],
     "options": [
       {
-        "topic": ["How many languages will die out according to some experts?"],
+        "topic": [
+          "How many languages will die out according to some experts?"
+        ],
         "options": [
-          { "label": "Over 6000." },
-          { "label": "Over 3000.", "isTrue": true },
-          { "label": "Over 100." }
+          {
+            "label": "Over 6000."
+          },
+          {
+            "label": "Over 3000.",
+            "isTrue": true
+          },
+          {
+            "label": "Over 100."
+          }
         ]
       },
       {
-        "topic": ["Which is not the reason why some languages are in danger?"],
+        "topic": [
+          "Which is not the reason why some languages are in danger?"
+        ],
         "options": [
-          { "label": "Invasion." },
-          { "label": "Migration." },
-          { "label": "Communication.", "isTrue": true }
+          {
+            "label": "Invasion."
+          },
+          {
+            "label": "Migration."
+          },
+          {
+            "label": "Communication.",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["How many people speak English in the world?"],
+        "topic": [
+          "How many people speak English in the world?"
+        ],
         "options": [
-          { "label": "Over 1,000,000,000.", "isTrue": true },
-          { "label": "Over 100,000,000." },
-          { "label": "Over 10,000,000." }
+          {
+            "label": "Over 1,000,000,000.",
+            "isTrue": true
+          },
+          {
+            "label": "Over 100,000,000."
+          },
+          {
+            "label": "Over 10,000,000."
+          }
         ]
       },
       {
@@ -525,7 +768,9 @@
           {
             "label": "More useful and beneficial than other people or things."
           },
-          { "label": "More complicated than other people or things." }
+          {
+            "label": "More complicated than other people or things."
+          }
         ]
       },
       {
@@ -540,7 +785,9 @@
             "label": "Because some traditions will die out with the languages.",
             "isTrue": true
           },
-          { "label": "Because we can learn the history of the languages." }
+          {
+            "label": "Because we can learn the history of the languages."
+          }
         ]
       }
     ],
@@ -579,15 +826,26 @@
     ],
     "options": [
       {
-        "topic": ["What does Johnny think of cars?"],
+        "topic": [
+          "What does Johnny think of cars?"
+        ],
         "options": [
-          { "label": "They cause pollution and accidents." },
-          { "label": "They are slow and smelly." },
-          { "label": "They are comfortable.", "isTrue": true }
+          {
+            "label": "They cause pollution and accidents."
+          },
+          {
+            "label": "They are slow and smelly."
+          },
+          {
+            "label": "They are comfortable.",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["Which is not the reason why Johnny supports cars?"],
+        "topic": [
+          "Which is not the reason why Johnny supports cars?"
+        ],
         "options": [
           {
             "label": "The public transport system in most countries is not good enough."
@@ -596,31 +854,60 @@
             "label": "Road building is destroying the countryside.",
             "isTrue": true
           },
-          { "label": "Roads are much safer and more efficient now." }
+          {
+            "label": "Roads are much safer and more efficient now."
+          }
         ]
       },
       {
-        "topic": ["Did Amanda use to have a car?  过去常常"],
+        "topic": [
+          "Did Amanda use to have a car?  过去常常"
+        ],
         "options": [
-          { "label": "Yes, she did.", "isTrue": true },
-          { "label": "No, she didn’t." },
-          { "label": "It doesn’t mention." }
+          {
+            "label": "Yes, she did.",
+            "isTrue": true
+          },
+          {
+            "label": "No, she didn’t."
+          },
+          {
+            "label": "It doesn’t mention."
+          }
         ]
       },
       {
-        "topic": ["What bothers Amanda most?"],
+        "topic": [
+          "What bothers Amanda most?"
+        ],
         "options": [
-          { "label": "The number of accidents." },
-          { "label": "The destroying of the countryside." },
-          { "label": "The constant traffic noise.", "isTrue": true }
+          {
+            "label": "The number of accidents."
+          },
+          {
+            "label": "The destroying of the countryside."
+          },
+          {
+            "label": "The constant traffic noise.",
+            "isTrue": true
+          }
         ]
       },
       {
-        "topic": ["How serious is the road accident in Britain?"],
+        "topic": [
+          "How serious is the road accident in Britain?"
+        ],
         "options": [
-          { "label": "Someone dies every 2 hours." },
-          { "label": "Someone dies every 2.5 hours.", "isTrue": true },
-          { "label": "Someone dies every 0.5 hours." }
+          {
+            "label": "Someone dies every 2 hours."
+          },
+          {
+            "label": "Someone dies every 2.5 hours.",
+            "isTrue": true
+          },
+          {
+            "label": "Someone dies every 0.5 hours."
+          }
         ]
       }
     ],

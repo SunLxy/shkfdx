@@ -43,11 +43,13 @@ export interface QItemProps {
   /**题目下面显示内容*/
   children?: React.ReactNode
   /**只显示答案*/
-  isOnlyAnswer?: boolean
+  isOnlyAnswer?: boolean,
+  /**是否是HTML字符串*/
+  isHTML?: boolean,
 }
 
 export const QItem = (props: QItemProps) => {
-  const { isOnlyAnswer = false, sort, isOptions = false, isBool, isInput, isTextArea, answer, options, layout = 'horizontal', topic, isRead, translate, isMulti, isShowTranslate, children } = props
+  const { isOnlyAnswer = false, sort, isOptions = false, isBool, isInput, isTextArea, answer, options, layout = 'horizontal', topic, isHTML = false, isRead, translate, isMulti, isShowTranslate, children } = props
   const { styles, cx } = useStyles()
   const getValue = () => {
     if (isRead) {
@@ -132,7 +134,7 @@ export const QItem = (props: QItemProps) => {
   }
 
   return <div className={cx(styles.base, { is_options: isOptions, is_bool: isBool, is_input: isInput, is_translate: translate && isRead })}>
-    {isOptions ? <b>{sort}.</b> : <QTopic content={topic} sort={sort} />}
+    {isOptions ? <b>{sort}.</b> : <QTopic isHTML={isHTML} content={topic} sort={sort} />}
     {children}
     {isBool ? <QListRadio isOnlyAnswer={isOnlyAnswer} layout={layout} value={state.value} options={BooleanOptions} onChange={onChange} /> : null}
     {options ? <QListRadio isOnlyAnswer={isOnlyAnswer} layout={layout} value={state.value} options={options} onChange={onChange} /> : null}

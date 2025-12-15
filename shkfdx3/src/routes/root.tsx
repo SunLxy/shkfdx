@@ -69,6 +69,7 @@ export const RootRoute = () => {
   return <div className={styles.base}>
     <header>
       <NavLink className="navlink" to="/data_science">数据科学</NavLink>
+      <NavLink className="navlink" to="/database">数据库</NavLink>
     </header>
     <main>
       <Outlet />
