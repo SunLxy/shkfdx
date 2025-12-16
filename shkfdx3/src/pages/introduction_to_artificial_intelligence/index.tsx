@@ -16,6 +16,11 @@ const DataScienceMain = () => {
     <NavLink to="/introduction_to_artificial_intelligence/9">第九章</NavLink>
     <NavLink to="/introduction_to_artificial_intelligence/10">第十章</NavLink>
     <NavLink to="/introduction_to_artificial_intelligence/11">第十一章</NavLink>
+    <div>综合试题(单选)</div>
+    <div>综合试题(多选)</div>
+    <div>综合试题(判断)</div>
+    <div>综合试题(填空)</div>
+    <div>综合试题(简答)</div>
   </MainSelecrLayout>
 }
 
