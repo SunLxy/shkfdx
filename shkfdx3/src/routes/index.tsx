@@ -17,6 +17,10 @@ import IntroductionToArtificialIntelligenceOne from '@/pages/introduction_to_art
 import IntroductionToArtificialIntelligenceOneOne from '@/pages/introduction_to_artificial_intelligence/chapter/1/1';
 import IntroductionToArtificialIntelligenceOneTwo from '@/pages/introduction_to_artificial_intelligence/chapter/1/2';
 import IntroductionToArtificialIntelligenceOneThree from '@/pages/introduction_to_artificial_intelligence/chapter/1/3';
+import IntroductionToArtificialIntelligenceTwo from '@/pages/introduction_to_artificial_intelligence/chapter/2';
+import IntroductionToArtificialIntelligenceTwoOne from '@/pages/introduction_to_artificial_intelligence/chapter/2/1';
+import IntroductionToArtificialIntelligenceTwoTwo from '@/pages/introduction_to_artificial_intelligence/chapter/2/2';
+import IntroductionToArtificialIntelligenceTwoThree from '@/pages/introduction_to_artificial_intelligence/chapter/2/3';
 
 
 import { RootRoute } from "./root"
@@ -88,6 +92,22 @@ const newRoutesConfig: RouteObject[] = [
       {
         path: '/introduction_to_artificial_intelligence/1/3',
         element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceOneThree /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/2/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTwoOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/2/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTwoTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/2/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTwoThree /></Suspense>
       },
 
     ]

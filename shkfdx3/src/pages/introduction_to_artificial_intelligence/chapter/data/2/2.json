@@ -1,0 +1,259 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "知识的特性包括？"
+    ],
+    "options": [
+      {
+        "label": "相对正确性",
+        "isTrue": true
+      },
+      {
+        "label": "不可利用性"
+      },
+      {
+        "label": "可表示性",
+        "isTrue": true
+      },
+      {
+        "label": "绝对确定性"
+      },
+      {
+        "label": "模糊性",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "知识图谱的典型项目包括？"
+    ],
+    "options": [
+      {
+        "label": "DBpedia",
+        "isTrue": true
+      },
+      {
+        "label": "YAGO",
+        "isTrue": true
+      },
+      {
+        "label": "AlphaGo"
+      },
+      {
+        "label": "XLORE",
+        "isTrue": true
+      },
+      {
+        "label": "STRIPS"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "产生式表示法的缺点包括？"
+    ],
+    "options": [
+      {
+        "label": "效率不高",
+        "isTrue": true
+      },
+      {
+        "label": "自然性强"
+      },
+      {
+        "label": "不能表示结构性知识",
+        "isTrue": true
+      },
+      {
+        "label": "适合不确定性知识"
+      },
+      {
+        "label": "模块性差"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "一阶谓词逻辑的组成部分包括？"
+    ],
+    "options": [
+      {
+        "label": "命题",
+        "isTrue": true
+      },
+      {
+        "label": "框架"
+      },
+      {
+        "label": "谓词",
+        "isTrue": true
+      },
+      {
+        "label": "量词",
+        "isTrue": true
+      },
+      {
+        "label": "槽"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "知识的不确定性来源包括？"
+    ],
+    "options": [
+      {
+        "label": "随机性",
+        "isTrue": true
+      },
+      {
+        "label": "模糊性",
+        "isTrue": true
+      },
+      {
+        "label": "完全性"
+      },
+      {
+        "label": "经验性",
+        "isTrue": true
+      },
+      {
+        "label": "绝对性"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "框架表示法的优势包括？"
+    ],
+    "options": [
+      {
+        "label": "结构性",
+        "isTrue": true
+      },
+      {
+        "label": "高效性"
+      },
+      {
+        "label": "继承性",
+        "isTrue": true
+      },
+      {
+        "label": "适合表示规则性知识"
+      },
+      {
+        "label": "自然性",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "知识图谱的三元组形式可以是？"
+    ],
+    "options": [
+      {
+        "label": "(实体-关系-实体)",
+        "isTrue": true
+      },
+      {
+        "label": "(实体-属性-值)",
+        "isTrue": true
+      },
+      {
+        "label": "(规则-前提-结论)"
+      },
+      {
+        "label": "(框架-槽-侧面)"
+      },
+      {
+        "label": "(谓词-个体-真值)"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "产生式系统的核心组件包括？"
+    ],
+    "options": [
+      {
+        "label": "规则库",
+        "isTrue": true
+      },
+      {
+        "label": "综合数据库",
+        "isTrue": true
+      },
+      {
+        "label": "推理机",
+        "isTrue": true
+      },
+      {
+        "label": "知识图谱"
+      },
+      {
+        "label": "框架结构"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "一阶谓词逻辑的推理规则包括？"
+    ],
+    "options": [
+      {
+        "label": "假言推理",
+        "isTrue": true
+      },
+      {
+        "label": "反向传播"
+      },
+      {
+        "label": "拒取式推理",
+        "isTrue": true
+      },
+      {
+        "label": "归结原理"
+      },
+      {
+        "label": "模糊匹配"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "知识图谱的构建数据来源包括？"
+    ],
+    "options": [
+      {
+        "label": "结构化数据",
+        "isTrue": true
+      },
+      {
+        "label": "半结构化数据",
+        "isTrue": true
+      },
+      {
+        "label": "非结构化数据",
+        "isTrue": true
+      },
+      {
+        "label": "仅文本数据"
+      },
+      {
+        "label": "仅数据库"
+      }
+    ]
+  }
+]
