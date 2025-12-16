@@ -38,6 +38,13 @@ export const useStyles = createStyles(({ token, css }) => {
       color: ${token.colorWarning};
       font-size: 10px;
     `,
+    analysis: css`
+      position: absolute;
+      bottom: -12px;
+      left: 0;
+      color: ${token.colorError};
+      font-size: 10px;
+    `,
     translate: css`
       font-size: 10px;
       width: 100%;

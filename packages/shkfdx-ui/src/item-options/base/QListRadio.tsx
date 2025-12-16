@@ -58,7 +58,6 @@ export const QListRadio = (props: QListRadioProps) => {
           style.display = 'none'
         }
       }
-      console.log(style)
       return <div
         className={cx(styles.item, styl)}
         key={`${item.label}_${index}`}

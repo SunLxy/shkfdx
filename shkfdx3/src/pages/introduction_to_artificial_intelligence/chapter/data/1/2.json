@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "人工智能的主要研究领域包括？ "
+    ],
+    "options": [
+      {
+        "label": "专家系统",
+        "isTrue": true
+      },
+      {
+        "label": "自然语言处理",
+        "isTrue": true
+      },
+      {
+        "label": "人工神经网络",
+        "isTrue": true
+      },
+      {
+        "label": "量子计算"
+      },
+      {
+        "label": "智能控制",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "以下哪些属于智能的特征？"
+    ],
+    "options": [
+      {
+        "label": "感知能力",
+        "isTrue": true
+      },
+      {
+        "label": "逻辑思维能力",
+        "isTrue": true
+      },
+      {
+        "label": "灵感思维能力",
+        "isTrue": true
+      },
+      {
+        "label": "无限存储能力"
+      },
+      {
+        "label": "自我进化能力"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "人工智能发展的关键阶段包括？"
+    ],
+    "options": [
+      {
+        "label": "孕育期（1956年前）",
+        "isTrue": true
+      },
+      {
+        "label": "形成期（1956-1969年）",
+        "isTrue": true
+      },
+      {
+        "label": "知识应用时期（1970年代）",
+        "isTrue": true
+      },
+      {
+        "label": "大数据驱动期（2011年后）",
+        "isTrue": true
+      },
+      {
+        "label": "量子计算时期（2020年后）"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "机器视觉的典型应用场景包括？"
+    ],
+    "options": [
+      {
+        "label": "车牌识别",
+        "isTrue": true
+      },
+      {
+        "label": "医疗影像分析",
+        "isTrue": true
+      },
+      {
+        "label": "语音合成"
+      },
+      {
+        "label": "工业质检",
+        "isTrue": true
+      },
+      {
+        "label": "路径规划"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "以下哪些是专家系统的典型案例？"
+    ],
+    "options": [
+      {
+        "label": "DENDRAL",
+        "isTrue": true
+      },
+      {
+        "label": "MYCIN",
+        "isTrue": true
+      },
+      {
+        "label": "AlphaGo"
+      },
+      {
+        "label": "PROSPECTOR",
+        "isTrue": true
+      },
+      {
+        "label": "ChatGPT"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "人工智能研究的基本内容包括？"
+    ],
+    "options": [
+      {
+        "label": "知识表示",
+        "isTrue": true
+      },
+      {
+        "label": "机器感知",
+        "isTrue": true
+      },
+      {
+        "label": "机器行为",
+        "isTrue": true
+      },
+      {
+        "label": "数据挖掘",
+        "isTrue": true
+      },
+      {
+        "label": "量子加密"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "关于逻辑思维的正确描述是？"
+    ],
+    "options": [
+      {
+        "label": "思维过程是串行的",
+        "isTrue": true
+      },
+      {
+        "label": "形式化困难"
+      },
+      {
+        "label": "基于直觉"
+      },
+      {
+        "label": "具有严密性",
+        "isTrue": true
+      },
+      {
+        "label": "易于符号化表达",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "数据驱动发展期的主要技术支撑包括？"
+    ],
+    "options": [
+      {
+        "label": "物联网",
+        "isTrue": true
+      },
+      {
+        "label": "云计算",
+        "isTrue": true
+      },
+      {
+        "label": "区块链"
+      },
+      {
+        "label": "人工神经网络",
+        "isTrue": true
+      },
+      {
+        "label": "5G通信"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "智能控制的基本类型包括？"
+    ],
+    "options": [
+      {
+        "label": "专家智能控制",
+        "isTrue": true
+      },
+      {
+        "label": "模糊控制",
+        "isTrue": true
+      },
+      {
+        "label": "神经网络控制",
+        "isTrue": true
+      },
+      {
+        "label": "量子控制"
+      },
+      {
+        "label": "生物反馈控制"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "人工生命的研究方向包括？"
+    ],
+    "options": [
+      {
+        "label": "进化模式",
+        "isTrue": true
+      },
+      {
+        "label": "免疫系统模拟",
+        "isTrue": true
+      },
+      {
+        "label": "人工脑",
+        "isTrue": true
+      },
+      {
+        "label": "量子计算"
+      },
+      {
+        "label": "分子进化",
+        "isTrue": true
+      }
+    ]
+  }
+]

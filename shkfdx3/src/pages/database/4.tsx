@@ -53,8 +53,7 @@ const EnglishFour = () => {
           key={`${childIndex}_${item.id}_${index}`}
           answer={option.answer}
           isOnlyAnswer={isOnlyAnswer}
-          isInput
-          isTextArea={option.isTextArea}
+          isTextArea
           isRead={isRead}
           topic={option.topic}
           sort={childIndex + 1}

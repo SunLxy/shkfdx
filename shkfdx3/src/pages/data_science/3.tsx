@@ -36,7 +36,7 @@ const OSTwo = () => {
         key={item.id}
         answer={item.answer}
         isOnlyAnswer={isOnlyAnswer}
-        isInput
+        isTextArea
         isRead={isRead}
         topic={item.topic}
         sort={index + 1}

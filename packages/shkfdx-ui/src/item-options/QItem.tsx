@@ -46,11 +46,32 @@ export interface QItemProps {
   isOnlyAnswer?: boolean,
   /**是否是HTML字符串*/
   isHTML?: boolean,
+  /**分析*/
+  analysis?: React.ReactNode
 }
 
 export const QItem = (props: QItemProps) => {
-  const { isOnlyAnswer = false, sort, isOptions = false, isBool, isInput, isTextArea, answer, options, layout = 'horizontal', topic, isHTML = false, isRead, translate, isMulti, isShowTranslate, children } = props
+  const {
+    isOnlyAnswer = false,
+    sort,
+    isOptions = false,
+    isBool,
+    isInput,
+    isTextArea,
+    answer,
+    options,
+    layout = 'horizontal',
+    topic,
+    isHTML = false,
+    isRead,
+    translate,
+    isMulti,
+    isShowTranslate,
+    children,
+    analysis
+  } = props
   const { styles, cx } = useStyles()
+
   const getValue = () => {
     if (isRead) {
       if (isMulti) {
@@ -68,13 +89,17 @@ export const QItem = (props: QItemProps) => {
     return { value: '', isTrue: undefined }
   }
 
-  const [state, setState] = useState<{ value: string | string[], isTrue?: boolean, isAllSelect?: boolean }>(() => {
+  const [state, setState] = useState<{
+    value: string | string[],
+    isTrue?: boolean,
+    isAllSelect?: boolean
+  }>(() => {
     return getValue()
   })
 
   useEffect(() => {
-    setState(getValue());
-  }, [isRead])
+    setState(() => getValue());
+  }, [isRead, isOnlyAnswer])
 
   const BooleanOptions: QListRadioOptionItem[] = useMemo(() => {
     if (isBool) {
@@ -110,14 +135,14 @@ export const QItem = (props: QItemProps) => {
       for (let index = 0; index < options.length; index++) {
         const item = options[index];
         if (item.isTrue) {
-          const fix = _newList.find((it) => it === item);
+          const fix = _newList.find((it) => it === item.label);
           if (!fix) {
             isAllSelect = false
             break;
           }
         }
       }
-      setState({ value: [value], isTrue: isT, isAllSelect })
+      setState({ value: [..._newList], isTrue: isT, isAllSelect })
     } else {
       if (state.value) {
         // 如果value不为空，则不可进行重新赋值
@@ -136,14 +161,15 @@ export const QItem = (props: QItemProps) => {
   return <div className={cx(styles.base, { is_options: isOptions, is_bool: isBool, is_input: isInput, is_translate: translate && isRead })}>
     {isOptions ? <b>{sort}.</b> : <QTopic isHTML={isHTML} content={topic} sort={sort} />}
     {children}
-    {isBool ? <QListRadio isOnlyAnswer={isOnlyAnswer} layout={layout} value={state.value} options={BooleanOptions} onChange={onChange} /> : null}
-    {options ? <QListRadio isOnlyAnswer={isOnlyAnswer} layout={layout} value={state.value} options={options} onChange={onChange} /> : null}
+    {isBool ? <QListRadio isMulti={isMulti} isOnlyAnswer={isOnlyAnswer} layout={layout} value={state.value} options={BooleanOptions} onChange={onChange} /> : null}
+    {options ? <QListRadio isMulti={isMulti} isOnlyAnswer={isOnlyAnswer} layout={layout} value={state.value} options={options} onChange={onChange} /> : null}
     {(isInput || isTextArea) ? <QInput isTextArea={isTextArea} value={state.value.toString()} isTrue={state.isTrue} onChange={onChange} /> : null}
     {Array.isArray(translate) && translate.length && (isRead || isShowTranslate) ? <div className={cx(styles.translate)}>
       {translate.map((it, key) => <div key={key}>{it}</div>)}
     </div> : null}
     {state.isTrue === false ? <div className={cx(styles.error)}>{(isInput || isTextArea) ? "填写错误" : "选择错误"}</div> : null}
     {state.isAllSelect === false && isMulti ? <div className={cx(styles.warn)}>未选择所有数据</div> : null}
+    {state.isTrue === false && analysis ? <div className={cx(styles.analysis)}>{analysis}</div> : null}
   </div>
 }
 export interface QItemTranslateProps {

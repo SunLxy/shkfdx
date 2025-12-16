@@ -1,8 +1,8 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
-import data from "./data/2.json"
+import data from "../data/1/3.json"
 import { useProxyStore } from "@carefrees/valtio"
 
-const OSTwo = () => {
+const NetworkOneChecked = () => {
   const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
@@ -36,13 +36,13 @@ const OSTwo = () => {
         key={item.id}
         answer={item.answer}
         isOnlyAnswer={isOnlyAnswer}
-        isTextArea
         isRead={isRead}
         topic={item.topic}
+        isBool
         sort={index + 1}
       />
     })}
   </MainLayout>
 }
 
-export default OSTwo
+export default NetworkOneChecked
