@@ -26,6 +26,49 @@ import IntroductionToArtificialIntelligenceThreeOne from '@/pages/introduction_t
 import IntroductionToArtificialIntelligenceThreeTwo from '@/pages/introduction_to_artificial_intelligence/chapter/3/2';
 import IntroductionToArtificialIntelligenceThreeThree from '@/pages/introduction_to_artificial_intelligence/chapter/3/3';
 
+import IntroductionToArtificialIntelligenceFour from '@/pages/introduction_to_artificial_intelligence/chapter/4';
+import IntroductionToArtificialIntelligenceFourOne from '@/pages/introduction_to_artificial_intelligence/chapter/4/1';
+import IntroductionToArtificialIntelligenceFourTwo from '@/pages/introduction_to_artificial_intelligence/chapter/4/2';
+import IntroductionToArtificialIntelligenceFourThree from '@/pages/introduction_to_artificial_intelligence/chapter/4/3';
+
+import IntroductionToArtificialIntelligenceFive from '@/pages/introduction_to_artificial_intelligence/chapter/5';
+import IntroductionToArtificialIntelligenceFiveOne from '@/pages/introduction_to_artificial_intelligence/chapter/5/1';
+import IntroductionToArtificialIntelligenceFiveTwo from '@/pages/introduction_to_artificial_intelligence/chapter/5/2';
+import IntroductionToArtificialIntelligenceFiveThree from '@/pages/introduction_to_artificial_intelligence/chapter/5/3';
+
+import IntroductionToArtificialIntelligenceSix from '@/pages/introduction_to_artificial_intelligence/chapter/6';
+import IntroductionToArtificialIntelligenceSixOne from '@/pages/introduction_to_artificial_intelligence/chapter/6/1';
+import IntroductionToArtificialIntelligenceSixTwo from '@/pages/introduction_to_artificial_intelligence/chapter/6/2';
+import IntroductionToArtificialIntelligenceSixThree from '@/pages/introduction_to_artificial_intelligence/chapter/6/3';
+
+import IntroductionToArtificialIntelligenceSeven from '@/pages/introduction_to_artificial_intelligence/chapter/7';
+import IntroductionToArtificialIntelligenceSevenOne from '@/pages/introduction_to_artificial_intelligence/chapter/7/1';
+import IntroductionToArtificialIntelligenceSevenTwo from '@/pages/introduction_to_artificial_intelligence/chapter/7/2';
+import IntroductionToArtificialIntelligenceSevenThree from '@/pages/introduction_to_artificial_intelligence/chapter/7/3';
+import IntroductionToArtificialIntelligenceSevenFour from '@/pages/introduction_to_artificial_intelligence/chapter/7/4';
+
+import IntroductionToArtificialIntelligenceEight from '@/pages/introduction_to_artificial_intelligence/chapter/8';
+import IntroductionToArtificialIntelligenceEightOne from '@/pages/introduction_to_artificial_intelligence/chapter/8/1';
+import IntroductionToArtificialIntelligenceEightTwo from '@/pages/introduction_to_artificial_intelligence/chapter/8/2';
+import IntroductionToArtificialIntelligenceEightThree from '@/pages/introduction_to_artificial_intelligence/chapter/8/3';
+import IntroductionToArtificialIntelligenceEightFour from '@/pages/introduction_to_artificial_intelligence/chapter/8/4';
+
+import IntroductionToArtificialIntelligenceNine from '@/pages/introduction_to_artificial_intelligence/chapter/9';
+import IntroductionToArtificialIntelligenceNineOne from '@/pages/introduction_to_artificial_intelligence/chapter/9/1';
+import IntroductionToArtificialIntelligenceNineTwo from '@/pages/introduction_to_artificial_intelligence/chapter/9/2';
+
+import IntroductionToArtificialIntelligenceTen from '@/pages/introduction_to_artificial_intelligence/chapter/10';
+import IntroductionToArtificialIntelligenceTenOne from '@/pages/introduction_to_artificial_intelligence/chapter/10/1';
+import IntroductionToArtificialIntelligenceTenTwo from '@/pages/introduction_to_artificial_intelligence/chapter/10/2';
+import IntroductionToArtificialIntelligenceTenThree from '@/pages/introduction_to_artificial_intelligence/chapter/10/3';
+import IntroductionToArtificialIntelligenceTenFour from '@/pages/introduction_to_artificial_intelligence/chapter/10/4';
+
+import IntroductionToArtificialIntelligenceEleven from '@/pages/introduction_to_artificial_intelligence/chapter/11';
+import IntroductionToArtificialIntelligenceElevenOne from '@/pages/introduction_to_artificial_intelligence/chapter/11/1';
+import IntroductionToArtificialIntelligenceElevenTwo from '@/pages/introduction_to_artificial_intelligence/chapter/11/2';
+import IntroductionToArtificialIntelligenceElevenThree from '@/pages/introduction_to_artificial_intelligence/chapter/11/3';
+
+
 
 import { RootRoute } from "./root"
 
@@ -129,6 +172,147 @@ const newRoutesConfig: RouteObject[] = [
         path: '/introduction_to_artificial_intelligence/3/3',
         element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceThreeThree /></Suspense>
       },
+      {
+        path: '/introduction_to_artificial_intelligence/4',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceFour /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/4/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceFourOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/4/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceFourTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/4/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceFourThree /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/5',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceFive /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/5/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceFiveOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/5/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceFiveTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/5/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceFiveThree /></Suspense>
+      },
+
+      {
+        path: '/introduction_to_artificial_intelligence/6',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceSix /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/6/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceSixOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/6/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceSixTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/6/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceSixThree /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/7',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceSeven /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/7/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceSevenOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/7/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceSevenTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/7/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceSevenThree /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/7/4',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceSevenFour /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/8',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceEight /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/8/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceEightOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/8/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceEightTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/8/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceEightThree /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/8/4',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceEightFour /></Suspense>
+      },
+
+      {
+        path: '/introduction_to_artificial_intelligence/9',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceNine /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/9/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceNineOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/9/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceNineTwo /></Suspense>
+      },
+
+      {
+        path: '/introduction_to_artificial_intelligence/10',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTen /></Suspense>
+      },
+
+      {
+        path: '/introduction_to_artificial_intelligence/10/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTenOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/10/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTenTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/10/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTenThree /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/10/4',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTenFour /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/11',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceEleven /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/11/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceElevenOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/11/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceElevenTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/11/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceElevenThree /></Suspense>
+      }
+
     ]
   }
 ]

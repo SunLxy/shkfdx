@@ -1,5 +1,5 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
-import data from "../data/2/3.json"
+import data from "../data/3/3.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const NetworkOneChecked = () => {

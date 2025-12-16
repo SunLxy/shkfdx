@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "智能体的特性包括："
+    ],
+    "options": [
+      {
+        "label": "自主性",
+        "isTrue": true
+      },
+      {
+        "label": "静态性"
+      },
+      {
+        "label": "社会性",
+        "isTrue": true
+      },
+      {
+        "label": "进化性",
+        "isTrue": true
+      },
+      {
+        "label": "随机性"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "多智能体系统的体系结构类型包括："
+    ],
+    "options": [
+      {
+        "label": "网络结构",
+        "isTrue": true
+      },
+      {
+        "label": "联盟结构",
+        "isTrue": true
+      },
+      {
+        "label": "树状结构"
+      },
+      {
+        "label": "黑板结构",
+        "isTrue": true
+      },
+      {
+        "label": "环形结构"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "多智能体系统的协调方法包括："
+    ],
+    "options": [
+      {
+        "label": "集中规划",
+        "isTrue": true
+      },
+      {
+        "label": "协商",
+        "isTrue": true
+      },
+      {
+        "label": "对策论",
+        "isTrue": true
+      },
+      {
+        "label": "社会规划",
+        "isTrue": true
+      },
+      {
+        "label": "随机分配"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "黑板模型协作的组成部分包括："
+    ],
+    "options": [
+      {
+        "label": "知识源",
+        "isTrue": true
+      },
+      {
+        "label": "共享黑板",
+        "isTrue": true
+      },
+      {
+        "label": "监控机制",
+        "isTrue": true
+      },
+      {
+        "label": "通信服务器"
+      },
+      {
+        "label": "合同协议"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "KQML语言的三层结构是："
+    ],
+    "options": [
+      {
+        "label": "内容层",
+        "isTrue": true
+      },
+      {
+        "label": "消息层",
+        "isTrue": true
+      },
+      {
+        "label": "协议层"
+      },
+      {
+        "label": "通信层",
+        "isTrue": true
+      },
+      {
+        "label": "逻辑层"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "多智能体系统的协作类型包括："
+    ],
+    "options": [
+      {
+        "label": "完全协作型",
+        "isTrue": true
+      },
+      {
+        "label": "协作型",
+        "isTrue": true
+      },
+      {
+        "label": "自私型",
+        "isTrue": true
+      },
+      {
+        "label": "对抗型"
+      },
+      {
+        "label": "动态型"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "合同网协作方法的特点包括："
+    ],
+    "options": [
+      {
+        "label": "角色固定"
+      },
+      {
+        "label": "管理者发布任务",
+        "isTrue": true
+      },
+      {
+        "label": "工作者应答任务",
+        "isTrue": true
+      },
+      {
+        "label": "仅支持一对一协商"
+      },
+      {
+        "label": "角色可动态转换",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "多智能体系统通信的典型协议包括："
+    ],
+    "options": [
+      {
+        "label": "KQML",
+        "isTrue": true
+      },
+      {
+        "label": "KIF",
+        "isTrue": true
+      },
+      {
+        "label": "HTTP"
+      },
+      {
+        "label": "TCP/IP"
+      },
+      {
+        "label": "SMTP"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "基于社会规划的协调方法依赖的规则包括："
+    ],
+    "options": [
+      {
+        "label": "社会惯例",
+        "isTrue": true
+      },
+      {
+        "label": "过滤策略",
+        "isTrue": true
+      },
+      {
+        "label": "动态协议"
+      },
+      {
+        "label": "集中控制"
+      },
+      {
+        "label": "随机策略"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "多智能体系统的应用领域包括："
+    ],
+    "options": [
+      {
+        "label": "电信管理",
+        "isTrue": true
+      },
+      {
+        "label": "用户助理",
+        "isTrue": true
+      },
+      {
+        "label": "移动计算",
+        "isTrue": true
+      },
+      {
+        "label": "数字娱乐",
+        "isTrue": true
+      },
+      {
+        "label": "图像修复"
+      }
+    ]
+  }
+]

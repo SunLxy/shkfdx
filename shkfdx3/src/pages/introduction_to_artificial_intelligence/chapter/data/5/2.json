@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "根据搜索方向分类，策略包括："
+    ],
+    "options": [
+      {
+        "label": "数据驱动",
+        "isTrue": true
+      },
+      {
+        "label": "目的驱动",
+        "isTrue": true
+      },
+      {
+        "label": "双向搜索",
+        "isTrue": true
+      },
+      {
+        "label": "深度优先"
+      },
+      {
+        "label": "启发式搜索"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "状态空间的四元组包括："
+    ],
+    "options": [
+      {
+        "label": "初始状态集合",
+        "isTrue": true
+      },
+      {
+        "label": "目标状态集合",
+        "isTrue": true
+      },
+      {
+        "label": "操作算子集合",
+        "isTrue": true
+      },
+      {
+        "label": "启发函数集合"
+      },
+      {
+        "label": "路径代价函数"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "盲目搜索的特点包括："
+    ],
+    "options": [
+      {
+        "label": "无启发信息",
+        "isTrue": true
+      },
+      {
+        "label": "固定调用操作算子",
+        "isTrue": true
+      },
+      {
+        "label": "生成较大状态空间",
+        "isTrue": true
+      },
+      {
+        "label": "保证找到最优解"
+      },
+      {
+        "label": "动态调整搜索路径"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "启发式搜索的优势包括："
+    ],
+    "options": [
+      {
+        "label": "减少搜索空间",
+        "isTrue": true
+      },
+      {
+        "label": "提高搜索效率",
+        "isTrue": true
+      },
+      {
+        "label": "保证找到最优解"
+      },
+      {
+        "label": "依赖问题领域知识",
+        "isTrue": true
+      },
+      {
+        "label": "适用于所有问题"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "状态空间解的特点包括："
+    ],
+    "options": [
+      {
+        "label": "唯一性"
+      },
+      {
+        "label": "由操作算子序列构成",
+        "isTrue": true
+      },
+      {
+        "label": "包含所有可能路径"
+      },
+      {
+        "label": "可能与路径长度无关",
+        "isTrue": true
+      },
+      {
+        "label": "必须是最短路径"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "数据驱动搜索的特点包括："
+    ],
+    "options": [
+      {
+        "label": "从初始状态出发",
+        "isTrue": true
+      },
+      {
+        "label": "利用已知条件约束",
+        "isTrue": true
+      },
+      {
+        "label": "逆向生成子目标"
+      },
+      {
+        "label": "逐层扩展状态"
+      },
+      {
+        "label": "需定义启发函数"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "以下属于搜索策略分类的是："
+    ],
+    "options": [
+      {
+        "label": "宽度优先",
+        "isTrue": true
+      },
+      {
+        "label": "深度优先",
+        "isTrue": true
+      },
+      {
+        "label": "启发式搜索",
+        "isTrue": true
+      },
+      {
+        "label": "双向搜索",
+        "isTrue": true
+      },
+      {
+        "label": "正交和"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "状态空间图描述中，节点表示："
+    ],
+    "options": [
+      {
+        "label": "问题的状态",
+        "isTrue": true
+      },
+      {
+        "label": "操作算子的应用"
+      },
+      {
+        "label": "初始状态",
+        "isTrue": true
+      },
+      {
+        "label": "目标状态",
+        "isTrue": true
+      },
+      {
+        "label": "启发函数值"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "启发信息的分类包括："
+    ],
+    "options": [
+      {
+        "label": "陈述性启发信息",
+        "isTrue": true
+      },
+      {
+        "label": "过程性启发信息",
+        "isTrue": true
+      },
+      {
+        "label": "控制性启发信息",
+        "isTrue": true
+      },
+      {
+        "label": "动态强度信息"
+      },
+      {
+        "label": "阈值信息"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "关于双向搜索的正确描述是："
+    ],
+    "options": [
+      {
+        "label": "同时从初始和目标状态出发",
+        "isTrue": true
+      },
+      {
+        "label": "提高搜索效率",
+        "isTrue": true
+      },
+      {
+        "label": "必然找到最优解"
+      },
+      {
+        "label": "无需考虑路径交汇"
+      },
+      {
+        "label": "属于盲目搜索"
+      }
+    ]
+  }
+]

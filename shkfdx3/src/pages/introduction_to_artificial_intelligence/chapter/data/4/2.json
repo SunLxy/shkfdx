@@ -1,0 +1,261 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "不确定性推理中的基本问题包括"
+    ],
+    "options": [
+      {
+        "label": "不确定性的表示与量度",
+        "isTrue": true
+      },
+      {
+        "label": "组合证据的不确定性算法",
+        "isTrue": true
+      },
+      {
+        "label": "模糊集合的运算"
+      },
+      {
+        "label": "结论不确定性的合成",
+        "isTrue": true
+      },
+      {
+        "label": "证据的动态强度",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "可信度方法（C-F模型）的特点包括："
+    ],
+    "options": [
+      {
+        "label": "直观简单",
+        "isTrue": true
+      },
+      {
+        "label": "基于概率论",
+        "isTrue": true
+      },
+      {
+        "label": "适用范围广泛"
+      },
+      {
+        "label": "完全消除主观性"
+      },
+      {
+        "label": "由肖特里菲提出",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "证据理论（D-S理论）的核心概念包括："
+    ],
+    "options": [
+      {
+        "label": "概率分配函数",
+        "isTrue": true
+      },
+      {
+        "label": "信任函数",
+        "isTrue": true
+      },
+      {
+        "label": "隶属函数"
+      },
+      {
+        "label": "似然函数",
+        "isTrue": true
+      },
+      {
+        "label": "正交和",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "模糊集合的表示方法包括："
+    ],
+    "options": [
+      {
+        "label": "Zadeh表示法",
+        "isTrue": true
+      },
+      {
+        "label": "序偶表示法",
+        "isTrue": true
+      },
+      {
+        "label": "向量表示法",
+        "isTrue": true
+      },
+      {
+        "label": "概率分配法"
+      },
+      {
+        "label": "阈值表示法"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "不确定性推理中“组合证据”的算法类型包括："
+    ],
+    "options": [
+      {
+        "label": "最大最小方法",
+        "isTrue": true
+      },
+      {
+        "label": "概率方法",
+        "isTrue": true
+      },
+      {
+        "label": "正交和"
+      },
+      {
+        "label": "Hamacher方法",
+        "isTrue": true
+      },
+      {
+        "label": "代数积"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "关于模糊控制，正确的描述是："
+    ],
+    "options": [
+      {
+        "label": "以精确数学为基础"
+      },
+      {
+        "label": "使用“适量”“较少”等语言",
+        "isTrue": true
+      },
+      {
+        "label": "由Mamdani首次应用于水泥控制",
+        "isTrue": true
+      },
+      {
+        "label": "隶属度取值范围为{0,1}"
+      },
+      {
+        "label": "需依赖严格阈值"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "概率分配函数M(A)需满足的条件是："
+    ],
+    "options": [
+      {
+        "label": "M(Φ)=0",
+        "isTrue": true
+      },
+      {
+        "label": "ΣM(A)=1"
+      },
+      {
+        "label": "M(A)∈[0,1]",
+        "isTrue": true
+      },
+      {
+        "label": "仅适用于单一证据"
+      },
+      {
+        "label": "必须与概率一致"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "在证据理论中，若两个概率分配函数矛盾，则："
+    ],
+    "options": [
+      {
+        "label": "可以计算正交和"
+      },
+      {
+        "label": "无法计算正交和",
+        "isTrue": true
+      },
+      {
+        "label": "信任函数值为0"
+      },
+      {
+        "label": "似然函数值为1"
+      },
+      {
+        "label": "需重新分配概率",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "属于模糊集合运算的是："
+    ],
+    "options": [
+      {
+        "label": "交运算",
+        "isTrue": true
+      },
+      {
+        "label": "并运算",
+        "isTrue": true
+      },
+      {
+        "label": "补运算",
+        "isTrue": true
+      },
+      {
+        "label": "代数积",
+        "isTrue": true
+      },
+      {
+        "label": "正交和"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "不确定性推理中“动态强度”描述的是："
+    ],
+    "options": [
+      {
+        "label": "知识的静态强度"
+      },
+      {
+        "label": "证据的当前可信度",
+        "isTrue": true
+      },
+      {
+        "label": "结论的合成可信度"
+      },
+      {
+        "label": "用户提供的初始证据",
+        "isTrue": true
+      },
+      {
+        "label": "阈值的选择依据"
+      }
+    ]
+  }
+]

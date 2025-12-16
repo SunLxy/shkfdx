@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "进化算法的生物学基础包括："
+    ],
+    "options": [
+      {
+        "label": "自然选择",
+        "isTrue": true
+      },
+      {
+        "label": "基因重组",
+        "isTrue": true
+      },
+      {
+        "label": "量子计算"
+      },
+      {
+        "label": "群体协作"
+      },
+      {
+        "label": "化学反应"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "进化算法的设计原则包括："
+    ],
+    "options": [
+      {
+        "label": "适用性",
+        "isTrue": true
+      },
+      {
+        "label": "可靠性",
+        "isTrue": true
+      },
+      {
+        "label": "收敛性",
+        "isTrue": true
+      },
+      {
+        "label": "完全确定性"
+      },
+      {
+        "label": "固定参数"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "进化算法的核心特点包括："
+    ],
+    "options": [
+      {
+        "label": "全局优化能力",
+        "isTrue": true
+      },
+      {
+        "label": "依赖问题内在性质"
+      },
+      {
+        "label": "群体搜索策略",
+        "isTrue": true
+      },
+      {
+        "label": "仅需单一初始解"
+      },
+      {
+        "label": "完全消除随机性"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "进化算法中“基因”的生物学类比包括："
+    ],
+    "options": [
+      {
+        "label": "染色体上的功能单元",
+        "isTrue": true
+      },
+      {
+        "label": "适应度函数"
+      },
+      {
+        "label": "参数编码的片段",
+        "isTrue": true
+      },
+      {
+        "label": "交叉操作的规则"
+      },
+      {
+        "label": "变异概率"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "进化算法的应用领域包括："
+    ],
+    "options": [
+      {
+        "label": "组合优化",
+        "isTrue": true
+      },
+      {
+        "label": "机器学习",
+        "isTrue": true
+      },
+      {
+        "label": "图像识别"
+      },
+      {
+        "label": "线性规划"
+      },
+      {
+        "label": "实时控制"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "进化算法中“适应度函数”的作用是："
+    ],
+    "options": [
+      {
+        "label": "区分个体优劣",
+        "isTrue": true
+      },
+      {
+        "label": "控制参数调整"
+      },
+      {
+        "label": "直接生成最优解"
+      },
+      {
+        "label": "驱动自然选择",
+        "isTrue": true
+      },
+      {
+        "label": "替代目标函数"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "进化算法的迭代过程包括："
+    ],
+    "options": [
+      {
+        "label": "初始解生成",
+        "isTrue": true
+      },
+      {
+        "label": "适应度评价",
+        "isTrue": true
+      },
+      {
+        "label": "选择操作",
+        "isTrue": true
+      },
+      {
+        "label": "梯度计算"
+      },
+      {
+        "label": "参数微分"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "进化算法的优势包括："
+    ],
+    "options": [
+      {
+        "label": "无需问题导数信息",
+        "isTrue": true
+      },
+      {
+        "label": "处理大规模复杂问题",
+        "isTrue": true
+      },
+      {
+        "label": "保证绝对最优解"
+      },
+      {
+        "label": "完全避免局部最优"
+      },
+      {
+        "label": "仅需极小种群规模"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "进化算法的“编码”要求包括："
+    ],
+    "options": [
+      {
+        "label": "必须为二进制"
+      },
+      {
+        "label": "将解映射到遗传空间",
+        "isTrue": true
+      },
+      {
+        "label": "适应问题结构",
+        "isTrue": true
+      },
+      {
+        "label": "完全随机生成"
+      },
+      {
+        "label": "忽略约束条件"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "进化算法的“变异”操作目的是："
+    ],
+    "options": [
+      {
+        "label": "维持种群多样性",
+        "isTrue": true
+      },
+      {
+        "label": "修复丢失的基因",
+        "isTrue": true
+      },
+      {
+        "label": "加快局部收敛"
+      },
+      {
+        "label": "替代交叉操作"
+      },
+      {
+        "label": "完全消除随机性"
+      }
+    ]
+  }
+]

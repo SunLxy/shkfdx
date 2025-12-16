@@ -169,7 +169,7 @@ export const QItem = (props: QItemProps) => {
     </div> : null}
     {state.isTrue === false ? <div className={cx(styles.error)}>{(isInput || isTextArea) ? "填写错误" : "选择错误"}</div> : null}
     {state.isAllSelect === false && isMulti ? <div className={cx(styles.warn)}>未选择所有数据</div> : null}
-    {state.isTrue === false && analysis ? <div className={cx(styles.analysis)}>{analysis}</div> : null}
+    {state.isTrue === false && analysis ? <div className={cx(styles.analysis)}>分析：{analysis}</div> : null}
   </div>
 }
 export interface QItemTranslateProps {

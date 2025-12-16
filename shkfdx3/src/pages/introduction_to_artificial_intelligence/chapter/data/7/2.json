@@ -1,0 +1,773 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "专家系统的特点包括："
+    ],
+    "options": [
+      {
+        "label": "专家水平知识",
+        "isTrue": true
+      },
+      {
+        "label": "符号处理能力",
+        "isTrue": true
+      },
+      {
+        "label": "完全确定性答案"
+      },
+      {
+        "label": "透明性",
+        "isTrue": true
+      },
+      {
+        "label": "依赖常识性知识"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "机器学习的主要分类包括："
+    ],
+    "options": [
+      {
+        "label": "监督学习",
+        "isTrue": true
+      },
+      {
+        "label": "无监督学习",
+        "isTrue": true
+      },
+      {
+        "label": "强化学习",
+        "isTrue": true
+      },
+      {
+        "label": "机械学习",
+        "isTrue": true
+      },
+      {
+        "label": "随机学习"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "知识发现（KDD）的主要任务包括："
+    ],
+    "options": [
+      {
+        "label": "数据总结",
+        "isTrue": true
+      },
+      {
+        "label": "分类",
+        "isTrue": true
+      },
+      {
+        "label": "聚类",
+        "isTrue": true
+      },
+      {
+        "label": "偏差分析",
+        "isTrue": true
+      },
+      {
+        "label": "硬件优化"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "专家系统开发工具的类型包括："
+    ],
+    "options": [
+      {
+        "label": "骨架系统",
+        "isTrue": true
+      },
+      {
+        "label": "通用编程语言",
+        "isTrue": true
+      },
+      {
+        "label": "知识表示语言",
+        "isTrue": true
+      },
+      {
+        "label": "数据库管理系统"
+      },
+      {
+        "label": "图像处理库"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "专家系统设计原则包括："
+    ],
+    "options": [
+      {
+        "label": "专门的任务",
+        "isTrue": true
+      },
+      {
+        "label": "知识库与推理机分离",
+        "isTrue": true
+      },
+      {
+        "label": "用户参与",
+        "isTrue": true
+      },
+      {
+        "label": "忽略测试"
+      },
+      {
+        "label": "完全自动化开发"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "机器学习的“监督学习”应用场景包括："
+    ],
+    "options": [
+      {
+        "label": "图像分类",
+        "isTrue": true
+      },
+      {
+        "label": "客户聚类"
+      },
+      {
+        "label": "股票预测",
+        "isTrue": true
+      },
+      {
+        "label": "异常检测"
+      },
+      {
+        "label": "语音识别",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "知识发现的数据预处理步骤包括："
+    ],
+    "options": [
+      {
+        "label": "数据选取",
+        "isTrue": true
+      },
+      {
+        "label": "数据可视化"
+      },
+      {
+        "label": "数据变换",
+        "isTrue": true
+      },
+      {
+        "label": "结果解释"
+      },
+      {
+        "label": "模型训练"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "专家系统的应用领域包括："
+    ],
+    "options": [
+      {
+        "label": "医学诊断",
+        "isTrue": true
+      },
+      {
+        "label": "地质探矿",
+        "isTrue": true
+      },
+      {
+        "label": "数学定理发现",
+        "isTrue": true
+      },
+      {
+        "label": "语音识别",
+        "isTrue": true
+      },
+      {
+        "label": "图像渲染"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "专家系统评价的维度包括："
+    ],
+    "options": [
+      {
+        "label": "正确性",
+        "isTrue": true
+      },
+      {
+        "label": "运行速度"
+      },
+      {
+        "label": "有用性",
+        "isTrue": true
+      },
+      {
+        "label": "代码长度"
+      },
+      {
+        "label": "界面颜色"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "机器学习的“弱监督学习”包括："
+    ],
+    "options": [
+      {
+        "label": "半监督学习",
+        "isTrue": true
+      },
+      {
+        "label": "迁移学习",
+        "isTrue": true
+      },
+      {
+        "label": "强化学习",
+        "isTrue": true
+      },
+      {
+        "label": "深度学习"
+      },
+      {
+        "label": "机械学习"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": [
+      "知识发现的主要方法包括："
+    ],
+    "options": [
+      {
+        "label": "统计方法",
+        "isTrue": true
+      },
+      {
+        "label": "粗糙集",
+        "isTrue": true
+      },
+      {
+        "label": "可视化",
+        "isTrue": true
+      },
+      {
+        "label": "符号学习",
+        "isTrue": true
+      },
+      {
+        "label": "硬件优化"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": [
+      "专家系统开发语言包括："
+    ],
+    "options": [
+      {
+        "label": "PROLOG",
+        "isTrue": true
+      },
+      {
+        "label": "LISP",
+        "isTrue": true
+      },
+      {
+        "label": "Python",
+        "isTrue": true
+      },
+      {
+        "label": "Java"
+      },
+      {
+        "label": "HTML"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": [
+      "专家系统实例MYCIN的特点包括："
+    ],
+    "options": [
+      {
+        "label": "使用产生式规则",
+        "isTrue": true
+      },
+      {
+        "label": "可识别多种病菌",
+        "isTrue": true
+      },
+      {
+        "label": "用于化学分子推断"
+      },
+      {
+        "label": "具备解释功能",
+        "isTrue": true
+      },
+      {
+        "label": "依赖常识性知识"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": [
+      "机器学习的“示例学习”依赖："
+    ],
+    "options": [
+      {
+        "label": "正例和反例",
+        "isTrue": true
+      },
+      {
+        "label": "教师指导"
+      },
+      {
+        "label": "归纳推理",
+        "isTrue": true
+      },
+      {
+        "label": "随机搜索"
+      },
+      {
+        "label": "强化信号"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": [
+      "知识发现中“数据挖掘”的算法选择依据包括："
+    ],
+    "options": [
+      {
+        "label": "数据特点",
+        "isTrue": true
+      },
+      {
+        "label": "用户需求",
+        "isTrue": true
+      },
+      {
+        "label": "硬件性能"
+      },
+      {
+        "label": "界面设计"
+      },
+      {
+        "label": "编程语言"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": [
+      "专家系统开发步骤包括："
+    ],
+    "options": [
+      {
+        "label": "问题定义",
+        "isTrue": true
+      },
+      {
+        "label": "原型设计",
+        "isTrue": true
+      },
+      {
+        "label": "知识获取",
+        "isTrue": true
+      },
+      {
+        "label": "忽略测试"
+      },
+      {
+        "label": "直接部署"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": [
+      "机器学习中“深度学习”的特点包括："
+    ],
+    "options": [
+      {
+        "label": "多隐层结构",
+        "isTrue": true
+      },
+      {
+        "label": "特征自动学习",
+        "isTrue": true
+      },
+      {
+        "label": "依赖线性模型"
+      },
+      {
+        "label": "仅用于分类任务"
+      },
+      {
+        "label": "无需训练数据"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": [
+      "专家系统骨架系统的作用包括："
+    ],
+    "options": [
+      {
+        "label": "快速构建新系统",
+        "isTrue": true
+      },
+      {
+        "label": "提供通用推理机制",
+        "isTrue": true
+      },
+      {
+        "label": "自动生成知识库"
+      },
+      {
+        "label": "优化硬件配置"
+      },
+      {
+        "label": "替代领域专家"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": [
+      "知识发现中“关联规则挖掘”用于："
+    ],
+    "options": [
+      {
+        "label": "发现特征依赖关系",
+        "isTrue": true
+      },
+      {
+        "label": "构建分类模型"
+      },
+      {
+        "label": "识别频繁项集",
+        "isTrue": true
+      },
+      {
+        "label": "数据可视化"
+      },
+      {
+        "label": "预测时间序列"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": [
+      "专家系统的“知识获取”模式包括："
+    ],
+    "options": [
+      {
+        "label": "非自动获取",
+        "isTrue": true
+      },
+      {
+        "label": "自动获取",
+        "isTrue": true
+      },
+      {
+        "label": "半自动获取",
+        "isTrue": true
+      },
+      {
+        "label": "随机生成"
+      },
+      {
+        "label": "忽略验证"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": [
+      "专家系统的推理机功能包括："
+    ],
+    "options": [
+      {
+        "label": "执行数值计算"
+      },
+      {
+        "label": "根据知识库推导结论",
+        "isTrue": true
+      },
+      {
+        "label": "管理用户界面"
+      },
+      {
+        "label": "处理符号逻辑",
+        "isTrue": true
+      },
+      {
+        "label": "存储原始数据"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": [
+      "机器学习中“弱监督学习”包含："
+    ],
+    "options": [
+      {
+        "label": "半监督学习",
+        "isTrue": true
+      },
+      {
+        "label": "强化学习",
+        "isTrue": true
+      },
+      {
+        "label": "迁移学习",
+        "isTrue": true
+      },
+      {
+        "label": "深度学习"
+      },
+      {
+        "label": "机械学习"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": [
+      "知识发现（KDD）的数据准备阶段包括："
+    ],
+    "options": [
+      {
+        "label": "数据选取",
+        "isTrue": true
+      },
+      {
+        "label": "数据可视化"
+      },
+      {
+        "label": "数据预处理",
+        "isTrue": true
+      },
+      {
+        "label": "模型训练"
+      },
+      {
+        "label": "数据变换",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": [
+      "专家系统设计的关键原则包括："
+    ],
+    "options": [
+      {
+        "label": "知识库与推理机分离",
+        "isTrue": true
+      },
+      {
+        "label": "忽略用户反馈"
+      },
+      {
+        "label": "快速原型设计",
+        "isTrue": true
+      },
+      {
+        "label": "完全依赖常识性知识"
+      },
+      {
+        "label": "多学科交叉开发"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": [
+      "以下属于知识发现任务的包括："
+    ],
+    "options": [
+      {
+        "label": "聚类分析",
+        "isTrue": true
+      },
+      {
+        "label": "时间序列预测",
+        "isTrue": true
+      },
+      {
+        "label": "偏差检测",
+        "isTrue": true
+      },
+      {
+        "label": "图像渲染"
+      },
+      {
+        "label": "网络协议设计"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": [
+      "专家系统的评价维度包括："
+    ],
+    "options": [
+      {
+        "label": "代码行数"
+      },
+      {
+        "label": "推理结论的正确性",
+        "isTrue": true
+      },
+      {
+        "label": "知识库的可扩展性",
+        "isTrue": true
+      },
+      {
+        "label": "界面颜色设计"
+      },
+      {
+        "label": "运行可靠性",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": [
+      "机器学习中“分析学习”的子类包括："
+    ],
+    "options": [
+      {
+        "label": "解释学习",
+        "isTrue": true
+      },
+      {
+        "label": "示例学习",
+        "isTrue": true
+      },
+      {
+        "label": "类比学习"
+      },
+      {
+        "label": "强化学习"
+      },
+      {
+        "label": "深度学习"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": [
+      "专家系统骨架系统（如EMYCIN）的功能包括："
+    ],
+    "options": [
+      {
+        "label": "提供通用推理机制",
+        "isTrue": true
+      },
+      {
+        "label": "自动生成领域知识"
+      },
+      {
+        "label": "知识库管理工具",
+        "isTrue": true
+      },
+      {
+        "label": "硬件加速模块"
+      },
+      {
+        "label": "自然语言处理接口"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": [
+      "知识发现中“粗糙集”方法的特点包括："
+    ],
+    "options": [
+      {
+        "label": "处理不确定性数据",
+        "isTrue": true
+      },
+      {
+        "label": "与规则归纳结合",
+        "isTrue": true
+      },
+      {
+        "label": "依赖完全精确数据"
+      },
+      {
+        "label": "仅用于分类任务"
+      },
+      {
+        "label": "需要大量标签数据"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": [
+      "专家系统开发中“知识获取”的挑战包括："
+    ],
+    "options": [
+      {
+        "label": "领域专家经验形式化",
+        "isTrue": true
+      },
+      {
+        "label": "知识一致性验证",
+        "isTrue": true
+      },
+      {
+        "label": "数据存储容量限制"
+      },
+      {
+        "label": "推理速度优化"
+      },
+      {
+        "label": "用户界面美观性"
+      }
+    ]
+  }
+]

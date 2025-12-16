@@ -1,0 +1,1051 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "生物神经元中负责接收信号的部分是："
+    ],
+    "options": [
+      {
+        "label": "轴突"
+      },
+      {
+        "label": "树突",
+        "isTrue": true
+      },
+      {
+        "label": "细胞体"
+      },
+      {
+        "label": "突触"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "M-P模型中，人工神经元的输出由什么决定？"
+    ],
+    "options": [
+      {
+        "label": "输入加权和与阈值的比较",
+        "isTrue": true
+      },
+      {
+        "label": "突触的化学信号"
+      },
+      {
+        "label": "细胞体的电信号"
+      },
+      {
+        "label": "树突的长度"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "BP神经网络的反向传播主要用于："
+    ],
+    "options": [
+      {
+        "label": "输入数据预处理"
+      },
+      {
+        "label": "调整连接权值",
+        "isTrue": true
+      },
+      {
+        "label": "选择隐层数"
+      },
+      {
+        "label": "计算输出误差"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "以下哪种激励函数是S型函数？"
+    ],
+    "options": [
+      {
+        "label": "ReLU"
+      },
+      {
+        "label": "Sigmoid",
+        "isTrue": true
+      },
+      {
+        "label": "阶跃函数"
+      },
+      {
+        "label": "双曲正切"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "离散Hopfield神经网络的稳定状态被称为："
+    ],
+    "options": [
+      {
+        "label": "突触"
+      },
+      {
+        "label": "吸引子",
+        "isTrue": true
+      },
+      {
+        "label": "能量函数"
+      },
+      {
+        "label": "卷积核"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "卷积神经网络（CNN）中用于降低空间分辨率的操作是："
+    ],
+    "options": [
+      {
+        "label": "卷积"
+      },
+      {
+        "label": "池化",
+        "isTrue": true
+      },
+      {
+        "label": "全连接"
+      },
+      {
+        "label": "激活函数"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "LeNet-5主要用于以下哪种任务？"
+    ],
+    "options": [
+      {
+        "label": "语音识别"
+      },
+      {
+        "label": "支票手写数字识别",
+        "isTrue": true
+      },
+      {
+        "label": "图像风格迁移"
+      },
+      {
+        "label": "文本生成"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "胶囊网络的核心优势是："
+    ],
+    "options": [
+      {
+        "label": "需要大量训练数据"
+      },
+      {
+        "label": "解决信息丢失问题",
+        "isTrue": true
+      },
+      {
+        "label": "使用全连接层"
+      },
+      {
+        "label": "简化卷积运算"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "生成对抗网络（GAN）中，生成器的目标是："
+    ],
+    "options": [
+      {
+        "label": "区分真实与虚假数据"
+      },
+      {
+        "label": "生成逼真数据以欺骗判别器",
+        "isTrue": true
+      },
+      {
+        "label": "调整网络参数"
+      },
+      {
+        "label": "计算能量函数"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "Hebb学习规则的核心是："
+    ],
+    "options": [
+      {
+        "label": "误差反向传播"
+      },
+      {
+        "label": "同时兴奋的神经元连接增强",
+        "isTrue": true
+      },
+      {
+        "label": "随机调整权值"
+      },
+      {
+        "label": "梯度下降优化"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": [
+      "前馈型神经网络的典型代表是："
+    ],
+    "options": [
+      {
+        "label": "Hopfield网络"
+      },
+      {
+        "label": "BP神经网络",
+        "isTrue": true
+      },
+      {
+        "label": "Boltzmann机"
+      },
+      {
+        "label": "胶囊网络"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": [
+      "连续Hopfield神经网络的能量函数最小值对应："
+    ],
+    "options": [
+      {
+        "label": "随机状态"
+      },
+      {
+        "label": "稳定状态",
+        "isTrue": true
+      },
+      {
+        "label": "初始状态"
+      },
+      {
+        "label": "高维噪声"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": [
+      "BP神经网络的隐层数确定通常依赖："
+    ],
+    "options": [
+      {
+        "label": "理论公式"
+      },
+      {
+        "label": "经验尝试",
+        "isTrue": true
+      },
+      {
+        "label": "输入数据维度"
+      },
+      {
+        "label": "输出类别数"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": [
+      "以下属于随机神经网络的是："
+    ],
+    "options": [
+      {
+        "label": "BP网络"
+      },
+      {
+        "label": "Boltzmann机",
+        "isTrue": true
+      },
+      {
+        "label": "LeNet-5"
+      },
+      {
+        "label": "Hopfield网络"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": [
+      "卷积神经网络中“权值共享”的作用是："
+    ],
+    "options": [
+      {
+        "label": "减少计算量",
+        "isTrue": true
+      },
+      {
+        "label": "增强特征提取能力"
+      },
+      {
+        "label": "增加网络深度"
+      },
+      {
+        "label": "避免过拟合"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": [
+      "以下属于GAN常见问题的是："
+    ],
+    "options": [
+      {
+        "label": "训练速度快"
+      },
+      {
+        "label": "模式崩溃",
+        "isTrue": true
+      },
+      {
+        "label": "参数易确定"
+      },
+      {
+        "label": "生成确定结果"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": [
+      "胶囊网络中， PrimaryCaps层的作用是："
+    ],
+    "options": [
+      {
+        "label": "输入原始图像"
+      },
+      {
+        "label": "提取局部特征",
+        "isTrue": true
+      },
+      {
+        "label": "输出分类结果"
+      },
+      {
+        "label": "计算能量函数"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": [
+      "BP神经网络训练数据的预处理通常包括："
+    ],
+    "options": [
+      {
+        "label": "随机打乱"
+      },
+      {
+        "label": "归一化到[0,1]",
+        "isTrue": true
+      },
+      {
+        "label": "增加噪声"
+      },
+      {
+        "label": "降低维度"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": [
+      "离散Hopfield网络的工作方式可以是："
+    ],
+    "options": [
+      {
+        "label": "仅同步"
+      },
+      {
+        "label": "同步或异步"
+      },
+      {
+        "label": "仅反向传播"
+      },
+      {
+        "label": "仅全连接"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": [
+      "卷积核在CNN中用于："
+    ],
+    "options": [
+      {
+        "label": "数据归一化"
+      },
+      {
+        "label": "特征提取",
+        "isTrue": true
+      },
+      {
+        "label": "分类决策"
+      },
+      {
+        "label": "损失计算"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": [
+      "以下属于BP神经网络缺点的是："
+    ],
+    "options": [
+      {
+        "label": "泛化能力强"
+      },
+      {
+        "label": "局部极值问题",
+        "isTrue": true
+      },
+      {
+        "label": "训练速度快"
+      },
+      {
+        "label": "隐层数明确"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": [
+      "胶囊网络的动态路由协议用于："
+    ],
+    "options": [
+      {
+        "label": "调整池化参数"
+      },
+      {
+        "label": "优化胶囊间信息传递",
+        "isTrue": true
+      },
+      {
+        "label": "生成对抗样本"
+      },
+      {
+        "label": "计算能量函数"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": [
+      "Hopfield神经网络求解TSP问题的核心是："
+    ],
+    "options": [
+      {
+        "label": "反向传播"
+      },
+      {
+        "label": "能量函数最小化",
+        "isTrue": true
+      },
+      {
+        "label": "卷积运算"
+      },
+      {
+        "label": "随机扰动"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": [
+      "生成对抗网络中，判别器的目标是："
+    ],
+    "options": [
+      {
+        "label": "生成数据"
+      },
+      {
+        "label": "区分真假数据",
+        "isTrue": true
+      },
+      {
+        "label": "计算损失函数"
+      },
+      {
+        "label": "调整学习率"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": [
+      "以下属于S型激励函数的是："
+    ],
+    "options": [
+      {
+        "label": "ReLU"
+      },
+      {
+        "label": "Sigmoid",
+        "isTrue": true
+      },
+      {
+        "label": "阶跃函数"
+      },
+      {
+        "label": "线性函数"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": [
+      "卷积神经网络中，特征图的维度由什么决定？"
+    ],
+    "options": [
+      {
+        "label": "输入图像大小"
+      },
+      {
+        "label": "卷积核步长",
+        "isTrue": true
+      },
+      {
+        "label": "池化方式"
+      },
+      {
+        "label": "全连接层数"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": [
+      "BP算法中，误差信号从哪一层开始反向传播？"
+    ],
+    "options": [
+      {
+        "label": "输入层"
+      },
+      {
+        "label": "输出层",
+        "isTrue": true
+      },
+      {
+        "label": "隐层"
+      },
+      {
+        "label": "任意层"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": [
+      "胶囊网络的输出形式是："
+    ],
+    "options": [
+      {
+        "label": "标量"
+      },
+      {
+        "label": "向量",
+        "isTrue": true
+      },
+      {
+        "label": "矩阵"
+      },
+      {
+        "label": "张量"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": [
+      "Hebb学习规则提出于哪一年？"
+    ],
+    "options": [
+      {
+        "label": "1943"
+      },
+      {
+        "label": "1949",
+        "isTrue": true
+      },
+      {
+        "label": "1986"
+      },
+      {
+        "label": "2014"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": [
+      "以下属于池化操作的是："
+    ],
+    "options": [
+      {
+        "label": "平均池化",
+        "isTrue": true
+      },
+      {
+        "label": "卷积池化"
+      },
+      {
+        "label": "全连接池化"
+      },
+      {
+        "label": "梯度池化"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": [
+      "决定人工神经网络性能的三大要素不包括以下哪项？"
+    ],
+    "options": [
+      {
+        "label": "神经元特性"
+      },
+      {
+        "label": "学习规则"
+      },
+      {
+        "label": "网络层数",
+        "isTrue": true
+      },
+      {
+        "label": "拓扑结构"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": [
+      "BP定理的核心结论是："
+    ],
+    "options": [
+      {
+        "label": "任意连续函数可用三层网络逼近",
+        "isTrue": true
+      },
+      {
+        "label": "BP网络收敛速度最快"
+      },
+      {
+        "label": "隐层数需大于3层"
+      },
+      {
+        "label": "需使用Sigmoid激活函数"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": [
+      "Hubel和Wiesel提出的“感受野”概念最初用于研究："
+    ],
+    "options": [
+      {
+        "label": "猫的听觉系统"
+      },
+      {
+        "label": "猫的视觉皮层",
+        "isTrue": true
+      },
+      {
+        "label": "人脑记忆机制"
+      },
+      {
+        "label": "生物神经元电信号"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": [
+      "胶囊网络中，DigitCaps层的每个胶囊表示："
+    ],
+    "options": [
+      {
+        "label": "图像像素值"
+      },
+      {
+        "label": "不同状态下的同一类别",
+        "isTrue": true
+      },
+      {
+        "label": "卷积核参数"
+      },
+      {
+        "label": "池化结果"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": [
+      "以下哪项是GAN在视频生成中的典型应用？"
+    ],
+    "options": [
+      {
+        "label": "图像修复"
+      },
+      {
+        "label": "实时3D变脸技术",
+        "isTrue": true
+      },
+      {
+        "label": "文本翻译"
+      },
+      {
+        "label": "语音识别"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "topic": [
+      "神经认知机（Neocognitron）的提出者是："
+    ],
+    "options": [
+      {
+        "label": "Hinton"
+      },
+      {
+        "label": "Fukushima",
+        "isTrue": true
+      },
+      {
+        "label": "Hopfield"
+      },
+      {
+        "label": "Rumelhart"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "topic": [
+      "BP算法中，输入数据预处理的常见操作是："
+    ],
+    "options": [
+      {
+        "label": "归一化到[-1,1]",
+        "isTrue": true
+      },
+      {
+        "label": "随机裁剪图像"
+      },
+      {
+        "label": "增加高斯噪声"
+      },
+      {
+        "label": "降低图像分辨率"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "topic": [
+      "Hopfield神经网络用于TSP问题时，能量函数的设计需满足："
+    ],
+    "options": [
+      {
+        "label": "仅目标函数约束"
+      },
+      {
+        "label": "行、列、全局约束",
+        "isTrue": true
+      },
+      {
+        "label": "随机扰动条件"
+      },
+      {
+        "label": "反向传播规则"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "topic": [
+      "胶囊网络中，动态路由协议主要用于："
+    ],
+    "options": [
+      {
+        "label": "调整池化区域"
+      },
+      {
+        "label": "优化胶囊间信息传递",
+        "isTrue": true
+      },
+      {
+        "label": "生成对抗样本"
+      },
+      {
+        "label": "计算能量函数"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "topic": [
+      "以下哪项是连续Hopfield网络的特点？"
+    ],
+    "options": [
+      {
+        "label": "仅支持异步工作"
+      },
+      {
+        "label": "能量函数随时间减小",
+        "isTrue": true
+      },
+      {
+        "label": "神经元状态为离散值"
+      },
+      {
+        "label": "需反向传播训练"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": [
+      "GAN的判别器输出通常表示："
+    ],
+    "options": [
+      {
+        "label": "生成数据的类别"
+      },
+      {
+        "label": "输入为真实数据的概率",
+        "isTrue": true
+      },
+      {
+        "label": "能量函数值"
+      },
+      {
+        "label": "卷积核参数"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "topic": [
+      "卷积神经网络中，步长（stride）的作用是："
+    ],
+    "options": [
+      {
+        "label": "控制卷积核大小"
+      },
+      {
+        "label": "决定特征图尺寸",
+        "isTrue": true
+      },
+      {
+        "label": "调整池化区域"
+      },
+      {
+        "label": "增加网络深度"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "topic": [
+      "BP神经网络中，输出层常用的激活函数是："
+    ],
+    "options": [
+      {
+        "label": "ReLU"
+      },
+      {
+        "label": "Sigmoid或线性函数",
+        "isTrue": true
+      },
+      {
+        "label": "阶跃函数"
+      },
+      {
+        "label": "双曲正切"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "topic": [
+      "Hebb学习规则提出的年份是："
+    ],
+    "options": [
+      {
+        "label": "1943年"
+      },
+      {
+        "label": "1944年",
+        "isTrue": true
+      },
+      {
+        "label": "1986年"
+      },
+      {
+        "label": "2014年"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "topic": [
+      "以下哪项是随机神经网络的特点？"
+    ],
+    "options": [
+      {
+        "label": "确定性状态更新"
+      },
+      {
+        "label": "服从概率分布的状态",
+        "isTrue": true
+      },
+      {
+        "label": "仅用于分类任务"
+      },
+      {
+        "label": "无能量函数"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "topic": [
+      "胶囊网络的PrimaryCaps层作用不包括："
+    ],
+    "options": [
+      {
+        "label": "提取局部特征"
+      },
+      {
+        "label": "生成分类结果",
+        "isTrue": true
+      },
+      {
+        "label": "封装向量信息"
+      },
+      {
+        "label": "动态路由输入"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "topic": [
+      "卷积神经网络中，多卷积核的作用是："
+    ],
+    "options": [
+      {
+        "label": "减少参数数量"
+      },
+      {
+        "label": "提取多种特征",
+        "isTrue": true
+      },
+      {
+        "label": "降低计算量"
+      },
+      {
+        "label": "防止过拟合"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "topic": [
+      "以下哪项不属于Hopfield网络的应用？"
+    ],
+    "options": [
+      {
+        "label": "联想记忆"
+      },
+      {
+        "label": "图像风格迁移",
+        "isTrue": true
+      },
+      {
+        "label": "组合优化问题"
+      },
+      {
+        "label": "模式识别"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "topic": [
+      "生成对抗网络中，模式崩溃（mode collapse）指："
+    ],
+    "options": [
+      {
+        "label": "生成器多样性不足",
+        "isTrue": true
+      },
+      {
+        "label": "判别器准确率过高"
+      },
+      {
+        "label": "训练过程震荡"
+      },
+      {
+        "label": "能量函数不收敛"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "topic": [
+      "BP算法的误差信号计算基于："
+    ],
+    "options": [
+      {
+        "label": "输入数据分布"
+      },
+      {
+        "label": "梯度下降法",
+        "isTrue": true
+      },
+      {
+        "label": "能量函数最小值"
+      },
+      {
+        "label": "随机扰动"
+      }
+    ]
+  }
+]

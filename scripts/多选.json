@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "游戏人工智能的定性技术特点包括："
+    ],
+    "options": [
+      {
+        "label": "行为可预测",
+        "isTrue": true
+      },
+      {
+        "label": "支持机器学习"
+      },
+      {
+        "label": "易于调试",
+        "isTrue": true
+      },
+      {
+        "label": "增加游戏挑战性"
+      },
+      {
+        "label": "依赖神经网络"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "以下哪些属于非定性技术？"
+    ],
+    "options": [
+      {
+        "label": "遗传算法",
+        "isTrue": true
+      },
+      {
+        "label": "模糊逻辑",
+        "isTrue": true
+      },
+      {
+        "label": "有限状态机"
+      },
+      {
+        "label": "神经网络",
+        "isTrue": true
+      },
+      {
+        "label": "路径搜索"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "“群聚行为”的规则包括："
+    ],
+    "options": [
+      {
+        "label": "聚合",
+        "isTrue": true
+      },
+      {
+        "label": "对齐",
+        "isTrue": true
+      },
+      {
+        "label": "分离",
+        "isTrue": true
+      },
+      {
+        "label": "随机移动"
+      },
+      {
+        "label": "路径规划"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "游戏角色“追踪与躲避”的实现依赖："
+    ],
+    "options": [
+      {
+        "label": "传感器检测障碍",
+        "isTrue": true
+      },
+      {
+        "label": "路径搜索算法",
+        "isTrue": true
+      },
+      {
+        "label": "预定义行为规则",
+        "isTrue": true
+      },
+      {
+        "label": "神经网络训练"
+      },
+      {
+        "label": "语音信号处理"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "“遗传算法”在游戏设计中的应用场景包括："
+    ],
+    "options": [
+      {
+        "label": "优化路径适应度",
+        "isTrue": true
+      },
+      {
+        "label": "控制角色情感"
+      },
+      {
+        "label": "生成随机地形",
+        "isTrue": true
+      },
+      {
+        "label": "设计武器伤害值"
+      },
+      {
+        "label": "语音特征提取"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "有限状态机的局限性包括："
+    ],
+    "options": [
+      {
+        "label": "状态复杂度高时难以管理",
+        "isTrue": true
+      },
+      {
+        "label": "无法模拟简单行为"
+      },
+      {
+        "label": "不支持实时计算"
+      },
+      {
+        "label": "依赖大规模语料库"
+      },
+      {
+        "label": "仅适用于静态场景"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "“模糊逻辑”在游戏中的典型应用包括："
+    ],
+    "options": [
+      {
+        "label": "威胁评估",
+        "isTrue": true
+      },
+      {
+        "label": "路径搜索"
+      },
+      {
+        "label": "角色情感模拟",
+        "isTrue": true
+      },
+      {
+        "label": "语音识别"
+      },
+      {
+        "label": "物理碰撞检测"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "游戏开发工具分为哪两类？"
+    ],
+    "options": [
+      {
+        "label": "创作工具类",
+        "isTrue": true
+      },
+      {
+        "label": "编程语言类",
+        "isTrue": true
+      },
+      {
+        "label": "硬件设备类"
+      },
+      {
+        "label": "图像渲染类"
+      },
+      {
+        "label": "物理引擎类"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "“扫雷机智能游戏”的实现依赖："
+    ],
+    "options": [
+      {
+        "label": "神经网络",
+        "isTrue": true
+      },
+      {
+        "label": "遗传算法",
+        "isTrue": true
+      },
+      {
+        "label": "有限状态机"
+      },
+      {
+        "label": "路径搜索"
+      },
+      {
+        "label": "语音识别"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "游戏AI的现状限制包括："
+    ],
+    "options": [
+      {
+        "label": "实时性要求限制计算量",
+        "isTrue": true
+      },
+      {
+        "label": "角色行为过于完美",
+        "isTrue": true
+      },
+      {
+        "label": "无法模拟生物群体"
+      },
+      {
+        "label": "依赖专家系统"
+      },
+      {
+        "label": "图形渲染速度不足"
+      }
+    ]
+  }
+]

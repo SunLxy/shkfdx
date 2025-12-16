@@ -1,0 +1,765 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "自然语言理解的宏观功能包括："
+    ],
+    "options": [
+      {
+        "label": "回答问题",
+        "isTrue": true
+      },
+      {
+        "label": "文摘生成",
+        "isTrue": true
+      },
+      {
+        "label": "图像修复"
+      },
+      {
+        "label": "翻译",
+        "isTrue": true
+      },
+      {
+        "label": "语音合成"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "乔姆斯基的形式文法分类包括："
+    ],
+    "options": [
+      {
+        "label": "上下文有关文法",
+        "isTrue": true
+      },
+      {
+        "label": "正则文法",
+        "isTrue": true
+      },
+      {
+        "label": "动态规划文法"
+      },
+      {
+        "label": "短语结构文法",
+        "isTrue": true
+      },
+      {
+        "label": "语义文法"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "语音识别的主要过程包括："
+    ],
+    "options": [
+      {
+        "label": "信号采集",
+        "isTrue": true
+      },
+      {
+        "label": "预处理",
+        "isTrue": true
+      },
+      {
+        "label": "特征参数提取",
+        "isTrue": true
+      },
+      {
+        "label": "语义分析"
+      },
+      {
+        "label": "向量量化",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "机器翻译的类型包括："
+    ],
+    "options": [
+      {
+        "label": "直译式",
+        "isTrue": true
+      },
+      {
+        "label": "规则式",
+        "isTrue": true
+      },
+      {
+        "label": "统计式",
+        "isTrue": true
+      },
+      {
+        "label": "神经机器翻译",
+        "isTrue": true
+      },
+      {
+        "label": "动态规划式"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "语音信号预处理步骤包括："
+    ],
+    "options": [
+      {
+        "label": "滤波",
+        "isTrue": true
+      },
+      {
+        "label": "A/D变换",
+        "isTrue": true
+      },
+      {
+        "label": "预加重",
+        "isTrue": true
+      },
+      {
+        "label": "端点检测",
+        "isTrue": true
+      },
+      {
+        "label": "语义分析"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "语义分析的方法包括："
+    ],
+    "options": [
+      {
+        "label": "语义文法",
+        "isTrue": true
+      },
+      {
+        "label": "格文法",
+        "isTrue": true
+      },
+      {
+        "label": "统计模型"
+      },
+      {
+        "label": "隐马尔可夫模型"
+      },
+      {
+        "label": "翻译记忆"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "语音识别中“特定人工作方式”的特点是："
+    ],
+    "options": [
+      {
+        "label": "支持任何用户"
+      },
+      {
+        "label": "仅支持单一用户",
+        "isTrue": true
+      },
+      {
+        "label": "需要用户训练",
+        "isTrue": true
+      },
+      {
+        "label": "依赖大规模语料"
+      },
+      {
+        "label": "使用通用模型"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "统计机器翻译的关键技术包括："
+    ],
+    "options": [
+      {
+        "label": "平行语料库",
+        "isTrue": true
+      },
+      {
+        "label": "噪声信道模型",
+        "isTrue": true
+      },
+      {
+        "label": "短语对齐",
+        "isTrue": true
+      },
+      {
+        "label": "中间语言转换"
+      },
+      {
+        "label": "规则库设计"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "自然语言处理中基于深度学习的优势包括："
+    ],
+    "options": [
+      {
+        "label": "自动特征提取",
+        "isTrue": true
+      },
+      {
+        "label": "依赖人工规则"
+      },
+      {
+        "label": "大规模语料训练",
+        "isTrue": true
+      },
+      {
+        "label": "语义距离计算",
+        "isTrue": true
+      },
+      {
+        "label": "仅适用于特定领域"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "语音识别中的声学模型用于："
+    ],
+    "options": [
+      {
+        "label": "音素到文字的转换"
+      },
+      {
+        "label": "语音帧到音素的映射",
+        "isTrue": true
+      },
+      {
+        "label": "信号滤波"
+      },
+      {
+        "label": "端点检测"
+      },
+      {
+        "label": "量化噪声抑制"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": [
+      "词法分析的任务包括："
+    ],
+    "options": [
+      {
+        "label": "切分单词",
+        "isTrue": true
+      },
+      {
+        "label": "确定词素",
+        "isTrue": true
+      },
+      {
+        "label": "句法结构分析"
+      },
+      {
+        "label": "语义消歧"
+      },
+      {
+        "label": "语音信号采集"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": [
+      "以下属于语音识别特征参数提取技术的是："
+    ],
+    "options": [
+      {
+        "label": "线性预测编码（LPC）",
+        "isTrue": true
+      },
+      {
+        "label": "矢量量化（VQ）",
+        "isTrue": true
+      },
+      {
+        "label": "隐马尔可夫模型（HMM）"
+      },
+      {
+        "label": "过零率计算",
+        "isTrue": true
+      },
+      {
+        "label": "翻译记忆"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": [
+      "神经机器翻译的核心组件包括："
+    ],
+    "options": [
+      {
+        "label": "编码器",
+        "isTrue": true
+      },
+      {
+        "label": "解码器",
+        "isTrue": true
+      },
+      {
+        "label": "规则库"
+      },
+      {
+        "label": "翻译记忆库"
+      },
+      {
+        "label": "中间语言"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": [
+      "自然语言处理涉及的学科包括："
+    ],
+    "options": [
+      {
+        "label": "计算语言学",
+        "isTrue": true
+      },
+      {
+        "label": "机器学习",
+        "isTrue": true
+      },
+      {
+        "label": "统计学",
+        "isTrue": true
+      },
+      {
+        "label": "信号处理"
+      },
+      {
+        "label": "图像识别"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": [
+      "语音识别中“语言模型”的作用包括："
+    ],
+    "options": [
+      {
+        "label": "从音素到文字转换",
+        "isTrue": true
+      },
+      {
+        "label": "同音字消歧",
+        "isTrue": true
+      },
+      {
+        "label": "信号滤波"
+      },
+      {
+        "label": "端点检测"
+      },
+      {
+        "label": "生成语音频谱"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": [
+      "机器翻译中“翻译记忆”技术的局限性是："
+    ],
+    "options": [
+      {
+        "label": "完全替代人工翻译"
+      },
+      {
+        "label": "仅辅助专业翻译",
+        "isTrue": true
+      },
+      {
+        "label": "依赖大规模语料"
+      },
+      {
+        "label": "无法处理新内容",
+        "isTrue": true
+      },
+      {
+        "label": "需用户重复输入"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": [
+      "语音识别中的“分帧”是指："
+    ],
+    "options": [
+      {
+        "label": "将语音分为小段",
+        "isTrue": true
+      },
+      {
+        "label": "每段视为一个状态",
+        "isTrue": true
+      },
+      {
+        "label": "提取频谱特征"
+      },
+      {
+        "label": "生成语言模型"
+      },
+      {
+        "label": "量化信号"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": [
+      "自然语言理解的发展阶段包括："
+    ],
+    "options": [
+      {
+        "label": "关键词匹配",
+        "isTrue": true
+      },
+      {
+        "label": "句法-语义分析",
+        "isTrue": true
+      },
+      {
+        "label": "基于知识",
+        "isTrue": true
+      },
+      {
+        "label": "语料库驱动",
+        "isTrue": true
+      },
+      {
+        "label": "图像驱动"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": [
+      "深度学习在语音识别中的应用包括："
+    ],
+    "options": [
+      {
+        "label": "LSTM神经网络",
+        "isTrue": true
+      },
+      {
+        "label": "编码-解码结构",
+        "isTrue": true
+      },
+      {
+        "label": "统计对齐技术"
+      },
+      {
+        "label": "翻译记忆库"
+      },
+      {
+        "label": "规则式翻译"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": [
+      "语音识别中“非特定人工作方式”的特点是："
+    ],
+    "options": [
+      {
+        "label": "支持任何用户",
+        "isTrue": true
+      },
+      {
+        "label": "需用户训练"
+      },
+      {
+        "label": "依赖通用模型",
+        "isTrue": true
+      },
+      {
+        "label": "仅支持单一用户"
+      },
+      {
+        "label": "使用HMM模型"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": [
+      "自然语言理解的微观角度定义包括："
+    ],
+    "options": [
+      {
+        "label": "语言到机器的映射",
+        "isTrue": true
+      },
+      {
+        "label": "文摘生成"
+      },
+      {
+        "label": "语音信号滤波"
+      },
+      {
+        "label": "翻译功能",
+        "isTrue": true
+      },
+      {
+        "label": "图像分类"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": [
+      "语音信号预处理中的“端点检测”方法包括："
+    ],
+    "options": [
+      {
+        "label": "时域特征分析",
+        "isTrue": true
+      },
+      {
+        "label": "频域特征分析",
+        "isTrue": true
+      },
+      {
+        "label": "语义文法"
+      },
+      {
+        "label": "格文法"
+      },
+      {
+        "label": "翻译记忆"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": [
+      "统计机器翻译的局限性包括："
+    ],
+    "options": [
+      {
+        "label": "依赖平行语料库",
+        "isTrue": true
+      },
+      {
+        "label": "无法处理新词汇",
+        "isTrue": true
+      },
+      {
+        "label": "需要人工规则设计"
+      },
+      {
+        "label": "翻译结果僵化",
+        "isTrue": true
+      },
+      {
+        "label": "仅支持单一语言"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": [
+      "语音识别中的“声学模型”任务包括："
+    ],
+    "options": [
+      {
+        "label": "语音帧到音素转换",
+        "isTrue": true
+      },
+      {
+        "label": "同音字消歧"
+      },
+      {
+        "label": "信号滤波"
+      },
+      {
+        "label": "生成语言模型"
+      },
+      {
+        "label": "端点检测"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": [
+      "基于知识的自然语言理解系统依赖："
+    ],
+    "options": [
+      {
+        "label": "专家系统推理机制",
+        "isTrue": true
+      },
+      {
+        "label": "大规模语料库"
+      },
+      {
+        "label": "句法-语义分析",
+        "isTrue": true
+      },
+      {
+        "label": "统计模型"
+      },
+      {
+        "label": "动态规划算法"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": [
+      "语音识别中“语言模型”的功能包括："
+    ],
+    "options": [
+      {
+        "label": "音素到文字转换",
+        "isTrue": true
+      },
+      {
+        "label": "同音字消歧",
+        "isTrue": true
+      },
+      {
+        "label": "生成语音频谱"
+      },
+      {
+        "label": "优化信号采样"
+      },
+      {
+        "label": "分析句法结构"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": [
+      "“直译式机器翻译”的特点包括："
+    ],
+    "options": [
+      {
+        "label": "快速分析双语词典",
+        "isTrue": true
+      },
+      {
+        "label": "依赖中间语言"
+      },
+      {
+        "label": "重新排列译文句法",
+        "isTrue": true
+      },
+      {
+        "label": "使用统计模型"
+      },
+      {
+        "label": "生成神经编码"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": [
+      "自然语言处理中“语义分析”的方法包括："
+    ],
+    "options": [
+      {
+        "label": "语义文法",
+        "isTrue": true
+      },
+      {
+        "label": "格文法",
+        "isTrue": true
+      },
+      {
+        "label": "统计对齐"
+      },
+      {
+        "label": "翻译记忆"
+      },
+      {
+        "label": "语音分帧"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": [
+      "语音识别中“预加重”的作用是："
+    ],
+    "options": [
+      {
+        "label": "提升高频信号",
+        "isTrue": true
+      },
+      {
+        "label": "使频谱平坦化",
+        "isTrue": true
+      },
+      {
+        "label": "抑制低频噪声"
+      },
+      {
+        "label": "降低量化误差"
+      },
+      {
+        "label": "优化端点检测"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": [
+      "“神经机器翻译”的关键技术包括："
+    ],
+    "options": [
+      {
+        "label": "编码-解码结构",
+        "isTrue": true
+      },
+      {
+        "label": "LSTM网络",
+        "isTrue": true
+      },
+      {
+        "label": "统计对齐"
+      },
+      {
+        "label": "规则库设计"
+      },
+      {
+        "label": "中间语言转换"
+      }
+    ]
+  }
+]
