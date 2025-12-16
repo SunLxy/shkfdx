@@ -8,7 +8,9 @@ const NetworkOne = () => {
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer
 
-  return <MainLayout>
+  return <MainLayout
+    title="第二章 单选题"
+  >
     <TipButton
       items={[
         {

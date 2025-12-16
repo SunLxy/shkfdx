@@ -1,15 +1,27 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
-import data from "../data/3/1.json"
 import { useProxyStore } from "@carefrees/valtio"
+import data1 from "../data/1/2.json"
+import data2 from "../data/2/2.json"
+import data3 from "../data/3/2.json"
+import data4 from "../data/4/2.json"
+import data5 from "../data/5/2.json"
+import data6 from "../data/6/2.json"
+import data7 from "../data/7/2.json"
+import data8 from "../data/8/2.json"
+import data9 from "../data/9/2.json"
+import data10 from "../data/10/2.json"
+import data11 from "../data/11/2.json"
+
+const sumList = [...data1, ...data2, ...data3, ...data4, ...data5, ...data6, ...data7, ...data8, ...data9, ...data10, ...data11].map((it, index) => ({ ...it, id: index + 1 }))
 
 const NetworkOne = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true })
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(sumList), isRead: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout
-    title="第三章 单选题"
+    title="第八章 多选题"
   >
     <TipButton
       items={[
@@ -21,7 +33,7 @@ const NetworkOne = () => {
         },
         {
           onClick: () => {
-            dispatch({ dataList: randomArray(data) })
+            dispatch({ dataList: randomArray(sumList) })
           },
           children: "刷新顺序"
         },
@@ -37,8 +49,9 @@ const NetworkOne = () => {
       return <QItem
         key={item.id}
         isRead={isRead}
-        isOnlyAnswer={isOnlyAnswer}
+        isMulti
         topic={item.topic}
+        isOnlyAnswer={isOnlyAnswer}
         options={randomArray(item.options || [])}
         sort={index + 1}
       />

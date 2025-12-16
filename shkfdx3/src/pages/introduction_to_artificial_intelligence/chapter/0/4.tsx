@@ -1,15 +1,20 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
-import data from "../data/3/1.json"
 import { useProxyStore } from "@carefrees/valtio"
 
-const NetworkOne = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true })
+import data7 from "../data/7/4.json"
+import data8 from "../data/8/4.json"
+import data10 from "../data/10/4.json"
+const sumList = [...data7, ...data8, ...data10].map((it, index) => ({ ...it, id: index + 1 }))
+
+
+const OSTwo = () => {
+  const { state, dispatch } = useProxyStore({ dataList: randomArray(sumList), isRead: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout
-    title="第三章 单选题"
+    title="第八章 填空题"
   >
     <TipButton
       items={[
@@ -21,7 +26,7 @@ const NetworkOne = () => {
         },
         {
           onClick: () => {
-            dispatch({ dataList: randomArray(data) })
+            dispatch({ dataList: randomArray(sumList) })
           },
           children: "刷新顺序"
         },
@@ -36,14 +41,15 @@ const NetworkOne = () => {
     {dataList.map((item, index) => {
       return <QItem
         key={item.id}
-        isRead={isRead}
+        answer={item.answer}
         isOnlyAnswer={isOnlyAnswer}
+        isTextArea
+        isRead={isRead}
         topic={item.topic}
-        options={randomArray(item.options || [])}
         sort={index + 1}
       />
     })}
   </MainLayout>
 }
 
-export default NetworkOne
+export default OSTwo

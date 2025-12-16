@@ -8,7 +8,9 @@ const OSTwo = () => {
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer
 
-  return <MainLayout>
+  return <MainLayout
+    title="第十章 判断题"
+  >
     <TipButton
       items={[
         {

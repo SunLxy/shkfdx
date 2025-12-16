@@ -12,6 +12,14 @@ import DatabaseThree from '@/pages/database/3';
 import DatabaseFour from '@/pages/database/4';
 
 // 人工智能
+
+import IntroductionToArtificialIntelligencez from '@/pages/introduction_to_artificial_intelligence/chapter/0';
+import IntroductionToArtificialIntelligencezOne from '@/pages/introduction_to_artificial_intelligence/chapter/0/1';
+import IntroductionToArtificialIntelligencezTwo from '@/pages/introduction_to_artificial_intelligence/chapter/0/2';
+import IntroductionToArtificialIntelligencezThree from '@/pages/introduction_to_artificial_intelligence/chapter/0/3';
+import IntroductionToArtificialIntelligencezFour from '@/pages/introduction_to_artificial_intelligence/chapter/0/4';
+
+
 import IntroductionToArtificialIntelligence from '@/pages/introduction_to_artificial_intelligence';
 import IntroductionToArtificialIntelligenceOne from '@/pages/introduction_to_artificial_intelligence/chapter/1';
 import IntroductionToArtificialIntelligenceOneOne from '@/pages/introduction_to_artificial_intelligence/chapter/1/1';
@@ -120,6 +128,27 @@ const newRoutesConfig: RouteObject[] = [
 
 
       // 人工智能
+      {
+        path: '/introduction_to_artificial_intelligence/0',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligencez /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/0/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligencezOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/0/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligencezTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/0/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligencezThree /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/0/4',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligencezFour /></Suspense>
+      },
+
       {
         path: '/introduction_to_artificial_intelligence',
         element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligence /></Suspense>
