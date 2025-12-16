@@ -5,6 +5,7 @@ const DataScienceMain = () => {
   return <MainSelecrLayout>
     <NavLink to="/introduction_to_artificial_intelligence/1">第一章</NavLink>
     <NavLink to="/introduction_to_artificial_intelligence/2">第二章</NavLink>
+    <NavLink to="/introduction_to_artificial_intelligence/3">第三章</NavLink>
   </MainSelecrLayout>
 }
 

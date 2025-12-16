@@ -21,6 +21,10 @@ import IntroductionToArtificialIntelligenceTwo from '@/pages/introduction_to_art
 import IntroductionToArtificialIntelligenceTwoOne from '@/pages/introduction_to_artificial_intelligence/chapter/2/1';
 import IntroductionToArtificialIntelligenceTwoTwo from '@/pages/introduction_to_artificial_intelligence/chapter/2/2';
 import IntroductionToArtificialIntelligenceTwoThree from '@/pages/introduction_to_artificial_intelligence/chapter/2/3';
+import IntroductionToArtificialIntelligenceThree from '@/pages/introduction_to_artificial_intelligence/chapter/3';
+import IntroductionToArtificialIntelligenceThreeOne from '@/pages/introduction_to_artificial_intelligence/chapter/3/1';
+import IntroductionToArtificialIntelligenceThreeTwo from '@/pages/introduction_to_artificial_intelligence/chapter/3/2';
+import IntroductionToArtificialIntelligenceThreeThree from '@/pages/introduction_to_artificial_intelligence/chapter/3/3';
 
 
 import { RootRoute } from "./root"
@@ -109,7 +113,22 @@ const newRoutesConfig: RouteObject[] = [
         path: '/introduction_to_artificial_intelligence/2/3',
         element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceTwoThree /></Suspense>
       },
-
+      {
+        path: '/introduction_to_artificial_intelligence/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceThree /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/3/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceThreeOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/3/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceThreeTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/3/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceThreeThree /></Suspense>
+      },
     ]
   }
 ]

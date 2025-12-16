@@ -1,0 +1,259 @@
+[
+  {
+    "id": 1,
+    "topic": [
+      "推理的基本要素包括？"
+    ],
+    "options": [
+      {
+        "label": "已知事实",
+        "isTrue": true
+      },
+      {
+        "label": "启发式知识"
+      },
+      {
+        "label": "知识",
+        "isTrue": true
+      },
+      {
+        "label": "冲突消解策略"
+      },
+      {
+        "label": "子句集"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": [
+      "推理方向的分类包括？"
+    ],
+    "options": [
+      {
+        "label": "正向推理",
+        "isTrue": true
+      },
+      {
+        "label": "随机推理"
+      },
+      {
+        "label": "逆向推理",
+        "isTrue": true
+      },
+      {
+        "label": "混合推理",
+        "isTrue": true
+      },
+      {
+        "label": "双向推理",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": [
+      "冲突消解策略的排序依据包括？"
+    ],
+    "options": [
+      {
+        "label": "针对性",
+        "isTrue": true
+      },
+      {
+        "label": "子句长度"
+      },
+      {
+        "label": "事实新鲜性",
+        "isTrue": true
+      },
+      {
+        "label": "匹配度",
+        "isTrue": true
+      },
+      {
+        "label": "规则数量"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": [
+      "以下属于确定性推理特点的是？"
+    ],
+    "options": [
+      {
+        "label": "结论唯一",
+        "isTrue": true
+      },
+      {
+        "label": "允许不确定性知识"
+      },
+      {
+        "label": "知识完全确定",
+        "isTrue": true
+      },
+      {
+        "label": "依赖默认假设"
+      },
+      {
+        "label": "可处理模糊性"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": [
+      "自然演绎推理的推理规则包括？"
+    ],
+    "options": [
+      {
+        "label": "假言推理",
+        "isTrue": true
+      },
+      {
+        "label": "归结原理"
+      },
+      {
+        "label": "拒取式推理",
+        "isTrue": true
+      },
+      {
+        "label": "全称固化",
+        "isTrue": true
+      },
+      {
+        "label": "默认推理"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": [
+      "子句集转换的步骤包括？"
+    ],
+    "options": [
+      {
+        "label": "消去蕴含符号",
+        "isTrue": true
+      },
+      {
+        "label": "引入存在量词"
+      },
+      {
+        "label": "变量标准化",
+        "isTrue": true
+      },
+      {
+        "label": "化为前束形",
+        "isTrue": true
+      },
+      {
+        "label": "添加全称量词"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": [
+      "逆向推理的优势包括？"
+    ],
+    "options": [
+      {
+        "label": "目的性强",
+        "isTrue": true
+      },
+      {
+        "label": "适合大规模知识库"
+      },
+      {
+        "label": "易于向用户解释",
+        "isTrue": true
+      },
+      {
+        "label": "无需冲突消解"
+      },
+      {
+        "label": "效率始终最高"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": [
+      "非单调推理的典型场景是？"
+    ],
+    "options": [
+      {
+        "label": "默认推理",
+        "isTrue": true
+      },
+      {
+        "label": "演绎推理"
+      },
+      {
+        "label": "知识完全确定"
+      },
+      {
+        "label": "新知识否定旧结论",
+        "isTrue": true
+      },
+      {
+        "label": "正向推理"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": [
+      "归结反演的步骤包括？"
+    ],
+    "options": [
+      {
+        "label": "否定结论",
+        "isTrue": true
+      },
+      {
+        "label": "直接匹配规则"
+      },
+      {
+        "label": "化为子句集",
+        "isTrue": true
+      },
+      {
+        "label": "应用归结原理",
+        "isTrue": true
+      },
+      {
+        "label": "仅使用正向推理"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": [
+      "应用归结原理求解问题时，若得到空子句说明？"
+    ],
+    "options": [
+      {
+        "label": "原问题不可满足",
+        "isTrue": true
+      },
+      {
+        "label": "子句集可满足"
+      },
+      {
+        "label": "结论为真",
+        "isTrue": true
+      },
+      {
+        "label": "需要重新假设"
+      },
+      {
+        "label": "存在矛盾",
+        "isTrue": true
+      }
+    ]
+  }
+]
