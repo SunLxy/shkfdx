@@ -1,5 +1,5 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
-import data from "./data/3.json"
+import data from "./data/4.json"
 import { useProxyStore } from "@carefrees/valtio"
 
 const OSTwo = () => {
@@ -9,7 +9,9 @@ const OSTwo = () => {
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout>
-    <div>当前为开放题目，无答案</div>
+    <div style={{ color: "red", fontSize: "20px", fontWeight: "bold" }}>
+      当前为开放题目，无答案
+    </div>
     <TipButton
       items={[
         {
