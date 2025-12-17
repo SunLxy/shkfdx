@@ -5,6 +5,7 @@ import DataScience from '@/pages/data_science';
 import DataScienceOne from '@/pages/data_science/1';
 import DataScienceTwo from '@/pages/data_science/2';
 import DataScienceThree from '@/pages/data_science/3';
+import DataScienceFour from '@/pages/data_science/4';
 import Database from '@/pages/database';
 import DatabaseOne from '@/pages/database/1';
 import DatabaseTwo from '@/pages/database/2';
@@ -121,6 +122,10 @@ const newRoutesConfig: RouteObject[] = [
       {
         path: '/data_science/3',
         element: <Suspense fallback={<div>Loading...</div>}><DataScienceThree /></Suspense>
+      },
+      {
+        path: '/data_science/4',
+        element: <Suspense fallback={<div>Loading...</div>}><DataScienceFour /></Suspense>
       },
       {
         path: '/database',
