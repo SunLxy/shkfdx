@@ -9,7 +9,7 @@ const DataScienceMain = () => {
     <NavLink to="/database/2">填空题</NavLink>
     <NavLink to="/database/3">综合应用题</NavLink>
     <NavLink to="/database/4">问答题</NavLink>
-    <div><span style={{ color: "red" }}>设计题(无)</span></div>
+    <NavLink to="/database/5">设计题</NavLink>
   </MainSelecrLayout>
 }
 

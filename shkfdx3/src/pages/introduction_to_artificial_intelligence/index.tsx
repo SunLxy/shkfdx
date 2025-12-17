@@ -17,11 +17,13 @@ const DataScienceMain = () => {
     <NavLink to="/introduction_to_artificial_intelligence/9">第九章</NavLink>
     <NavLink to="/introduction_to_artificial_intelligence/10">第十章</NavLink>
     <NavLink to="/introduction_to_artificial_intelligence/11">第十一章</NavLink>
-    <div>综合试题(单选)</div>
-    <div>综合试题(多选)</div>
-    <div>综合试题(判断)</div>
-    <div>综合试题(填空)</div>
-    <div>综合试题(简答)</div>
+
+
+    <NavLink to="/introduction_to_artificial_intelligence/comprehensive/1">综合试题(单选)</NavLink>
+    <NavLink to="/introduction_to_artificial_intelligence/comprehensive/2">综合试题(多选)</NavLink>
+    <NavLink to="/introduction_to_artificial_intelligence/comprehensive/3">综合试题(判断)</NavLink>
+    <NavLink to="/introduction_to_artificial_intelligence/comprehensive/4">综合试题(填空)</NavLink>
+    <NavLink to="/introduction_to_artificial_intelligence/comprehensive/5">综合试题(简答)</NavLink>
   </MainSelecrLayout>
 }
 

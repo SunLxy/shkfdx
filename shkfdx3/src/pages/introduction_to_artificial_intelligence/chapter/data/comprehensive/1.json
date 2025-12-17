@@ -15,7 +15,8 @@
         "label": "从生命的角度看，智能是生命适应自然界的基本能力"
       },
       {
-        "label": "细菌不具有智能"
+        "label": "细菌不具有智能",
+        "isTrue": true
       }
     ]
   },
@@ -35,7 +36,8 @@
         "label": "语言学"
       },
       {
-        "label": "综合性的交叉学科"
+        "label": "综合性的交叉学科",
+        "isTrue": true
       }
     ]
   },
@@ -49,7 +51,8 @@
         "label": "Automatic Intelligence"
       },
       {
-        "label": "Artificial Intelligence"
+        "label": "Artificial Intelligence",
+        "isTrue": true
       },
       {
         "label": "Automatic Information"
@@ -72,7 +75,8 @@
         "label": "扎德"
       },
       {
-        "label": "图灵"
+        "label": "图灵",
+        "isTrue": true
       },
       {
         "label": "冯·诺依曼"
@@ -89,7 +93,8 @@
         "label": "专家系统"
       },
       {
-        "label": "机器学习"
+        "label": "机器学习",
+        "isTrue": true
       },
       {
         "label": "神经网络"
@@ -109,7 +114,8 @@
         "label": "机器学习"
       },
       {
-        "label": "专家系统"
+        "label": "专家系统",
+        "isTrue": true
       },
       {
         "label": "神经网络"
@@ -132,7 +138,8 @@
         "label": "人工智能是研究机器如何像人类一样进行思考与行为的学科"
       },
       {
-        "label": "人工智能是研究机器如何思维的学科"
+        "label": "人工智能是研究机器如何思维的学科",
+        "isTrue": true
       },
       {
         "label": "人工智能研究知识的获取、表示与应用"
@@ -149,7 +156,8 @@
         "label": "数据准备"
       },
       {
-        "label": "数据处理"
+        "label": "数据处理",
+        "isTrue": true
       },
       {
         "label": "数据挖掘"
@@ -175,7 +183,8 @@
         "label": "双向推理"
       },
       {
-        "label": "简单推理"
+        "label": "简单推理",
+        "isTrue": true
       }
     ]
   },
@@ -189,7 +198,8 @@
         "label": "尽可能保存全部图片信息"
       },
       {
-        "label": "减少计算量，同时尽可能保存图片信息"
+        "label": "减少计算量，同时尽可能保存图片信息",
+        "isTrue": true
       },
       {
         "label": "有助于提高分类效果"
@@ -209,7 +219,8 @@
         "label": "使用单层神经网络"
       },
       {
-        "label": "使用大量训练数据"
+        "label": "使用大量训练数据",
+        "isTrue": true
       },
       {
         "label": "仅适用于小型计算任务"
@@ -235,7 +246,8 @@
         "label": "隐藏层"
       },
       {
-        "label": "反向传播算法"
+        "label": "反向传播算法",
+        "isTrue": true
       }
     ]
   },
@@ -249,7 +261,8 @@
         "label": "机器学习"
       },
       {
-        "label": "专家系统"
+        "label": "专家系统",
+        "isTrue": true
       },
       {
         "label": "神经网络"
@@ -269,7 +282,8 @@
         "label": "专业问题求解能力强"
       },
       {
-        "label": "结构功能完整"
+        "label": "结构功能完整",
+        "isTrue": true
       },
       {
         "label": "移植性不足"
@@ -289,7 +303,8 @@
         "label": "选择"
       },
       {
-        "label": "演化"
+        "label": "演化",
+        "isTrue": true
       },
       {
         "label": "重组"
@@ -309,7 +324,8 @@
         "label": "降低特征图的分辨率"
       },
       {
-        "label": "实现特征区分"
+        "label": "实现特征区分",
+        "isTrue": true
       },
       {
         "label": "实现不同尺度特征提取"
@@ -326,7 +342,8 @@
     ],
     "options": [
       {
-        "label": "隐含层个数不同"
+        "label": "隐含层个数不同",
+        "isTrue": true
       },
       {
         "label": "输出层节点数不同"
@@ -355,7 +372,8 @@
         "label": "模拟图像"
       },
       {
-        "label": "数字图像"
+        "label": "数字图像",
+        "isTrue": true
       }
     ]
   },
@@ -369,7 +387,8 @@
         "label": "模型在训练集上表现不佳"
       },
       {
-        "label": "模型在测试集上表现不佳"
+        "label": "模型在测试集上表现不佳",
+        "isTrue": true
       },
       {
         "label": "模型过于复杂导致无法学习"
@@ -395,7 +414,8 @@
         "label": "计算智能"
       },
       {
-        "label": "群智能"
+        "label": "群智能",
+        "isTrue": true
       }
     ]
   },
@@ -412,7 +432,8 @@
         "label": "计算智能"
       },
       {
-        "label": "脑智能"
+        "label": "脑智能",
+        "isTrue": true
       },
       {
         "label": "群智能"
@@ -429,7 +450,8 @@
         "label": "符号主义"
       },
       {
-        "label": "连接主义"
+        "label": "连接主义",
+        "isTrue": true
       },
       {
         "label": "行为主义"
@@ -455,7 +477,8 @@
         "label": "博弈图"
       },
       {
-        "label": "或图"
+        "label": "或图",
+        "isTrue": true
       }
     ]
   },
@@ -472,7 +495,8 @@
         "label": "八数码问题"
       },
       {
-        "label": "旅行商问题"
+        "label": "旅行商问题",
+        "isTrue": true
       },
       {
         "label": "八皇后问题"
@@ -492,7 +516,8 @@
         "label": "44"
       },
       {
-        "label": "55"
+        "label": "55",
+        "isTrue": true
       },
       {
         "label": "66"
@@ -512,7 +537,8 @@
         "label": "1"
       },
       {
-        "label": "2"
+        "label": "2",
+        "isTrue": true
       },
       {
         "label": "4"
@@ -532,7 +558,8 @@
         "label": "模型"
       },
       {
-        "label": "目标标签"
+        "label": "目标标签",
+        "isTrue": true
       },
       {
         "label": "样本数据"
@@ -555,7 +582,8 @@
         "label": "感叹句"
       },
       {
-        "label": "陈述句"
+        "label": "陈述句",
+        "isTrue": true
       }
     ]
   },
@@ -566,7 +594,8 @@
     ],
     "options": [
       {
-        "label": "一阶谓词"
+        "label": "一阶谓词",
+        "isTrue": true
       },
       {
         "label": "原子公式"
@@ -586,7 +615,8 @@
     ],
     "options": [
       {
-        "label": "产生式规则"
+        "label": "产生式规则",
+        "isTrue": true
       },
       {
         "label": "框架"
@@ -606,7 +636,8 @@
     ],
     "options": [
       {
-        "label": "隶属度"
+        "label": "隶属度",
+        "isTrue": true
       },
       {
         "label": "适应度"
@@ -626,7 +657,8 @@
     ],
     "options": [
       {
-        "label": "误差反传算法"
+        "label": "误差反传算法",
+        "isTrue": true
       },
       {
         "label": "遗传算法"
@@ -646,7 +678,8 @@
     ],
     "options": [
       {
-        "label": "用户"
+        "label": "用户",
+        "isTrue": true
       },
       {
         "label": "综合数据库"
@@ -666,7 +699,8 @@
     ],
     "options": [
       {
-        "label": "通过尝试和错误来学习"
+        "label": "通过尝试和错误来学习",
+        "isTrue": true
       },
       {
         "label": "使用标签数据进行学习"
@@ -695,7 +729,8 @@
         "label": "机器学习"
       },
       {
-        "label": "机器行为"
+        "label": "机器行为",
+        "isTrue": true
       }
     ]
   },
@@ -709,7 +744,8 @@
         "label": "神经元的特性"
       },
       {
-        "label": "神经元个数"
+        "label": "神经元个数",
+        "isTrue": true
       },
       {
         "label": "神经元之间的连接形式，即拓扑结构"
@@ -732,7 +768,8 @@
         "label": "图像识别"
       },
       {
-        "label": "自动化生产线"
+        "label": "自动化生产线",
+        "isTrue": true
       },
       {
         "label": "专家系统"
@@ -755,7 +792,8 @@
         "label": "药品研发"
       },
       {
-        "label": "远程手术"
+        "label": "远程手术",
+        "isTrue": true
       }
     ]
   },
@@ -775,7 +813,8 @@
         "label": "越好"
       },
       {
-        "label": "不定"
+        "label": "不定",
+        "isTrue": true
       }
     ]
   },
@@ -789,7 +828,8 @@
         "label": "程序逻辑"
       },
       {
-        "label": "因果关系"
+        "label": "因果关系",
+        "isTrue": true
       },
       {
         "label": "数据结构"
@@ -812,7 +852,8 @@
         "label": "模型"
       },
       {
-        "label": "目标标签"
+        "label": "目标标签",
+        "isTrue": true
       },
       {
         "label": "样本数据"

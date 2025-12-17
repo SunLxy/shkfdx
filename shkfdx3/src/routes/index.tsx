@@ -10,6 +10,7 @@ import DatabaseOne from '@/pages/database/1';
 import DatabaseTwo from '@/pages/database/2';
 import DatabaseThree from '@/pages/database/3';
 import DatabaseFour from '@/pages/database/4';
+import DatabaseFive from '@/pages/database/5';
 
 // 人工智能
 
@@ -76,6 +77,13 @@ import IntroductionToArtificialIntelligenceElevenOne from '@/pages/introduction_
 import IntroductionToArtificialIntelligenceElevenTwo from '@/pages/introduction_to_artificial_intelligence/chapter/11/2';
 import IntroductionToArtificialIntelligenceElevenThree from '@/pages/introduction_to_artificial_intelligence/chapter/11/3';
 
+// 综合试题
+import IntroductionToArtificialIntelligenceComprehensiveOne from '@/pages/introduction_to_artificial_intelligence/chapter/comprehensive/1';
+import IntroductionToArtificialIntelligenceComprehensiveTwo from '@/pages/introduction_to_artificial_intelligence/chapter/comprehensive/2';
+import IntroductionToArtificialIntelligenceComprehensiveThree from '@/pages/introduction_to_artificial_intelligence/chapter/comprehensive/3';
+import IntroductionToArtificialIntelligenceComprehensiveFour from '@/pages/introduction_to_artificial_intelligence/chapter/comprehensive/4';
+import IntroductionToArtificialIntelligenceComprehensiveFive from '@/pages/introduction_to_artificial_intelligence/chapter/comprehensive/5';
+
 
 // 软件工程
 import SoftwareEngineering from '@/pages/software_engineering';
@@ -84,6 +92,7 @@ import SoftwareEngineeringTwo from '@/pages/software_engineering/2';
 import SoftwareEngineeringThree from '@/pages/software_engineering/3';
 import SoftwareEngineeringFour from '@/pages/software_engineering/4';
 import SoftwareEngineeringFive from '@/pages/software_engineering/5';
+import SoftwareEngineeringSix from '@/pages/software_engineering/6';
 
 
 import { RootRoute } from "./root"
@@ -133,6 +142,11 @@ const newRoutesConfig: RouteObject[] = [
         path: '/database/4',
         element: <Suspense fallback={<div>Loading...</div>}><DatabaseFour /></Suspense>
       },
+      {
+        path: '/database/5',
+        element: <Suspense fallback={<div>Loading...</div>}><DatabaseFive /></Suspense>
+      },
+
 
 
       // 人工智能
@@ -349,6 +363,26 @@ const newRoutesConfig: RouteObject[] = [
         path: '/introduction_to_artificial_intelligence/11/3',
         element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceElevenThree /></Suspense>
       },
+      {
+        path: '/introduction_to_artificial_intelligence/comprehensive/1',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceComprehensiveOne /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/comprehensive/2',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceComprehensiveTwo /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/comprehensive/3',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceComprehensiveThree /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/comprehensive/4',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceComprehensiveFour /></Suspense>
+      },
+      {
+        path: '/introduction_to_artificial_intelligence/comprehensive/5',
+        element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceComprehensiveFive /></Suspense>
+      },
 
 
       // 软件工程
@@ -375,6 +409,10 @@ const newRoutesConfig: RouteObject[] = [
       {
         path: '/software_engineering/5',
         element: <Suspense fallback={<div>Loading...</div>}><SoftwareEngineeringFive /></Suspense>
+      },
+      {
+        path: '/software_engineering/6',
+        element: <Suspense fallback={<div>Loading...</div>}><SoftwareEngineeringSix /></Suspense>
       },
     ]
   }

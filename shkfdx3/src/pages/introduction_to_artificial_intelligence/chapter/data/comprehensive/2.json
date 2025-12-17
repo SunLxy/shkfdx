@@ -9,13 +9,16 @@
         "label": "用户"
       },
       {
-        "label": "推理机"
+        "label": "推理机",
+        "isTrue": true
       },
       {
-        "label": "知识库"
+        "label": "知识库",
+        "isTrue": true
       },
       {
-        "label": "综合数据库"
+        "label": "综合数据库",
+        "isTrue": true
       },
       {
         "label": "数据处理库"
@@ -29,19 +32,23 @@
     ],
     "options": [
       {
-        "label": "监督学习"
+        "label": "监督学习",
+        "isTrue": true
       },
       {
-        "label": "强化学习"
+        "label": "强化学习",
+        "isTrue": true
       },
       {
-        "label": "非监督学习"
+        "label": "非监督学习",
+        "isTrue": true
       },
       {
         "label": "群体学习"
       },
       {
-        "label": "迁移学习"
+        "label": "迁移学习",
+        "isTrue": true
       }
     ]
   },
@@ -52,13 +59,16 @@
     ],
     "options": [
       {
-        "label": "视觉部分"
+        "label": "视觉部分",
+        "isTrue": true
       },
       {
-        "label": "理性部分"
+        "label": "理性部分",
+        "isTrue": true
       },
       {
-        "label": "可计算部分"
+        "label": "可计算部分",
+        "isTrue": true
       },
       {
         "label": "人类智能的非理性部分"
@@ -75,16 +85,19 @@
     ],
     "options": [
       {
-        "label": "数据准备"
+        "label": "数据准备",
+        "isTrue": true
       },
       {
-        "label": "数据挖掘"
+        "label": "数据挖掘",
+        "isTrue": true
       },
       {
         "label": "数据处理"
       },
       {
-        "label": "结果解释"
+        "label": "结果解释",
+        "isTrue": true
       },
       {
         "label": "结果导出"
@@ -101,16 +114,20 @@
         "label": "聚类"
       },
       {
-        "label": "无监督学习"
+        "label": "无监督学习",
+        "isTrue": true
       },
       {
-        "label": "监督学习"
+        "label": "监督学习",
+        "isTrue": true
       },
       {
-        "label": "弱监督学习"
+        "label": "弱监督学习",
+        "isTrue": true
       },
       {
-        "label": "强化学习"
+        "label": "强化学习",
+        "isTrue": true
       }
     ]
   },
@@ -121,19 +138,24 @@
     ],
     "options": [
       {
-        "label": "神经网络"
+        "label": "神经网络",
+        "isTrue": true
       },
       {
-        "label": "有限状态机"
+        "label": "有限状态机",
+        "isTrue": true
       },
       {
-        "label": "贝叶斯技术"
+        "label": "贝叶斯技术",
+        "isTrue": true
       },
       {
-        "label": "遗传算法"
+        "label": "遗传算法",
+        "isTrue": true
       },
       {
-        "label": "搜索技术"
+        "label": "搜索技术",
+        "isTrue": true
       }
     ]
   },
@@ -144,19 +166,24 @@
     ],
     "options": [
       {
-        "label": "大数据"
+        "label": "大数据",
+        "isTrue": true
       },
       {
-        "label": "传感网络"
+        "label": "传感网络",
+        "isTrue": true
       },
       {
-        "label": "脑科学"
+        "label": "脑科学",
+        "isTrue": true
       },
       {
-        "label": "智能芯片"
+        "label": "智能芯片",
+        "isTrue": true
       },
       {
-        "label": "超级计算"
+        "label": "超级计算",
+        "isTrue": true
       }
     ]
   },
@@ -167,19 +194,23 @@
     ],
     "options": [
       {
-        "label": "模板匹配法"
+        "label": "模板匹配法",
+        "isTrue": true
       },
       {
-        "label": "随机模型法"
+        "label": "随机模型法",
+        "isTrue": true
       },
       {
-        "label": "概率语法分析法"
+        "label": "概率语法分析法",
+        "isTrue": true
       },
       {
         "label": "超采样法"
       },
       {
-        "label": "神经网络法"
+        "label": "神经网络法",
+        "isTrue": true
       }
     ]
   },
@@ -190,19 +221,24 @@
     ],
     "options": [
       {
-        "label": "语音分析"
+        "label": "语音分析",
+        "isTrue": true
       },
       {
-        "label": "词法分析"
+        "label": "词法分析",
+        "isTrue": true
       },
       {
-        "label": "句法分析"
+        "label": "句法分析",
+        "isTrue": true
       },
       {
-        "label": "语用分析"
+        "label": "语用分析",
+        "isTrue": true
       },
       {
-        "label": "语义分析"
+        "label": "语义分析",
+        "isTrue": true
       }
     ]
   },
@@ -213,13 +249,16 @@
     ],
     "options": [
       {
-        "label": "思维理论"
+        "label": "思维理论",
+        "isTrue": true
       },
       {
-        "label": "知识阈值理论"
+        "label": "知识阈值理论",
+        "isTrue": true
       },
       {
-        "label": "进化理论"
+        "label": "进化理论",
+        "isTrue": true
       },
       {
         "label": "行为理论"
@@ -236,16 +275,20 @@
     ],
     "options": [
       {
-        "label": "符号智能"
+        "label": "符号智能",
+        "isTrue": true
       },
       {
-        "label": "计算智能"
+        "label": "计算智能",
+        "isTrue": true
       },
       {
-        "label": "机器学习"
+        "label": "机器学习",
+        "isTrue": true
       },
       {
-        "label": "机器感知"
+        "label": "机器感知",
+        "isTrue": true
       },
       {
         "label": "完全取代人类"
@@ -259,13 +302,16 @@
     ],
     "options": [
       {
-        "label": "监督学习"
+        "label": "监督学习",
+        "isTrue": true
       },
       {
-        "label": "强化学习"
+        "label": "强化学习",
+        "isTrue": true
       },
       {
-        "label": "非监督学习"
+        "label": "非监督学习",
+        "isTrue": true
       },
       {
         "label": "群体学习"
@@ -282,19 +328,22 @@
     ],
     "options": [
       {
-        "label": "抽象思维"
+        "label": "抽象思维",
+        "isTrue": true
       },
       {
         "label": "逆向思维"
       },
       {
-        "label": "形象思维"
+        "label": "形象思维",
+        "isTrue": true
       },
       {
         "label": "灵感思维"
       },
       {
-        "label": "人工思维"
+        "label": "人工思维",
+        "isTrue": true
       }
     ]
   },
@@ -305,19 +354,24 @@
     ],
     "options": [
       {
-        "label": "向智能化发展"
+        "label": "向智能化发展",
+        "isTrue": true
       },
       {
-        "label": "实现高效绿色制造"
+        "label": "实现高效绿色制造",
+        "isTrue": true
       },
       {
-        "label": "生产过程透明化"
+        "label": "生产过程透明化",
+        "isTrue": true
       },
       {
-        "label": "生产现场无人化"
+        "label": "生产现场无人化",
+        "isTrue": true
       },
       {
-        "label": "运用网络通讯实现信息互通"
+        "label": "运用网络通讯实现信息互通",
+        "isTrue": true
       }
     ]
   },
@@ -328,13 +382,16 @@
     ],
     "options": [
       {
-        "label": "演绎推理"
+        "label": "演绎推理",
+        "isTrue": true
       },
       {
-        "label": "归纳推理"
+        "label": "归纳推理",
+        "isTrue": true
       },
       {
-        "label": "默认推理"
+        "label": "默认推理",
+        "isTrue": true
       },
       {
         "label": "双向推理"
