@@ -9,8 +9,13 @@ const OSTwo = () => {
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout>
-    <div style={{ color: "red", fontSize: "20px", fontWeight: "bold" }}>
-      当前为开放题目，无答案
+    <div style={{ color: "red", fontSize: "20px", fontWeight: "bold", marginBottom: "20px" }}>
+      <div>
+        公共大数据答案：
+      </div>
+      <div>
+        大数据是海量、高增长率和多样化的信息资产。其具有海量性、多样性、高速性等特征，要求我们具备整体、相关等大数据思维。
+      </div>
     </div>
     <TipButton
       items={[
@@ -41,6 +46,7 @@ const OSTwo = () => {
         isOnlyAnswer={isOnlyAnswer}
         isTextArea
         isRead={isRead}
+        answerNode={<div style={{ color: "red", fontWeight: "bold" }}>{item.answerNode}</div>}
         topic={item.topic}
         sort={index + 1}
       />

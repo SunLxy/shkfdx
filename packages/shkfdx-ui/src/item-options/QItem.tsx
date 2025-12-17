@@ -70,7 +70,7 @@ export const QItem = (props: QItemProps) => {
     isMulti,
     isShowTranslate,
     children,
-    analysis
+    analysis,
   } = props
   const { styles, cx } = useStyles()
 

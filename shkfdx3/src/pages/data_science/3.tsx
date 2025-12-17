@@ -37,6 +37,7 @@ const OSTwo = () => {
         answer={item.answer}
         isOnlyAnswer={isOnlyAnswer}
         isTextArea
+        answerNode={<div style={{ color: "red", fontWeight: "bold" }}>{item.answerNode}</div>}
         isRead={isRead}
         topic={item.topic}
         sort={index + 1}
