@@ -71,6 +71,7 @@ export const RootRoute = () => {
       <NavLink className="navlink" to="/data_science">数据科学</NavLink>
       <NavLink className="navlink" to="/database">数据库</NavLink>
       <NavLink className="navlink" to="/introduction_to_artificial_intelligence">人工智能</NavLink>
+      <NavLink className="navlink" to="/software_engineering">软件工程</NavLink>
     </header>
     <main>
       <Outlet />

@@ -77,6 +77,14 @@ import IntroductionToArtificialIntelligenceElevenTwo from '@/pages/introduction_
 import IntroductionToArtificialIntelligenceElevenThree from '@/pages/introduction_to_artificial_intelligence/chapter/11/3';
 
 
+// 软件工程
+import SoftwareEngineering from '@/pages/software_engineering';
+import SoftwareEngineeringOne from '@/pages/software_engineering/1';
+import SoftwareEngineeringTwo from '@/pages/software_engineering/2';
+import SoftwareEngineeringThree from '@/pages/software_engineering/3';
+import SoftwareEngineeringFour from '@/pages/software_engineering/4';
+import SoftwareEngineeringFive from '@/pages/software_engineering/5';
+
 
 import { RootRoute } from "./root"
 
@@ -340,8 +348,34 @@ const newRoutesConfig: RouteObject[] = [
       {
         path: '/introduction_to_artificial_intelligence/11/3',
         element: <Suspense fallback={<div>Loading...</div>}><IntroductionToArtificialIntelligenceElevenThree /></Suspense>
-      }
+      },
 
+
+      // 软件工程
+      {
+        path: '/software_engineering',
+        element: <Suspense fallback={<div>Loading...</div>}><SoftwareEngineering /></Suspense>
+      },
+      {
+        path: '/software_engineering/1',
+        element: <Suspense fallback={<div>Loading...</div>}><SoftwareEngineeringOne /></Suspense>
+      },
+      {
+        path: '/software_engineering/2',
+        element: <Suspense fallback={<div>Loading...</div>}><SoftwareEngineeringTwo /></Suspense>
+      },
+      {
+        path: '/software_engineering/3',
+        element: <Suspense fallback={<div>Loading...</div>}><SoftwareEngineeringThree /></Suspense>
+      },
+      {
+        path: '/software_engineering/4',
+        element: <Suspense fallback={<div>Loading...</div>}><SoftwareEngineeringFour /></Suspense>
+      },
+      {
+        path: '/software_engineering/5',
+        element: <Suspense fallback={<div>Loading...</div>}><SoftwareEngineeringFive /></Suspense>
+      },
     ]
   }
 ]

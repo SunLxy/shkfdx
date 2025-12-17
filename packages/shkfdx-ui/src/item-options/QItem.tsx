@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react"
+import { Fragment, useEffect, useMemo, useState } from "react"
 import { QListRadioOptionItem } from "./base/QListRadio"
 import { useStyles } from "./styles/item"
 import { QTopic } from "./base/QTopic"
@@ -25,7 +25,8 @@ export interface QItemProps {
   isTextArea?: boolean
   /**答案*/
   answer?: string
-
+  // 答案节点
+  answerNode?: React.ReactNode
   // TODO: 直接选项
   /**是否直接选择项*/
   isOptions?: boolean
@@ -47,7 +48,7 @@ export interface QItemProps {
   /**是否是HTML字符串*/
   isHTML?: boolean,
   /**分析*/
-  analysis?: React.ReactNode
+  analysis?: React.ReactNode,
 }
 
 export const QItem = (props: QItemProps) => {
@@ -59,6 +60,7 @@ export const QItem = (props: QItemProps) => {
     isInput,
     isTextArea,
     answer,
+    answerNode,
     options,
     layout = 'horizontal',
     topic,
@@ -167,6 +169,7 @@ export const QItem = (props: QItemProps) => {
     {Array.isArray(translate) && translate.length && (isRead || isShowTranslate) ? <div className={cx(styles.translate)}>
       {translate.map((it, key) => <div key={key}>{it}</div>)}
     </div> : null}
+    {answerNode ? answerNode : <Fragment />}
     {state.isTrue === false ? <div className={cx(styles.error)}>{(isInput || isTextArea) ? "填写错误" : "选择错误"}</div> : null}
     {state.isAllSelect === false && isMulti ? <div className={cx(styles.warn)}>未选择所有数据</div> : null}
     {state.isTrue === false && analysis ? <div className={cx(styles.analysis)}>分析：{analysis}</div> : null}
