@@ -58,7 +58,7 @@ const EnglishFour = () => {
     />
     {dataList.map((item, index) => {
       if (Array.isArray(item.options) && item.options.length) {
-        const _options = randomArray(item.options)
+        const _options = item.options
         return <Split key={item.id}>
           <QReadingContent
             contents={item.contents}
