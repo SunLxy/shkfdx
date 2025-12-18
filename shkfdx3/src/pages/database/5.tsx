@@ -50,7 +50,7 @@ const EnglishFour = () => {
       ]}
     />
     {dataList.map((item, index) => {
-      const _options = randomArray(item.options)
+      const _options = item.options
       return <Split key={item.id}>
         <QReadingContent
           contents={item.contents}
