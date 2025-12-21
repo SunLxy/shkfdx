@@ -14,7 +14,7 @@ const OSTwo = () => {
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout
-    title="第八章 填空题"
+    title="填空题 合集"
   >
     <TipButton
       items={[
