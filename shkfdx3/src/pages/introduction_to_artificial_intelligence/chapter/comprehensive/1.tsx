@@ -9,7 +9,7 @@ const NetworkOne = () => {
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout
-    title="第十章 单选题"
+    title="综合试题 单选题"
   >
     <TipButton
       items={[

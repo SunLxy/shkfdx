@@ -9,7 +9,7 @@ const OSTwo = () => {
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout
-    title="第十章 判断题"
+    title="综合试题 简答题"
   >
     <TipButton
       items={[

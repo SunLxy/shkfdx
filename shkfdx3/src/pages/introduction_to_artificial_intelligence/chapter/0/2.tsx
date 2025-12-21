@@ -21,7 +21,7 @@ const NetworkOne = () => {
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout
-    title="第八章 多选题"
+    title="多选题 合集"
   >
     <TipButton
       items={[
