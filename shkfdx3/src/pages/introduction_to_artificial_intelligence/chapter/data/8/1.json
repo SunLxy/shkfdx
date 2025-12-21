@@ -387,7 +387,8 @@
         "label": "仅同步"
       },
       {
-        "label": "同步或异步"
+        "label": "同步或异步",
+        "isTrue": true
       },
       {
         "label": "仅反向传播"
