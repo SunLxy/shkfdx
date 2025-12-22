@@ -4,7 +4,8 @@
 import { Outlet } from 'react-router';
 import { NavLink } from "react-router-dom"
 import { createStyles } from 'antd-style';
-
+import { Button, } from "antd";
+import { useState } from "react";
 const useStyles = createStyles(({ css, token }) => {
   return ({
     base: css`
@@ -22,6 +23,7 @@ const useStyles = createStyles(({ css, token }) => {
         justify-content: center;
         flex-wrap: nowrap;
         overflow: auto;
+        gap: 20px;
         & > .navlink {
           align-self: stretch;
           display: flex;
@@ -66,12 +68,26 @@ const useStyles = createStyles(({ css, token }) => {
 
 export const RootRoute = () => {
   const { styles } = useStyles()
+  const [sort, setSort] = useState(localStorage.getItem("sort") !== "false")
+
   return <div className={styles.base}>
     <header>
       <NavLink className="navlink" to="/data_science">数据科学</NavLink>
       <NavLink className="navlink" to="/database">数据库</NavLink>
       <NavLink className="navlink" to="/introduction_to_artificial_intelligence">人工智能</NavLink>
       <NavLink className="navlink" to="/software_engineering">软件工程</NavLink>
+      <Button
+        onClick={() => {
+          localStorage.setItem("sort", String(!sort))
+          setSort(!sort)
+          console.log("关闭乱序")
+          window.location.reload()
+        }}
+        type="primary"
+        size='small'
+      >
+        {sort ? "关闭乱序" : "开启乱序"}
+      </Button>
     </header>
     <main>
       <Outlet />
