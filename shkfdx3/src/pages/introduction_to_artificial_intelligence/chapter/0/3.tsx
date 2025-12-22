@@ -20,7 +20,7 @@ const NetworkOneChecked = () => {
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout
-    title="判断题 合集"
+    title="判断题 合集（不含综合试题）"
   >
     <TipButton
       items={[
