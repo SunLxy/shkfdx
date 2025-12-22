@@ -30,11 +30,14 @@ export const letterEnum: Record<string, string> = {
 
 export function randomArray<T = any>(array: T[]) {
   const newList = [...array]
-  for (let i = newList.length - 1; i > 0; i--) {
-    // 生成一个0到i之间的随机整数
-    const j = Math.floor(Math.random() * (i + 1));
-    // 交换元素 array[i] 和 array[j]
-    [newList[i], newList[j]] = [newList[j], newList[i]];
+  const sort = localStorage.getItem("sort") !== "false"
+  if (sort) {
+    for (let i = newList.length - 1; i > 0; i--) {
+      // 生成一个0到i之间的随机整数
+      const j = Math.floor(Math.random() * (i + 1));
+      // 交换元素 array[i] 和 array[j]
+      [newList[i], newList[j]] = [newList[j], newList[i]];
+    }
   }
   return newList;
 }
