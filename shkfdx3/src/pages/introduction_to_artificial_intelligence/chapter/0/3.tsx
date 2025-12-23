@@ -10,7 +10,9 @@ import data7 from "../data/7/3.json"
 import data8 from "../data/8/3.json"
 import data10 from "../data/10/3.json"
 import data11 from "../data/11/3.json"
-const sumList = [...data1, ...data2, ...data3, ...data4, ...data5, ...data6, ...data7, ...data8, ...data10, ...data11].map((it, index) => ({ ...it, id: index + 1 }))
+import data12 from "../data/comprehensive/3.json"
+
+const sumList = [...data1, ...data2, ...data3, ...data4, ...data5, ...data6, ...data7, ...data8, ...data10, ...data11, ...data12].map((it, index) => ({ ...it, id: index + 1 }))
 
 
 const NetworkOneChecked = () => {
@@ -20,7 +22,7 @@ const NetworkOneChecked = () => {
   const isOnlyAnswer = state.isOnlyAnswer
 
   return <MainLayout
-    title="判断题 合集（不含综合试题）"
+    title="判断题 合集（含综合试题）"
   >
     <TipButton
       items={[
