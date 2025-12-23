@@ -100,7 +100,7 @@ const EnglishFour = () => {
           }
           return <QItem
             key={`${childIndex}_${item.id}_${index}`}
-            answerNode={answer}
+            answerNode={isRead ? answer : undefined}
             isOnlyAnswer={isOnlyAnswer}
             isRead={isRead}
             topic={option.topic}
