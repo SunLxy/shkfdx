@@ -51,6 +51,8 @@ export interface QItemProps {
   analysis?: React.ReactNode,
   /**有错误选项时触发*/
   onError?: () => void
+  // 正确选项
+  onSuccess?: () => void
 }
 
 export const QItem = (props: QItemProps) => {
@@ -74,6 +76,7 @@ export const QItem = (props: QItemProps) => {
     children,
     analysis,
     onError,
+    onSuccess,
   } = props
   const { styles, cx } = useStyles()
 
@@ -152,6 +155,9 @@ export const QItem = (props: QItemProps) => {
       if (isError) {
         onError?.()
       }
+      if (isAllSelect && !isError) {
+        onSuccess?.()
+      }
       // onError
       setState({ value: [..._newList], isTrue: isT, isAllSelect })
     } else {
@@ -167,6 +173,9 @@ export const QItem = (props: QItemProps) => {
       }
       if (!isT) {
         onError?.()
+      }
+      if (isT) {
+        onSuccess?.()
       }
       setState({ value, isTrue: !!isT })
     }
