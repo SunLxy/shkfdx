@@ -11,7 +11,7 @@ import data8 from "../data/8/2.json"
 import data9 from "../data/9/2.json"
 import data10 from "../data/10/2.json"
 import data11 from "../data/11/2.json"
-import { Select } from "antd"
+import { Button, Select } from "antd"
 import { useMemo } from "react"
 import { useLocation } from "react-router"
 
@@ -63,6 +63,17 @@ const NetworkOne = () => {
             }
           }}
         />
+        <Button
+          type="link"
+          onClick={() => {
+            localStorage.clear();
+            localStorage.setItem(`${location.pathname}_count`, '0')
+            proxyInstance.store.count = 0
+            proxyInstance.store.isStart = false
+          }}
+        >
+          清理
+        </Button>
       </div>
     }
   >
