@@ -29,17 +29,24 @@ const NetworkOne = () => {
   const isOnlyAnswer = state.isOnlyAnswer
   const errorList = state.errorList as unknown as (QItemProps & { id: string })[]
 
-  const onExtractError = () => {
-    if (errorList.length) {
-      dispatch({ dataList: [...errorList].map((it, index) => ({ ...it, id: new Date().getTime() + '_' + index })) as any[] })
-    }
-  }
-
   return <MainLayout
     // title="多选题 合集（含综合试题）"
     title={<div>
       多选题 合集（包含综合试题）
-      {errorList.length > 0 ? <Button type='link' onClick={onExtractError} >提取错误题目</Button> : <Fragment />}
+      <Button
+        type="link"
+        onClick={() => {
+          if (errorList.length === 0) {
+            return
+          }
+          dispatch({
+            dataList: [...errorList].map((it, index) => ({ ...it, id: new Date().getTime() + "_" + index })) as any,
+            errorList: [],
+          })
+        }}
+      >
+        提取错误题目
+      </Button>
     </div>}
   >
     <TipButton
