@@ -1,5 +1,5 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
-import { useProxyStore } from "@carefrees/valtio"
+import { useProxyStore, ref } from "@carefrees/valtio"
 import data1 from "../data/1/3.json"
 import data2 from "../data/2/3.json"
 import data3 from "../data/3/3.json"
@@ -10,36 +10,59 @@ import data7 from "../data/7/3.json"
 import data8 from "../data/8/3.json"
 import data10 from "../data/10/3.json"
 import data11 from "../data/11/3.json"
-import { Button } from "antd"
+import { Select } from "antd"
 import { useMemo } from "react"
+import { useLocation } from "react-router"
+
 const sumList = [...data1, ...data2, ...data3, ...data4, ...data5, ...data6, ...data7, ...data8, ...data10, ...data11].map((it, index) => ({ ...it, id: index + 1 }))
 
 
 const NetworkOneChecked = () => {
-  const { state, dispatch, proxyInstance } = useProxyStore({ dataList: randomArray(sumList), isRead: true, isOnlyAnswer: true, errorList: [] })
+
+  const location = useLocation()
+
+
+  const { state, dispatch, proxyInstance } = useProxyStore({
+    dataList: randomArray(sumList), isRead: true, isOnlyAnswer: true, errorList: [],
+    options: JSON.parse(localStorage.getItem(`${location.pathname}_options`) || '[]'),
+    isStart: false,
+    count: Number(localStorage.getItem(`${location.pathname}_count`) || '0')
+  })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer
-  const errorList = state.errorList as unknown as (QItemProps & { id: string })[]
+  const count = state.count
+  const isStart = state.isStart
+
+  const items = useMemo(() => {
+    const list = []
+    for (let index = 0; index < count; index++) {
+      list.push({ label: `第${index + 1}轮 - 失败数据`, value: `${index + 1}_errorList` })
+      list.push({ label: `第${index + 1}轮 - 成功数据`, value: `${index + 1}_successList` })
+    }
+    return list
+  }, [isStart])
 
   return <MainLayout
     title={
-      <div>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10 }}>
         判断题 合集（不含综合试题）
-        <Button
-          type="link"
-          onClick={() => {
-            if (errorList.length === 0) {
-              return
+        <span>{`第${count}轮`}</span>
+        <Select
+          style={{ width: 200 }}
+          placeholder="请选择"
+          options={items}
+          onChange={value => {
+            if (value) {
+              if (proxyInstance.store.isStart) {
+                proxyInstance.store.isStart = false
+              }
+              const oldIds = JSON.parse(localStorage.getItem(`${location.pathname}_${value}`) || '[]') as string[]
+              const list = sumList.filter((item: any) => oldIds.includes(item.id))
+              dispatch({ dataList: ref(randomArray(list)) as any, })
             }
-            dispatch({
-              dataList: [...errorList].map((it, index) => ({ ...it, id: new Date().getTime() + "_" + index })) as any,
-              errorList: [],
-            })
           }}
-        >
-          提取错误题目
-        </Button>
+        />
       </div>
     }
   >
@@ -76,7 +99,27 @@ const NetworkOneChecked = () => {
           isBool
           sort={index + 1}
           onError={() => {
-            dispatch({ errorList: [...proxyInstance.store.errorList, item] as any })
+            let count = Number(localStorage.getItem(`${location.pathname}_count`) || '0')
+            if (proxyInstance.store.isStart === false) {
+              count = count + 1
+              localStorage.setItem(`${location.pathname}_count`, `${count}`)
+              proxyInstance.store.count = count
+
+            }
+            proxyInstance.store.isStart = true
+            const oldIds = JSON.parse(localStorage.getItem(`${location.pathname}_${count}_errorList`) || '[]') as string[]
+            localStorage.setItem(`${location.pathname}_${count}_errorList`, JSON.stringify([...oldIds, item.id]))
+          }}
+          onSuccess={() => {
+            let count = Number(localStorage.getItem(`${location.pathname}_count`) || '0')
+            if (proxyInstance.store.isStart === false) {
+              count = count + 1
+              localStorage.setItem(`${location.pathname}_count`, `${count}`)
+              proxyInstance.store.count = count
+            }
+            proxyInstance.store.isStart = true
+            const oldIds = JSON.parse(localStorage.getItem(`${location.pathname}_${count}_successList`) || '[]') as string[]
+            localStorage.setItem(`${location.pathname}_${count}_successList`, JSON.stringify([...oldIds, item.id]))
           }}
         />
       })
