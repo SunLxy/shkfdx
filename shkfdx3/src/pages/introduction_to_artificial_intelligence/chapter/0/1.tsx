@@ -1,4 +1,5 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
+import { Fragment } from "react"
 import { useProxyStore } from "@carefrees/valtio"
 import data1 from "../data/1/1.json"
 import data2 from "../data/2/1.json"
@@ -37,7 +38,7 @@ const NetworkOne = () => {
   return <MainLayout
     title={<div>
       单选题 合集（包含综合试题）
-      <Button onClick={onExtractError} >提取错误题目</Button>
+      {errorList.length > 0 ? <Button type='link' onClick={onExtractError} >提取错误题目</Button> : <Fragment />}
     </div>}
   >
     <TipButton
