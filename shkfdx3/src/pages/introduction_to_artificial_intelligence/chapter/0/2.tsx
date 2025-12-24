@@ -13,7 +13,7 @@ import data9 from "../data/9/2.json"
 import data10 from "../data/10/2.json"
 import data11 from "../data/11/2.json"
 import data12 from "../data/comprehensive/2.json"
-import { Select } from "antd"
+import { Button, Select } from "antd"
 import { useLocation } from "react-router"
 
 const sumList = [...data1, ...data2, ...data3, ...data4, ...data5, ...data6, ...data7, ...data8, ...data9, ...data10, ...data11, ...data12].map((it, index) => ({ ...it, id: index + 1 }))
@@ -101,6 +101,17 @@ const NetworkOne = () => {
             }
           }}
         />
+        <Button
+          type="link"
+          onClick={() => {
+            localStorage.clear();
+            localStorage.setItem(`${location.pathname}_count`, '0')
+            proxyInstance.store.count = 0
+            proxyInstance.store.isStart = false
+          }}
+        >
+          清理
+        </Button>
       </div>
     }
   >
