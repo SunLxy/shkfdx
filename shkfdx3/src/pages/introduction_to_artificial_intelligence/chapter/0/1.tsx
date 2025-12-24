@@ -1,5 +1,5 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
-import { Fragment } from "react"
+import { Fragment, useMemo } from "react"
 import { useProxyStore } from "@carefrees/valtio"
 import data1 from "../data/1/1.json"
 import data2 from "../data/2/1.json"
@@ -18,7 +18,7 @@ import { Button } from "antd"
 const sumList = [...data1, ...data2, ...data3, ...data4, ...data5, ...data6, ...data7, ...data8, ...data9, ...data10, ...data11, ...data12].map((it, index) => ({ ...it, id: index + 1 }))
 
 const NetworkOne = () => {
-  const { state, dispatch } = useProxyStore({
+  const { state, dispatch, proxyInstance } = useProxyStore({
     dataList: randomArray(sumList),
     isRead: true,
     isOnlyAnswer: true,
@@ -63,19 +63,21 @@ const NetworkOne = () => {
         },
       ]}
     />
-    {dataList.map((item, index) => {
-      return <QItem
-        key={item.id}
-        isRead={isRead}
-        isOnlyAnswer={isOnlyAnswer}
-        topic={item.topic}
-        options={randomArray(item.options || [])}
-        sort={index + 1}
-        onError={() => {
-          dispatch({ errorList: [...errorList, item] as any })
-        }}
-      />
-    })}
+    {useMemo(() => {
+      return dataList.map((item, index) => {
+        return <QItem
+          key={item.id}
+          isRead={isRead}
+          isOnlyAnswer={isOnlyAnswer}
+          topic={item.topic}
+          options={randomArray(item.options || [])}
+          sort={index + 1}
+          onError={() => {
+            dispatch({ errorList: [...proxyInstance.store.errorList, item] as any })
+          }}
+        />
+      })
+    }, [isRead, isOnlyAnswer, dataList])}
   </MainLayout>
 }
 
