@@ -34,7 +34,10 @@ const NetworkOne = () => {
             if (errorList.length === 0) {
               return
             }
-            dispatch({ dataList: [...errorList].map((it, index) => ({ ...it, id: new Date().getTime() + "_" + index })) as any })
+            dispatch({
+              dataList: [...errorList].map((it, index) => ({ ...it, id: new Date().getTime() + "_" + index })) as any,
+              errorList: [],
+            })
           }}
         >
           提取错误题目
