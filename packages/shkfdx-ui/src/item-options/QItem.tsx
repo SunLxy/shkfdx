@@ -49,6 +49,8 @@ export interface QItemProps {
   isHTML?: boolean,
   /**分析*/
   analysis?: React.ReactNode,
+  /**有错误选项时触发*/
+  onError?: () => void
 }
 
 export const QItem = (props: QItemProps) => {
@@ -71,6 +73,7 @@ export const QItem = (props: QItemProps) => {
     isShowTranslate,
     children,
     analysis,
+    onError,
   } = props
   const { styles, cx } = useStyles()
 
@@ -144,6 +147,12 @@ export const QItem = (props: QItemProps) => {
           }
         }
       }
+      // 有错误选项，则触发回调
+      const isError = _newList.some(it => options?.find(item => item.label === it)?.isTrue !== true)
+      if (isError) {
+        onError?.()
+      }
+      // onError
       setState({ value: [..._newList], isTrue: isT, isAllSelect })
     } else {
       if (state.value) {
@@ -155,6 +164,9 @@ export const QItem = (props: QItemProps) => {
         isT = value === answer
       } else {
         isT = options?.find(item => item.label === value)?.isTrue
+      }
+      if (!isT) {
+        onError?.()
       }
       setState({ value, isTrue: !!isT })
     }

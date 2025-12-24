@@ -12,17 +12,33 @@ import data9 from "../data/9/1.json"
 import data10 from "../data/10/1.json"
 import data11 from "../data/11/1.json"
 import data12 from "../data/comprehensive/1.json"
+import { Button } from "antd"
 
 const sumList = [...data1, ...data2, ...data3, ...data4, ...data5, ...data6, ...data7, ...data8, ...data9, ...data10, ...data11, ...data12].map((it, index) => ({ ...it, id: index + 1 }))
 
 const NetworkOne = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(sumList), isRead: true, isOnlyAnswer: true })
+  const { state, dispatch } = useProxyStore({
+    dataList: randomArray(sumList),
+    isRead: true,
+    isOnlyAnswer: true,
+    errorList: []
+  })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer
+  const errorList = state.errorList as unknown as (QItemProps & { id: string })[]
+
+  const onExtractError = () => {
+    if (errorList.length) {
+      dispatch({ dataList: [...errorList].map((it, index) => ({ ...it, id: new Date().getTime() + '_' + index })) as any[] })
+    }
+  }
 
   return <MainLayout
-    title="单选题 合集（包含综合试题）"
+    title={<div>
+      单选题 合集（包含综合试题）
+      <Button onClick={onExtractError} >提取错误题目</Button>
+    </div>}
   >
     <TipButton
       items={[
@@ -54,6 +70,9 @@ const NetworkOne = () => {
         topic={item.topic}
         options={randomArray(item.options || [])}
         sort={index + 1}
+        onError={() => {
+          dispatch({ errorList: [...errorList, item] as any })
+        }}
       />
     })}
   </MainLayout>
