@@ -83,6 +83,7 @@ const NetworkOne = () => {
     }
   >
     <TipButton
+      style={{ top: 120 }}
       items={[
         {
           onClick: () => {
