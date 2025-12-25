@@ -52,6 +52,7 @@ const NetworkOne = () => {
           style={{ width: 200 }}
           placeholder="请选择"
           options={items}
+          allowClear={true}
           onChange={value => {
             if (value) {
               if (proxyInstance.store.isStart) {
@@ -60,6 +61,8 @@ const NetworkOne = () => {
               const oldIds = JSON.parse(localStorage.getItem(`${location.pathname}_${value}`) || '[]') as string[]
               const list = sumList.filter((item: any) => oldIds.includes(item.id))
               dispatch({ dataList: ref(randomArray(list)) as any, })
+            } else {
+              dispatch({ dataList: randomArray(sumList) })
             }
           }}
         />
