@@ -78,6 +78,7 @@ const NetworkOneChecked = () => {
     }
   >
     <TipButton
+      style={{ top: 120 }}
       items={[
         {
           onClick: () => {
