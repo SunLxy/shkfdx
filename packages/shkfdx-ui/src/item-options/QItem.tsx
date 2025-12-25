@@ -121,6 +121,9 @@ export const QItem = (props: QItemProps) => {
   }, [answer])
 
   const onChange = (value: string) => {
+    if (isRead || isOnlyAnswer) {
+      return;
+    }
     if (isMulti) {
       // 如果已经存在不可点击
       if (state.value.includes(value)) {
