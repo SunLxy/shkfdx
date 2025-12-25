@@ -6,7 +6,6 @@ import { useSpeak } from "react-text-to-speech"
 import { useMemo } from "react"
 
 
-
 const OSTwo = () => {
   const { state, dispatch, proxyInstance } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true, isInitSpeak: false })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
@@ -39,8 +38,15 @@ const OSTwo = () => {
             if (proxyInstance.store.isInitSpeak) {
               start()
             } else {
-              const list = dataList.map((item, index) => `第${index + 1}题：${item.topic}\n答案：${item.answer}`)
-              speak(list.join('\n'), { lang: "zh-CN" })
+              const list = dataList.map((item, index) => [
+                `第${index + 1}题：${item.topic}\n答案：${item.answer}`,
+                `第${index + 1}题：${item.topic}\n答案：${item.answer}`,
+                `第${index + 1}题：${item.topic}\n答案：${item.answer}`
+              ].join('\n'))
+              speak(list.join('\n'), {
+                lang: "zh-CN",
+                rate: 0.5,
+              })
               dispatch({ isInitSpeak: true })
             }
           } else if (speechStatus === 'started') {
