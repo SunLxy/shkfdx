@@ -10,6 +10,7 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
+    "vconsole": "^3.15.1",
     "react-text-to-speech": "5.1.1",
     "@carefrees/valtio": "~0.0.14",
     "shkfdx-ui": "0.0.0",

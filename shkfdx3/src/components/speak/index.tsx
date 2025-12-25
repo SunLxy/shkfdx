@@ -11,6 +11,7 @@ export interface SpeakProps {
 const SpeakButton = (props: SpeakProps) => {
   const { dataList, isInitSpeak, onUpdateIsInitSpeak } = props
   const { speak, speechStatus, stop, start } = useSpeak();
+  console.log('speechStatus', speechStatus)
   return <Button
     type="link"
     onClick={() => {
@@ -23,11 +24,15 @@ const SpeakButton = (props: SpeakProps) => {
             `第${index + 1}题：${item.topic}\n答案：${item.answer}`,
             `第${index + 1}题：${item.topic}\n答案：${item.answer}`
           ].join('\n'))
-          speak(list.join('\n'), {
-            lang: "zh-CN",
-            rate: 0.5,
-          })
-          onUpdateIsInitSpeak(true)
+          try {
+            speak(list.join('\n'), {
+              lang: "zh-CN",
+              rate: 0.5,
+            })
+            onUpdateIsInitSpeak(true)
+          } catch (error) {
+            console.log('error', error)
+          }
         }
       } else if (speechStatus === 'started') {
         stop()
