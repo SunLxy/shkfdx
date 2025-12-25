@@ -1,6 +1,8 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
 import data from "./data/2.json"
 import { useProxyStore } from "@carefrees/valtio"
+import useSelectPractice from "@/components/select"
+
 import img3 from "./assets/2/3.png"
 import img7 from "./assets/2/7.png"
 import img29 from "./assets/2/29.png"
@@ -12,11 +14,20 @@ import img55 from "./assets/2/55.png"
 
 const NetworkOne = () => {
   const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true })
+  const { render, onError, onSuccess } = useSelectPractice({ sumList: data, dispatch })
+
   const dataList = state.dataList as unknown as (QItemProps & { id: number })[]
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer
 
-  return <MainLayout>
+  return <MainLayout
+    title={
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10 }}>
+        单选题
+        {render}
+      </div>
+    }
+  >
     <TipButton
       items={[
         {
@@ -77,6 +88,8 @@ const NetworkOne = () => {
         topic={[...topic, img].filter(Boolean)}
         options={randomArray(item.options || [])}
         sort={index + 1}
+        onError={() => onError(item as any)}
+        onSuccess={() => onSuccess(item as any)}
       />
     })}
   </MainLayout>

@@ -1,15 +1,23 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
 import { useProxyStore } from "@carefrees/valtio"
+import useSelectPractice from "@/components/select"
 import data from "./data/3.json"
-
 
 const NetworkOne = () => {
   const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer
+  const { render, onError, onSuccess } = useSelectPractice({ sumList: data, dispatch })
 
-  return <MainLayout>
+  return <MainLayout
+    title={
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10 }}>
+        多选题
+        {render}
+      </div>
+    }
+  >
     <TipButton
       items={[
         {
@@ -41,6 +49,8 @@ const NetworkOne = () => {
         isOnlyAnswer={isOnlyAnswer}
         options={randomArray(item.options || [])}
         sort={index + 1}
+        onError={() => onError(item as any)}
+        onSuccess={() => onSuccess(item as any)}
       />
     })}
   </MainLayout>
