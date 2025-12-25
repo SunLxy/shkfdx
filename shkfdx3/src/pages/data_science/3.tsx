@@ -1,14 +1,20 @@
 import { MainLayout, randomArray, TipButton, QItem, QItemProps } from "shkfdx-ui"
 import data from "./data/3.json"
 import { useProxyStore } from "@carefrees/valtio"
+import SpeakButton from "@/components/speak"
 
 const OSTwo = () => {
-  const { state, dispatch } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true })
+  const { state, dispatch, } = useProxyStore({ dataList: randomArray(data), isRead: true, isOnlyAnswer: true, isInitSpeak: false })
   const dataList = state.dataList as unknown as (QItemProps & { id: string })[]
   const isRead = state.isRead
   const isOnlyAnswer = state.isOnlyAnswer
+  const isInitSpeak = state.isInitSpeak
 
-  return <MainLayout>
+  return <MainLayout
+    title={<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10 }}>
+      <SpeakButton dataList={dataList} isInitSpeak={isInitSpeak} onUpdateIsInitSpeak={(isInitSpeak) => dispatch({ isInitSpeak })} />
+    </div>}
+  >
     <TipButton
       items={[
         {
