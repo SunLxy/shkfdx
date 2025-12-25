@@ -73,10 +73,10 @@ const useSelectPractice = (props: SelectPracticeProps) => {
             const list = sumList.filter((item: QItemProps & { id: string }) => oldIds.includes(item.id))
             // 调用 onUpdated 方法更新数据
             // @ts-ignore
-            dispatch({ dataList: ref(randomArray(list)) })
+            dispatch({ dataList: ref(randomArray(list)), isRead: true, isOnlyAnswer: false })
           } else {
             // @ts-ignore
-            dispatch({ dataList: ref(randomArray(sumList)) })
+            dispatch({ dataList: ref(randomArray(sumList)), isRead: true, isOnlyAnswer: false })
           }
         }}
       />
