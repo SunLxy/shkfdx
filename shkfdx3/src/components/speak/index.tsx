@@ -1,6 +1,7 @@
 import type { QItemProps } from "shkfdx-ui"
 import { useSpeak } from "react-text-to-speech"
 import { Button } from "antd"
+import { Fragment } from "react/jsx-runtime"
 
 export interface SpeakProps {
   dataList: (QItemProps & { id: string })[]
@@ -11,7 +12,7 @@ export interface SpeakProps {
 const SpeakButton = (props: SpeakProps) => {
   const { dataList, isInitSpeak, onUpdateIsInitSpeak } = props
   const { speak, speechStatus, stop, start } = useSpeak();
-  return <Button
+  return window?.speechSynthesis ? <Button
     type="link"
     onClick={() => {
       if (speechStatus === 'stopped') {
@@ -34,7 +35,7 @@ const SpeakButton = (props: SpeakProps) => {
       }
     }}>
     {isInitSpeak ? (speechStatus === 'stopped' ? '开始播报' : '关闭播报') : "初始化播报"}
-  </Button>
+  </Button> : <Fragment></Fragment>
 }
 
 export default SpeakButton
